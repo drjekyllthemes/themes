@@ -1,14 +1,18 @@
 # Planet Jekyll
 
 Feed list/configuration for [Planet Jekyll](http://planetjekyll.herokuapp.com)
+and [Planet Jekyll (Dev Edition)](http://planetjekyll.herokuapp.com/jekylldev)
 
-Note: All feeds including the feed lists (that is, [jekyll.ini](jekyll.ini))
+Note: All feeds including the feed lists (that is, [jekyll.ini](jekyll.ini)
+and [jekylldev.ini](jekylldev.ini))
 get auto-updated (fetched) once a day (that is, every 24 hours).
 
 
 ## Add Your Feed - How To
 
-Step 1: Add your feed to the feed list (that is, [jekyll.ini](jekyll.ini)).
+Step 1: Add your feed to the feed list (that is, [jekyll.ini](jekyll.ini) or
+[jekylldev.ini](jekylldev.ini)).
+
 
 Example:
 
