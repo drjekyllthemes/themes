@@ -78,7 +78,7 @@ With post drafts, page collections, data stores and shared building blocks:
 |   └── learn-ruby-the-hard-way.md
 ├── books                               
 |   └── index.html                     # book listing index template
-├── members.html                       # memmber listing template
+├── members.html                       # member listing template
 ├── feed.xml                           # web feed template (e.g. in rss or atom format)
 └── index.html                         # site index template
 ~~~
@@ -138,63 +138,40 @@ Out-of-excerpt
 Drafts are unpublished posts without a date.
 
 ~~~
-|-- _drafts/
-|   └── a-draft-post.md
+├── _drafts
+|   ├── week-4-kramdown.md
+|   └── week-5-feedparser.md
 ~~~
 
+## `_layouts` Folder
 
-### _includes Folder
+TBD
 
-### _layouts Folder
+## `_includes` Folder
 
-### _data Folder
+TBD
 
-### _<collection> Folder e.g _albums, _links, etc.
+## `_data` Folder
 
+TBD
 
-### _config.yml  - Configuration
+## `_collection_` Folder e.g `_books`, `_albums`, etc.
 
-Example:
-
-~~~
-url:   'http://openfootball.github.io'
-title: 'football.db - Open Football Data'
-
-exclude: ['README.md']
-
-markdown: 'kramdown'
-~~~
-
-Note: Do not use tabs in configuration files (the YAML format forbids tabs; allows only spaces).
+TBD
 
 
-- site.title  e.g.
-
-
-- site.url e.g.
-
-
-- exclude
-
-Exclude directories and/or files from the conversion.
-These exclusions are relative to the site's source directory and cannot be outside the source directory.
-
-~~~
-exclude: [DIR, FILE, ...]
-~~~
-
-
-
-## Liquid Global Variables
+## Global Variables
 
 ~~~
 site             -- Sitewide information + configuration settings from  _config.yml.
-page             -- Page specific information + the YAML front matter. Custom variables set via the YAML Front Matter will be available here.
-content          -- In layout files, the rendered content of the Post or Page being wrapped. Not defined in Post or Page files.
-paginator        --  When the paginate configuration option is set, this variable becomes available for use.
+page             -- Page specific information + the front matter.
+                    Custom variables set via the front matter will be available here.
+content          -- In layout files, the rendered content of the Post or Page being wrapped. 
+                    Not defined in Post or Page files.
+paginator        -- When the paginate configuration option is set, this variable becomes available for use.
 ~~~
 
-## Liquid Site Variables
+## Built-in Site Variables
 
 ~~~
 site.time           --  The current time (when you run the jekyll command)
@@ -208,20 +185,40 @@ site.static_files   --  A list of all static files (i.e. files not processed by 
                         Each file has three properties:  path, modified_time and extname.
 site.html_pages     --  A list of all HTML Pages.
 site.collections    --  A list of all the collections.
-site.data           --  A list containing the data loaded from the YAML files located in the _data directory.
+site.data           --  A list containing the data loaded from the files located in the _data folder.
 site.documents      --  A list of all the documents in every collection.
 
 site.categories.CATEGORY   -- The list of all Posts in category CATEGORY.
 site.tags.TAG              -- The list of all Posts with tag TAG.
-site.[CONFIGURATION_DATA]  -- All the variables set via the command line and your _config.yml
-                              are available through the site variable.
-                              For example, if you have url: http://mysite.com in your configuration file,
-                              then in your Posts and Pages it will be stored in site.url.
-                              Jekyll does not parse changes to _config.yml in watch mode,
-                              you must restart Jekyll to see changes to variables.
+site.[CONFIGURATION_DATA]  -- 
 ~~~
 
-## Liquid Page Variables
+## Your (Custom) Site Variables
+
+All the variables set via the command line and 
+in your `_config.yml`  site configuration are available through the site variable.
+For example, if you have `url: http://openfootball.github.io` in your configuration file,
+then in your Posts and Pages it will be stored in `site.url`.
+                              
+Note: Jekyll does not parse changes to `_config.yml` in watch mode,
+you must restart Jekyll to see changes to variables.
+
+If you add in your `_config.yml` site configuration, for example:
+
+~~~
+url:   'http://openfootball.github.io'
+title: 'football.db - Open Football Data'
+~~~
+
+than you can use the variables in your posts, pages and templates:
+
+~~~
+site.url     -- your site's url
+site.title   -- your site's title
+~~~
+
+
+## Page Variables
 
 ~~~
 page.content      --  The content of the Page, rendered or un-rendered depending upon what
