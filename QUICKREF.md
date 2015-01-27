@@ -2,16 +2,16 @@
 
 ## Table of Contents
 
-- [Jekyll Commands](#jekyll-commands)
-- [Octopress Commands](#octopress-commands)
-- [Folder Structure](#folder-structure)
-- [Global Variables](#global-variables)
-- [Site Variables](#site-variables)
-- [Page Variable](#page-variables)
-- [Liquid Template Filters n Tags](#liquid-template-filters-n-tags)
-- [Permalinks](#permalinks)
-- [Template Examples](#template-examples)
-- [GitHub Pages](#github-pages)
+- Jekyll Commands (`build`, `serve`, ...)
+- Octopress Commands (`new`, `new page`, `deploy`, ...)
+- Folder Structure (`_posts` Folder, `_drafts` Folder, ...)
+- Global Variables
+- Site Variables
+- Page Variable
+- Liquid Template Filters n Tags
+- Permalinks
+- Template Examples (`feed.xml`, ...)
+- GitHub Pages (`site.github`, sitemap, ...)
 
 
 ## Jekyll Commands
@@ -821,7 +821,7 @@ paginator.next_page_path      --  The path to the next page
 
 What Jekyll version and plugins get used?
 
-- [`pages.github.com/versions`](https://pages.github.com/versions`], for example (update Jan/2015):
+- [`pages.github.com/versions`](https://pages.github.com/versions], for example (update Jan/2015):
 
 Library               | Version
 --------------------- | -----------
@@ -842,9 +842,9 @@ ruby                  | 2.1.1
 ### `site.github` Variables
 
 ```
-site.github.contributors  -- A list of your project's contributors (*)
-site.public_repositories  -- A list of your public repositories (*)
-site.organization_members -- A list of your organization's public members (*)
+site.github.contributors    -- A list of your project's contributors (*)
+site.public_repositories    -- A list of your public repositories (*)
+site.organization_members   -- A list of your organization's public members (*)
 ...
 ```
 (*) as returned through the contributors/repositories list/organization members API
