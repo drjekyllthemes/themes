@@ -252,7 +252,7 @@ page.previous     --  The previous post relative to the position of the current 
 
 ### Date, Time Filters
 
-~~~
+``` liquid
 {{ site.time | date_to_rfc822 }}       -- Convert date to RFC-822 format 
  # => Mon, 07 Nov 2008 13:07:54 -0800     (e.g. used in rss feeds)
 {{ site.time | date_to_xmlschema }}    -- Convert date to XML Schema (ISO 8601) format 
@@ -262,11 +262,11 @@ page.previous     --  The previous post relative to the position of the current 
  # => 07 Nov 2008
 {{ site.time | date_to_long_string }}  -- Convert date to long format
  # => 07 November 2008
-~~~
+```
 
 ### Where, Group By, Sort
 
-~~~
+``` liquid
 {{ site.members | where:"graduation_year","2014" }}   -- Select all the objects in an array where the key
                                                          has the given value.
 {{ site.members | group_by:"graduation_year" }}       -- Group an array's items by a given property e.g.
@@ -276,7 +276,7 @@ page.previous     --  The previous post relative to the position of the current 
 {{ site.posts | sort: 'author' }}                     -- Optional args for hashes:
 {{ site.pages | sort: 'title', 'last' }}                  1. property name
                                                           2. nils order (first or last)
-~~~
+```
 
 ### Escape (XML, CGI, URI)
 
