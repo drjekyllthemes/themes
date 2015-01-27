@@ -1,6 +1,6 @@
 # Jekyll Quick Reference (Cheat Sheet)
 
-## Commands
+## Jekyll Commands
 
 ```
 $ jekyll help
@@ -80,7 +80,7 @@ Options:
 ```
 
 
-## Quickstart
+## Jekyll Quickstart
 
 ```
   $ jekyll new my-site
@@ -97,6 +97,55 @@ Options:
 ```
 
 Browse your site e.g. open the page @ `http://127.0.0.1:4000`
+
+
+## Octopress Commands
+
+```
+$ octopress --help
+
+octopress 3.0.0 -- Octopress is an obsessively designed toolkit for Jekyll blogging.
+
+Usage:
+
+  octopress <subcommand> [options]
+
+Options:
+  -h, --help         Show this message
+  -v, --version      Print the name and version
+  -t, --trace        Show the full backtrace when an error occurs
+
+Subcommands:
+  new         Creates a new site with Jekyll and Octopress scaffolding at the specified path.
+  docs        Launch local server with docs for Octopress v3.0.0.rc.31 and Octopress plugins.
+  init        Add Octopress's default scaffolding to your site.
+  publish     Convert a draft to a normal published post.
+  unpublish   Convert a post to a draft. Command accepts path to post or search string.
+  isolate     Move all posts not matching selected post to _posts/_exile. Command accepts path to post or search string.
+  integrate   Reintegrate posts from _posts/_exile.
+  deploy      Deploy your Octopress site.
+```
+
+## Octopress Quickstart
+
+```
+  $ octopress new my-site
+     # => New jekyll site installed in ~//my-site 
+     #    Added Octopress scaffold:
+     #     + _templates/
+     #     +   draft
+     #     +   page
+     #     +   post
+  $ cd my-site
+  $ jekyll build
+     # => Configuration file: ~/_config.yml
+     #                Source: ~/my-site
+     #           Destination: ~/my-site/_site
+     #          Generating... done.
+  $ jekyll serve
+     # =>     Server address: http://127.0.0.1:4000/
+     #      Server running... press ctrl-c to stop.   
+```
 
 
 
@@ -264,7 +313,9 @@ paginator        -- When the paginate configuration option is set variable becom
 ```
 
 
-## Site Variables (Built-in)
+## Site Variables
+
+**Built-in**
 
 ```
 site.time           --  The current time (when you run the jekyll command)
@@ -274,8 +325,9 @@ site.related_posts  --  If the page processed is a Post, this contains a list of
                         By default, these are low quality but fast to compute.
                         For high quality but slow to compute results, run the
                         jekyll command with the --lsi (latent semantic indexing) option.
-site.static_files   --  A list of all static files (i.e. files not processed by Jekyll's converters or
-                        the Liquid renderer). Each file has three properties: path, modified_time and extname
+site.static_files   --  A list of all static files (i.e. files not processed by Jekyll's converter
+                        or Liquid's renderer - getting passed-through/copied over to the_site
+                        folder as-is). Each file has three properties: path, modified_time and extname
 site.html_pages     --  A list of all HTML Pages.
 site.collections    --  A list of all the collections.
 site.data           --  A list containing the data loaded from the files located in the _data folder.
@@ -285,8 +337,7 @@ site.categories.CATEGORY   -- The list of all Posts in category CATEGORY.
 site.tags.TAG              -- The list of all Posts with tag TAG.
 ```
 
-
-## Site Variables (Custom)
+**Your Own (Custom)**
 
 All variables set via the command line and 
 in your `_config.yml`  site configuration are available through the `site` variable.
