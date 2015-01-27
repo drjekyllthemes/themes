@@ -2,19 +2,66 @@
 
 ## Commands
 
-### Jekyll
+```
+$ jekyll help
 
-- `build` or `b`
-- `serve` or `s`
-- `new`
-- `docs`
-- `doctor`
+jekyll 2.5.3 -- Jekyll is a blog-aware, static site generator in Ruby
+
+Usage:
+
+  jekyll <subcommand> [options]
+
+Options:
+  -s, --source [DIR]  Source directory (defaults to ./)
+  -d, --destination [DIR]  Destination directory (defaults to ./_site)
+      --safe         Safe mode (defaults to false)
+  -p, --plugins PLUGINS_DIR1[,PLUGINS_DIR2[,...]]  Plugins directory (defaults to ./_plugins)
+      --layouts DIR  Layouts directory (defaults to ./_layouts)
+  -h, --help         Show this message
+  -v, --version      Print the name and version
+  -t, --trace        Show the full backtrace when an error occurs
+
+Subcommands:
+  serve, server, s      Serve your site locally
+  docs                  Launch local server with docs for Jekyll v2.5.3
+  build, b              Build your site
+  doctor, hyde          Search site and print specific deprecation warnings
+  new                   Creates a new Jekyll site scaffold in PATH
+  help                  Show the help message, optionally for a given subcommand.
+```
+
+### `build` Command
+
+```
+$ jekyll help build
+
+jekyll build -- Build your site
+
+Usage:
+
+  jekyll build [options]
+
+Options:
+      --config CONFIG_FILE[,CONFIG_FILE2,...]  Custom configuration file
+      --future       Publishes posts with a future date
+      --limit_posts MAX_POSTS  Limits the number of posts to parse and publish
+  -w, --[no-]watch   Watch for changes and rebuild
+      --force_polling  Force watch to use polling
+      --lsi          Use LSI for improved related posts
+  -D, --drafts       Render posts in the _drafts folder
+      --unpublished  Render posts that were marked as unpublished
+  -q, --quiet        Silence output.
+  -V, --verbose      Print verbose output.
+```
+
+
 
 
 Quickstart:
 
 ~~~
 $ jekyll new my-site
+# => New jekyll site installed in ~/my-site
 $ cd my-site
 $ jekyll build
 $ jekyll serve    # => Browse your site; open the page @ http://localhost:4000
