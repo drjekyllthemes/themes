@@ -249,10 +249,80 @@ page.previous     --  The previous post relative to the position of the current 
 
 ## Liquid Template Filters n Tags
 
+### Standard Filters
 
-### Date, Time Filters
+**String Filters**
 
-```django
+```
+{{ | capitalize }}      -- capitalize words in the input sentence
+{{ | downcase }}        -- convert an input string to lowercase
+{{ | upcase }}          -- convert an input string to uppercase
+{{ | strip_html }}      -- strip html from string
+{{ | strip_newlines }}  -- strip all newlines (\n) from string
+{{ | newline_to_br }}   -- replace each newline (\n) with html break
+{{ 'foofoo' | replace:'foo','bar' }}   -- replace each occurrence
+ # => 'barbar'
+{{ 'barbar' | replace_first:'bar','foo' }} -- replace the first occurrence
+ # => 'foobar'
+{{ 'foobarfoobar' | remove:'foo' }}  -- remove each occurrence
+ # => 'barbar'
+{{ 'barbar' | remove_first:'bar' }}  -- remove the first occurrence
+  # => 'bar'
+{{ 'foobarfoobar' | truncate: 5, '.' }}  -- truncate a string down to x characters. 
+  # => 'foob.'                              It also accepts a second parameter that will append to the string
+{{ | truncatewords }}               -- truncate a string down to x words
+{{ 'bar' | prepend:'foo' }}         -- prepend a string
+  # => 'foobar'
+{{ 'foo' | append:'bar' }}          -- append a string
+  # => 'foobar'
+{{ "a~b" | split:"~" }}             -- split a string on a matching pattern
+  # => ['a','b']
+{{ "hello" | slice: -3, 3 }}        -- slice a string. Takes an offset and length
+  # => llo
+```
+
+**Date Filters**
+
+```
+{{ | date }}     -- reformat a date 
+```
+
+**Array Filters**
+
+```
+{{ | first }}   -- get the first element of the passed in array
+{{ | last  }}   -- get the last element of the passed in array
+{{ | join  }}   -- join elements of the array with certain character between them
+{{ | sort  }}   -- sort elements of the array
+{{ | map   }}   -- map/collect an array on a given property
+{{ | size  }}   -- return the size of an array or string
+```
+
+**Numbers, Math Filters**
+
+```
+{{ 4  | minus:2 }}       #=> 2    -- subtraction
+{{ 1  | plus:1 }}        #=> 2    -- addition
+{{ 5  | times:4  }}      #=> 20   -- multiplication
+{{ 10 | divided_by:2 }}  #=> 5    -- division
+{{ 3  | modulo:2 }}      #=> 1    -- remainder
+
+{{ '1' | plus:'1' }}     #=>'11'  -- note: make sure to use numbers not strings
+```
+
+**Escape Filters**
+
+```
+{{ | escape }}       -- escape a string
+{{ | escape_once }}  -- returns an escaped version of html without affecting existing escaped entities
+```
+
+
+### Jekyll Filters
+
+**Date, Time Filters**
+
+```
 {{ site.time | date_to_rfc822 }}       -- Convert date to RFC-822 format 
  # => Mon, 07 Nov 2008 13:07:54 -0800     (e.g. used in rss feeds)
 {{ site.time | date_to_xmlschema }}    -- Convert date to XML Schema (ISO 8601) format 
@@ -264,9 +334,9 @@ page.previous     --  The previous post relative to the position of the current 
  # => 07 November 2008
 ```
 
-### Where, Group By, Sort
+**Where, Group By, Sort Filters** 
 
-```django
+```
 {{ site.members | where:"graduation_year","2014" }}   -- Select all the objects in an array where the key
                                                          has the given value.
 {{ site.members | group_by:"graduation_year" }}       -- Group an array's items by a given property e.g.
@@ -278,7 +348,7 @@ page.previous     --  The previous post relative to the position of the current 
                                                           2. nils order (first or last)
 ```
 
-### Escape (XML, CGI, URI)
+**Escape (XML, CGI, URI) Filters**
 
 ~~~
 {{ page.content | xml_escape }}      -- Escape some text for use in XML
@@ -289,7 +359,7 @@ page.previous     --  The previous post relative to the position of the current 
 ~~~
 
 
-### Convert (`markdownify`, `slugify`, `sassify`, `jsonify`)
+**Convert (`markdownify`, `slugify`, `sassify`, `jsonify`) Filters**
 
 ~~~
 {{ page.excerpt | markdownify }}        -- Convert a Markdown-formatted string into HTML
@@ -303,7 +373,7 @@ page.previous     --  The previous post relative to the position of the current 
  # => the-_config.yml-file                           
 ~~~
 
-### Misc
+**Misc Filters**
 
 ~~~
 {{ page.content | number_of_words }}         -- Count the number of words in some text
@@ -312,7 +382,9 @@ page.previous     --  The previous post relative to the position of the current 
  # => foo, bar, and baz
 ~~~
 
-### Include Tag
+### Jekyll Tags
+
+**Include Tag**
 
 ~~~
 {% include footer.html %}                  -- Searches for include file in _includes folder
@@ -321,7 +393,7 @@ page.previous     --  The previous post relative to the position of the current 
 {% include_relative somedir/footer.html %} -- Searches for include file relative to the file where used
 ~~~
 
-### Code Syntax Highlighting Tag
+**Code Syntax Highlighting Tag**
 
 ~~~
 {% highlight ruby %}
@@ -339,7 +411,7 @@ end
 {% endhighlight %}
 ~~~
 
-### Gist Tag
+**Gist Tag**
 
 ~~~
 {% gist hyde/931c1c8d465a04042403 %}
