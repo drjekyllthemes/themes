@@ -1,4 +1,4 @@
-# Jekyll Notes Draf (Work-in-Progress)
+# Jekyll Notes Draft (Work-in-Progress)
 
 ## Commands
 
