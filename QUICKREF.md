@@ -4,21 +4,18 @@
 
 ### Jekyll
 
-- build (b)
-- serve (s)
-- new
-- docs
-- doctor
+- `build` or `b`
+- `serve` or `s`
+- `new`
+- `docs`
+- `doctor`
 
 ~~~
 $ jekyll new my-site
 $ cd my-site
 $ jekyll build
-$ jekyll serve
-# => Browse your site; open the page @ http://localhost:4000
+$ jekyll serve    # => Browse your site; open the page @ http://localhost:4000
 ~~~
-
-### Octopress 
 
 
 ## Folder Structure
@@ -48,28 +45,28 @@ $ jekyll serve
 ~~~
 
 
-### _posts Folder
+## `_posts` Folder
 
-The post file name must follow the format: YEAR-MONTH-DAY-title.MARKUP
-(e.g. 2009-04-26-barcamp-boston-4-roundup.md).
+The post file name must follow the format: YEAR-MONTH-DAY-TITLE.MARKUP
+(e.g. `2015-01-01-week-1-factbook.md`).
 The permalinks can be customized for each post,
 but the date and markup language are determined by the file name.
 
 ~~~
-├── _posts
-|   ├── 2007-10-29-why-every-programmer-should-play-nethack.md
-|   └── 2009-04-26-barcamp-boston-4-roundup.md
+├── _posts             
+|   ├── 2015-01-01-week-1-factbook.md
+|   ├── 2015-01-08-week-2-hoe.md
+|   └── 2015-01-15-week-3-slideshow.md
 ~~~
 
-**Front Matter**
+### Front Matter
 
 ~~~
 ---
 layout: post
-title:  Blogging Like a Hacker
+title:  "Week #1 - factbook gem - turn the world factbook into open structured data e.g. JSON"
 ---
 ~~~
-
 
 **Excerpt**
 
@@ -86,59 +83,14 @@ Out-of-excerpt
 **Including images and resources**
 
 ~~~
-... which is shown in the screenshot below:
-![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+![Ruby under a Microscope Book Cover]({{site.url}}/i/book-ruby-under-a-microscope.png)
 
-... you can [get the PDF]({{ site.url }}/assets/mydoc.pdf) directly.
-~~~
-
-## Permalinks
-
-For example, the default date permalink is defined as:
-
-~~~
-/:categories/:year/:month/:day/:title.html
-~~~
-
-### Template variables
-
-~~~
-year        -- Year from the Post’s filename
-month       -- Month from the Post’s filename
-i_month     -- Month from the Post’s filename without leading zeros.
-day         -- Day from the Post’s filename
-i_day       -- Day from the Post’s filename without leading zeros.
-short_year  -- Year from the Post’s filename without the century.
-title       -- Title from the Post’s filename
-categories  -- The specified categories for this Post.
-               If a post has multiple categories, Jekyll will create a hierarchy
-               (e.g. /category1/category2). Also Jekyll automatically parses out double slashes in the URLs,
-               so if no categories are present, it will ignore this.
-~~~
-
-### Built-in permalink styles
-
-~~~
-date      /:categories/:year/:month/:day/:title.html
-pretty    /:categories/:year/:month/:day/:title/
-none      /:categories/:title.html
-~~~
-
-
-### Permalink style examples
-
-Given a post named: /2009-04-29-slap-chop.md
-
-~~~
-None specified (date)             /2009/04/29/slap-chop.html
-pretty                            /2009/04/29/slap-chop/index.html
-/:month-:day-:year/:title.html    /04-29-2009/slap-chop.html
-/blog/:year/:month/:day/:title    /blog/2009/04/29/slap-chop/index.html
+[Hoe PDF Booklet](http://docs.seattlerb.org/hoe/Hoe.pdf); 6 Pages
 ~~~
 
 
 
-### _draft Folder
+## _draft Folder
 
 Drafts are unpublished posts without a date.
 
@@ -343,6 +295,51 @@ end
 
 (Source: see jekyll-gist gem)
 
+
+
+## Permalinks
+
+For example, the default date permalink is defined as:
+
+~~~
+/:categories/:year/:month/:day/:title.html
+~~~
+
+### Template variables
+
+~~~
+year        -- Year from the Post’s filename
+month       -- Month from the Post’s filename
+i_month     -- Month from the Post’s filename without leading zeros.
+day         -- Day from the Post’s filename
+i_day       -- Day from the Post’s filename without leading zeros.
+short_year  -- Year from the Post’s filename without the century.
+title       -- Title from the Post’s filename
+categories  -- The specified categories for this Post.
+               If a post has multiple categories, Jekyll will create a hierarchy
+               (e.g. /category1/category2). Also Jekyll automatically parses out double slashes in the URLs,
+               so if no categories are present, it will ignore this.
+~~~
+
+### Built-in permalink styles
+
+~~~
+date      /:categories/:year/:month/:day/:title.html
+pretty    /:categories/:year/:month/:day/:title/
+none      /:categories/:title.html
+~~~
+
+
+### Permalink style examples
+
+Given a post named: /2009-04-29-slap-chop.md
+
+~~~
+None specified (date)             /2009/04/29/slap-chop.html
+pretty                            /2009/04/29/slap-chop/index.html
+/:month-:day-:year/:title.html    /04-29-2009/slap-chop.html
+/blog/:year/:month/:day/:title    /blog/2009/04/29/slap-chop/index.html
+~~~
 
 
 ## Templates
