@@ -56,16 +56,25 @@ Options:
 
 
 
+## Quickstart
 
-Quickstart:
+```
+  $ jekyll new my-site
+     # => New jekyll site installed in ~/my-site
+  $ cd my-site
+  $ jekyll build
+     # => Configuration file: ~/_config.yml
+     #                Source: ~/my-site
+     #           Destination: ~/my-site/_site
+     #          Generating... done.
+  $ jekyll serve
+     # =>     Server address: http://127.0.0.1:4000/
+     #      Server running... press ctrl-c to stop.
+```
 
-~~~
-$ jekyll new my-site
-# => New jekyll site installed in ~/my-site
-$ cd my-site
-$ jekyll build
-$ jekyll serve    # => Browse your site; open the page @ http://localhost:4000
-~~~
+Browse your site e.g. open the page @ `http://127.0.0.1:4000`
+
+
 
 ## Folder Structure
 
@@ -84,7 +93,7 @@ Minimial:
 └── index.html                         # index template
 ~~~
 
-will result in:
+will result in (with `permalink: date`):
 
 ~~~
 └── _site                                  # output build folder; site gets generated here
@@ -99,6 +108,18 @@ will result in:
     ├── feed.xml                           # web feed (e.g. in rss or atom format)
     └── index.html                         # index page
 ~~~
+
+or result in (with `permalink: none`):
+
+~~~
+└── _site                           # output build folder; site gets generated here
+    ├── week-1-factbook.html        # blog post page
+    ├── week-2-hoe.html             # another blog post page
+    ├── week-3-slideshow.html       # another blog post page
+    ├── feed.xml                    # web feed (e.g. in rss or atom format)
+    └── index.html                  # index page
+~~~
+
 
 With post drafts, page collections, data stores and shared building blocks:
 
@@ -143,9 +164,9 @@ but the date and markup language are determined by the file name.
 
 ~~~
 ├── _posts             
-|   ├── 2015-01-01-week-1-factbook.md
-|   ├── 2015-01-08-week-2-hoe.md
-|   └── 2015-01-15-week-3-slideshow.md
+|   ├── 2015-01-01-week-1-factbook.md    # e.g. date=2015-01-01, markup=md
+|   ├── 2015-01-08-week-2-hoe.md         #      date=2015-01-08, markup=md
+|   └── 2015-01-15-week-3-slideshow.md   #      date=2015-01-15, markup=md
 ~~~
 
 ### Front Matter
@@ -202,7 +223,7 @@ TBD
 
 TBD
 
-## `_collection_` Folder e.g `_books`, `_albums`, etc.
+## `_COLLECTION` Folder (e.g `_books`, `_albums`, etc.)
 
 TBD
 
@@ -210,8 +231,8 @@ TBD
 ## Global Variables
 
 ~~~
-site             -- Sitewide information + configuration settings from  _config.yml.
-page             -- Page specific information + the front matter.
+site             -- Sitewide information plus configuration settings from  _config.yml.
+page             -- Page specific information plus the front matter.
                     Custom variables set via the front matter will be available here.
 content          -- In layout files, the rendered content of the Post or Page being wrapped. 
                     Not defined in Post or Page files.
@@ -239,13 +260,14 @@ site.categories.CATEGORY   -- The list of all Posts in category CATEGORY.
 site.tags.TAG              -- The list of all Posts with tag TAG.
 ~~~
 
+
 ## Site Variables (Custom)
 
 All variables set via the command line and 
-in your `_config.yml`  site configuration are available through the site variable.
+in your `_config.yml`  site configuration are available through the `site` variable.
 For example, if you have `url: http://openfootball.github.io` in your configuration file,
 then in your Posts and Pages it will be stored in `site.url`.
-                              
+
 If you add in your `_config.yml` site configuration, for example:
 
 ~~~
@@ -477,7 +499,7 @@ For example, the default date permalink is defined as:
 /:categories/:year/:month/:day/:title.html
 ~~~
 
-### Template variables
+### Permalink variables
 
 ~~~
 year        -- Year from the Post’s filename
@@ -493,12 +515,12 @@ categories  -- The specified categories for this Post.
                so if no categories are present, it will ignore this.
 ~~~
 
-### Built-in permalink styles
+### Permalink styles (Built-in)
 
 ~~~
-date      /:categories/:year/:month/:day/:title.html
-pretty    /:categories/:year/:month/:day/:title/
-none      /:categories/:title.html
+date     /:categories/:year/:month/:day/:title.html
+pretty   /:categories/:year/:month/:day/:title/
+none     /:categories/:title.html
 ~~~
 
 
@@ -542,7 +564,10 @@ pretty                            /2015/01/15/week-3-slideshow/index.html
 </ul>
 ```
 
-### Paginator
+
+## Paginator
+
+### Paginator Variables
 
 ~~~
 paginator.per_page            --  Number of Posts per page
@@ -555,6 +580,9 @@ paginator.previous_page_path  --  The path to the previous page
 paginator.next_page           --  The number of the next page
 paginator.next_page_path      --  The path to the next page
 ~~~
+
+(Source: see jekyll-paginator gem)
+
 
 ***Render the paginated Posts***
 
