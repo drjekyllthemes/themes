@@ -171,7 +171,7 @@ content          -- In layout files, the rendered content of the Post or Page be
 paginator        -- When the paginate configuration option is set, this variable becomes available for use.
 ~~~
 
-## Built-in Site Variables
+## Site Variables (Built-in)
 
 ~~~
 site.time           --  The current time (when you run the jekyll command)
@@ -181,8 +181,8 @@ site.related_posts  --  If the page being processed is a Post, this contains a l
                         By default, these are low quality but fast to compute.
                         For high quality but slow to compute results, run the
                         jekyll command with the --lsi (latent semantic indexing) option.
-site.static_files   --  A list of all static files (i.e. files not processed by Jekyll's converters or the Liquid renderer).
-                        Each file has three properties:  path, modified_time and extname.
+site.static_files   --  A list of all static files (i.e. files not processed by Jekyll's converters 
+                        or the Liquid renderer). Each file has three properties: path, modified_time and extname.
 site.html_pages     --  A list of all HTML Pages.
 site.collections    --  A list of all the collections.
 site.data           --  A list containing the data loaded from the files located in the _data folder.
@@ -193,16 +193,13 @@ site.tags.TAG              -- The list of all Posts with tag TAG.
 site.[CONFIGURATION_DATA]  -- 
 ~~~
 
-## Your (Custom) Site Variables
+## Site Variables (Custom)
 
 All the variables set via the command line and 
 in your `_config.yml`  site configuration are available through the site variable.
 For example, if you have `url: http://openfootball.github.io` in your configuration file,
 then in your Posts and Pages it will be stored in `site.url`.
                               
-Note: Jekyll does not parse changes to `_config.yml` in watch mode,
-you must restart Jekyll to see changes to variables.
-
 If you add in your `_config.yml` site configuration, for example:
 
 ~~~
@@ -216,6 +213,9 @@ than you can use the variables in your posts, pages and templates:
 site.url     -- your site's url
 site.title   -- your site's title
 ~~~
+
+Note: Jekyll does not parse changes to `_config.yml` in watch mode,
+you must restart Jekyll to see changes to variables.
 
 
 ## Page Variables
@@ -234,10 +234,10 @@ page.id           --  An identifier unique to the Post (useful in RSS feeds). e.
 page.categories   --  The list of categories to which this post belongs.
                       Categories are derived from the directory structure above the _posts directory.
                       For example, a post at /work/code/_posts/2008-12-24-closures.md would have this field
-                      set to ['work', 'code']. These can also be specified in the YAML Front Matter.
-page.tags         --  The list of tags to which this post belongs. These can be specified in the YAML Front Matter.
-page.path         --  The path to the raw post or page. Example usage: Linking back to the page or post’s source on GitHub.
-                      This can be overridden in the YAML Front Matter.
+                      set to ['work', 'code']. These can also be specified in the front matter.
+page.tags         --  The list of tags to which this post belongs. These can be specified in the front matter.
+page.path         --  The path to the raw post or page. Example usage: Linking back to the page or
+                      post’s source on GitHub. This can be overridden in the front matter.
 page.next         --  The next post relative to the position of the current post in site.posts.
                       Returns nil for the last entry.
 page.previous     --  The previous post relative to the position of the current post in site.posts.
@@ -252,52 +252,60 @@ page.previous     --  The previous post relative to the position of the current 
 ### Date, Time Filters
 
 ~~~
-{{ site.time | date_to_xmlschema }}   2008-11-07T13:07:54-08:00          -- Convert date to XML Schema (ISO 8601) format
-{{ site.time | date_to_rfc822 }}      Mon, 07 Nov 2008 13:07:54 -0800    -- Convert date to RFC-822 format
-{{ site.time | date_to_string }}      07 Nov 2008                        -- Convert date to short format
-{{ site.time | date_to_long_string }} 07 November 2008                   -- Convert date to long format
+{{ site.time | date_to_rfc822 }}      Mon, 07 Nov 2008 13:07:54 -0800   -- Convert date to RFC-822 format
+                                                                           (e.g. used in rss feeds)
+{{ site.time | date_to_xmlschema }}   2008-11-07T13:07:54-08:00         -- Convert date to XML Schema (ISO 8601)
+                                                                           format (e.g. used in atom feeds)
+
+{{ site.time | date_to_string }}      07 Nov 2008                       -- Convert date to short format
+{{ site.time | date_to_long_string }} 07 November 2008                  -- Convert date to long format
 ~~~
 
 ### Where, Group By, Sort
 
 ~~~
-{{ site.members | where:"graduation_year","2014" }}   -- Select all the objects in an array where the key has the given value.
+{{ site.members | where:"graduation_year","2014" }}   -- Select all the objects in an array where the key
+                                                         has the given value.
 {{ site.members | group_by:"graduation_year" }}       -- Group an array's items by a given property e.g.
-
-  [{"name"=>"2013", "items"=>[...]},
-   {"name"=>"2014", "items"=>[...]}]
-
-
-{{ page.tags | sort }}                    -- Sort an array 
-{{ site.posts | sort: 'author' }}         --   Optional arguments for hashes: 1. property name 2. nils order (first or last)
-{{ site.pages | sort: 'title', 'last' }}
+                                                           [{"name"=>"2013", "items"=>[...]},
+                                                            {"name"=>"2014", "items"=>[...]}]
+{{ page.tags | sort }}                                -- Sort an array 
+{{ site.posts | sort: 'author' }}                     -- Optional args for hashes: 1. property name
+{{ site.pages | sort: 'title', 'last' }}                                           2. nils order (first or last)
 ~~~
 
 ### Escape (XML, CGI, URI)
 
 ~~~
-{{ page.content | xml_escape }}                            -- Escape some text for use in XML
-{{ "foo,bar;baz?" | cgi_escape }}   foo%2Cbar%3Bbaz%3F     -- CGI escape a string for use in a URL; replaces any special characters with appropriate %XX replacements
-{{ "foo, bar \baz?" | uri_escape }}  foo,%20bar%20%5Cbaz?  -- URI escape a string
+{{ page.content | xml_escape }}      -- Escape some text for use in XML
+{{ "foo,bar;baz?" | cgi_escape }}    -- CGI escape a string for use in a URL;
+ #=> foo%2Cbar%3Bbaz%3F                 replaces any special characters with appropriate %XX replacements
+{{ "foo, bar \baz?" | uri_escape }}  -- URI escape a string
+ #=> foo,%20bar%20%5Cbaz?
 ~~~
 
 
-### Convert (markdownify, slugify, sassify, jsonify)
+### Convert (`markdownify`, `slugify`, `sassify`, `jsonify`)
 
 ~~~
 {{ page.excerpt | markdownify }}        -- Convert a Markdown-formatted string into HTML
+{{ site.data.projects | jsonify }}      -- Convert Hash or Array to JSON
 {{ some_scss | scssify }}               -- Convert a SCSS-formatted string into CSS
 {{ some_sass | sassify }}               -- Convert a Sass-formatted string into CSS
-{{ "The _config.yml file" | slugify }}            the-config-yml-file    -- Convert a string into a lowercase URL "slug"
-{{ "The _config.yml file" | slugify: 'pretty' }}  the-_config.yml-file   --  option 'pretty': spaces and non-alphanumeric characters except for ._~!$&'()+,;=@
-{{ site.data.projects | jsonify }}           -- Convert Hash or Array to JSON
+
+{{ "The _config.yml file" | slugify }}            -- Convert a string into a lowercase URL "slug"
+ #=> the-config-yml-file
+{{ "The _config.yml file" | slugify: 'pretty' }}  -- with option 'pretty': spaces and non-alphanumeric characters
+ #=>  the-_config.yml-file                           except for ._~!$&'()+,;=@
 ~~~
 
 ### Misc
 
 ~~~
-{{ page.content | number_of_words }}        1337                -- Count the number of words in some text
-{{ page.tags | array_to_sentence_string }}  foo, bar, and baz   -- Convert an array into a sentence. Useful for listing tags
+{{ page.content | number_of_words }}          -- Count the number of words in some text
+ #=> 1337
+{{ page.tags | array_to_sentence_string }}    -- Convert an array into a sentence. Useful for listing tags
+ #=> foo, bar, and baz
 ~~~
 
 ### Include Tag
@@ -305,7 +313,7 @@ page.previous     --  The previous post relative to the position of the current 
 ~~~
 {% include footer.html %}                  -- Searches for include file in _includes folder
 {% include footer.html param="value" %}    -- You can also pass parameters to an include
-{% include_relative somedir/footer.html %} -- Searches for include file relative to the file where the tag is used
+{% include_relative somedir/footer.html %} -- Searches for include file relative to the file where used
 ~~~
 
 ### Code Syntax Highlighting Tag
@@ -319,7 +327,7 @@ end
 ~~~
 
 ~~~
-{% highlight ruby linenos %}   -- Use line numbers
+{% highlight ruby linenos %}         -- Use line numbers
 def main
   puts 'Hello World'
 end
@@ -329,8 +337,8 @@ end
 ### Gist Tag
 
 ~~~
-{% gist parkr/931c1c8d465a04042403 %}
-{% gist parkr/931c1c8d465a04042403 jekyll-private-gist.markdown %}  -- You may optionally specify the filename to display
+{% gist hyde/931c1c8d465a04042403 %}
+{% gist hyde/931c1c8d465a04042403 hello_world.rb %}  -- You may specify the filename to display
 ~~~
 
 (Source: see jekyll-gist gem)
