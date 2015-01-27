@@ -30,9 +30,10 @@ Minimial:
 |   ├── 2015-01-01-week-1-factbook.md  #   filename format => YEAR-MONTH-DAY-TITLE.MARKUP
 |   ├── 2015-01-08-week-2-hoe.md
 |   └── 2015-01-15-week-3-slideshow.md
-├── _layouts                           # master layout templates
-|   ├── default.html
-|   └── post.html
+├── _layouts                           
+|   ├── default.html                   # master layout template
+|   └── post.html                      # blog post template
+├── feed.xml                           # web feed template (e.g. in rss or atom format)
 └── index.html                         # index template
 ~~~
 
@@ -48,10 +49,11 @@ will result in:
     |       |   └── week-2-hoe.html        # another blog post page
     |       └── 15
     |           └── week-3-slideshow.html  # another blog post page
+    ├── feed.xml                           # web feed (e.g. in rss or atom format)
     └── index.html                         # index page
 ~~~
 
-With post drafts, page collections, data stores and shared building blocks (includes):
+With post drafts, page collections, data stores and shared building blocks:
 
 ~~~
 ├── _config.yml                        # site configuration
@@ -62,9 +64,10 @@ With post drafts, page collections, data stores and shared building blocks (incl
 ├── _drafts                            # upcoming posts; not yet published 
 |   ├── week-4-kramdown.md             # note: no date required 
 |   └── week-5-feedparser.md
-├── _layouts                           # master layout templates
-|   ├── default.html
-|   └── post.html
+├── _layouts                           
+|   ├── default.html                   # master layout templates
+|   ├── book.html                      # book listing template
+|   └── post.html                      # blog post template
 ├── _includes                          # shared building blocks
 |   ├── footer.html
 |   └── header.html
@@ -73,7 +76,11 @@ With post drafts, page collections, data stores and shared building blocks (incl
 ├── _books                             # page collection (for books)
 |   ├── ruby-under-a-microscope.md
 |   └── learn-ruby-the-hard-way.md
-└── index.html                         # index template
+├── books                               
+|   └── index.html                     # book listing index template
+├── members.html                       # memmber listing template
+├── feed.xml                           # web feed template (e.g. in rss or atom format)
+└── index.html                         # site index template
 ~~~
 
 Note: The `_post`, `_drafts`, `_layouts`, `_includes`, `_data`, `_books`, `_site` folders must start
