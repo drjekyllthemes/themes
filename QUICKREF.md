@@ -10,6 +10,14 @@
 - docs
 - doctor
 
+~~~
+$ jekyll new my-site
+$ cd my-site
+$ jekyll build
+$ jekyll serve
+# => Browse your site; open the page @ http://localhost:4000
+~~~
+
 ### Octopress 
 
 
@@ -17,21 +25,25 @@
 
 ~~~
 ├── _config.yml
-├── _drafts
-|   ├── begin-with-the-crazy-ideas.md
-|   └── on-simplicity-in-technology.md
-├── _includes
-|   ├── footer.html
-|   └── header.html
+├── _posts             
+|   ├── 2015-01-01-week-1-factbook.md  # format => YEAR-MONTH-DAY-TITLE.MARKUP
+|   ├── 2015-01-08-week-2-hoe.md
+|   └── 2015-01-15-week-3-slideshow.md
+├── _drafts                            # upcoming posts; not yet published 
+|   ├── week-4-kramdown.md             # note: no date required 
+|   └── week-5-feedparser.md
 ├── _layouts
 |   ├── default.html
 |   └── post.html
-├── _posts
-|   ├── 2007-10-29-why-every-programmer-should-play-nethack.md
-|   └── 2009-04-26-barcamp-boston-4-roundup.md
+├── _includes
+|   ├── footer.html
+|   └── header.html
 ├── _data
-|   └── members.yml
-├── _site
+|   └── members.csv
+├── _books                             # collection
+|   ├── ruby-under-a-microscope.md
+|   └── learn-ruby-the-hard-way.md
+├── _site                              # output build folder; site gets generated here
 └── index.html
 ~~~
 
