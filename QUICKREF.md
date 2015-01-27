@@ -126,11 +126,78 @@ Subcommands:
   deploy      Deploy your Octopress site.
 ```
 
+## `new` Command
+
+```
+$ octopress new --help
+
+octopress new -- Creates a new site with Jekyll and Octopress scaffolding at the specified path.
+
+Usage:
+
+  octopress new <PATH>
+
+Options:
+  -f, --force        Force creation even if path already exists.
+  -b, --blank        Creates scaffolding but with empty files.
+  -h, --help         Show this message
+
+Subcommands:
+  page    Add a new page to your Jekyll site.
+  post    Add a new post to your Jekyll site.
+  draft   Add a new draft post to your Jekyll site.
+```
+
+## `new post` Command
+
+```
+$ octopress new post --help
+
+octopress new post -- Add a new post to your Jekyll site.
+
+Usage:
+
+  octopress new post <TITLE> [options]
+
+Options:
+  -d,  --date DATE    Use 'now' or a String that is parseable by Time#parse.
+  -tm, --template PATH  New post from a template.
+  -l,  --lang LANGUAGE  Set a post language (e.g. en, it) for multi-language sites.
+  -f,  --force        Overwrite file if it already exists
+  -s,  --slug SLUG    Use this slug in filename instead of sluggified post title.
+  -d,  --dir DIR      Create post at _posts/DIR/.
+  -c,  --config <CONFIG_FILE>[,CONFIG_FILE2,...]  Custom Jekyll configuration file
+  -h,  --help         Show this message
+```
+
+## `deploy` Command
+
+```
+$ octopress deploy --help
+
+octopress deploy 1.0.4 -- Deploy your Octopress site.
+
+Usage:
+
+  octopress deploy [options]
+
+Options:
+      --config FILE  The path to your config file (default: _deploy.yml)
+  -h, --help         Show this message
+
+Subcommands:
+  pull         Pull down the published copy of your site into DIR
+  init         Create a configuration file for a deployment method (git, rsync, s3).
+  add-bucket   Add a new S3 bucket and configure it for static websites. Name defaults to bucket_name in config file
+```
+
+
+
 ## Octopress Quickstart
 
 ```
   $ octopress new my-site
-     # => New jekyll site installed in ~//my-site 
+     # => New jekyll site installed in ~/my-site 
      #    Added Octopress scaffold:
      #     + _templates/
      #     +   draft
