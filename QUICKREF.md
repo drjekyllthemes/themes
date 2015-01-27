@@ -252,13 +252,15 @@ page.previous     --  The previous post relative to the position of the current 
 ### Date, Time Filters
 
 ~~~
-{{ site.time | date_to_rfc822 }}      Mon, 07 Nov 2008 13:07:54 -0800   -- Convert date to RFC-822 format
-                                                                           (e.g. used in rss feeds)
-{{ site.time | date_to_xmlschema }}   2008-11-07T13:07:54-08:00         -- Convert date to XML Schema (ISO 8601)
-                                                                           format (e.g. used in atom feeds)
-
-{{ site.time | date_to_string }}      07 Nov 2008                       -- Convert date to short format
-{{ site.time | date_to_long_string }} 07 November 2008                  -- Convert date to long format
+{{ site.time | date_to_rfc822 }}       -- Convert date to RFC-822 format 
+ # => Mon, 07 Nov 2008 13:07:54 -0800     (e.g. used in rss feeds)
+{{ site.time | date_to_xmlschema }}    -- Convert date to XML Schema (ISO 8601) format 
+ # => 2008-11-07T13:07:54-08:00           (e.g. used in atom feeds)
+ 
+{{ site.time | date_to_string }}       -- Convert date to short format
+ # => 07 Nov 2008
+{{ site.time | date_to_long_string }}  -- Convert date to long format
+ # => 07 November 2008
 ~~~
 
 ### Where, Group By, Sort
@@ -270,8 +272,9 @@ page.previous     --  The previous post relative to the position of the current 
                                                            [{"name"=>"2013", "items"=>[...]},
                                                             {"name"=>"2014", "items"=>[...]}]
 {{ page.tags | sort }}                                -- Sort an array 
-{{ site.posts | sort: 'author' }}                     -- Optional args for hashes: 1. property name
-{{ site.pages | sort: 'title', 'last' }}                                           2. nils order (first or last)
+{{ site.posts | sort: 'author' }}                     -- Optional args for hashes:
+{{ site.pages | sort: 'title', 'last' }}                  1. property name
+                                                          2. nils order (first or last)
 ~~~
 
 ### Escape (XML, CGI, URI)
@@ -279,9 +282,9 @@ page.previous     --  The previous post relative to the position of the current 
 ~~~
 {{ page.content | xml_escape }}      -- Escape some text for use in XML
 {{ "foo,bar;baz?" | cgi_escape }}    -- CGI escape a string for use in a URL;
- #=> foo%2Cbar%3Bbaz%3F                 replaces any special characters with appropriate %XX replacements
+ # => foo%2Cbar%3Bbaz%3F                replaces any special characters with appropriate %XX replacements
 {{ "foo, bar \baz?" | uri_escape }}  -- URI escape a string
- #=> foo,%20bar%20%5Cbaz?
+ # => foo,%20bar%20%5Cbaz?
 ~~~
 
 
@@ -293,26 +296,27 @@ page.previous     --  The previous post relative to the position of the current 
 {{ some_scss | scssify }}               -- Convert a SCSS-formatted string into CSS
 {{ some_sass | sassify }}               -- Convert a Sass-formatted string into CSS
 
-{{ "The _config.yml file" | slugify }}            -- Convert a string into a lowercase URL "slug"
- #=> the-config-yml-file
-{{ "The _config.yml file" | slugify: 'pretty' }}  -- with option 'pretty': spaces and non-alphanumeric characters
- #=>  the-_config.yml-file                           except for ._~!$&'()+,;=@
+{{ "The _config.yml file" | slugify }}            -- Convert a string into a lowercase URL "slug";
+ # => the-config-yml-file                            with option 'pretty': spaces and non-alphanumeric chars
+{{ "The _config.yml file" | slugify: 'pretty' }}     except for ._~!$&'()+,;=@
+ # => the-_config.yml-file                           
 ~~~
 
 ### Misc
 
 ~~~
-{{ page.content | number_of_words }}          -- Count the number of words in some text
- #=> 1337
-{{ page.tags | array_to_sentence_string }}    -- Convert an array into a sentence. Useful for listing tags
- #=> foo, bar, and baz
+{{ page.content | number_of_words }}         -- Count the number of words in some text
+ # => 1337
+{{ page.tags | array_to_sentence_string }}   -- Convert an array into a sentence. Useful for listing tags
+ # => foo, bar, and baz
 ~~~
 
 ### Include Tag
 
 ~~~
 {% include footer.html %}                  -- Searches for include file in _includes folder
-{% include footer.html param="value" %}    -- You can also pass parameters to an include
+{% include footer.html param="value" %}       You can also pass parameters to an include
+
 {% include_relative somedir/footer.html %} -- Searches for include file relative to the file where used
 ~~~
 
@@ -380,17 +384,18 @@ none      /:categories/:title.html
 
 ### Permalink style examples
 
-Given a post named: /2009-04-29-slap-chop.md
+Given a post named: /2015-01-15-week-3-slideshow.md
 
 ~~~
-None specified (date)             /2009/04/29/slap-chop.html
-pretty                            /2009/04/29/slap-chop/index.html
-/:month-:day-:year/:title.html    /04-29-2009/slap-chop.html
-/blog/:year/:month/:day/:title    /blog/2009/04/29/slap-chop/index.html
+None specified (date)             /2015/01/15/week-3-slideshow.html
+pretty                            /2015/01/15/week-3-slideshow/index.html
+/:month-:day-:year/:title.html    /01-15-2015/week-3-slideshow.html
+/blog/:year/:month/:day/:title    /blog/2015/01/15/week-3-slideshow/index.html
 ~~~
 
 
-## Templates
+
+## Template Examples
 
 ### Displaying an index of posts
 
@@ -404,7 +409,7 @@ pretty                            /2009/04/29/slap-chop/index.html
 </ul>
 ~~~
 
-### Displaying an index of posts with post excerpts
+### Displaying an index of posts with excerpts
 
 ~~~
 <ul>
