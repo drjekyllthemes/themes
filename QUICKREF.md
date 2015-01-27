@@ -10,6 +10,9 @@
 - `docs`
 - `doctor`
 
+
+Quickstart:
+
 ~~~
 $ jekyll new my-site
 $ cd my-site
@@ -17,38 +20,69 @@ $ jekyll build
 $ jekyll serve    # => Browse your site; open the page @ http://localhost:4000
 ~~~
 
-
 ## Folder Structure
 
+Minimial:
+
 ~~~
-├── _config.yml
-├── _posts             
-|   ├── 2015-01-01-week-1-factbook.md  # format => YEAR-MONTH-DAY-TITLE.MARKUP
+├── _config.yml                        # site configuration
+├── _posts                             # blog posts
+|   ├── 2015-01-01-week-1-factbook.md  #   filename format => YEAR-MONTH-DAY-TITLE.MARKUP
+|   ├── 2015-01-08-week-2-hoe.md
+|   └── 2015-01-15-week-3-slideshow.md
+├── _layouts                           # master layout templates
+|   ├── default.html
+|   └── post.html
+└── index.html                         # index template
+
+will result in:
+
+~~~
+└── _site                                  # output build folder; site gets generated here
+    ├── 2015
+    |   └── 01
+    |       ├── 01
+    |       |   └── week-1-factbook.html   # blog post page
+    |       ├── 08
+    |       |   └── week-2-hoe.html        # another blog post page
+    |       └── 15
+    |           └── week-3-slideshow.html  # another blog post page
+    └── index.html                         # index page
+~~~
+
+With post drafts, page collections, data stores and shared building blocks (includes):
+
+~~~
+├── _config.yml                        # site configuration
+├── _posts                             # blog posts
+|   ├── 2015-01-01-week-1-factbook.md  #  filename format => YEAR-MONTH-DAY-TITLE.MARKUP
 |   ├── 2015-01-08-week-2-hoe.md
 |   └── 2015-01-15-week-3-slideshow.md
 ├── _drafts                            # upcoming posts; not yet published 
 |   ├── week-4-kramdown.md             # note: no date required 
 |   └── week-5-feedparser.md
-├── _layouts
+├── _layouts                           # master layout templates
 |   ├── default.html
 |   └── post.html
-├── _includes
+├── _includes                          # shared building blocks
 |   ├── footer.html
 |   └── header.html
-├── _data
+├── _data                              # data store (formats available .yml, .json, .csv)
 |   └── members.csv
-├── _books                             # collection
+├── _books                             # page collection (for books)
 |   ├── ruby-under-a-microscope.md
 |   └── learn-ruby-the-hard-way.md
-├── _site                              # output build folder; site gets generated here
-└── index.html
+└── index.html                         # index template
 ~~~
+
+Note: The `_post`, `_drafts`, `_layouts`, `_includes`, `_data`, `_books`, `_site` folders must start
+with an underscore (`_`).
 
 
 ## `_posts` Folder
 
-The post file name must follow the format: YEAR-MONTH-DAY-TITLE.MARKUP
-(e.g. `2015-01-01-week-1-factbook.md`).
+The post file name must follow the format: _YEAR-MONTH-DAY-TITLE.MARKUP_
+(e.g. `2015-01-15-week-3-slideshow.md`).
 The permalinks can be customized for each post,
 but the date and markup language are determined by the file name.
 
@@ -64,7 +98,7 @@ but the date and markup language are determined by the file name.
 ~~~
 ---
 layout: post
-title:  "Week #1 - factbook gem - turn the world factbook into open structured data e.g. JSON"
+title:  "Week #3 - slideshow gem - a free web alternative to PowerPoint and Keynote in Ruby"
 ---
 ~~~
 
@@ -80,6 +114,8 @@ Excerpt
 Out-of-excerpt
 ~~~
 
+## Tips & Tricks
+
 **Including images and resources**
 
 ~~~
@@ -89,8 +125,7 @@ Out-of-excerpt
 ~~~
 
 
-
-## _draft Folder
+## `_draft` Folder
 
 Drafts are unpublished posts without a date.
 
