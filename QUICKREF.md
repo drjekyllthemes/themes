@@ -177,7 +177,7 @@ paginator        -- When the paginate configuration option is set, this variable
 site.time           --  The current time (when you run the jekyll command)
 site.pages          --  A list of all Pages
 site.posts          --  A reverse chronological list of all Posts
-site.related_posts  --  If the page being processed is a Post, this contains a list of up to ten related Posts.
+site.related_posts  --  If the page processed is a Post, this contains a list of up to ten related Posts.
                         By default, these are low quality but fast to compute.
                         For high quality but slow to compute results, run the
                         jekyll command with the --lsi (latent semantic indexing) option.
@@ -194,7 +194,7 @@ site.tags.TAG              -- The list of all Posts with tag TAG.
 
 ## Site Variables (Custom)
 
-All the variables set via the command line and 
+All variables set via the command line and 
 in your `_config.yml`  site configuration are available through the site variable.
 For example, if you have `url: http://openfootball.github.io` in your configuration file,
 then in your Posts and Pages it will be stored in `site.url`.
@@ -234,8 +234,8 @@ page.id           --  An identifier unique to the Post (useful in feeds).
                       e.g. /2015/01/15/week-3-slideshow
 page.categories   --  The list of categories to which this post belongs.
                       Categories are derived from the directory structure above the _posts directory.
-                      For example, a post at /ruby/gems/_posts/2015-01-15-week-3-slideshow.md would have this field
-                      set to ['ruby', 'gem']. These can also be specified in the front matter.
+                      For example, a post at /ruby/gems/_posts/2015-01-15-week-3-slideshow.md would have
+                      this field set to ['ruby', 'gem']. These can also be specified in the front matter.
 page.tags         --  The list of tags to which this post belongs. These can be specified in the front matter.
 page.path         --  The path to the raw post or page. Example usage: Linking back to the page or
                       post's source on GitHub. This can be overridden in the front matter.
