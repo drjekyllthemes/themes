@@ -34,6 +34,7 @@ Minimial:
 |   ├── default.html
 |   └── post.html
 └── index.html                         # index template
+~~~
 
 will result in:
 
