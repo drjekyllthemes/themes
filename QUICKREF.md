@@ -54,6 +54,30 @@ Options:
   -V, --verbose      Print verbose output.
 ```
 
+### `serve` Command
+
+```
+$ jekyll help serve
+
+  jekyll serve [options]
+
+Options:
+      --config CONFIG_FILE[,CONFIG_FILE2,...]  Custom configuration file
+      --future       Publishes posts with a future date
+      --limit_posts MAX_POSTS  Limits the number of posts to parse and publish
+  -w, --[no-]watch   Watch for changes and rebuild
+      --force_polling  Force watch to use polling
+      --lsi          Use LSI for improved related posts
+  -D, --drafts       Render posts in the _drafts folder
+      --unpublished  Render posts that were marked as unpublished
+  -q, --quiet        Silence output.
+  -V, --verbose      Print verbose output.
+  -B, --detach       Run the server in the background (detach)
+  -P, --port [PORT]  Port to listen on
+  -H, --host [HOST]  Host to bind to
+  -b, --baseurl [URL]  Base URL
+  --skip-initial-build  Skips the initial site build which occurs before the server is 
+```
 
 
 ## Quickstart
@@ -80,7 +104,7 @@ Browse your site e.g. open the page @ `http://127.0.0.1:4000`
 
 Minimial:
 
-~~~
+```
 ├── _config.yml                        # site configuration
 ├── _posts                             # blog posts
 |   ├── 2015-01-01-week-1-factbook.md  #   filename format => YEAR-MONTH-DAY-TITLE.MARKUP
@@ -91,11 +115,11 @@ Minimial:
 |   └── post.html                      # blog post template
 ├── feed.xml                           # web feed template (e.g. in rss or atom format)
 └── index.html                         # index template
-~~~
+```
 
 will result in (with `permalink: date`):
 
-~~~
+```
 └── _site                                  # output build folder; site gets generated here
     ├── 2015
     |   └── 01
@@ -107,23 +131,23 @@ will result in (with `permalink: date`):
     |           └── week-3-slideshow.html  # another blog post page
     ├── feed.xml                           # web feed (e.g. in rss or atom format)
     └── index.html                         # index page
-~~~
+```
 
 or result in (with `permalink: none`):
 
-~~~
+```
 └── _site                           # output build folder; site gets generated here
     ├── week-1-factbook.html        # blog post page
     ├── week-2-hoe.html             # another blog post page
     ├── week-3-slideshow.html       # another blog post page
     ├── feed.xml                    # web feed (e.g. in rss or atom format)
     └── index.html                  # index page
-~~~
+```
 
 
 With post drafts, page collections, data stores and shared building blocks:
 
-~~~
+```
 ├── _config.yml                        # site configuration
 ├── _posts                             # blog posts
 |   ├── 2015-01-01-week-1-factbook.md  #  filename format => YEAR-MONTH-DAY-TITLE.MARKUP
@@ -149,7 +173,7 @@ With post drafts, page collections, data stores and shared building blocks:
 ├── members.html                       # member listing template
 ├── feed.xml                           # web feed template (e.g. in rss or atom format)
 └── index.html                         # site index template
-~~~
+```
 
 Note: The `_post`, `_drafts`, `_layouts`, `_includes`, `_data`, `_books`, `_site` folders must start
 with an underscore (`_`).
@@ -162,25 +186,25 @@ The post file name must follow the format: _YEAR-MONTH-DAY-TITLE.MARKUP_
 The permalinks can be customized for each post,
 but the date and markup language are determined by the file name.
 
-~~~
+```
 ├── _posts             
 |   ├── 2015-01-01-week-1-factbook.md    # e.g. date=2015-01-01, markup=md
 |   ├── 2015-01-08-week-2-hoe.md         #      date=2015-01-08, markup=md
 |   └── 2015-01-15-week-3-slideshow.md   #      date=2015-01-15, markup=md
-~~~
+```
 
 ### Front Matter
 
-~~~
+```
 ---
 layout: post
 title:  "Week #3 - slideshow gem - a free web alternative to PowerPoint and Keynote in Ruby"
 ---
-~~~
+```
 
 **Excerpt**
 
-~~~
+```
 ---
 excerpt_separator: <!--more-->
 ---
@@ -188,28 +212,28 @@ excerpt_separator: <!--more-->
 Excerpt
 <!--more-->
 Out-of-excerpt
-~~~
+```
 
 ## Tips & Tricks
 
 **Including images and resources**
 
-~~~
+```
 ![Ruby under a Microscope Book Cover]({{site.url}}/i/book-ruby-under-a-microscope.png)
 
 [Hoe PDF Booklet](http://docs.seattlerb.org/hoe/Hoe.pdf); 6 Pages
-~~~
+```
 
 
 ## `_draft` Folder
 
 Drafts are unpublished posts without a date.
 
-~~~
+```
 ├── _drafts
 |   ├── week-4-kramdown.md
 |   └── week-5-feedparser.md
-~~~
+```
 
 ## `_layouts` Folder
 
@@ -230,18 +254,19 @@ TBD
 
 ## Global Variables
 
-~~~
+```
 site             -- Sitewide information plus configuration settings from  _config.yml.
 page             -- Page specific information plus the front matter.
                     Custom variables set via the front matter will be available here.
 content          -- In layout files, the rendered content of the Post or Page being wrapped. 
                     Not defined in Post or Page files.
-paginator        -- When the paginate configuration option is set, this variable becomes available for use.
-~~~
+paginator        -- When the paginate configuration option is set variable becomes available.
+```
+
 
 ## Site Variables (Built-in)
 
-~~~
+```
 site.time           --  The current time (when you run the jekyll command)
 site.pages          --  A list of all Pages
 site.posts          --  A reverse chronological list of all Posts
@@ -258,7 +283,7 @@ site.documents      --  A list of all the documents in every collection.
 
 site.categories.CATEGORY   -- The list of all Posts in category CATEGORY.
 site.tags.TAG              -- The list of all Posts with tag TAG.
-~~~
+```
 
 
 ## Site Variables (Custom)
@@ -270,17 +295,17 @@ then in your Posts and Pages it will be stored in `site.url`.
 
 If you add in your `_config.yml` site configuration, for example:
 
-~~~
+```
 url:   'http://openfootball.github.io'
 title: 'football.db - Open Football Data'
-~~~
+```
 
 than you can use the variables in your posts, pages and templates:
 
-~~~
+```
 site.url     -- your site's url
 site.title   -- your site's title
-~~~
+```
 
 Note: Jekyll does not parse changes to `_config.yml` in watch mode,
 you must restart Jekyll to see changes to variables.
@@ -288,7 +313,7 @@ you must restart Jekyll to see changes to variables.
 
 ## Page Variables
 
-~~~
+```
 page.content      --  The content of the Page, rendered or un-rendered depending upon what
                       Liquid is being processedand what page is.
 page.title        --  The title of the Page.
@@ -312,7 +337,7 @@ page.next         --  The next post relative to the position of the current post
                       Returns nil for the last entry.
 page.previous     --  The previous post relative to the position of the current post in site.posts.
                       Returns nil for the first entry.
-~~~
+```
 
 
 
@@ -419,18 +444,18 @@ page.previous     --  The previous post relative to the position of the current 
 
 **Escape (XML, CGI, URI) Filters**
 
-~~~
+```
 {{ page.content | xml_escape }}      -- Escape some text for use in XML
 {{ "foo,bar;baz?" | cgi_escape }}    -- CGI escape a string for use in a URL;
  # => foo%2Cbar%3Bbaz%3F                replaces any special characters with appropriate %XX replacements
 {{ "foo, bar \baz?" | uri_escape }}  -- URI escape a string
  # => foo,%20bar%20%5Cbaz?
-~~~
+```
 
 
 **Convert (`markdownify`, `slugify`, `sassify`, `jsonify`) Filters**
 
-~~~
+```
 {{ page.excerpt | markdownify }}        -- Convert a Markdown-formatted string into HTML
 {{ site.data.projects | jsonify }}      -- Convert Hash or Array to JSON
 {{ some_scss | scssify }}               -- Convert a SCSS-formatted string into CSS
@@ -440,52 +465,52 @@ page.previous     --  The previous post relative to the position of the current 
  # => the-config-yml-file                            with option 'pretty': spaces and non-alphanumeric chars
 {{ "The _config.yml file" | slugify: 'pretty' }}     except for ._~!$&'()+,;=@
  # => the-_config.yml-file                           
-~~~
+```
 
 **Misc Filters**
 
-~~~
+```
 {{ page.content | number_of_words }}         -- Count the number of words in some text
  # => 1337
 {{ page.tags | array_to_sentence_string }}   -- Convert an array into a sentence. Useful for listing tags
  # => foo, bar, and baz
-~~~
+```
 
 ### Jekyll Tags
 
 **Include Tag**
 
-~~~
+```
 {% include footer.html %}                  -- Searches for include file in _includes folder
 {% include footer.html param="value" %}       You can also pass parameters to an include
 
 {% include_relative somedir/footer.html %} -- Searches for include file relative to the file where used
-~~~
+```
 
 **Code Syntax Highlighting Tag**
 
-~~~
+```
 {% highlight ruby %}
 def main
   puts 'Hello World'
 end
 {% endhighlight %}
-~~~
+```
 
-~~~
+```
 {% highlight ruby linenos %}         -- Use line numbers
 def main
   puts 'Hello World'
 end
 {% endhighlight %}
-~~~
+```
 
 **Gist Tag**
 
-~~~
+```
 {% gist hyde/931c1c8d465a04042403 %}
 {% gist hyde/931c1c8d465a04042403 hello_world.rb %}  -- You may specify the filename to display
-~~~
+```
 
 (Source: see jekyll-gist gem)
 
@@ -493,15 +518,15 @@ end
 
 ## Permalinks
 
-For example, the default date permalink is defined as:
+The default `date` permalink is defined as:
 
-~~~
+```
 /:categories/:year/:month/:day/:title.html
-~~~
+```
 
-### Permalink variables
+### Permalink Variables
 
-~~~
+```
 year        -- Year from the Post’s filename
 month       -- Month from the Post’s filename
 i_month     -- Month from the Post’s filename without leading zeros.
@@ -513,27 +538,28 @@ categories  -- The specified categories for this Post.
                If a post has multiple categories, Jekyll will create a hierarchy
                (e.g. /category1/category2). Also Jekyll automatically parses out double slashes in the URLs,
                so if no categories are present, it will ignore this.
-~~~
+```
 
-### Permalink styles (Built-in)
+### Permalink Styles
 
-~~~
+**Built-in**
+
+```
 date     /:categories/:year/:month/:day/:title.html
 pretty   /:categories/:year/:month/:day/:title/
 none     /:categories/:title.html
-~~~
+```
 
-
-### Permalink style examples
+**Examples**
 
 Given a post named: /2015-01-15-week-3-slideshow.md
 
-~~~
+```
 None specified (date)             /2015/01/15/week-3-slideshow.html
 pretty                            /2015/01/15/week-3-slideshow/index.html
 /:month-:day-:year/:title.html    /01-15-2015/week-3-slideshow.html
 /blog/:year/:month/:day/:title    /blog/2015/01/15/week-3-slideshow/index.html
-~~~
+```
 
 
 
@@ -564,12 +590,57 @@ pretty                            /2015/01/15/week-3-slideshow/index.html
 </ul>
 ```
 
+### Generate web feed e.g. `feed.xml` for last ten posts (in Atom format)
+
+```xml
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }}</title>
+  <link href="{{ site.url }}/feed.xml" rel="self"/>
+  <link href="{{ site.url }}/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.author }}</name>
+  </author>
+  <generator>Jekyll v{{ jekyll.version }}</generator>
+
+  {% for post in site.posts limit: 10 %}
+  <entry>
+    <title>{{ post.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>
+```
+
+Tip: Add feed auto-discovery to your master layout template in the header. Example:
+
+```html
+<link rel="alternate" type="application/atom+xml" href="{{ site.url }}/feed.xml" title="News Feeds">
+```
+
+Note: You can add more than one feed, for example:
+
+```html
+<link rel="alternate" type="..." href="{{ site.url }}/feed.xml"       title="Blog News Feeds">
+<link rel="alternate" type="..." href="{{ site.url }}/books/feed.xml" title="Books News Feed">
+<link rel="alternate" type="..." href="{{ site.url }}/links/feed.xml" title="Links News Feed">
+```
+
+
 
 ## Paginator
 
 ### Paginator Variables
 
-~~~
+```
 paginator.per_page            --  Number of Posts per page
 paginator.posts               --  Posts available for that page
 paginator.total_posts         --  Total number of Posts
@@ -579,7 +650,7 @@ paginator.previous_page       --  The number of the previous page
 paginator.previous_page_path  --  The path to the previous page
 paginator.next_page           --  The number of the next page
 paginator.next_page_path      --  The path to the next page
-~~~
+```
 
 (Source: see jekyll-paginator gem)
 
