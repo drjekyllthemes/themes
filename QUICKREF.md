@@ -59,11 +59,10 @@ Options:
       --config CONFIG_FILE[,CONFIG_FILE2,...]  Custom configuration file
       --future       Publishes posts with a future date
       --limit_posts MAX_POSTS  Limits the number of posts to parse and publish
-  -w, --[no-]watch   Watch for changes and rebuild
-      --force_polling  Force watch to use polling
       --lsi          Use LSI for improved related posts
   -D, --drafts       Render posts in the _drafts folder
       --unpublished  Render posts that were marked as unpublished
+
   -q, --quiet        Silence output.
   -V, --verbose      Print verbose output.
 ```
@@ -76,13 +75,17 @@ $ jekyll help serve
   jekyll serve [options]
 
 Options:
-  -B, --detach       Run the server in the background (detach)
-  -P, --port [PORT]  Port to listen on
-  -H, --host [HOST]  Host to bind to
+  -B, --detach         Run the server in the background (detach)
+  -P, --port [PORT]    Port to listen on
+  -H, --host [HOST]    Host to bind to
   -b, --baseurl [URL]  Base URL
   
-  --skip-initial-build  Skips the initial site build which occurs before the server is 
-  plus all all build options (see build command)
+Build Options:
+      --skip-initial-build  Skips the initial site build which occurs before the server is 
+  -w, --[no-]watch     Watch for changes and rebuild
+      --force_polling  Force watch to use polling
+  
+  plus all build options (see build command)
 ```
 
 
