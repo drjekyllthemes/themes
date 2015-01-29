@@ -4,19 +4,29 @@
 
 - Project :: [jekyllrb.com](http://jekyllrb.com/)
 - Source  :: [github.com/jekyll](https://github.com/jekyll)
+
+**Jekyll Gem** 
+
+- Source  :: [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 - Gem     :: [rubygems.org/gems/jekyll](https://rubygems.org/gems/jekyll)
 - RDoc    :: [rubydoc.info/gems/jekyll](http://www.rubydoc.info/gems/jekyll)
+
 
 ## Octopress
 
 - Project :: [octopress.org](http://octopress.org)
 - Source  :: [github.com/octopress](https://github.com/octopress)
+
+**Octopress Gem**
+
+- Source  :: [github.com/octopress/octopress](https://github.com/octopress/octopress)
 - Gem     :: [rubygems.org/gems/octopress](https://rubygems.org/gems/octopress)
 - RDoc    :: [rubydoc.info/gems/octopress](http://www.rubydoc.info/gems/octopress)
 
 ## GitHub Pages
 
-- Project :: [pages.github.com](https://pages.github.com/)
+- Project  :: [pages.github.com](https://pages.github.com/)
+- Versions :: [pages.github.com/versions](https://pages.github.com/versions)
 
 **GitHub Pages Gem**
 
