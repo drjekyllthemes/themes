@@ -578,6 +578,59 @@ pretty                            /2015/01/15/week-3-slideshow/index.html
 ```
 
 
+## CSS Preprocessor Example
+
+
+```
+├── _config.yml            # site configuration (add sass settings)
+└── css 
+    ├── _settings.scss     # include / partial settings
+    └── style.scss         # main styles 
+```
+
+will result in:
+
+```
+└── _site
+    └── css
+        └── style.css      # all-in-one styles (converted from scss to css)
+```
+
+Note: In your site configuration (`_config.yml`) use:
+
+```
+sass:
+  sass_dir: css     # gets used for partial lookup (default is _sass)
+```
+
+Example - `_settings.scss`:
+
+```
+$font-family:    Helvetica, Arial, sans-serif;
+
+$color-primary:  #8b0000;    // dark red (ruby)
+...
+```
+
+Exampe - `style.scss`:
+
+Note: Front matter markers (`---`) required; ensure Jekyll converts `style.scss` to `style.css`; 
+include all partials (e.g. `_settings.scss`, and so on) with `@import` directives.
+
+```
+---
+---
+
+@import 'settings';           // include partial (will use sass_dir for lookup)
+
+body {
+  font-family:  $font-family; // use variables, nested rules, and more
+}
+...
+```
+
+(Source: [jekyll-sass-converter gem](https://github.com/jekyll/jekyll-sass-converter))
+
 
 ## Template Examples
 
