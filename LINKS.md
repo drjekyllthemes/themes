@@ -18,7 +18,7 @@
 
 - Project :: [pages.github.com](https://pages.github.com/)
 
-### GitHub Pages Gem
+**GitHub Pages Gem**
 
 - Source :: [github.com/github/pages-gem](https://github.com/github/pages-gem)
 - Gem  :: [rubygems.org/gems/github-pages](https://rubygems.org/gems/github-pages)
@@ -34,8 +34,8 @@
 - [Extending Jekyll](http://pixelcog.com/blog/2013/jekyll-from-scratch-extending-jekyll/); Jul 2013
 - [pixelcog.com Site](http://pixelcog.com/) - [(Source)](https://github.com/pixelcog/pixelcog.github.io)
 
+**More**
 
 - tuts+ / [Building Static Sites with Jekyll](http://code.tutsplus.com/articles/building-static-sites-with-jekyll--net-22211)  by Andrew Burgess; Oct 2011
-
 - Development Seed / [Using Jekyll and GitHub Pages for Our Site](http://www.developmentseed.org/blog/2011/09/09/jekyll-github-pages/) by Young Hahn; Sep 2011
 
