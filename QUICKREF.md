@@ -76,21 +76,13 @@ $ jekyll help serve
   jekyll serve [options]
 
 Options:
-      --config CONFIG_FILE[,CONFIG_FILE2,...]  Custom configuration file
-      --future       Publishes posts with a future date
-      --limit_posts MAX_POSTS  Limits the number of posts to parse and publish
-  -w, --[no-]watch   Watch for changes and rebuild
-      --force_polling  Force watch to use polling
-      --lsi          Use LSI for improved related posts
-  -D, --drafts       Render posts in the _drafts folder
-      --unpublished  Render posts that were marked as unpublished
-  -q, --quiet        Silence output.
-  -V, --verbose      Print verbose output.
   -B, --detach       Run the server in the background (detach)
   -P, --port [PORT]  Port to listen on
   -H, --host [HOST]  Host to bind to
   -b, --baseurl [URL]  Base URL
+  
   --skip-initial-build  Skips the initial site build which occurs before the server is 
+  plus all all build options (see build command)
 ```
 
 
@@ -126,6 +118,8 @@ Minimial:
 ├── _layouts                           
 |   ├── default.html                   # master layout template
 |   └── post.html                      # blog post template
+├── css                               
+|   └── styles.css                     # styles for pages
 ├── feed.xml                           # web feed template (e.g. in rss or atom format)
 └── index.html                         # index template
 ```
@@ -134,6 +128,8 @@ will result in (with `permalink: date`):
 
 ```
 └── _site                                  # output build folder; site gets generated here
+    ├── css                               
+    |   └── styles.css                     # styles for pages (copied 1:1 as is)
     ├── 2015
     |   └── 01
     |       ├── 01
@@ -150,6 +146,8 @@ or result in (with `permalink: none`):
 
 ```
 └── _site                           # output build folder; site gets generated here
+    ├── css                               
+    |   └── styles.css                     # styles for pages (copied 1:1 as is)
     ├── week-1-factbook.html        # blog post page
     ├── week-2-hoe.html             # another blog post page
     ├── week-3-slideshow.html       # another blog post page
@@ -726,8 +724,8 @@ ruby                  | 2.1.1
 
 ```
 site.github.contributors    -- A list of your project's contributors (*)
-site.public_repositories    -- A list of your public repositories (*)
-site.organization_members   -- A list of your organization's public members (*)
+site.github.public_repositories    -- A list of your public repositories (*)
+site.github.organization_members   -- A list of your organization's public members (*)
 ...
 ```
 (*) as returned through the contributors/repositories list/organization members API
@@ -756,6 +754,58 @@ Note: The sitemap plugin is already added (and white-listed) on GitHub Pages.
 
 (Source: [`jekyll-sitemap` gem](https://github.com/jekyll/jekyll-sitemap))
 
+### How-To: Use Single `gh-pages` Branch; Delete `master` Branch
+
+Step 1a) Already has `gh-pages` branch:
+
+```
+git checkout gh-pages   
+git merge master
+git push
+```
+
+Step 1b) Create `gh-pages` branch:
+
+````
+git checkout -b gh-pages
+git merge master
+git push origin gh-pages
+````
+
+Step 2) Make `gh-pages` branch default branch on GitHub via settings tab
+
+Step 3)  Delete `master` branch on GitHub
+
+```
+git push origin :master     # will delete master branch on remote (that is, github)
+    
+git branch -d master        # will delete master branch in local remote
+```
+
+Step 4) Delete local git repo and get a fresh clone from GitHub
+
+```
+rm -rf <repo>
+git clone <repo-remote-url>
+```
+
+That's it.
+
+**Bonus: Check if remote is setup with `git remote show <repo-remote-shorthand>`**
+
+```
+$ git remote show origin
+# => * remote origin
+       Fetch URL: https://github.com/openbeer/book.git
+       Push  URL: https://github.com/openbeer/book.git
+       HEAD branch: gh-pages
+       Remote branch:
+          gh-pages tracked
+       Local branch configured for 'git pull':
+          gh-pages merges with remote gh-pages
+       Local ref configured for 'git push':
+          gh-pages pushes to gh-pages (up to date)
+```
 
 ## Octopress Commands
 
