@@ -596,11 +596,11 @@ will result in:
         └── style.css      # all-in-one styles (converted from scss to css)
 ```
 
-Note: In your site configuration (`_config.yml`) use:
+Example - `_config.yml`:
 
 ```
 sass:
-  sass_dir: css     # gets used for partial lookup (default is _sass)
+  sass_dir: css    # gets used for partial lookup (default is _sass)
 ```
 
 Example - `_settings.scss`:
@@ -614,9 +614,6 @@ $color-primary:  #8b0000;    // dark red (ruby)
 
 Exampe - `style.scss`:
 
-Note: Front matter markers (`---`) required; ensure Jekyll converts `style.scss` to `style.css`; 
-include all partials (e.g. `_settings.scss`, and so on) with `@import` directives.
-
 ```
 ---
 ---
@@ -628,6 +625,24 @@ body {
 }
 ...
 ```
+Note: Front matter (minimal) 
+
+```
+---
+---
+```
+
+or with comments
+
+```
+---
+# ensure Jekyll converts scss to css
+---
+```
+
+required; ensures Jekyll converts `style.scss` to `style.css`; 
+include all partials (e.g. `_settings.scss`, and so on) with `@import` directives.
+
 
 (Source: [jekyll-sass-converter gem](https://github.com/jekyll/jekyll-sass-converter))
 
