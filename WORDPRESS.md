@@ -37,16 +37,19 @@ admin:
 The Loop
 
 ```
-<?php while( have_posts() ) : the_post();  | {% for post in site.posts %}
-        ...                                |   ...
-      endhwile; ?>                         | {% endfor %}
+<?php while( have_posts() ) : the_post(); ?>  | {% for post in site.posts %}
+   <?php the_title(); ?>                      |   {{ post.title }}
+   <?php the_content(); ?>                    |   {{ post.content }}
+   ...                                        |   ...
+<?php endwhile; ?>                            | {% endfor %}
 ```
 
 
 Includes - `get_header()`, `get_sidebar()`, `get_footer()`
 
 ```
-<?php get_header(); ?>                   |  {{ include header.html }}
-<?php get_sidebar(); ?>                  |  {{ include sidebar.html }}
-<?php get_footer(); ?>                   |  {{ include footer.html }}
+<?php get_header(); ?>                   |  {% include header.html  %}
+<?php get_sidebar(); ?>                  |  {% include sidebar.html %}
+<?php get_footer(); ?>                   |  {% include footer.html  %}
 ```
+
