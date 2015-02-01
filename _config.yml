@@ -1,0 +1,40 @@
+###########
+# site.url, site.title
+
+title: 'Planet Jekyll'
+url:   'http://feedreader.github.io/planet-jekyll'
+
+########
+# more settings
+
+markdown: kramdown
+
+collections:
+  themes:
+    output: true
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+###
+# todo/check:
+#   possible to exclude *.ini ???
+
+exclude:
+- jekyll-alt.ini
+- jekyll-dev.ini
+- jekyll-meta.ini
+- jekyll-themes.ini
+- jekyll.ini
+- LINKS.md
+- QUICKREF.md
+- QUICKREF-DRAFT.md
+- README.md
+- WORDPRESS.md
+
+
+safe: true
+lsi: false
+
