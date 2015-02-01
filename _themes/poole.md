@@ -11,6 +11,9 @@ license:    MIT License
 ## white, single-column ??
 ---
 
+[[Source]]({{page.source-url}}) [[Demo]]({{page.demo-url}})
+
+
 Poole is a minimal Jekyll theme by Mark Otto (San Francisco, CA) and includes:
 
 - Complete Jekyll setup (layouts, config, 404, web feed, posts, and example page)

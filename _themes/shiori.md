@@ -11,6 +11,9 @@ license:    MIT License
 ## bootstrap, sass, white, single-column ??
 ---
 
+[[Source]]({{page.source-url}}) [[Demo]]({{page.demo-url}})
+
+
 Shiori is a Jekyll Theme based on Bootstrap 3.x by Elle Kasai (Vancouver, Canada).
 
 Based on [Flat UI Colors](http://flatuicolors.com) the theme offers

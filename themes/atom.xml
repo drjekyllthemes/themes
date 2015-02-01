@@ -19,7 +19,9 @@ layout: null
     <link href="{{ site.url }}{{ theme.url }}"/>
     <updated>{{ theme.date | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ theme.url }}</id>
-    <content type="html">{{ theme.content | xml_escape }}</content>
+    <content type="html">
+      {{ theme.content | xml_escape }}
+    </content>
   </entry>
   {% endfor %}
 </feed>
