@@ -1,4 +1,4 @@
-# WordPress <=> Jekyll - Template (Theming) Cheatsheet
+# WordPress <=> Jekyll - Template (Theming) Cheat Sheet
 
 
 
@@ -9,7 +9,10 @@
 <?php bloginfo('description'); ?>  |   {{ site.description }}
 <?php bloginfo('url'); ?>          |   {{ site.url }}
 <?php bloginfo('admin_email'); ?>  |   {{ site.admin.email }}
-<?php bloginfo('version'); ?>      |   {{ site.version }}
+```
+
+```
+<?php bloginfo('version'); ?>      |   {{ jekyll.version }}   # predefined
 ```
 
 
@@ -20,7 +23,6 @@ title:        Dr Jekyll and Mr Hyde    ## or
 name:         Dr Jekyll and Mr Hyde
 description:  Just another Jekyll site
 url:          http://www.example.com
-version:      3.0                      ## check if auto-set/builtin ??
 
 admin:
   email:      admin@example.com

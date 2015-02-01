@@ -145,7 +145,7 @@ will result in (with `permalink: date`):
     └── index.html                         # index page
 ```
 
-or result in (with `permalink: none`):
+or result in (with `permalink: /:title.html`):
 
 ```
 └── _site                           # output build folder; site gets generated here
@@ -157,6 +157,11 @@ or result in (with `permalink: none`):
     ├── feed.xml                    # web feed (e.g. in rss or atom format)
     └── index.html                  # index page
 ```
+
+Note: See the `jekyll-minimal-theme` starter kit for an example
+[source repo](https://github.com/feedreader/jekyll-minimal-theme) and
+[live demo](http://feedreader.github.io/jekyll-minimal-theme).
+
 
 
 With post drafts, page collections, data stores and shared building blocks:
