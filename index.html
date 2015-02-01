@@ -1,0 +1,30 @@
+---
+layout: default
+title: Jekyll Theme of the Month Series
+---
+
+<h1>{{ page.title }}</h1>
+
+
+ {% include welcome-themes.html %}
+
+
+<h2>2015</h2>
+
+{% for post in site.posts %}
+<div class='post'>
+  <header class='post-header'>
+    <a href="{{ site.url }}{{ post.url }}">
+      <span class='post-title'>{{ post.title }}</span>
+    </a>
+    <!--
+      <p class='post-meta'>{{ post.date | date: "%b %-d, %Y" }}</p>
+     -->
+  </header>
+
+  <article class='post-content'>
+    <!-- todo -- use excerpt ??? -->
+  </article>
+</div>
+{% endfor %}
+
