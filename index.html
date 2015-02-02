@@ -11,20 +11,18 @@ title: Jekyll Theme of the Month Series
 
 <h2>2015</h2>
 
+<div class='gallery'>
 {% for post in site.posts %}
-<div class='post'>
-  <header class='post-header'>
+
+  <div class='theme' style='display: inline-block;'>
     <a href="{{ site.url }}{{ post.url }}">
-      <span class='post-title'>{{ post.title }}</span>
+      <img scr="{{site.url}}/i/{{post.screenshot}}">
     </a>
-    <!--
-      <p class='post-meta'>{{ theme.date | date: "%b %-d, %Y" }}</p>
-     -->
-  </header>
+    <br>
+    <a href="{{ site.url }}{{ post.url }}">
+      {{ post.title }}
+    </a>
+  </div>
 
-  <article class='post-content'>
-    <!-- todo -- use excerpt ??? -->
-  </article>
-</div>
 {% endfor %}
-
+</div>

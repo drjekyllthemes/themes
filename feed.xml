@@ -13,14 +13,14 @@ layout: null
   </author>
   <generator>Jekyll v{{ jekyll.version }}</generator>
 
-  {% for theme in site.themes limit: 10 %}
+  {% for post in site.posts limit: 10 %}
   <entry>
-    <title>{{ theme.title | xml_escape }}</title>
-    <link href="{{ site.url }}{{ theme.url }}"/>
-    <updated>{{ theme.date | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ theme.url }}</id>
+    <title>{{ post.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ post.url }}</id>
     <content type="html">
-      {{ theme.content | xml_escape }}
+      {{ post.content | xml_escape }}
     </content>
   </entry>
   {% endfor %}
