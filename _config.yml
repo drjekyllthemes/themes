@@ -7,6 +7,8 @@ url:   'http://planetjekyll.github.io/themes'
 ########
 # more settings
 
+permalink: /:title.html
+
 markdown: kramdown
 
 sass:

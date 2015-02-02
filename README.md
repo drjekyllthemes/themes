@@ -1,6 +1,7 @@
 # Jekyll Theme of the Month Series
 
-Welcome. The Jekyll Theme of the Month series
+Welcome. The Jekyll Theme of the Month series @
+[`planetjekyll.github.io/themes`](http://planetjekyll.github.io/themes) 
 presents a new Jekyll theme every month.
 Have your say!
 
