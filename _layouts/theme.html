@@ -7,7 +7,9 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
   </header>
-
+ 
+  {% include welcome-gems.html %}
+ 
   <article class="post-content">
     {{ content }}
   </article>
