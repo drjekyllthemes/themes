@@ -6,16 +6,16 @@ title: Jekyll Theme of the Month Series
 <h1>{{ page.title }}</h1>
 
 
- {% include welcome-themes.html %}
+ {% include welcome.html %}
 
 
 <h2>2015</h2>
 
-{% for theme in site.themes %}
+{% for post in site.posts %}
 <div class='post'>
   <header class='post-header'>
-    <a href="{{ site.url }}{{ theme.url }}">
-      <span class='post-title'>{{ theme.title }}</span>
+    <a href="{{ site.url }}{{ post.url }}">
+      <span class='post-title'>{{ post.title }}</span>
     </a>
     <!--
       <p class='post-meta'>{{ theme.date | date: "%b %-d, %Y" }}</p>

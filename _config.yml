@@ -1,17 +1,13 @@
 ###########
 # site.url, site.title
 
-title: 'Planet Jekyll'
-url:   'http://feedreader.github.io/planet-jekyll'
+title: 'Jekyll Theme of the Month Series | Planet Jekyll'
+url:   'http://planetjekyll.github.io/themes'
 
 ########
 # more settings
 
 markdown: kramdown
-
-collections:
-  themes:
-    output: true
 
 sass:
   sass_dir: css
@@ -23,16 +19,7 @@ sass:
 #   possible to exclude *.ini ???
 
 exclude:
-- jekyll-alt.ini
-- jekyll-dev.ini
-- jekyll-meta.ini
-- jekyll-themes.ini
-- jekyll.ini
-- LINKS.md
-- QUICKREF.md
-- QUICKREF-DRAFT.md
 - README.md
-- WORDPRESS.md
 
 
 safe: true
