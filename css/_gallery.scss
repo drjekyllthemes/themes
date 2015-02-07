@@ -1,0 +1,27 @@
+
+.gallery {
+
+  div.link,
+  div.book,
+  div.app,
+  div.theme {
+    display: inline-block;
+    width: 330+15px;   // note: assume img w/ 320x240 plus add margin+border
+    margin-right: 15px;
+    margin-bottom: 15px;
+    vertical-align: top;
+    text-align: center;
+  }
+
+  div.link-title,
+  div.app-title,
+  div.theme-title {
+    margin-bottom: 10px;
+  }
+
+   .link-img img,
+    .app-img img,
+  .theme-img img {
+    border: 1px solid #bbb;
+  }
+}
