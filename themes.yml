@@ -1,0 +1,16 @@
+#############################################
+#  Jekyll Themes of the Month Series
+#
+
+- title:      "#2015.2 - Shiori Jekyll Theme"
+  source_url: https://github.com/ellekasai/shiori
+  demo_url:   http://ellekasai.github.io/shiori
+  screenshot: shiori-320x240.png
+  license:    MIT License
+
+- title:      "#2015.1 - Poole Jekyll Theme"
+  source_url: https://github.com/poole/poole
+  demo_url:   http://demo.getpoole.com
+  screenshot: poole-320x240.png
+  license:    MIT License
+
