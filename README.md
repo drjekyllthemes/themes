@@ -19,7 +19,7 @@
   license:   MIT
 ~~~
 
-* Make a 250 x 200 thumbnail (*) and drop it in the thumbnails folder.
+* Make a 250 x 200 thumbnail and drop it in the thumbnails folder.
   Note: Do NOT forget to list its filename in the `themes.yml` entry.
 * Check that everything is ok, then open up a pull request.
 * Thanks!
@@ -39,10 +39,10 @@ that is, 1024 pixel) e.g.
     ---- * 100 =  24.4 %
     1024
 
-And than readjust the scale to 24.4% and set the width and height to 250 x 200.
+Than readjust the scale to 24.4% and set the width and height to 250 x 200.
 That's it.
 
-Another example - let's say the screenshoot size is 500 x 400 than
+Another example - let's say the screenshoot size is 500 x 400 using the formula
 calculate how much to zoom in e.g.
 
      250
