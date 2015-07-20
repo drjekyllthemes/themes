@@ -5,7 +5,7 @@
 
 ## How-To Add Your Theme
 
-* Fork the [themes repo](https://github.com/drjekyllthemes/themes) on GitHub
+* Fork the [`/themes` repo](https://github.com/drjekyllthemes/themes) on GitHub
 * Add a new entry in the [`themes.yml`](https://github.com/drjekyllthemes/themes/blob/master/themes.yml) file and fill out all fields.
   Example:
 
