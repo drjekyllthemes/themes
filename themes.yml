@@ -413,6 +413,15 @@
   author: Scott Emmons
   thumbnail: jekyll-clean.png
   license: Creative Commons Attribution International 4.0 License
+
+- title: Jekyll Clean Dark
+  homepage: https://github.com/streetturtle/jekyll-clean-dark
+  download: https://github.com/streetturtle/jekyll-clean-dark/archive/gh-pages.zip
+  demo: http://pavelmakhov.com/jekyll-clean-dark/
+  author: Pavel Makhov
+  thumbnail: jekyll-clean-dark.png
+  license: Creative Commons Attribution International 4.0 License
+
 - title: Mediator
   homepage: https://github.com/dirkfabisch/mediator
   download: https://github.com/dirkfabisch/mediator/archive/master.zip
