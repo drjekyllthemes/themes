@@ -9,6 +9,14 @@
 #
 #  auto-generate donwload link from github link??
 
+- title:     Holo Alfa
+  homepage:  https://github.com/steinvc/holo-alfa
+  download:  https://github.com/steinvc/holo-alfa/archive/gh-pages.zip
+  demo:      http://steinvc.github.io/holo-alfa/
+  author:    Stijn van Cuijk
+  thumbnail: holo-alfa.png
+  license:   MIT
+
 - title:     Minimal
   homepage:  https://github.com/drjekyllthemes/jekyll-minimal-theme
   download:  https://github.com/drjekyllthemes/jekyll-minimal-theme/archive/gh-pages.zip
