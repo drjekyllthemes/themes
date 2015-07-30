@@ -9,14 +9,6 @@
 #
 #  auto-generate donwload link from github link??
 
-- title:     Holo Alfa
-  homepage:  https://github.com/steinvc/holo-alfa
-  download:  https://github.com/steinvc/holo-alfa/archive/gh-pages.zip
-  demo:      http://steinvc.github.io/holo-alfa/
-  author:    Stijn van Cuijk
-  thumbnail: holo-alfa.png
-  license:   MIT
-
 - title:     Minimal
   homepage:  https://github.com/drjekyllthemes/jekyll-minimal-theme
   download:  https://github.com/drjekyllthemes/jekyll-minimal-theme/archive/gh-pages.zip
@@ -83,18 +75,37 @@
   license:   MIT
 
 
-- title: Scribble
-  homepage: https://github.com/muan/scribble
-  download: https://github.com/muan/scribble/archive/master.zip
-  demo: http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/
-  author: Mu-An Chiou
+
+- title:     Holo Alfa
+  homepage:  https://github.com/steinvc/holo-alfa
+  download:  https://github.com/steinvc/holo-alfa/archive/gh-pages.zip
+  demo:      http://steinvc.github.io/holo-alfa/
+  author:    Stijn van Cuijk
+  thumbnail: holo-alfa.png
+  license:   MIT
+
+- title:     "{ Personal }"
+  homepage:  https://github.com/PanosSakkos/personal-jekyll-theme
+  download:  https://github.com/PanosSakkos/personal-jekyll-theme/archive/master.zip
+  demo:      http://panossakkos.github.io
+  author:    Panos Sakkos
+  thumbnail: personal.jpg
+  license:   MIT
+
+
+
+- title:     Scribble
+  homepage:  https://github.com/muan/scribble
+  download:  https://github.com/muan/scribble/archive/master.zip
+  demo:      http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/
+  author:    Mu-An Chiou
   thumbnail: scribble.png
-  license: MIT
-- title: Green Tea
-  homepage: http://richbray.me/frap/
-  download: http://richbray.me/frap/gt.zip
-  demo: http://richbray.me/frap/gt/
-  author: Richard Bray
+  license:   MIT
+- title:     Green Tea
+  homepage:  http://richbray.me/frap/
+  download:  http://richbray.me/frap/gt.zip
+  demo:      http://richbray.me/frap/gt/
+  author:    Richard Bray
   thumbnail: green-tea.png
 - title: Vanilla Bean Creme
   homepage: http://richbray.me/frap/
@@ -414,6 +425,7 @@
   author: Oliver Stapleton
   thumbnail: solid.png
   license: Apache License Version 2.0
+
 - title: Jekyll Clean
   homepage: http://github.com/scotte/jekyll-clean
   download: https://github.com/scotte/jekyll-clean/zipball/gh-pages
@@ -728,12 +740,4 @@
   demo: https://diezcami.github.io/arctic-fox-theme
   author: Camille Diez
   thumbnail: arctic-fox.png
-  license: MIT
-
-- title: "{ Personal }"
-  homepage: https://github.com/PanosSakkos/personal-jekyll-theme
-  download: https://github.com/PanosSakkos/personal-jekyll-theme/archive/master.zip
-  demo: http://panossakkos.github.io
-  author: Panos Sakkos
-  thumbnail: personal.jpg
   license: MIT
