@@ -17,6 +17,14 @@
   thumbnail: tiffany.png
   license:   MIT
 
+- title:     Jekyll-MDL
+  homepage:  https://github.com/gdgmanagua/jekyll-mdl
+  download:  https://github.com/gdg-managua/jekyll-mdl/releases
+  demo:      http://www.gdgmanagua.org/jekyll-mdl
+  author:    Google Developers Group Managua
+  thumbnail: jekyll-mdl-screen.jpg
+  license:   Apache
+
 
 - title:     Minimal
   homepage:  https://github.com/drjekyllthemes/jekyll-minimal-theme
