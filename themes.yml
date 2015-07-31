@@ -9,24 +9,8 @@
 #
 #  auto-generate donwload link from github link??
 
-- title:     Tiffany
-  homepage:  https://github.com/dubuyuye/blog
-  download:  https://github.com/dubuyuye/blog/archive/gh-pages.zip
-  demo:      http://blog.rainynight.top/2015-03-12/spring-security/
-  author:    RainyNight
-  thumbnail: tiffany.png
-  license:   MIT
 
-- title:     Jekyll-MDL
-  homepage:  https://github.com/gdgmanagua/jekyll-mdl
-  download:  https://github.com/gdg-managua/jekyll-mdl/releases
-  demo:      http://www.gdgmanagua.org/jekyll-mdl
-  author:    Google Developers Group Managua
-  thumbnail: jekyll-mdl-screen.jpg
-  license:   Apache
-
-
-- title:     Minimal
+- title:     Dr Jekyll's Minimal
   homepage:  https://github.com/drjekyllthemes/jekyll-minimal-theme
   download:  https://github.com/drjekyllthemes/jekyll-minimal-theme/archive/gh-pages.zip
   demo:      http://drjekyllthemes.github.io/jekyll-minimal-theme/
@@ -34,7 +18,7 @@
   thumbnail: drjekyll-minimal.png
   license:   Public Domain
 
-- title:     Bootstrap
+- title:     Dr Jekyll's Bootstrap
   homepage:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme
   download:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme/archive/gh-pages.zip
   demo:      http://drjekyllthemes.github.io/jekyll-bootstrap-theme/
@@ -42,7 +26,7 @@
   thumbnail: drjekyll-bootstrap.png
   license:   Public Domain
 
-- title:     Classics Book
+- title:     Dr Jekyll's Classics Book
   homepage:  https://github.com/drjekyllthemes/jekyll-book-theme
   download:  https://github.com/drjekyllthemes/jekyll-book-theme/archive/gh-pages.zip
   demo:      http://drjekyllthemes.github.io/jekyll-book-theme/
@@ -59,7 +43,7 @@
   thumbnail: poole.png
   license:   MIT
 
-- title:     Hyde
+- title:     Poole's Hyde
   homepage:  https://github.com/poole/hyde
   download:  https://github.com/poole/hyde/archive/master.zip
   demo:      http://hyde.getpoole.com/
@@ -67,7 +51,7 @@
   thumbnail: poole-hyde.png
   license:   MIT
 
-- title:     Lanyon
+- title:     Poole's Lanyon
   homepage:  https://github.com/poole/lanyon
   download:  https://github.com/poole/lanyon/archive/master.zip
   demo:      http://lanyon.getpoole.com/
@@ -108,6 +92,15 @@
   author:    Panos Sakkos
   thumbnail: personal.jpg
   license:   MIT
+
+
+- title:     Jekyll Material Design Lite (MDL)
+  homepage:  https://github.com/gdg-managua/jekyll-mdl
+  download:  https://github.com/gdg-managua/jekyll-mdl/releases
+  demo:      http://www.gdgmanagua.org/jekyll-mdl
+  author:    Google Developers Group (GDG) Managua
+  thumbnail: jekyll-mdl-screen.jpg
+  license:   Apache
 
 
 
@@ -758,3 +751,11 @@
   author: Camille Diez
   thumbnail: arctic-fox.png
   license: MIT
+
+- title:     Tiffany
+  homepage:  https://github.com/dubuyuye/blog
+  download:  https://github.com/dubuyuye/blog/archive/gh-pages.zip
+  demo:      http://blog.rainynight.top
+  author:    RainyNight
+  thumbnail: tiffany.png
+  license:   MIT
