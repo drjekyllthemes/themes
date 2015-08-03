@@ -759,3 +759,11 @@
   author:    RainyNight
   thumbnail: tiffany.png
   license:   MIT
+
+- title:     Centrarium
+  homepage:  https://github.com/bencentra/centrarium
+  download:  https://github.com/bencentra/centrarium/archive/master.zip
+  demo:      http://bencentra.com/centrarium/
+  author:    Ben Centra
+  thumbnail: centrarium.png
+  license:   MIT
