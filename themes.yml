@@ -767,3 +767,11 @@
   author:    Ben Centra
   thumbnail: centrarium.png
   license:   MIT
+
+- title:     Mickey
+  homepage:  https://github.com/vincentchan/mickey
+  download:  https://github.com/vincentchan/mickey/archive/master.zip
+  demo:      http://vincentchan.github.io/mickey
+  author:    Vincent Chan
+  thumbnail: mickey.png
+  license:   MIT
