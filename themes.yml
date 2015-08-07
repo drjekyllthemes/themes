@@ -94,7 +94,7 @@
   license:   MIT
 
 
-- title:     Jekyll Material Design Lite (MDL)
+- title:     Material Design Lite (MDL)
   homepage:  https://github.com/gdg-managua/jekyll-mdl
   download:  https://github.com/gdg-managua/jekyll-mdl/releases
   demo:      http://www.gdgmanagua.org/jekyll-mdl
@@ -111,25 +111,29 @@
   author:    Mu-An Chiou
   thumbnail: scribble.png
   license:   MIT
+
 - title:     Green Tea
   homepage:  http://richbray.me/frap/
   download:  http://richbray.me/frap/gt.zip
   demo:      http://richbray.me/frap/gt/
   author:    Richard Bray
   thumbnail: green-tea.png
+
 - title: Vanilla Bean Creme
   homepage: http://richbray.me/frap/
   download: http://richbray.me/frap/vbc.zip
   demo: http://richbray.me/frap/vbc/
   author: Richard Bray
   thumbnail: vanilla-bean-creme.png
+
 - title: Solar
   homepage: https://github.com/mattvh/solar-theme-jekyll
   download: https://github.com/mattvh/solar-theme-jekyll/archive/master.zip
   demo: http://mattvh.github.io/solar-theme-jekyll/
   author: Matt Harzewski
   thumbnail: solar.png
-  license: GNU General Public License Version 2 or higher
+  license: GNU GPL
+
 - title: Left
   homepage: https://github.com/holman/left
   download: https://github.com/holman/left/archive/gh-pages.zip
@@ -137,12 +141,14 @@
   author: Zach Holman
   thumbnail: left.png
   license: MIT
+
 - title: Slate
   homepage: https://github.com/jasoncostello/slate
   download: https://github.com/jasoncostello/slate/archive/master.zip
   author: Jason Costello
   thumbnail: slate.png
   license: MIT
+
 
 - title: So Simple
   homepage: https://github.com/mmistakes/so-simple-theme
@@ -168,6 +174,13 @@
   thumbnail: skinny-bones.gif
   license: MIT
 
+- title: HPSTR
+  homepage: https://github.com/mmistakes/hpstr-jekyll-theme
+  download: https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip
+  demo: http://mmistakes.github.io/hpstr-jekyll-theme/
+  author: Michael Rose
+  thumbnail: hpstr.png
+  license: MIT
 
 
 - title: Balzac
@@ -185,13 +198,6 @@
   thumbnail: lagom.png
   license: MIT
 
-- title: HPSTR
-  homepage: https://github.com/mmistakes/hpstr-jekyll-theme
-  download: https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip
-  demo: http://mmistakes.github.io/hpstr-jekyll-theme/
-  author: Michael Rose
-  thumbnail: hpstr.png
-  license: MIT
 
 - title: Dbyll
   homepage: https://github.com/dbtek/dbyll
@@ -326,7 +332,7 @@
   thumbnail: hikari.png
   license: MIT
 
-- title: brume
+- title: Brume
   homepage: https://github.com/aigarsdz/brume
   download: https://github.com/aigarsdz/brume/archive/master.zip
   demo: http://aigarsdz.github.io/brume
@@ -355,14 +361,14 @@
   download: https://github.com/berkoz/gereksiz/archive/master.zip
   author: Berk Özbalcı
   thumbnail: gereksiz.png
-  license: BSD 2-Clause License
+  license: BSD
 
 - title: Architect
   homepage: https://github.com/pietromenna/jekyll-architect-theme
   download: https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
   author: Jason Long, ported by Pietro Menna
   thumbnail: architect.png
-  license: Creative Commons Attribution 4.0 International License
+  license: Creative Commons Attribution International
 
 - title: Simpleyyt
   homepage: https://github.com/Simpleyyt/simpleyyt.github.io
@@ -386,7 +392,7 @@
   demo: http://www.lucasgatsas.ch
   author: Lucas Gatsas
   thumbnail: cleanmagicmedium.png
-  license: Apache License Version 2.0
+  license: Apache
 
 - title: Otter Pop
   homepage: https://github.com/tybenz/otter-pop/
@@ -410,7 +416,7 @@
   demo: http://alixedi.github.io
   author: Ali Zaidi
   thumbnail: typewriter.png
-  license: BSD License
+  license: BSD
 
 - title: Grid Gallery
   homepage: https://github.com/nadjetey/GridGallery
@@ -418,7 +424,7 @@
   demo: https://nadjetey.github.io/GridGallery
   author: Nii Adjetey Sowah
   thumbnail: gridgallery.png
-  license: WTF Public License
+  license: WTF
 
 - title: White Paper
   homepage: https://github.com/vinitkumar/white-paper
@@ -427,6 +433,7 @@
   author: Vinit Kumar
   thumbnail: white-paper.png
   license: MIT
+
 - title: Bitwiser
   homepage: http://bitwiser.in/bitwiser/
   download: http://goo.gl/iC85jv
@@ -434,14 +441,14 @@
   author: Brijesh Bittu
   thumbnail: bitwiser.png
   license: MIT
+
 - title: Freelancer
   homepage: https://github.com/jeromelachaud/freelancer-theme
   download: https://github.com/jeromelachaud/freelancer-theme/archive/master.zip
   demo: https://jeromelachaud.github.io/freelancer-theme
   author: Jerome Lachaud
   thumbnail: freelancer.png
-  license: Apache License Version 2.0
-
+  license: Apache
 
 - title: Leap Day
   homepage: https://github.com/mattgraham/Leap-Day
@@ -482,20 +489,22 @@
   author: Rowan Oulton
   thumbnail: travelog.png
   license: MIT
+
 - title: Agency
   homepage: https://github.com/y7kim/agency-jekyll-theme
   download: https://github.com/y7kim/agency-jekyll-theme/archive/gh-pages.zip
   demo: https://y7kim.github.io/agency-jekyll-theme
   author: Rick Kim
   thumbnail: agency.jpg
-  license: Apache License Version 2.0
+  license: Apache
+
 - title: Solid
   homepage: https://github.com/st4ple/solid-jekyll
   download: https://github.com/st4ple/solid-jekyll/archive/master.zip
   demo: http://st4ple.github.io/solid-jekyll/
   author: Oliver Stapleton
   thumbnail: solid.png
-  license: Apache License Version 2.0
+  license: Apache
 
 - title: Clean
   homepage: http://github.com/scotte/jekyll-clean
@@ -503,7 +512,7 @@
   demo: http://scotte.github.io/jekyll-clean
   author: Scott Emmons
   thumbnail: jekyll-clean.png
-  license: Creative Commons Attribution International 4.0 License
+  license: Creative Commons Attribution International
 
 - title: Clean Dark
   homepage: https://github.com/streetturtle/jekyll-clean-dark
@@ -511,7 +520,7 @@
   demo: http://pavelmakhov.com/jekyll-clean-dark/
   author: Pavel Makhov
   thumbnail: jekyll-clean-dark.png
-  license: Creative Commons Attribution International 4.0 License
+  license: Creative Commons Attribution International
 
 - title: Mediator
   homepage: https://github.com/dirkfabisch/mediator
@@ -545,6 +554,7 @@
   author: Gayan Virajith
   thumbnail: harmony.jpg
   license: MIT
+
 - title: Contrast
   homepage: https://github.com/niklasbuschmann/contrast
   download: https://github.com/niklasbuschmann/contrast/archive/gh-pages.zip
@@ -552,6 +562,7 @@
   author: Niklas Buschmann
   thumbnail: contrast.png
   license: MIT
+
 - title: Single Paged
   homepage: https://github.com/t413/SinglePaged
   download: https://github.com/t413/SinglePaged/archive/gh-pages.zip
@@ -559,20 +570,23 @@
   author: Tim O'Brien
   thumbnail: singlepaged.png
   license: MIT
+
 - title: Clean Blog
   homepage: https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll
   download: https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll/archive/gh-pages.zip
   demo: http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/
   author: Start Bootstrap
   thumbnail: clean-blog.png
-  license: Apache License Version 2.0
+  license: Apache
+
 - title: Landing Page
   homepage: https://github.com/swcool/landing-page-theme
   download: https://github.com/swcool/landing-page-theme/archive/master.zip
   demo: http://shaneweng.com/landing-page-theme/
   author: Shane Weng
   thumbnail: landing-page.png
-  license: Apache License Version 2.0
+  license: Apache
+
 - title: autm-rb
   homepage: https://github.com/railsr/autm-rb
   download: https://github.com/railsr/autm-rb/archive/master.zip
@@ -580,6 +594,7 @@
   author: Kirill Beletskiy
   thumbnail: autm-rb.png
   license: MIT
+
 - title: Almace Scaffolding
   homepage: https://github.com/sparanoid/almace-scaffolding
   download: https://github.com/sparanoid/almace-scaffolding/archive/master.zip
@@ -609,7 +624,7 @@
   demo: http://lucasgatsas.ch
   author: Lucas Gatsas
   thumbnail: ice-and-fire.png
-  license: Apache License Version 2.0
+  license: Apache
 
 - title: Open Theme
   homepage: https://github.com/open-start/opentheme
@@ -634,6 +649,7 @@
   author: Ankan Biswas
   thumbnail: uno-dbyll.png
   license: MIT
+
 - title: Minimal-block
   homepage: https://github.com/drvy/minimal-block
   download: https://github.com/drvy/minimal-block/archive/master.zip
@@ -641,6 +657,7 @@
   author: Dragomir Yordanov
   thumbnail: minimal-block.png
   license: MIT
+
 - title: Compass
   homepage: https://github.com/excentris/compass
   download: https://github.com/excentris/compass/archive/master.zip
@@ -648,6 +665,7 @@
   author: Eduardo Rubio
   thumbnail: compass.png
   license: MIT
+
 - title: Type Theme
   homepage: https://github.com/rohanchandra/type-theme
   download: https://github.com/rohanchandra/type-theme/archive/master.zip
@@ -655,6 +673,7 @@
   author: Rohan Chandra
   thumbnail: type-theme.png
   license: MIT
+
 - title: Gaya
   homepage: https://github.com/gayanvirajith/gaya
   download: https://github.com/gayanvirajith/gaya/archive/master.zip
@@ -701,7 +720,7 @@
   demo: https://jeromelachaud.github.io/grayscale-theme
   author: Jerome Lachaud
   thumbnail: grayscale.jpg
-  license: Apache License Version 2.0
+  license: Apache
 
 - title: Metaphor
   homepage: https://github.com/prio101/metaphor-jekyll
@@ -749,7 +768,7 @@
   demo: http://themes.3rdwavemedia.com/demo/devaid/
   author: Xiaoying Riley
   thumbnail: devaid.png
-  license: Creative Commons Attribution 3.0 Unported License
+  license: Creative Commons Attribution
 
 - title: One Page Wonder
   homepage: https://github.com/mushishi78/one-page-wonder-jekyll
@@ -765,7 +784,7 @@
   demo: http://carte-noire.jacobtomlinson.co.uk/
   author: Jacob Tomlinson
   thumbnail: carte-noire.png
-  license: GNU General Public License Version 3
+  license: GNU GPL
 
 - title: Pithy
   homepage: https://github.com/smallmuou/Jekyll-Pithy
