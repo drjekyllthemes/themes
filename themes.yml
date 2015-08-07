@@ -143,6 +143,7 @@
   author: Jason Costello
   thumbnail: slate.png
   license: MIT
+
 - title: So Simple
   homepage: https://github.com/mmistakes/so-simple-theme
   download: https://github.com/mmistakes/so-simple-theme/archive/master.zip
@@ -150,6 +151,7 @@
   author: Michael Rose
   thumbnail: so-simple.png
   license: MIT
+
 - title: Minimal Mistakes
   homepage: https://github.com/mmistakes/minimal-mistakes
   download: https://github.com/mmistakes/minimal-mistakes/archive/master.zip
@@ -157,6 +159,17 @@
   author: Michael Rose
   thumbnail: minimal-mistakes.png
   license: MIT
+
+- title: Skinny Bones
+  homepage: https://github.com/mmistakes/skinny-bones-jekyll
+  download: https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip
+  demo: http://mmistakes.github.io/skinny-bones-jekyll/
+  author: Michael Rose
+  thumbnail: skinny-bones.gif
+  license: MIT
+
+
+
 - title: Balzac
   homepage: https://github.com/coletownsend/balzac-for-jekyll
   download: https://github.com/coletownsend/balzac-for-jekyll/archive/master.zip
@@ -164,12 +177,14 @@
   author: Cole Townsend
   thumbnail: balzac.jpg
   license: MIT
+
 - title: Lagom
   homepage: https://github.com/swanson/lagom
   download: https://github.com/swanson/lagom/archive/master.zip
   author: Matt Swanson
   thumbnail: lagom.png
   license: MIT
+
 - title: HPSTR
   homepage: https://github.com/mmistakes/hpstr-jekyll-theme
   download: https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip
@@ -177,6 +192,7 @@
   author: Michael Rose
   thumbnail: hpstr.png
   license: MIT
+
 - title: Dbyll
   homepage: https://github.com/dbtek/dbyll
   download: https://github.com/dbtek/dbyll/archive/master.zip
@@ -184,6 +200,7 @@
   author: Ismail Demirbilek
   thumbnail: dbyll.png
   license: MIT
+
 - title: Exemplar
   homepage: https://github.com/tybenz/exemplar
   download: https://github.com/tybenz/exemplar/archive/master.zip
@@ -191,6 +208,7 @@
   author: Tyler Benziger
   thumbnail: exemplar.png
   license: MIT
+
 - title: Kasper
   homepage: https://github.com/rosario/kasper
   download: https://github.com/rosario/kasper/archive/master.zip
@@ -198,13 +216,15 @@
   author: Rosario Rascuna
   thumbnail: kasper.png
   license: MIT
+
 - title: Swift
   homepage: https://github.com/pranavrajs/swift/
   download: https://github.com/pranavrajs/swift/archive/master.zip
   demo: http://pranavrajs.me/swift/
-  author: Pranav
+  author: Pranav Raj S
   thumbnail: swift.png
   license: MIT
+
 - title: Flex
   homepage: https://github.com/the-development/flex
   download: https://github.com/the-development/flex/archive/master.zip
@@ -254,22 +274,26 @@
 - title: Simply Grey
   homepage: https://github.com/mondss/simplygrey-jekyll
   download: https://github.com/mondss/simplygrey-jekyll/archive/master.zip
-  author: exaem
+  author: Liam Symonds
   thumbnail: simply-grey.png
-  license: BSD License
+  license: BSD
+
 - title: Herring Cove
   homepage: https://github.com/arnp/herring-cove
   download: https://github.com/arnp/herring-cove/archive/master.zip
-  author: arnp
+  author: Ravi Patel
   thumbnail: herring-cove.jpg
   license: MIT
-- title: hushaw
-  homepage: https://github.com/hushaw/hushaw.github.com
-  download: https://github.com/hushaw/hushaw.github.com/archive/master.zip
-  demo: http://hushaw.github.io
-  author: signifox
-  thumbnail: hushaw.png
-  license: MIT
+
+## 404 not found - check back ??
+## - title: hushaw
+##   homepage: https://github.com/hushaw/hushaw.github.com
+##  download: https://github.com/hushaw/hushaw.github.com/archive/master.zip
+##  demo: http://hushaw.github.io
+##  author: signifox
+##  thumbnail: hushaw.png
+##  license: MIT
+
 - title: redcup
   homepage: https://github.com/nadjetey/redcup
   download: https://github.com/nadjetey/redcup/archive/master.zip
@@ -277,19 +301,23 @@
   author: Nii Adjetey Sowah
   thumbnail: redcup.png
   license: Creative Commons Attribution 3.0 Unported License
-- title: Solo (single-page)
-  homepage: http://chibicode.github.io/solo/
-  download: http://github.com/chibicode/solo/
+
+- title: Solo         ## (single-page)
+  homepage: http://github.com/chibicode/solo/
+  download: http://github.com/chibicode/solo/archive/master.zip
   demo: http://chibicode.github.io/solo/
   author: Shu Uesugi
   thumbnail: solo.png
   license: MIT
+
 - title: Thinny
   homepage: https://github.com/camporez/Thinny
   download: https://github.com/camporez/Thinny/releases/latest
+  demo: http://camporez.github.io/blog/thinny-2/
   author: Ian Camporez Brunelli
   thumbnail: thinny.png
   license: MIT
+
 - title: Hikari
   homepage: https://github.com/mx3m/hikari-for-Jekyll
   download: https://github.com/mx3m/hikari-for-Jekyll/archive/master.zip
@@ -297,6 +325,7 @@
   author: Mathieu Mayer-Mazzoli
   thumbnail: hikari.png
   license: MIT
+
 - title: brume
   homepage: https://github.com/aigarsdz/brume
   download: https://github.com/aigarsdz/brume/archive/master.zip
@@ -304,6 +333,7 @@
   author: Aigars Dzerviniks
   thumbnail: brume.png
   license: MIT
+
 - title: Wangana
   homepage: https://github.com/nadjetey/wangana
   download: https://github.com/nadjetey/wangana/archive/master.zip
@@ -311,25 +341,29 @@
   author: Nii Adjetey Sowah
   thumbnail: wangana.png
   license: MIT
+
 - title: Incorporated
-  homepage: http://incorporated.sendtoinc.com/
+  homepage: https://github.com/kippt/jekyll-incorporated
   download: https://github.com/kippt/jekyll-incorporated/archive/master.zip
   demo: http://blog.sendtoinc.com/
   author: Kippt Inc.
   thumbnail: incorporated.png
   license: MIT
+  
 - title: Gereksiz
   homepage: https://github.com/berkoz/gereksiz
   download: https://github.com/berkoz/gereksiz/archive/master.zip
   author: Berk Özbalcı
   thumbnail: gereksiz.png
   license: BSD 2-Clause License
-- title: architect
+
+- title: Architect
   homepage: https://github.com/pietromenna/jekyll-architect-theme
   download: https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
   author: Jason Long, ported by Pietro Menna
   thumbnail: architect.png
   license: Creative Commons Attribution 4.0 International License
+
 - title: Simpleyyt
   homepage: https://github.com/Simpleyyt/simpleyyt.github.io
   download: https://github.com/Simpleyyt/simpleyyt.github.io/archive/master.zip
@@ -337,6 +371,7 @@
   author: Yitao Yao
   thumbnail: simpleyyt.png
   license: MIT
+
 - title: Noita
   homepage: https://github.com/penibelst/jekyll-noita
   download: https://github.com/penibelst/jekyll-noita/archive/gh-pages.zip
@@ -344,13 +379,15 @@
   author: Anatol Broder
   thumbnail: noita.png
   license: MIT
-- title: CleanMagicMedium
+
+- title: Clean Magic Medium
   homepage: https://github.com/SpaceG/CleanMagicMedium-Jekyll
   download: https://github.com/SpaceG/CleanMagicMedium-Jekyll/archive/master.zip
   demo: http://www.lucasgatsas.ch
   author: Lucas Gatsas
   thumbnail: cleanmagicmedium.png
   license: Apache License Version 2.0
+
 - title: Otter Pop
   homepage: https://github.com/tybenz/otter-pop/
   download: https://github.com/tybenz/otter-pop/archive/gh-pages.zip
@@ -358,27 +395,31 @@
   author: Tyler Benziger
   thumbnail: otter-pop.png
   license: MIT
-- title: block-log
+  
+- title:   Block Log
   homepage: https://github.com/anandubajith/block-log
   download: https://github.com/anandubajith/block-log/archive/master.zip
   demo: http://anandu.net/demo/block-log/
   author: Anandu B Ajith
   thumbnail: block-log.png
   license: MIT
+
 - title: Typewriter
-  homepage: http://alixedi.github.io/typewriter
+  homepage: https://github.com/alixedi/typewriter
   download: https://github.com/alixedi/typewriter/zipball/master
   demo: http://alixedi.github.io
-  author: alixedi
+  author: Ali Zaidi
   thumbnail: typewriter.png
   license: BSD License
-- title: GridGallery
+
+- title: Grid Gallery
   homepage: https://github.com/nadjetey/GridGallery
   download: https://github.com/nadjetey/GridGallery/archive/master.zip
   demo: https://nadjetey.github.io/GridGallery
   author: Nii Adjetey Sowah
   thumbnail: gridgallery.png
   license: WTF Public License
+
 - title: White Paper
   homepage: https://github.com/vinitkumar/white-paper
   download: https://github.com/vinitkumar/white-paper/archive/v1.0.2.zip
@@ -400,6 +441,8 @@
   author: Jerome Lachaud
   thumbnail: freelancer.png
   license: Apache License Version 2.0
+
+
 - title: Leap Day
   homepage: https://github.com/mattgraham/Leap-Day
   download: https://github.com/mattgraham/Leap-Day/archive/master.zip
@@ -407,6 +450,7 @@
   author: Matt Graham
   thumbnail: leap-day.png
   license: MIT
+
 - title: Midnight
   homepage: https://github.com/mattgraham/midnight
   download: https://github.com/mattgraham/midnight/archive/master.zip
@@ -414,13 +458,16 @@
   author: Matt Graham
   thumbnail: midnight.png
   license: MIT
-- title: Jekyll Metro
+
+
+- title: Metro
   homepage: https://github.com/olakara/JekyllMetro
   download: https://github.com/olakara/JekyllMetro/archive/master.zip
   demo: http://abdelraoof.com
   author: Abdel Raoof Olakara
   thumbnail: jekyll-metro.png
   license: MIT
+
 - title: Pixyll
   homepage: https://github.com/johnotander/pixyll
   download: https://github.com/johnotander/pixyll/archive/master.zip
@@ -428,6 +475,7 @@
   author: John Otander
   thumbnail: pixyll.png
   license: MIT
+
 - title: Travelog
   homepage: https://github.com/rowanoulton/travelog-theme
   download: https://github.com/rowanoulton/travelog-theme/archive/master.zip
@@ -449,7 +497,7 @@
   thumbnail: solid.png
   license: Apache License Version 2.0
 
-- title: Jekyll Clean
+- title: Clean
   homepage: http://github.com/scotte/jekyll-clean
   download: https://github.com/scotte/jekyll-clean/zipball/gh-pages
   demo: http://scotte.github.io/jekyll-clean
@@ -457,7 +505,7 @@
   thumbnail: jekyll-clean.png
   license: Creative Commons Attribution International 4.0 License
 
-- title: Jekyll Clean Dark
+- title: Clean Dark
   homepage: https://github.com/streetturtle/jekyll-clean-dark
   download: https://github.com/streetturtle/jekyll-clean-dark/archive/gh-pages.zip
   demo: http://pavelmakhov.com/jekyll-clean-dark/
@@ -472,13 +520,7 @@
   author: Dirk Fabisch
   thumbnail: mediator.png
   license: MIT
-- title: Skinny Bones
-  homepage: https://github.com/mmistakes/skinny-bones-jekyll
-  download: https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip
-  demo: http://mmistakes.github.io/skinny-bones-jekyll/
-  author: Michael Rose
-  thumbnail: skinny-bones.gif
-  license: MIT
+
 - title: Shiori
   homepage: https://github.com/ellekasai/shiori/
   download: https://github.com/ellekasai/shiori/archive/gh-pages.zip
@@ -486,6 +528,16 @@
   author: Elle Kasai
   thumbnail: shiori.png
   license: MIT
+
+- title: Resume Cards
+  homepage: https://github.com/ellekasai/resumecards/
+  download: https://github.com/ellekasai/resumecards/archive/gh-pages.zip
+  demo: http://ellekasai.github.io/resumecards/
+  author: Elle Kasai
+  thumbnail: resumecards.png
+  license: MIT
+
+
 - title: Harmony
   homepage: https://github.com/gayanvirajith/harmony
   download: https://github.com/gayanvirajith/harmony/archive/master.zip
@@ -500,7 +552,7 @@
   author: Niklas Buschmann
   thumbnail: contrast.png
   license: MIT
-- title: SinglePaged
+- title: Single Paged
   homepage: https://github.com/t413/SinglePaged
   download: https://github.com/t413/SinglePaged/archive/gh-pages.zip
   demo: http://t413.com/SinglePaged
@@ -524,6 +576,7 @@
 - title: autm-rb
   homepage: https://github.com/railsr/autm-rb
   download: https://github.com/railsr/autm-rb/archive/master.zip
+  demo: http://railsr.github.io/autm-rb/
   author: Kirill Beletskiy
   thumbnail: autm-rb.png
   license: MIT
@@ -534,12 +587,14 @@
   author: Tunghsiao Liu
   thumbnail: amsf.png
   license: MIT
-- title: Jekyll Masonry
+
+- title: Masonry
   homepage: https://github.com/pasindud/jekyll-masonry
   download: https://github.com/pasindud/jekyll-masonry/archive/master.zip
   demo: http://pasindud.github.io/
   author: Pasindu De Silva
   thumbnail: jeykll-masonry.jpg
+
 - title: Strange Case
   homepage: https://github.com/thephuse/strange_case
   download: https://github.com/thephuse/strange_case/archive/gh-pages.zip
@@ -547,27 +602,31 @@
   author: Phuse
   thumbnail: strange-case.png
   license: MIT
-- title: ICE AND FIRE
+
+- title: Ice and Fire
   homepage: https://github.com/SpaceG/iceandfire
   download: https://github.com/SpaceG/iceandfire/archive/master.zip
   demo: http://lucasgatsas.ch
   author: Lucas Gatsas
   thumbnail: ice-and-fire.png
   license: Apache License Version 2.0
-- title: OpenTheme
+
+- title: Open Theme
   homepage: https://github.com/open-start/opentheme
   download: https://github.com/open-start/opentheme/archive/master.zip
   demo: http://opentheme.co/
   author: Manav Sehgal
   thumbnail: opentheme.png
   license: MIT
-- title: Freshman21
+
+- title: Freshman 21
   homepage: https://github.com/yulijia/freshman21
   download: https://github.com/yulijia/freshman21/archive/master.zip
   demo: http://yulijia.net/freshman21/
   author: Lijia Yu
   thumbnail: freshman21.png
   license: MIT
+
 - title: Uno-dbyll
   homepage: https://github.com/talk2ankan/uno-dbyll
   download: https://github.com/talk2ankan/uno-dbyll/archive/gh-pages.zip
@@ -603,6 +662,7 @@
   author: Gayan Virajith
   thumbnail: gaya.jpg
   license: MIT
+
 - title: Travelogue
   homepage: https://github.com/SalGnt/Travelogue
   download: https://github.com/SalGnt/Travelogue/archive/master.zip
@@ -610,13 +670,7 @@
   author: Salvatore Gentile
   thumbnail: travelogue.png
   license: MIT
-- title: ResumeCards
-  homepage: https://github.com/ellekasai/resumecards/
-  download: https://github.com/ellekasai/resumecards/archive/gh-pages.zip
-  demo: http://ellekasai.github.io/resumecards/
-  author: Elle Kasai
-  thumbnail: resumecards.png
-  license: MIT
+
 - title: Long Haul
   homepage: https://github.com/brianmaierjr/long-haul
   download: https://github.com/brianmaierjr/long-haul/archive/master.zip
@@ -624,13 +678,15 @@
   author: Brian Maier Jr.
   thumbnail: long-haul.png
   license: MIT
-- title: QckTheme
+
+- title: Qck
   homepage: https://github.com/qckanemoto/jekyll-qck-theme
   download: https://github.com/qckanemoto/jekyll-qck-theme/archive/master.zip
   demo: http://qckanemoto.github.io/jekyll-qck-theme/
   author: Takashi Kanemoto
   thumbnail: qcktheme.png
   license: MIT
+
 - title: Rifyll
   homepage: https://github.com/itsrifat/rifyll
   download: https://github.com/itsrifat/rifyll/archive/master.zip
@@ -638,6 +694,7 @@
   author: Moinul
   thumbnail: rifyll.png
   license: MIT
+
 - title: Grayscale
   homepage: https://github.com/jeromelachaud/grayscale-theme
   download: https://github.com/jeromelachaud/grayscale-theme/archive/master.zip
@@ -645,6 +702,7 @@
   author: Jerome Lachaud
   thumbnail: grayscale.jpg
   license: Apache License Version 2.0
+
 - title: Metaphor
   homepage: https://github.com/prio101/metaphor-jekyll
   download: https://github.com/prio101/metaphor-jekyll/archive/master.zip
@@ -652,6 +710,7 @@
   author: Mahabub I.
   thumbnail: metaphor.png
   license: MIT
+
 - title: Naringu
   homepage: https://github.com/ariestiyansyah/naringu
   download: https://github.com/ariestiyansyah/naringu/archive/master.zip
@@ -659,20 +718,23 @@
   author: Rizky Ariestiyansyah
   thumbnail: naringu.png
   license: MIT
-- title: Tufte-Jekyll
+
+- title: Tufte
   homepage: https://github.com/clayh53/tufte-jekyll
   download: https://github.com/clayh53/tufte-jekyll/archive/master.zip
   demo: http://clayh53.github.io/tufte-jekyll/
   author: Clay Harmon
   thumbnail: tufte-jekyll.png
   license: MIT
+
 - title: Feeling Responsive
   homepage: https://github.com/Phlow/feeling-responsive
   download: https://github.com/Phlow/feeling-responsive/archive/gh-pages.zip
   demo: http://phlow.github.io/feeling-responsive/
-  author: Phlow – Moritz »mo.« Sauer
+  author: Moritz »mo.« Sauer
   thumbnail: feeling-responsive.jpg
   license: MIT
+
 - title: Emerald
   homepage: https://github.com/KingFelix/emerald
   download: https://github.com/KingFelix/emerald/archive/master.zip
@@ -680,6 +742,7 @@
   author: Jacopo Rabolini
   thumbnail: emerald.png
   license: MIT
+
 - title: devAid
   homepage: https://github.com/kevit/devaid-jekyll-theme
   download: https://github.com/kevit/devaid-jekyll-theme/archive/master.zip
@@ -687,6 +750,7 @@
   author: Xiaoying Riley
   thumbnail: devaid.png
   license: Creative Commons Attribution 3.0 Unported License
+
 - title: One Page Wonder
   homepage: https://github.com/mushishi78/one-page-wonder-jekyll
   download: https://github.com/mushishi78/one-page-wonder-jekyll/archive/gh-pages.zip
@@ -694,6 +758,7 @@
   author: Max White
   thumbnail: one-page-wonder.jpg
   license: MIT
+
 - title: Carte Noire
   homepage: https://github.com/jacobtomlinson/carte-noire
   download: https://github.com/jacobtomlinson/carte-noire/archive/gh-pages.zip
@@ -701,6 +766,7 @@
   author: Jacob Tomlinson
   thumbnail: carte-noire.png
   license: GNU General Public License Version 3
+
 - title: Pithy
   homepage: https://github.com/smallmuou/Jekyll-Pithy
   download: https://github.com/smallmuou/Jekyll-Pithy/archive/master.zip
@@ -708,6 +774,7 @@
   author: Pawpaw
   thumbnail: pithy.png
   license: MIT
+
 - title: Twister
   homepage: https://github.com/DigitalMindCH/twister
   download: http://digitalmind.ch/media/downloads/twister_theme.zip
@@ -715,6 +782,7 @@
   author: Digitalmind
   thumbnail: twister.jpg
   license: MIT
+
 - title: BlackDoc
   homepage: https://github.com/karloespiritu/BlackDoc
   download: https://github.com/karloespiritu/BlackDoc/archive/master.zip
@@ -722,6 +790,7 @@
   author: Karlo Espiritu
   thumbnail: blackdoc.png
   license: MIT
+
 - title: Polar Bear
   homepage: https://github.com/diezcami/polar-bear-theme/
   download: https://github.com/diezcami/polar-bear-theme/archive/master.zip
@@ -729,6 +798,7 @@
   author: Camille Diez
   thumbnail: polar-bear.png
   license: MIT
+
 - title: Cool Concise High-end
   homepage: https://github.com/Gaohaoyang/gaohaoyang.github.io
   download: https://github.com/Gaohaoyang/gaohaoyang.github.io/archive/v1.1.zip
@@ -736,6 +806,7 @@
   author: Gaohaoyang
   thumbnail: cool-concise-high-end.jpg
   license: MIT
+
 - title: HPSTR Version 2 - Vietnamese
   homepage: https://github.com/minhhuy150894/minhhuy150894.github.io
   download: https://github.com/minhhuy150894/minhhuy150894.github.io/archive/master.zip
@@ -743,13 +814,15 @@
   author: David Ng (Nguyen Minh Huy) - Michael Rose
   thumbnail: hpstr-v2.png
   license: MIT
-- title: iCard-Resume
+
+- title: iCard Resume
   homepage: https://github.com/ddbullfrog/iCard-Resume
   download: https://github.com/ddbullfrog/iCard-Resume/archive/gh-pages.zip
   demo: http://ddbullfrog.github.io/iCard-Resume
   author: Dong Liang
   thumbnail: icard-resume.png
   license: MIT
+
 - title: Kactus
   homepage: https://github.com/nickbalestra/kactus
   download: https://github.com/nickbalestra/kactus/archive/master.zip
@@ -757,6 +830,7 @@
   author: Nick Balestra
   thumbnail: kactus.png
   license: MIT
+
 - title: Arctic Fox
   homepage: https://github.com/diezcami/arctic-fox-theme/
   download: https://github.com/diezcami/arctic-fox-theme/archive/master.zip
