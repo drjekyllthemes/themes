@@ -11,8 +11,8 @@
 
 ~~~
 - title:     Shiori
-  homepage:  http://ellekasai.github.io/shiori/
-  download:  http://github.com/ellekasai/shiori/
+  homepage:  https://github.com/ellekasai/shiori
+  download:  https://github.com/ellekasai/shiori/archive/gh-pages.zip
   demo:      http://ellekasai.github.io/shiori/
   author:    Elle Kasai
   thumbnail: shiori.png
