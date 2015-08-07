@@ -14,7 +14,7 @@
   homepage:  https://github.com/drjekyllthemes/jekyll-minimal-theme
   download:  https://github.com/drjekyllthemes/jekyll-minimal-theme/archive/gh-pages.zip
   demo:      http://drjekyllthemes.github.io/jekyll-minimal-theme/
-  author:    Dr. Henry Jekyll et al
+  author:    Gerald Bauer
   thumbnail: drjekyll-minimal.png
   license:   Public Domain
 
@@ -22,7 +22,7 @@
   homepage:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme
   download:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme/archive/gh-pages.zip
   demo:      http://drjekyllthemes.github.io/jekyll-bootstrap-theme/
-  author:    Dr. Henry Jekyll et al
+  author:    Gerald Bauer
   thumbnail: drjekyll-bootstrap.png
   license:   Public Domain
 
@@ -30,7 +30,7 @@
   homepage:  https://github.com/drjekyllthemes/jekyll-book-theme
   download:  https://github.com/drjekyllthemes/jekyll-book-theme/archive/gh-pages.zip
   demo:      http://drjekyllthemes.github.io/jekyll-book-theme/
-  author:    Dr. Henry Jekyll et al
+  author:    Gerald Bauer
   thumbnail: drjekyll-book.png
   license:   Public Domain
 
