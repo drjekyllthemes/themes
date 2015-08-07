@@ -212,18 +212,45 @@
   author: Jeff Martin
   thumbnail: flex.png
   license: MIT
-- title: HMFAYSAL Theme
-  homepage: http://hmfaysal.github.io
-  download: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme/archive/master.zip
-  author: Hossain Mohd Faysal
-  thumbnail: hmfaysal.png
-  license: GNU General Public License Version 2
-- title: HMFAYSAL V2 Theme
-  homepage: http://faysal.name.qa
-  download: https://github.com/hmfaysal/Jekyll-HMFAYSAL-V2-Theme/archive/master.zip
-  author: Hossain Mohd Faysal
-  thumbnail: hmfaysal-v2.png
-  license: GNU General Public License Version 2
+
+
+## !!!  missing (broken) demo link
+##- title:    HMFAYSAL
+##  homepage: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme
+##  download: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme/archive/master.zip
+##  demo:     ???
+##  author:    Hossain Mohd Faysal
+##  thumbnail: hmfaysal.png
+##  license: GNU General Public License Version 2
+
+## !!!  missing (broken) demo link ???
+##- title:     HMFAYSAL V2
+##  homepage:  https://github.com/hmfaysal/Jekyll-HMFAYSAL-V2-Theme
+##  download:  https://github.com/hmfaysal/Jekyll-HMFAYSAL-V2-Theme/archive/master.zip
+##  demo:      ???
+##  author:    Hossain Mohd Faysal
+##  thumbnail: hmfaysal-v2.png
+##  license:   GNU General Public License Version 2
+
+
+- title:     HMFAYSAL Omega
+  homepage:  https://github.com/hmfaysal/hmfaysal-omega-theme
+  download:  https://github.com/hmfaysal/hmfaysal-omega-theme/archive/gh-pages.zip
+  demo:      http://hmfaysal.github.io/hmfaysal-omega-theme/
+  author:    Hossain Mohd Faysal
+  thumbnail: hmfaysal-omega.jpg
+  license:   MIT
+
+- title:     HMFAYSAL Notepad
+  homepage:  https://github.com/hmfaysal/Notepad
+  download:  https://github.com/hmfaysal/Notepad/archive/gh-pages.zip
+  demo:      http://hmfaysal.github.io/Notepad/ 
+  author:    Hossain Mohd Faysal
+  thumbnail: hmfaysal-notepad.png
+  license:   MIT
+
+
+
 - title: Simply Grey
   homepage: https://github.com/mondss/simplygrey-jekyll
   download: https://github.com/mondss/simplygrey-jekyll/archive/master.zip
@@ -235,13 +262,6 @@
   download: https://github.com/arnp/herring-cove/archive/master.zip
   author: arnp
   thumbnail: herring-cove.jpg
-  license: MIT
-- title: HMFAYSAL OMEGA Theme
-  homepage: http://alum.mit.edu/www/hmfaysal
-  download: https://github.com/hmfaysal/hmfaysal-omega-theme/archive/gh-pages.zip
-  demo: http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/
-  author: Hossain Mohd Faysal
-  thumbnail: hmfaysal-omega.jpg
   license: MIT
 - title: hushaw
   homepage: https://github.com/hushaw/hushaw.github.com
@@ -372,13 +392,6 @@
   demo: http://bitwiser.in/bitwiser/demo.html
   author: Brijesh Bittu
   thumbnail: bitwiser.png
-  license: MIT
-- title: HMFAYSAL Notepad Theme
-  homepage: http://www.hossainmohdfaysal.com/
-  download: https://github.com/hmfaysal/Notepad/archive/gh-pages.zip
-  demo: http://www.hossainmohdfaysal.com/Notepad/
-  author: Hossain Mohd Faysal
-  thumbnail: hmfaysal-notepad.png
   license: MIT
 - title: Freelancer
   homepage: https://github.com/jeromelachaud/freelancer-theme
