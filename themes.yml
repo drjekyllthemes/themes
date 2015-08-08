@@ -2,15 +2,8 @@
 #  Jekyll Themes
 
 
-##
-#  todo: change hompage to source_url
-#   change demo   to demo_url
-#   change  thumbnail to screenshot??
-#
-#  auto-generate donwload link from github link??
-
-
 - title:     Dr Jekyll's Minimal
+  tags:      [white]
   homepage:  https://github.com/drjekyllthemes/jekyll-minimal-theme
   download:  https://github.com/drjekyllthemes/jekyll-minimal-theme/archive/gh-pages.zip
   demo:      http://drjekyllthemes.github.io/jekyll-minimal-theme/
@@ -19,6 +12,7 @@
   license:   Public Domain
 
 - title:     Dr Jekyll's Bootstrap
+  tags:      [bootstrap, scss, white]
   homepage:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme
   download:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme/archive/gh-pages.zip
   demo:      http://drjekyllthemes.github.io/jekyll-bootstrap-theme/
@@ -27,6 +21,7 @@
   license:   Public Domain
 
 - title:     Dr Jekyll's Classics Book
+  tags:      [books, white]
   homepage:  https://github.com/drjekyllthemes/jekyll-book-theme
   download:  https://github.com/drjekyllthemes/jekyll-book-theme/archive/gh-pages.zip
   demo:      http://drjekyllthemes.github.io/jekyll-book-theme/
