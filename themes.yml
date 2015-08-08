@@ -67,6 +67,15 @@
   thumbnail: beautiful-jekyll.png
   license:   MIT
 
+- title:     Jekyll New (Default)
+  homepage:  https://github.com/jekyll/example
+  download:  https://github.com/jekyll/example/archive/gh-pages.zip
+  demo:      http://jekyll.github.io/example/
+  author:    Joel Glovier et al
+  thumbnail: jekyll-new.png
+  license:   MIT
+
+
 - title:     Jekyll Now
   homepage:  https://github.com/barryclark/jekyll-now
   download:  https://github.com/barryclark/jekyll-now/archive/master.zip
@@ -181,6 +190,15 @@
   author: Michael Rose
   thumbnail: hpstr.png
   license: MIT
+
+- title: HPSTR Version 2 (Vietnamese)
+  homepage: https://github.com/minhhuy150894/minhhuy150894.github.io
+  download: https://github.com/minhhuy150894/minhhuy150894.github.io/archive/master.zip
+  demo: http://minhhuy150894.github.io
+  author: David Ng (Nguyen Minh Huy) - Michael Rose
+  thumbnail: hpstr-v2.png
+  license: MIT
+
 
 
 - title: Balzac
@@ -306,7 +324,7 @@
   demo: http://nadjetey.github.io/redcup/
   author: Nii Adjetey Sowah
   thumbnail: redcup.png
-  license: Creative Commons Attribution 3.0 Unported License
+  license: CC-BY
 
 - title: Solo         ## (single-page)
   homepage: http://github.com/chibicode/solo/
@@ -368,7 +386,7 @@
   download: https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
   author: Jason Long, ported by Pietro Menna
   thumbnail: architect.png
-  license: Creative Commons Attribution International
+  license: CC-BY
 
 - title: Simpleyyt
   homepage: https://github.com/Simpleyyt/simpleyyt.github.io
@@ -386,13 +404,23 @@
   thumbnail: noita.png
   license: MIT
 
-- title: Clean Magic Medium
-  homepage: https://github.com/SpaceG/CleanMagicMedium-Jekyll
-  download: https://github.com/SpaceG/CleanMagicMedium-Jekyll/archive/master.zip
-  demo: http://www.lucasgatsas.ch
-  author: Lucas Gatsas
+
+- title:     Clean Magic Medium
+  homepage:  https://github.com/SpaceG/CleanMagicMedium-Jekyll
+  download:  https://github.com/SpaceG/CleanMagicMedium-Jekyll/archive/master.zip
+  demo:      http://www.lucasgatsas.ch
+  author:    Lucas Gatsas
   thumbnail: cleanmagicmedium.png
-  license: Apache
+  license:   Apache
+
+- title:     Ice & Fire
+  homepage:  https://github.com/SpaceG/iceandfire
+  download:  https://github.com/SpaceG/iceandfire/archive/master.zip
+  demo:      http://lucasgatsas.ch
+  author:    Lucas Gatsas
+  thumbnail: ice-and-fire.png
+  license:   Apache
+
 
 - title: Otter Pop
   homepage: https://github.com/tybenz/otter-pop/
@@ -512,7 +540,7 @@
   demo: http://scotte.github.io/jekyll-clean
   author: Scott Emmons
   thumbnail: jekyll-clean.png
-  license: Creative Commons Attribution International
+  license: CC-BY
 
 - title: Clean Dark
   homepage: https://github.com/streetturtle/jekyll-clean-dark
@@ -520,7 +548,7 @@
   demo: http://pavelmakhov.com/jekyll-clean-dark/
   author: Pavel Makhov
   thumbnail: jekyll-clean-dark.png
-  license: Creative Commons Attribution International
+  license: CC-BY
 
 - title: Mediator
   homepage: https://github.com/dirkfabisch/mediator
@@ -600,7 +628,7 @@
   download: https://github.com/sparanoid/almace-scaffolding/archive/master.zip
   demo: http://sparanoid.com/lab/amsf/
   author: Tunghsiao Liu
-  thumbnail: amsf.png
+  thumbnail: almace.png
   license: MIT
 
 - title: Masonry
@@ -608,7 +636,7 @@
   download: https://github.com/pasindud/jekyll-masonry/archive/master.zip
   demo: http://pasindud.github.io/
   author: Pasindu De Silva
-  thumbnail: jeykll-masonry.jpg
+  thumbnail: masonry.jpg
 
 - title: Strange Case
   homepage: https://github.com/thephuse/strange_case
@@ -618,13 +646,6 @@
   thumbnail: strange-case.png
   license: MIT
 
-- title: Ice and Fire
-  homepage: https://github.com/SpaceG/iceandfire
-  download: https://github.com/SpaceG/iceandfire/archive/master.zip
-  demo: http://lucasgatsas.ch
-  author: Lucas Gatsas
-  thumbnail: ice-and-fire.png
-  license: Apache
 
 - title: Open Theme
   homepage: https://github.com/open-start/opentheme
@@ -768,7 +789,7 @@
   demo: http://themes.3rdwavemedia.com/demo/devaid/
   author: Xiaoying Riley
   thumbnail: devaid.png
-  license: Creative Commons Attribution
+  license: CC-BY
 
 - title: One Page Wonder
   homepage: https://github.com/mushishi78/one-page-wonder-jekyll
@@ -799,7 +820,7 @@
   download: http://digitalmind.ch/media/downloads/twister_theme.zip
   demo: http://digitalmind.ch/themes/twister-jekyll-theme/demo/
   author: Digitalmind
-  thumbnail: twister.jpg
+  thumbnail: twister.png
   license: MIT
 
 - title: BlackDoc
@@ -810,6 +831,7 @@
   thumbnail: blackdoc.png
   license: MIT
 
+
 - title: Polar Bear
   homepage: https://github.com/diezcami/polar-bear-theme/
   download: https://github.com/diezcami/polar-bear-theme/archive/master.zip
@@ -818,7 +840,16 @@
   thumbnail: polar-bear.png
   license: MIT
 
-- title: Cool Concise High-end
+- title: Arctic Fox
+  homepage: https://github.com/diezcami/arctic-fox-theme/
+  download: https://github.com/diezcami/arctic-fox-theme/archive/master.zip
+  demo: https://diezcami.github.io/arctic-fox-theme
+  author: Camille Diez
+  thumbnail: arctic-fox.png
+  license: MIT
+
+
+- title: Cool Concise
   homepage: https://github.com/Gaohaoyang/gaohaoyang.github.io
   download: https://github.com/Gaohaoyang/gaohaoyang.github.io/archive/v1.1.zip
   demo: http://gaohaoyang.github.io/
@@ -826,13 +857,6 @@
   thumbnail: cool-concise-high-end.jpg
   license: MIT
 
-- title: HPSTR Version 2 - Vietnamese
-  homepage: https://github.com/minhhuy150894/minhhuy150894.github.io
-  download: https://github.com/minhhuy150894/minhhuy150894.github.io/archive/master.zip
-  demo: http://minhhuy150894.github.io
-  author: David Ng (Nguyen Minh Huy) - Michael Rose
-  thumbnail: hpstr-v2.png
-  license: MIT
 
 - title: iCard Resume
   homepage: https://github.com/ddbullfrog/iCard-Resume
@@ -850,13 +874,6 @@
   thumbnail: kactus.png
   license: MIT
 
-- title: Arctic Fox
-  homepage: https://github.com/diezcami/arctic-fox-theme/
-  download: https://github.com/diezcami/arctic-fox-theme/archive/master.zip
-  demo: https://diezcami.github.io/arctic-fox-theme
-  author: Camille Diez
-  thumbnail: arctic-fox.png
-  license: MIT
 
 - title:     Tiffany
   homepage:  https://github.com/dubuyuye/blog
@@ -881,3 +898,12 @@
   author:    Vincent Chan
   thumbnail: mickey.png
   license:   MIT
+
+- title:     Resume
+  homepage:  https://github.com/jglovier/resume-template
+  download:  https://github.com/jglovier/resume-template/archive/gh-pages.zip
+  demo:      http://resume-template.joelglovier.com
+  author:    Joel Glovier 
+  thumbnail: jglovier-resume.png
+  license:   MIT
+
