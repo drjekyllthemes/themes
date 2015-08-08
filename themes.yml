@@ -881,3 +881,11 @@
   author:    Vincent Chan
   thumbnail: mickey.png
   license:   MIT
+
+- title:     Bitwiser-Material
+  homepage:  http://bitwiser.in/bitwiser-material/
+  download:  https://github.com/brijeshb42/bitwiser-material/archive/gh-pages.zip
+  demo:      http://bitwiser.in
+  author:    Brijesh Bittu
+  thumbnail: bitwiser-material.png
+  license:   MIT
