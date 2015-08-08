@@ -3,91 +3,93 @@
 
 
 - title:     Dr Jekyll's Minimal
-  tags:      [white]
-  homepage:  https://github.com/drjekyllthemes/jekyll-minimal-theme
-  download:  https://github.com/drjekyllthemes/jekyll-minimal-theme/archive/gh-pages.zip
-  demo:      http://drjekyllthemes.github.io/jekyll-minimal-theme/
-  author:    Gerald Bauer
+  github:    drjekyllthemes/jekyll-minimal-theme
+  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
+  demo_url:  http://drjekyllthemes.github.io/jekyll-minimal-theme/
   thumbnail: drjekyll-minimal.png
+  author:    Gerald Bauer
   license:   Public Domain
+  tags:      [white]
 
 - title:     Dr Jekyll's Bootstrap
-  tags:      [bootstrap, scss, white]
-  homepage:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme
-  download:  https://github.com/drjekyllthemes/jekyll-bootstrap-theme/archive/gh-pages.zip
-  demo:      http://drjekyllthemes.github.io/jekyll-bootstrap-theme/
+  github:    drjekyllthemes/jekyll-bootstrap-theme
+  branch:    gh-pages 
+  demo_url:  http://drjekyllthemes.github.io/jekyll-bootstrap-theme/
   author:    Gerald Bauer
   thumbnail: drjekyll-bootstrap.png
   license:   Public Domain
+  tags:      [bootstrap, scss, white]
 
 - title:     Dr Jekyll's Classics Book
-  tags:      [books, white]
-  homepage:  https://github.com/drjekyllthemes/jekyll-book-theme
-  download:  https://github.com/drjekyllthemes/jekyll-book-theme/archive/gh-pages.zip
-  demo:      http://drjekyllthemes.github.io/jekyll-book-theme/
+  github:    drjekyllthemes/jekyll-book-theme
+  branch:    gh-pages
+  demo_url:  http://drjekyllthemes.github.io/jekyll-book-theme/
   author:    Gerald Bauer
   thumbnail: drjekyll-book.png
   license:   Public Domain
+  tags:      [books, white]
 
 
 - title:     Poole
-  homepage:  https://github.com/poole/poole
-  download:  https://github.com/poole/poole/archive/master.zip
-  demo:      http://demo.getpoole.com/
+  github:    poole/poole
+  demo_url:  http://demo.getpoole.com/
   author:    Mark Otto
   thumbnail: poole.png
   license:   MIT
+  tags:      [poole]
 
 - title:     Poole's Hyde
-  homepage:  https://github.com/poole/hyde
-  download:  https://github.com/poole/hyde/archive/master.zip
-  demo:      http://hyde.getpoole.com/
+  github:    poole/hyde
+  demo_url:  http://hyde.getpoole.com/
   author:    Mark Otto
   thumbnail: poole-hyde.png
   license:   MIT
+  tags:      [poole]
 
 - title:     Poole's Lanyon
-  homepage:  https://github.com/poole/lanyon
-  download:  https://github.com/poole/lanyon/archive/master.zip
-  demo:      http://lanyon.getpoole.com/
+  github:    poole/lanyon
+  demo_url:  http://lanyon.getpoole.com/
   author:    Mark Otto
   thumbnail: poole-lanyon.png
   license:   MIT
+  tags:      [poole]
 
 - title:     Beautiful Jekyll
-  homepage:  https://github.com/daattali/beautiful-jekyll
-  download:  https://github.com/daattali/beautiful-jekyll/archive/master.zip
-  demo:      http://deanattali.com/beautiful-jekyll/
+  github:    daattali/beautiful-jekyll
+  demo_url:  http://deanattali.com/beautiful-jekyll/
   author:    Dean Attali
   thumbnail: beautiful-jekyll.png
   license:   MIT
+  tags:      []
 
-- title:     Jekyll New (Default)
-  homepage:  https://github.com/jekyll/example
-  download:  https://github.com/jekyll/example/archive/gh-pages.zip
-  demo:      http://jekyll.github.io/example/
+- title:     Jekyll New (Built-In Default)
+  github:    jekyll/example
+  branch:    gh-pages
+  demo_url:  http://jekyll.github.io/example/
   author:    Joel Glovier et al
   thumbnail: jekyll-new.png
   license:   MIT
+  tags:      []
 
 
 - title:     Jekyll Now
-  homepage:  https://github.com/barryclark/jekyll-now
-  download:  https://github.com/barryclark/jekyll-now/archive/master.zip
-  demo:      http://www.jekyllnow.com/
+  github:    barryclark/jekyll-now
+  demo_url:  http://www.jekyllnow.com/
   author:    Barry Clark
   thumbnail: jekyll-now.png
   license:   MIT
+  tags:      []
 
 
 
 - title:     Holo Alfa
-  homepage:  https://github.com/steinvc/holo-alfa
-  download:  https://github.com/steinvc/holo-alfa/archive/gh-pages.zip
-  demo:      http://steinvc.github.io/holo-alfa/
+  github:    steinvc/holo-alfa
+  branch:    gh-pages
+  demo_url:  http://steinvc.github.io/holo-alfa/
   author:    Stijn van Cuijk
   thumbnail: holo-alfa.png
   license:   MIT
+  tags:      []
 
 - title:     "{ Personal }"
   homepage:  https://github.com/PanosSakkos/personal-jekyll-theme
