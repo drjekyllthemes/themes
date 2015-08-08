@@ -1,6 +1,5 @@
 # Notes
 
-
 ## More Theme Directories
 
 **Dynamic Sites**
@@ -23,5 +22,15 @@
 **Others**
 
 - Atom Editor <https://atom.io/themes>
+
+
+## Todos
+
+- change hompage to source_url ??
+- change demo   to demo_url ??
+- change  thumbnail to screenshot ??
+
+- auto-generate donwload link from github link??
+
 
 
