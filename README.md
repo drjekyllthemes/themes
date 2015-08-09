@@ -9,15 +9,27 @@
 * Add a new entry in the [`themes.yml`](https://github.com/drjekyllthemes/themes/blob/master/themes.yml) file and fill out all fields.
   Example:
 
-~~~
+``` yaml
 - title:     Shiori
-  homepage:  https://github.com/ellekasai/shiori
-  download:  https://github.com/ellekasai/shiori/archive/gh-pages.zip
-  demo:      http://ellekasai.github.io/shiori/
+  github:    ellekasai/shiori
+  branch:    gh-pages              # note: defaults to master
+  demo_url:  http://ellekasai.github.io/shiori/
   author:    Elle Kasai
   thumbnail: shiori.png
   license:   MIT
-~~~
+```
+
+or (without the github+branch shortcuts)
+
+``` yaml
+- title:        Shiori
+  home_url:     https://github.com/ellekasai/shiori
+  download_url: https://github.com/ellekasai/shiori/archive/gh-pages.zip
+  demo_url:     http://ellekasai.github.io/shiori/
+  author:       Elle Kasai
+  thumbnail:    shiori.png
+  license:      MIT
+```
 
 * Make a 250 x 200 thumbnail and drop it in the thumbnails folder.
   Note: Do NOT forget to list its filename in the `themes.yml` entry.
