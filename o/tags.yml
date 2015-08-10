@@ -1,0 +1,27 @@
+---
+- name: white
+  themes:
+  - Planet Jekyll's Starter (Minimal)
+  - Dr Jekyll's Minimal
+  - Dr Jekyll's Bootstrap
+  - Dr Jekyll's Classics Book
+- name: bootstrap
+  themes:
+  - Dr Jekyll's Bootstrap
+  - Shiori
+- name: scss
+  themes:
+  - Dr Jekyll's Bootstrap
+- name: books
+  themes:
+  - Dr Jekyll's Classics Book
+- name: poole
+  themes:
+  - Poole
+  - Poole's Hyde
+  - Poole's Lanyon
+- name: resume
+  themes:
+  - Resume Cards
+  - iCard Resume
+  - Resume

@@ -1,0 +1,877 @@
+---
+Planet Jekyll's Starter (Minimal):
+  demo_url: http://planetjekyll.github.io/jekyll-starter-theme/
+  thumbnail: planet-jekyll-starter.png
+  author: Gerald Bauer
+  license: Public Domain
+  tags:
+  - white
+  home_url: https://github.com/planetjekyll/jekyll-starter-theme
+  download_url: https://github.com/planetjekyll/jekyll-starter-theme/archive/gh-pages.zip
+Dr Jekyll's Minimal:
+  demo_url: http://drjekyllthemes.github.io/jekyll-minimal-theme/
+  thumbnail: drjekyll-minimal.png
+  author: Gerald Bauer
+  license: Public Domain
+  tags:
+  - white
+  home_url: https://github.com/drjekyllthemes/jekyll-minimal-theme
+  download_url: https://github.com/drjekyllthemes/jekyll-minimal-theme/archive/gh-pages.zip
+Dr Jekyll's Bootstrap:
+  demo_url: http://drjekyllthemes.github.io/jekyll-bootstrap-theme/
+  author: Gerald Bauer
+  thumbnail: drjekyll-bootstrap.png
+  license: Public Domain
+  tags:
+  - bootstrap
+  - scss
+  - white
+  home_url: https://github.com/drjekyllthemes/jekyll-bootstrap-theme
+  download_url: https://github.com/drjekyllthemes/jekyll-bootstrap-theme/archive/gh-pages.zip
+Dr Jekyll's Classics Book:
+  demo_url: http://drjekyllthemes.github.io/jekyll-book-theme/
+  author: Gerald Bauer
+  thumbnail: drjekyll-book.png
+  license: Public Domain
+  tags:
+  - books
+  - white
+  home_url: https://github.com/drjekyllthemes/jekyll-book-theme
+  download_url: https://github.com/drjekyllthemes/jekyll-book-theme/archive/gh-pages.zip
+Poole:
+  demo_url: http://demo.getpoole.com/
+  author: Mark Otto
+  thumbnail: poole.png
+  license: MIT
+  tags:
+  - poole
+  home_url: https://github.com/poole/poole
+  download_url: https://github.com/poole/poole/archive/master.zip
+Poole's Hyde:
+  demo_url: http://hyde.getpoole.com/
+  author: Mark Otto
+  thumbnail: poole-hyde.png
+  license: MIT
+  tags:
+  - poole
+  home_url: https://github.com/poole/hyde
+  download_url: https://github.com/poole/hyde/archive/master.zip
+Poole's Lanyon:
+  demo_url: http://lanyon.getpoole.com/
+  author: Mark Otto
+  thumbnail: poole-lanyon.png
+  license: MIT
+  tags:
+  - poole
+  home_url: https://github.com/poole/lanyon
+  download_url: https://github.com/poole/lanyon/archive/master.zip
+Beautiful Jekyll:
+  demo_url: http://deanattali.com/beautiful-jekyll/
+  author: Dean Attali
+  thumbnail: beautiful-jekyll.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/daattali/beautiful-jekyll
+  download_url: https://github.com/daattali/beautiful-jekyll/archive/master.zip
+Jekyll New (Built-In Default):
+  demo_url: http://jekyll.github.io/example/
+  author: Joel Glovier et al
+  thumbnail: jekyll-new.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/jekyll/example
+  download_url: https://github.com/jekyll/example/archive/gh-pages.zip
+Jekyll Now:
+  demo_url: http://www.jekyllnow.com/
+  author: Barry Clark
+  thumbnail: jekyll-now.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/barryclark/jekyll-now
+  download_url: https://github.com/barryclark/jekyll-now/archive/master.zip
+Holo Alfa:
+  demo_url: http://steinvc.github.io/holo-alfa/
+  author: Stijn van Cuijk
+  thumbnail: holo-alfa.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/steinvc/holo-alfa
+  download_url: https://github.com/steinvc/holo-alfa/archive/gh-pages.zip
+"{ Personal }":
+  home_url: https://github.com/PanosSakkos/personal-jekyll-theme
+  download_url: https://github.com/PanosSakkos/personal-jekyll-theme/archive/master.zip
+  demo_url: http://panossakkos.github.io
+  author: Panos Sakkos
+  thumbnail: personal.jpg
+  license: MIT
+  tags: []
+Material Design Lite (MDL):
+  home_url: https://github.com/gdg-managua/jekyll-mdl
+  download_url: https://github.com/gdg-managua/jekyll-mdl/releases
+  demo_url: http://www.gdgmanagua.org/jekyll-mdl
+  author: Google Developers Group (GDG) Managua
+  thumbnail: jekyll-mdl-screen.jpg
+  license: Apache
+  tags: []
+Scribble:
+  home_url: https://github.com/muan/scribble
+  download_url: https://github.com/muan/scribble/archive/master.zip
+  demo_url: http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/
+  author: Mu-An Chiou
+  thumbnail: scribble.png
+  license: MIT
+  tags: []
+Green Tea:
+  home_url: http://richbray.me/frap/
+  download_url: http://richbray.me/frap/gt.zip
+  demo_url: http://richbray.me/frap/gt/
+  author: Richard Bray
+  thumbnail: green-tea.png
+  tags: []
+Vanilla Bean Creme:
+  home_url: http://richbray.me/frap/
+  download_url: http://richbray.me/frap/vbc.zip
+  demo_url: http://richbray.me/frap/vbc/
+  author: Richard Bray
+  thumbnail: vanilla-bean-creme.png
+  tags: []
+Solar:
+  home_url: https://github.com/mattvh/solar-theme-jekyll
+  download_url: https://github.com/mattvh/solar-theme-jekyll/archive/master.zip
+  demo_url: http://mattvh.github.io/solar-theme-jekyll/
+  author: Matt Harzewski
+  thumbnail: solar.png
+  license: GNU GPL
+  tags: []
+Left:
+  home_url: https://github.com/holman/left
+  download_url: https://github.com/holman/left/archive/gh-pages.zip
+  demo_url: http://zachholman.com/left/
+  author: Zach Holman
+  thumbnail: left.png
+  license: MIT
+  tags: []
+Slate:
+  home_url: https://github.com/jasoncostello/slate
+  download_url: https://github.com/jasoncostello/slate/archive/master.zip
+  author: Jason Costello
+  thumbnail: slate.png
+  license: MIT
+  tags: []
+So Simple:
+  home_url: https://github.com/mmistakes/so-simple-theme
+  download_url: https://github.com/mmistakes/so-simple-theme/archive/master.zip
+  demo_url: http://mmistakes.github.io/so-simple-theme/
+  author: Michael Rose
+  thumbnail: so-simple.png
+  license: MIT
+  tags: []
+Minimal Mistakes:
+  home_url: https://github.com/mmistakes/minimal-mistakes
+  download_url: https://github.com/mmistakes/minimal-mistakes/archive/master.zip
+  demo_url: http://mmistakes.github.io/minimal-mistakes/
+  author: Michael Rose
+  thumbnail: minimal-mistakes.png
+  license: MIT
+  tags: []
+Skinny Bones:
+  home_url: https://github.com/mmistakes/skinny-bones-jekyll
+  download_url: https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip
+  demo_url: http://mmistakes.github.io/skinny-bones-jekyll/
+  author: Michael Rose
+  thumbnail: skinny-bones.gif
+  license: MIT
+  tags: []
+HiPSTeR (HPSTR):
+  home_url: https://github.com/mmistakes/hpstr-jekyll-theme
+  download_url: https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip
+  demo_url: http://mmistakes.github.io/hpstr-jekyll-theme/
+  author: Michael Rose
+  thumbnail: hpstr.png
+  license: MIT
+  tags: []
+HiPSTeR (HPSTR) Version 2 - Vietnamese:
+  home_url: https://github.com/minhhuy150894/minhhuy150894.github.io
+  download_url: https://github.com/minhhuy150894/minhhuy150894.github.io/archive/master.zip
+  demo_url: http://minhhuy150894.github.io
+  author: David Ng (Nguyen Minh Huy) - Michael Rose
+  thumbnail: hpstr-v2.png
+  license: MIT
+  tags: []
+Balzac:
+  home_url: https://github.com/coletownsend/balzac-for-jekyll
+  download_url: https://github.com/coletownsend/balzac-for-jekyll/archive/master.zip
+  demo_url: http://jekyll.gtat.me
+  author: Cole Townsend
+  thumbnail: balzac.jpg
+  license: MIT
+  tags: []
+Lagom:
+  home_url: https://github.com/swanson/lagom
+  download_url: https://github.com/swanson/lagom/archive/master.zip
+  author: Matt Swanson
+  thumbnail: lagom.png
+  license: MIT
+  tags: []
+Dbyll:
+  home_url: https://github.com/dbtek/dbyll
+  download_url: https://github.com/dbtek/dbyll/archive/master.zip
+  demo_url: http://dbtek.github.io/dbyll/
+  author: Ismail Demirbilek
+  thumbnail: dbyll.png
+  license: MIT
+  tags: []
+Exemplar:
+  home_url: https://github.com/tybenz/exemplar
+  download_url: https://github.com/tybenz/exemplar/archive/master.zip
+  demo_url: http://exemplar.tybenz.com
+  author: Tyler Benziger
+  thumbnail: exemplar.png
+  license: MIT
+  tags: []
+Kasper:
+  home_url: https://github.com/rosario/kasper
+  download_url: https://github.com/rosario/kasper/archive/master.zip
+  demo_url: http://rosario.io/2013/11/10/kasper-theme-for-jekyll.html
+  author: Rosario Rascuna
+  thumbnail: kasper.png
+  license: MIT
+  tags: []
+Swift:
+  home_url: https://github.com/pranavrajs/swift/
+  download_url: https://github.com/pranavrajs/swift/archive/master.zip
+  demo_url: http://pranavrajs.me/swift/
+  author: Pranav Raj S
+  thumbnail: swift.png
+  license: MIT
+  tags: []
+Flex:
+  home_url: https://github.com/the-development/flex
+  download_url: https://github.com/the-development/flex/archive/master.zip
+  demo_url: http://the-development.github.io/flex
+  author: Jeff Martin
+  thumbnail: flex.png
+  license: MIT
+  tags: []
+H M Faysal's Omega:
+  home_url: https://github.com/hmfaysal/hmfaysal-omega-theme
+  download_url: https://github.com/hmfaysal/hmfaysal-omega-theme/archive/gh-pages.zip
+  demo_url: http://hmfaysal.github.io/hmfaysal-omega-theme/
+  author: Hossain Mohd Faysal
+  thumbnail: hmfaysal-omega.jpg
+  license: MIT
+  tags: []
+H M Faysal's Notepad:
+  home_url: https://github.com/hmfaysal/Notepad
+  download_url: https://github.com/hmfaysal/Notepad/archive/gh-pages.zip
+  demo_url: http://hmfaysal.github.io/Notepad/
+  author: Hossain Mohd Faysal
+  thumbnail: hmfaysal-notepad.png
+  license: MIT
+  tags: []
+Simply Grey:
+  home_url: https://github.com/mondss/simplygrey-jekyll
+  download_url: https://github.com/mondss/simplygrey-jekyll/archive/master.zip
+  author: Liam Symonds
+  thumbnail: simply-grey.png
+  license: BSD
+  tags: []
+Herring Cove:
+  home_url: https://github.com/arnp/herring-cove
+  download_url: https://github.com/arnp/herring-cove/archive/master.zip
+  author: Ravi Patel
+  thumbnail: herring-cove.jpg
+  license: MIT
+  tags: []
+Red Cup:
+  home_url: https://github.com/nadjetey/redcup
+  download_url: https://github.com/nadjetey/redcup/archive/master.zip
+  demo_url: http://nadjetey.github.io/redcup/
+  author: Nii Adjetey Sowah
+  thumbnail: redcup.png
+  license: CC BY
+  tags: []
+Solo:
+  home_url: http://github.com/chibicode/solo/
+  download_url: http://github.com/chibicode/solo/archive/master.zip
+  demo_url: http://chibicode.github.io/solo/
+  author: Shu Uesugi
+  thumbnail: solo.png
+  license: MIT
+  tags: []
+Thinny:
+  home_url: https://github.com/camporez/Thinny
+  download_url: https://github.com/camporez/Thinny/releases/latest
+  demo_url: http://camporez.github.io/blog/thinny-2/
+  author: Ian Camporez Brunelli
+  thumbnail: thinny.png
+  license: MIT
+  tags: []
+Hikari:
+  home_url: https://github.com/mx3m/hikari-for-Jekyll
+  download_url: https://github.com/mx3m/hikari-for-Jekyll/archive/master.zip
+  demo_url: http://mx3m.github.io/hikari-for-Jekyll/
+  author: Mathieu Mayer-Mazzoli
+  thumbnail: hikari.png
+  license: MIT
+  tags: []
+Brume:
+  home_url: https://github.com/aigarsdz/brume
+  download_url: https://github.com/aigarsdz/brume/archive/master.zip
+  demo_url: http://aigarsdz.github.io/brume
+  author: Aigars Dzerviniks
+  thumbnail: brume.png
+  license: MIT
+  tags: []
+Wangana:
+  home_url: https://github.com/nadjetey/wangana
+  download_url: https://github.com/nadjetey/wangana/archive/master.zip
+  demo_url: http://nadjetey.github.io/
+  author: Nii Adjetey Sowah
+  thumbnail: wangana.png
+  license: MIT
+  tags: []
+Incorporated:
+  home_url: https://github.com/kippt/jekyll-incorporated
+  download_url: https://github.com/kippt/jekyll-incorporated/archive/master.zip
+  demo_url: http://blog.sendtoinc.com/
+  author: Kippt Inc.
+  thumbnail: incorporated.png
+  license: MIT
+  tags: []
+Gereksiz:
+  home_url: https://github.com/berkoz/gereksiz
+  download_url: https://github.com/berkoz/gereksiz/archive/master.zip
+  author: Berk Özbalcı
+  thumbnail: gereksiz.png
+  license: BSD
+  tags: []
+Architect:
+  home_url: https://github.com/pietromenna/jekyll-architect-theme
+  download_url: https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
+  author: Jason Long, ported by Pietro Menna
+  thumbnail: architect.png
+  license: CC BY
+  tags: []
+Simpleyyt:
+  home_url: https://github.com/Simpleyyt/simpleyyt.github.io
+  download_url: https://github.com/Simpleyyt/simpleyyt.github.io/archive/master.zip
+  demo_url: http://simpleyyt.github.io/
+  author: Yitao Yao
+  thumbnail: simpleyyt.png
+  license: MIT
+  tags: []
+Noita:
+  home_url: https://github.com/penibelst/jekyll-noita
+  download_url: https://github.com/penibelst/jekyll-noita/archive/gh-pages.zip
+  demo_url: http://noita.penibelst.de/
+  author: Anatol Broder
+  thumbnail: noita.png
+  license: MIT
+  tags: []
+Clean Magic Medium:
+  home_url: https://github.com/SpaceG/CleanMagicMedium-Jekyll
+  download_url: https://github.com/SpaceG/CleanMagicMedium-Jekyll/archive/master.zip
+  demo_url: http://www.lucasgatsas.ch
+  author: Lucas Gatsas
+  thumbnail: cleanmagicmedium.png
+  license: Apache
+  tags: []
+Ice & Fire:
+  home_url: https://github.com/SpaceG/iceandfire
+  download_url: https://github.com/SpaceG/iceandfire/archive/master.zip
+  demo_url: http://lucasgatsas.ch
+  author: Lucas Gatsas
+  thumbnail: ice-and-fire.png
+  license: Apache
+  tags: []
+Otter Pop:
+  home_url: https://github.com/tybenz/otter-pop/
+  download_url: https://github.com/tybenz/otter-pop/archive/gh-pages.zip
+  demo_url: http://tybenz.com/otter-pop
+  author: Tyler Benziger
+  thumbnail: otter-pop.png
+  license: MIT
+  tags: []
+Block Log:
+  home_url: https://github.com/anandubajith/block-log
+  download_url: https://github.com/anandubajith/block-log/archive/master.zip
+  demo_url: http://anandu.net/demo/block-log/
+  author: Anandu B Ajith
+  thumbnail: block-log.png
+  license: MIT
+  tags: []
+Typewriter:
+  home_url: https://github.com/alixedi/typewriter
+  download_url: https://github.com/alixedi/typewriter/zipball/master
+  demo_url: http://alixedi.github.io
+  author: Ali Zaidi
+  thumbnail: typewriter.png
+  license: BSD
+  tags: []
+Grid Gallery:
+  home_url: https://github.com/nadjetey/GridGallery
+  download_url: https://github.com/nadjetey/GridGallery/archive/master.zip
+  demo_url: https://nadjetey.github.io/GridGallery
+  author: Nii Adjetey Sowah
+  thumbnail: gridgallery.png
+  license: WTF
+  tags: []
+White Paper:
+  home_url: https://github.com/vinitkumar/white-paper
+  download_url: https://github.com/vinitkumar/white-paper/archive/v1.0.2.zip
+  demo_url: http://vinitkumar.me/white-paper/
+  author: Vinit Kumar
+  thumbnail: white-paper.png
+  license: MIT
+  tags: []
+Bitwiser:
+  demo_url: http://bitwiser.in/bitwiser/
+  author: Brijesh Bittu
+  thumbnail: bitwiser.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/brijeshb42/bitwiser
+  download_url: https://github.com/brijeshb42/bitwiser/archive/master.zip
+Bitwiser Material:
+  demo_url: http://bitwiser.in/bitwiser-material/
+  author: Brijesh Bittu
+  thumbnail: bitwiser-material.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/brijeshb42/bitwiser-material
+  download_url: https://github.com/brijeshb42/bitwiser-material/archive/gh-pages.zip
+Freelancer:
+  home_url: https://github.com/jeromelachaud/freelancer-theme
+  download_url: https://github.com/jeromelachaud/freelancer-theme/archive/master.zip
+  demo_url: https://jeromelachaud.github.io/freelancer-theme
+  author: Jerome Lachaud
+  thumbnail: freelancer.png
+  license: Apache
+  tags: []
+Leap Day:
+  home_url: https://github.com/mattgraham/Leap-Day
+  download_url: https://github.com/mattgraham/Leap-Day/archive/master.zip
+  demo_url: http://madebygraham.com/leapday/
+  author: Matt Graham
+  thumbnail: leap-day.png
+  license: MIT
+  tags: []
+Midnight:
+  home_url: https://github.com/mattgraham/midnight
+  download_url: https://github.com/mattgraham/midnight/archive/master.zip
+  demo_url: http://madebygraham.com/midnight/
+  author: Matt Graham
+  thumbnail: midnight.png
+  license: MIT
+  tags: []
+Metro:
+  home_url: https://github.com/olakara/JekyllMetro
+  download_url: https://github.com/olakara/JekyllMetro/archive/master.zip
+  demo_url: http://abdelraoof.com
+  author: Abdel Raoof Olakara
+  thumbnail: jekyll-metro.png
+  license: MIT
+  tags: []
+Pixyll:
+  home_url: https://github.com/johnotander/pixyll
+  download_url: https://github.com/johnotander/pixyll/archive/master.zip
+  demo_url: http://pixyll.com
+  author: John Otander
+  thumbnail: pixyll.png
+  license: MIT
+  tags: []
+Travelog:
+  home_url: https://github.com/rowanoulton/travelog-theme
+  download_url: https://github.com/rowanoulton/travelog-theme/archive/master.zip
+  author: Rowan Oulton
+  thumbnail: travelog.png
+  license: MIT
+  tags: []
+Agency:
+  home_url: https://github.com/y7kim/agency-jekyll-theme
+  download_url: https://github.com/y7kim/agency-jekyll-theme/archive/gh-pages.zip
+  demo_url: https://y7kim.github.io/agency-jekyll-theme
+  author: Rick Kim
+  thumbnail: agency.jpg
+  license: Apache
+  tags: []
+Solid:
+  home_url: https://github.com/st4ple/solid-jekyll
+  download_url: https://github.com/st4ple/solid-jekyll/archive/master.zip
+  demo_url: http://st4ple.github.io/solid-jekyll/
+  author: Oliver Stapleton
+  thumbnail: solid.png
+  license: Apache
+  tags: []
+Clean:
+  home_url: http://github.com/scotte/jekyll-clean
+  download_url: https://github.com/scotte/jekyll-clean/zipball/gh-pages
+  demo_url: http://scotte.github.io/jekyll-clean
+  author: Scott Emmons
+  thumbnail: jekyll-clean.png
+  license: CC BY
+  tags: []
+Clean Dark:
+  home_url: https://github.com/streetturtle/jekyll-clean-dark
+  download_url: https://github.com/streetturtle/jekyll-clean-dark/archive/gh-pages.zip
+  demo_url: http://pavelmakhov.com/jekyll-clean-dark/
+  author: Pavel Makhov
+  thumbnail: jekyll-clean-dark.png
+  license: CC BY
+  tags: []
+Mediator:
+  home_url: https://github.com/dirkfabisch/mediator
+  download_url: https://github.com/dirkfabisch/mediator/archive/master.zip
+  demo_url: http://blog.base68.com
+  author: Dirk Fabisch
+  thumbnail: mediator.png
+  license: MIT
+  tags: []
+Shiori:
+  home_url: https://github.com/ellekasai/shiori/
+  download_url: https://github.com/ellekasai/shiori/archive/gh-pages.zip
+  demo_url: http://ellekasai.github.io/shiori/
+  author: Elle Kasai
+  thumbnail: shiori.png
+  license: MIT
+  tags:
+  - bootstrap
+Resume Cards:
+  home_url: https://github.com/ellekasai/resumecards/
+  download_url: https://github.com/ellekasai/resumecards/archive/gh-pages.zip
+  demo_url: http://ellekasai.github.io/resumecards/
+  author: Elle Kasai
+  thumbnail: resumecards.png
+  license: MIT
+  tags:
+  - resume
+Harmony:
+  home_url: https://github.com/gayanvirajith/harmony
+  download_url: https://github.com/gayanvirajith/harmony/archive/master.zip
+  demo_url: http://gayan.me/harmony/
+  author: Gayan Virajith
+  thumbnail: harmony.jpg
+  license: MIT
+  tags: []
+Contrast:
+  home_url: https://github.com/niklasbuschmann/contrast
+  download_url: https://github.com/niklasbuschmann/contrast/archive/gh-pages.zip
+  demo_url: http://niklasbuschmann.github.io/contrast
+  author: Niklas Buschmann
+  thumbnail: contrast.png
+  license: MIT
+  tags: []
+Single Paged:
+  home_url: https://github.com/t413/SinglePaged
+  download_url: https://github.com/t413/SinglePaged/archive/gh-pages.zip
+  demo_url: http://t413.com/SinglePaged
+  author: Tim O'Brien
+  thumbnail: singlepaged.png
+  license: MIT
+  tags: []
+Clean Blog:
+  home_url: https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll
+  download_url: https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll/archive/gh-pages.zip
+  demo_url: http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/
+  author: Start Bootstrap
+  thumbnail: clean-blog.png
+  license: Apache
+  tags: []
+Landing Page:
+  home_url: https://github.com/swcool/landing-page-theme
+  download_url: https://github.com/swcool/landing-page-theme/archive/master.zip
+  demo_url: http://shaneweng.com/landing-page-theme/
+  author: Shane Weng
+  thumbnail: landing-page.png
+  license: Apache
+  tags: []
+autm-rb:
+  home_url: https://github.com/railsr/autm-rb
+  download_url: https://github.com/railsr/autm-rb/archive/master.zip
+  demo_url: http://railsr.github.io/autm-rb/
+  author: Kirill Beletskiy
+  thumbnail: autm-rb.png
+  license: MIT
+  tags: []
+Almace Scaffolding:
+  home_url: https://github.com/sparanoid/almace-scaffolding
+  download_url: https://github.com/sparanoid/almace-scaffolding/archive/master.zip
+  demo_url: http://sparanoid.com/lab/amsf/
+  author: Tunghsiao Liu
+  thumbnail: almace.png
+  license: MIT
+  tags: []
+Masonry:
+  home_url: https://github.com/pasindud/jekyll-masonry
+  download_url: https://github.com/pasindud/jekyll-masonry/archive/master.zip
+  demo_url: http://pasindud.github.io/
+  author: Pasindu De Silva
+  thumbnail: masonry.jpg
+  tags: []
+Strange Case:
+  home_url: https://github.com/thephuse/strange_case
+  download_url: https://github.com/thephuse/strange_case/archive/gh-pages.zip
+  demo_url: http://thephuse.github.io/strange_case/
+  author: Phuse
+  thumbnail: strange-case.png
+  license: MIT
+  tags: []
+Open Theme:
+  home_url: https://github.com/open-start/opentheme
+  download_url: https://github.com/open-start/opentheme/archive/master.zip
+  demo_url: http://opentheme.co/
+  author: Manav Sehgal
+  thumbnail: opentheme.png
+  license: MIT
+  tags: []
+Freshman 21:
+  home_url: https://github.com/yulijia/freshman21
+  download_url: https://github.com/yulijia/freshman21/archive/master.zip
+  demo_url: http://yulijia.net/freshman21/
+  author: Lijia Yu
+  thumbnail: freshman21.png
+  license: MIT
+  tags: []
+Uno Dbyll:
+  home_url: https://github.com/talk2ankan/uno-dbyll
+  download_url: https://github.com/talk2ankan/uno-dbyll/archive/gh-pages.zip
+  demo_url: http://blog.ankanbiswas.in/uno-dbyll/
+  author: Ankan Biswas
+  thumbnail: uno-dbyll.png
+  license: MIT
+  tags: []
+Minimal Block:
+  home_url: https://github.com/drvy/minimal-block
+  download_url: https://github.com/drvy/minimal-block/archive/master.zip
+  demo_url: http://blog.drvy.net/minimal-block/
+  author: Dragomir Yordanov
+  thumbnail: minimal-block.png
+  license: MIT
+  tags: []
+Compass:
+  home_url: https://github.com/excentris/compass
+  download_url: https://github.com/excentris/compass/archive/master.zip
+  demo_url: http://excentris.github.io/compass/
+  author: Eduardo Rubio
+  thumbnail: compass.png
+  license: MIT
+  tags: []
+Type:
+  home_url: https://github.com/rohanchandra/type-theme
+  download_url: https://github.com/rohanchandra/type-theme/archive/master.zip
+  demo_url: https://rohanchandra.github.io/type-theme/
+  author: Rohan Chandra
+  thumbnail: type-theme.png
+  license: MIT
+  tags: []
+Gaya:
+  home_url: https://github.com/gayanvirajith/gaya
+  download_url: https://github.com/gayanvirajith/gaya/archive/master.zip
+  demo_url: http://gayan.me/gaya/
+  author: Gayan Virajith
+  thumbnail: gaya.jpg
+  license: MIT
+  tags: []
+Travelogue:
+  home_url: https://github.com/SalGnt/Travelogue
+  download_url: https://github.com/SalGnt/Travelogue/archive/master.zip
+  demo_url: http://salgnt.github.io/Travelogue/
+  author: Salvatore Gentile
+  thumbnail: travelogue.png
+  license: MIT
+  tags: []
+Long Haul:
+  home_url: https://github.com/brianmaierjr/long-haul
+  download_url: https://github.com/brianmaierjr/long-haul/archive/master.zip
+  demo_url: http://brianmaierjr.com/long-haul/
+  author: Brian Maier Jr.
+  thumbnail: long-haul.png
+  license: MIT
+  tags: []
+Qck:
+  home_url: https://github.com/qckanemoto/jekyll-qck-theme
+  download_url: https://github.com/qckanemoto/jekyll-qck-theme/archive/master.zip
+  demo_url: http://qckanemoto.github.io/jekyll-qck-theme/
+  author: Takashi Kanemoto
+  thumbnail: qcktheme.png
+  license: MIT
+  tags: []
+Rifyll:
+  home_url: https://github.com/itsrifat/rifyll
+  download_url: https://github.com/itsrifat/rifyll/archive/master.zip
+  demo_url: http://itsrifat.github.io/rifyll/
+  author: Moinul
+  thumbnail: rifyll.png
+  license: MIT
+  tags: []
+Grayscale:
+  home_url: https://github.com/jeromelachaud/grayscale-theme
+  download_url: https://github.com/jeromelachaud/grayscale-theme/archive/master.zip
+  demo_url: https://jeromelachaud.github.io/grayscale-theme
+  author: Jerome Lachaud
+  thumbnail: grayscale.jpg
+  license: Apache
+  tags: []
+Metaphor:
+  home_url: https://github.com/prio101/metaphor-jekyll
+  download_url: https://github.com/prio101/metaphor-jekyll/archive/master.zip
+  demo_url: http://mahabubislam.me
+  author: Mahabub I.
+  thumbnail: metaphor.png
+  license: MIT
+  tags: []
+Naringu:
+  home_url: https://github.com/ariestiyansyah/naringu
+  download_url: https://github.com/ariestiyansyah/naringu/archive/master.zip
+  demo_url: http://naringu.oonlab.com
+  author: Rizky Ariestiyansyah
+  thumbnail: naringu.png
+  license: MIT
+  tags: []
+Tufte:
+  home_url: https://github.com/clayh53/tufte-jekyll
+  download_url: https://github.com/clayh53/tufte-jekyll/archive/master.zip
+  demo_url: http://clayh53.github.io/tufte-jekyll/
+  author: Clay Harmon
+  thumbnail: tufte-jekyll.png
+  license: MIT
+  tags: []
+Feeling Responsive:
+  home_url: https://github.com/Phlow/feeling-responsive
+  download_url: https://github.com/Phlow/feeling-responsive/archive/gh-pages.zip
+  demo_url: http://phlow.github.io/feeling-responsive/
+  author: Moritz »mo.« Sauer
+  thumbnail: feeling-responsive.jpg
+  license: MIT
+  tags: []
+Emerald:
+  home_url: https://github.com/KingFelix/emerald
+  download_url: https://github.com/KingFelix/emerald/archive/master.zip
+  demo_url: http://www.jacoporabolini.com/emerald/
+  author: Jacopo Rabolini
+  thumbnail: emerald.png
+  license: MIT
+  tags: []
+Dev Aid:
+  home_url: https://github.com/kevit/devaid-jekyll-theme
+  download_url: https://github.com/kevit/devaid-jekyll-theme/archive/master.zip
+  demo_url: http://themes.3rdwavemedia.com/demo/devaid/
+  author: Xiaoying Riley
+  thumbnail: devaid.png
+  license: CC BY
+  tags: []
+One Page Wonder:
+  home_url: https://github.com/mushishi78/one-page-wonder-jekyll
+  download_url: https://github.com/mushishi78/one-page-wonder-jekyll/archive/gh-pages.zip
+  demo_url: http://mushishi78.github.io/one-page-wonder-jekyll
+  author: Max White
+  thumbnail: one-page-wonder.jpg
+  license: MIT
+  tags: []
+Carte Noire:
+  home_url: https://github.com/jacobtomlinson/carte-noire
+  download_url: https://github.com/jacobtomlinson/carte-noire/archive/gh-pages.zip
+  demo_url: http://carte-noire.jacobtomlinson.co.uk/
+  author: Jacob Tomlinson
+  thumbnail: carte-noire.png
+  license: GNU GPL
+  tags: []
+Pithy:
+  home_url: https://github.com/smallmuou/Jekyll-Pithy
+  download_url: https://github.com/smallmuou/Jekyll-Pithy/archive/master.zip
+  demo_url: http://wenva.github.io/
+  author: Pawpaw
+  thumbnail: pithy.png
+  license: MIT
+  tags: []
+Twister:
+  home_url: https://github.com/DigitalMindCH/twister
+  download_url: http://digitalmind.ch/media/downloads/twister_theme.zip
+  demo_url: http://digitalmind.ch/themes/twister-jekyll-theme/demo/
+  author: Digitalmind
+  thumbnail: twister.png
+  license: MIT
+  tags: []
+Black Doc:
+  home_url: https://github.com/karloespiritu/BlackDoc
+  download_url: https://github.com/karloespiritu/BlackDoc/archive/master.zip
+  demo_url: http://karloespiritu.com/blackdoc
+  author: Karlo Espiritu
+  thumbnail: blackdoc.png
+  license: MIT
+  tags: []
+Polar Bear:
+  home_url: https://github.com/diezcami/polar-bear-theme/
+  download_url: https://github.com/diezcami/polar-bear-theme/archive/master.zip
+  demo_url: https://diezcami.github.io/polar-bear-theme
+  author: Camille Diez
+  thumbnail: polar-bear.png
+  license: MIT
+  tags: []
+Arctic Fox:
+  home_url: https://github.com/diezcami/arctic-fox-theme/
+  download_url: https://github.com/diezcami/arctic-fox-theme/archive/master.zip
+  demo_url: https://diezcami.github.io/arctic-fox-theme
+  author: Camille Diez
+  thumbnail: arctic-fox.png
+  license: MIT
+  tags: []
+Cool Concise:
+  home_url: https://github.com/Gaohaoyang/gaohaoyang.github.io
+  download_url: https://github.com/Gaohaoyang/gaohaoyang.github.io/archive/v1.1.zip
+  demo_url: http://gaohaoyang.github.io/
+  author: Gaohaoyang
+  thumbnail: cool-concise-high-end.jpg
+  license: MIT
+  tags: []
+iCard Resume:
+  home_url: https://github.com/ddbullfrog/iCard-Resume
+  download_url: https://github.com/ddbullfrog/iCard-Resume/archive/gh-pages.zip
+  demo_url: http://ddbullfrog.github.io/iCard-Resume
+  author: Dong Liang
+  thumbnail: icard-resume.png
+  license: MIT
+  tags:
+  - resume
+Kactus:
+  home_url: https://github.com/nickbalestra/kactus
+  download_url: https://github.com/nickbalestra/kactus/archive/master.zip
+  demo_url: http://nick.balestra.ch/2015/Kactus/
+  author: Nick Balestra
+  thumbnail: kactus.png
+  license: MIT
+  tags: []
+Tiffany:
+  home_url: https://github.com/dubuyuye/blog
+  download_url: https://github.com/dubuyuye/blog/archive/gh-pages.zip
+  demo_url: http://blog.rainynight.top
+  author: RainyNight
+  thumbnail: tiffany.png
+  license: MIT
+  tags: []
+Centrarium:
+  home_url: https://github.com/bencentra/centrarium
+  download_url: https://github.com/bencentra/centrarium/archive/master.zip
+  demo_url: http://bencentra.com/centrarium/
+  author: Ben Centra
+  thumbnail: centrarium.png
+  license: MIT
+  tags: []
+Mickey:
+  demo_url: http://vincentchan.github.io/mickey
+  author: Vincent Chan
+  thumbnail: mickey.png
+  license: MIT
+  tags: []
+  home_url: https://github.com/vincentchan/mickey
+  download_url: https://github.com/vincentchan/mickey/archive/master.zip
+Resume:
+  demo_url: http://resume-template.joelglovier.com
+  author: Joel Glovier
+  thumbnail: jglovier-resume.png
+  license: MIT
+  tags:
+  - resume
+  home_url: https://github.com/jglovier/resume-template
+  download_url: https://github.com/jglovier/resume-template/archive/gh-pages.zip
