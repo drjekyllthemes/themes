@@ -209,6 +209,7 @@ Balzac:
 Lagom:
   home_url: https://github.com/swanson/lagom
   download_url: https://github.com/swanson/lagom/archive/master.zip
+  demo_url: http://lagom.mdswanson.com/
   author: Matt Swanson
   thumbnail: lagom.png
   license: MIT
