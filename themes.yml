@@ -1,6 +1,15 @@
 ###############################
 #  Jekyll Themes
 
+- title: Jekyll-Video
+  github: https://github.com/mushishi78/jekyll-video
+  branch: gh-pages
+  demo_url: http://mushishi78.github.io/jekyll-video/
+  thumbnail: jekyll-video.jpg
+  author: Max White
+  license: MIT
+  tags: [video]
+
 - title:     Planet Jekyll's Starter (Minimal)
   github:    planetjekyll/jekyll-starter-theme
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
