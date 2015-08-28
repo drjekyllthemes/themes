@@ -25,3 +25,6 @@
   - Resume Cards
   - iCard Resume
   - Resume
+- name: video
+  themes:
+  - Jekyll-Video
