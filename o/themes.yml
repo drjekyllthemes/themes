@@ -1,4 +1,13 @@
 ---
+Jekyll-Video:
+  demo_url: http://mushishi78.github.io/jekyll-video/
+  thumbnail: jekyll-video.jpg
+  author: Max White
+  license: MIT
+  tags:
+    - video
+  home_url: https://github.com/mushishi78/jekyll-video
+  download_url: https://github.com/mushishi78/jekyll-video/archive/gh-pages.zip
 Planet Jekyll's Starter (Minimal):
   demo_url: http://planetjekyll.github.io/jekyll-starter-theme/
   thumbnail: planet-jekyll-starter.png
