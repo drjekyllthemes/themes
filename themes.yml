@@ -30,7 +30,7 @@
 
 - title:     Dr Jekyll's Bootstrap
   github:    drjekyllthemes/jekyll-bootstrap-theme
-  branch:    gh-pages 
+  branch:    gh-pages
   demo_url:  http://drjekyllthemes.github.io/jekyll-bootstrap-theme/
   author:    Gerald Bauer
   thumbnail: drjekyll-bootstrap.png
@@ -324,7 +324,7 @@
 - title:     H M Faysal's Notepad
   home_url:  https://github.com/hmfaysal/Notepad
   download_url:  https://github.com/hmfaysal/Notepad/archive/gh-pages.zip
-  demo_url:      http://hmfaysal.github.io/Notepad/ 
+  demo_url:      http://hmfaysal.github.io/Notepad/
   author:    Hossain Mohd Faysal
   thumbnail: hmfaysal-notepad.png
   license:   MIT
@@ -419,7 +419,7 @@
   thumbnail: incorporated.png
   license: MIT
   tags:      []
-  
+
 - title: Gereksiz
   home_url: https://github.com/berkoz/gereksiz
   download_url: https://github.com/berkoz/gereksiz/archive/master.zip
@@ -482,7 +482,7 @@
   thumbnail: otter-pop.png
   license: MIT
   tags:      []
-  
+
 - title:   Block Log
   home_url: https://github.com/anandubajith/block-log
   download_url: https://github.com/anandubajith/block-log/archive/master.zip
@@ -1021,8 +1021,16 @@
   github:    jglovier/resume-template
   branch:    gh-pages
   demo_url:  http://resume-template.joelglovier.com
-  author:    Joel Glovier 
+  author:    Joel Glovier
   thumbnail: jglovier-resume.png
   license:   MIT
   tags:      [resume]
 
+- title:     Leonids
+  github:    renyuanz/leonids
+  branch:    gh-pages
+  demo_url:  http://renyuanz.github.io/leonids
+  author:    Renyuan Zou
+  thumbnail: leonids.png
+  license:   MIT
+  tags:      []
