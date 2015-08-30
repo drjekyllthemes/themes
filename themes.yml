@@ -1,15 +1,6 @@
 ###############################
 #  Jekyll Themes
 
-- title: Jekyll-Video
-  github: https://github.com/mushishi78/jekyll-video
-  branch: gh-pages
-  demo_url: http://mushishi78.github.io/jekyll-video/
-  thumbnail: jekyll-video.jpg
-  author: Max White
-  license: MIT
-  tags: [video]
-
 - title:     Planet Jekyll's Starter (Minimal)
   github:    planetjekyll/jekyll-starter-theme
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
@@ -237,13 +228,12 @@
   license: MIT
   tags:      []
 
-- title: Lagom
-  home_url: https://github.com/swanson/lagom
-  download_url: https://github.com/swanson/lagom/archive/master.zip
-  demo_url: http://lagom.mdswanson.com
-  author: Matt Swanson
+- title:     Lagom
+  github:    swanson/lagom
+  demo_url:  http://lagom.mdswanson.com
+  author:    Matt Swanson
   thumbnail: lagom.png
-  license: MIT
+  license:   MIT
   tags:      []
 
 
@@ -1001,9 +991,8 @@
   tags:      []
 
 - title:     Centrarium
-  home_url:  https://github.com/bencentra/centrarium
-  download_url:  https://github.com/bencentra/centrarium/archive/master.zip
-  demo_url:      http://bencentra.com/centrarium/
+  github:    bencentra/centrarium
+  demo_url:  http://bencentra.com/centrarium
   author:    Ben Centra
   thumbnail: centrarium.png
   license:   MIT
@@ -1025,6 +1014,15 @@
   thumbnail: jglovier-resume.png
   license:   MIT
   tags:      [resume]
+
+- title:     Video
+  github:    mushishi78/jekyll-video
+  branch:    gh-pages
+  demo_url:  http://mushishi78.github.io/jekyll-video
+  thumbnail: jekyll-video.jpg
+  author:    Max White
+  license:   MIT
+  tags:      [video]
 
 - title:     Leonids
   github:    renyuanz/leonids
