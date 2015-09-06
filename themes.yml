@@ -1032,3 +1032,12 @@
   thumbnail: leonids.png
   license:   MIT
   tags:      []
+
+- title:     Book
+  github:    kkninjae/book
+  branch:    gh-pages
+  demo_url:  http://kkninjae.github.io/book
+  author:    Lang Liu
+  thumbnail: book.png
+  license:   MIT
+  tags:      []
