@@ -1041,3 +1041,12 @@
   thumbnail: book.png
   license:   MIT
   tags:      []
+
+- title:     The Plain
+  github:    heiswayi/the-plain
+  branch:    gh-pages
+  demo_url:  http://heiswayi.github.io/the-plain
+  author:    Heiswayi Nrird
+  thumbnail: the-plain.png
+  license:   MIT
+  tags:      []
