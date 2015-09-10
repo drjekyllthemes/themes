@@ -1050,3 +1050,10 @@
   thumbnail: the-plain.png
   license:   MIT
   tags:      []
+
+- title:     Daktilo
+  github:    kronik3r/daktilo
+  demo_url:  http://hitchhiker.ma/daktilo/
+  author:    Motaquillah Maddane
+  thumbnail: daktilo.jpg
+  license:   MIT
