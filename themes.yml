@@ -1057,3 +1057,11 @@
   author:    Motaquillah Maddane
   thumbnail: daktilo.jpg
   license:   MIT
+
+- title:        Kiko
+  home_url:     https://github.com/gfjaru/Kiko
+  download_url: https://github.com/gfjaru/releases
+  demo_url:     http://gfjaru.github.io/Kiko/
+  author:       Gandara Fajar Umbara
+  thumbnail:    kiko.png
+  license:      MIT
