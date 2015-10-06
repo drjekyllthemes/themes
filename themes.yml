@@ -102,7 +102,7 @@
 - title:     "{ Personal }"
   home_url:  https://github.com/PanosSakkos/personal-jekyll-theme
   download_url:  https://github.com/PanosSakkos/personal-jekyll-theme/archive/master.zip
-  demo_url:      http://panossakkos.github.io
+  demo_url:      http://panossakkos.github.io/personal-jekyll-theme/
   author:    Panos Sakkos
   thumbnail: personal.jpg
   license:   MIT
