@@ -1065,3 +1065,12 @@
   author:       Gandara Fajar Umbara
   thumbnail:    kiko.png
   license:      MIT
+
+- title:        Neo-HPSTR
+  home_url:     https://github.com/aron-bordin/neo-hpstr-jekyll-theme
+  download_url: https://github.com/aron-bordin/neo-hpstr-jekyll-theme/archive/master.zip
+  demo_url:     http://aronbordin.com/neo-hpstr-jekyll-theme/
+  author:       Aron Barreira Bordin
+  thumbnail:    neo-hpstr.png
+  license:      MIT
+  tags:         [white, scss]
