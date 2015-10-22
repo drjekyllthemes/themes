@@ -1074,3 +1074,12 @@
   thumbnail:    neo-hpstr.png
   license:      MIT
   tags:         [white, scss]
+
+- title:        Yellowblue
+  home_url:     https://github.com/chalatz/yellowblue
+  download_url: https://github.com/chalatz/yellowblue/archive/master.zip
+  demo_url:     http://demo-yb.yellowblue.eu/
+  author:       Christos Alatzas
+  thumbnail:    yellowblue.png
+  license:      Apache 2.0
+  tags:         []
