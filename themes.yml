@@ -1061,7 +1061,7 @@
 - title:        Kiko
   home_url:     https://github.com/gfjaru/Kiko
   download_url: https://github.com/gfjaru/releases
-  demo_url:     http://gfjaru.github.io/Kiko/
+  demo_url:     http://kiko.gfjaru.com/
   author:       Gandara Fajar Umbara
   thumbnail:    kiko.png
   license:      MIT
