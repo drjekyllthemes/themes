@@ -1,15 +1,6 @@
 ###############################
 #  Jekyll Themes
 
-- title: Jekyll-Video
-  github: https://github.com/mushishi78/jekyll-video
-  branch: gh-pages
-  demo_url: http://mushishi78.github.io/jekyll-video/
-  thumbnail: jekyll-video.jpg
-  author: Max White
-  license: MIT
-  tags: [video]
-
 - title:     Planet Jekyll's Starter (Minimal)
   github:    planetjekyll/jekyll-starter-theme
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
@@ -111,7 +102,7 @@
 - title:     "{ Personal }"
   home_url:  https://github.com/PanosSakkos/personal-jekyll-theme
   download_url:  https://github.com/PanosSakkos/personal-jekyll-theme/archive/master.zip
-  demo_url:      http://panossakkos.github.io
+  demo_url:      http://panossakkos.github.io/personal-jekyll-theme/
   author:    Panos Sakkos
   thumbnail: personal.jpg
   license:   MIT
@@ -237,13 +228,12 @@
   license: MIT
   tags:      []
 
-- title: Lagom
-  home_url: https://github.com/swanson/lagom
-  download_url: https://github.com/swanson/lagom/archive/master.zip
-  demo_url: http://lagom.mdswanson.com
-  author: Matt Swanson
+- title:     Lagom
+  github:    swanson/lagom
+  demo_url:  http://lagom.mdswanson.com
+  author:    Matt Swanson
   thumbnail: lagom.png
-  license: MIT
+  license:   MIT
   tags:      []
 
 
@@ -1001,9 +991,8 @@
   tags:      []
 
 - title:     Centrarium
-  home_url:  https://github.com/bencentra/centrarium
-  download_url:  https://github.com/bencentra/centrarium/archive/master.zip
-  demo_url:      http://bencentra.com/centrarium/
+  github:    bencentra/centrarium
+  demo_url:  http://bencentra.com/centrarium
   author:    Ben Centra
   thumbnail: centrarium.png
   license:   MIT
@@ -1026,6 +1015,15 @@
   license:   MIT
   tags:      [resume]
 
+- title:     Video
+  github:    mushishi78/jekyll-video
+  branch:    gh-pages
+  demo_url:  http://mushishi78.github.io/jekyll-video
+  thumbnail: jekyll-video.jpg
+  author:    Max White
+  license:   MIT
+  tags:      [video]
+
 - title:     Leonids
   github:    renyuanz/leonids
   branch:    gh-pages
@@ -1034,3 +1032,54 @@
   thumbnail: leonids.png
   license:   MIT
   tags:      []
+
+- title:     Book
+  github:    kkninjae/book
+  branch:    gh-pages
+  demo_url:  http://kkninjae.github.io/book
+  author:    Lang Liu
+  thumbnail: book.png
+  license:   MIT
+  tags:      []
+
+- title:     The Plain
+  github:    heiswayi/the-plain
+  branch:    gh-pages
+  demo_url:  http://heiswayi.github.io/the-plain
+  author:    Heiswayi Nrird
+  thumbnail: the-plain.png
+  license:   MIT
+  tags:      []
+
+- title:     Daktilo
+  github:    kronik3r/daktilo
+  demo_url:  http://hitchhiker.ma/daktilo/
+  author:    Motaquillah Maddane
+  thumbnail: daktilo.jpg
+  license:   MIT
+
+- title:        Kiko
+  home_url:     https://github.com/gfjaru/Kiko
+  download_url: https://github.com/gfjaru/releases
+  demo_url:     http://kiko.gfjaru.com/
+  author:       Gandara Fajar Umbara
+  thumbnail:    kiko.png
+  license:      MIT
+
+- title:        Neo-HPSTR
+  home_url:     https://github.com/aron-bordin/neo-hpstr-jekyll-theme
+  download_url: https://github.com/aron-bordin/neo-hpstr-jekyll-theme/archive/master.zip
+  demo_url:     http://aronbordin.com/neo-hpstr-jekyll-theme/
+  author:       Aron Barreira Bordin
+  thumbnail:    neo-hpstr.png
+  license:      MIT
+  tags:         [white, scss]
+
+- title:        Yellowblue
+  home_url:     https://github.com/chalatz/yellowblue
+  download_url: https://github.com/chalatz/yellowblue/archive/master.zip
+  demo_url:     http://demo-yb.yellowblue.eu/
+  author:       Christos Alatzas
+  thumbnail:    yellowblue.png
+  license:      Apache 2.0
+  tags:         []
