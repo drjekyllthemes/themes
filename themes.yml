@@ -1026,12 +1026,12 @@
 
 - title:     Leonids
   github:    renyuanz/leonids
-  branch:    gh-pages
+  branch:    master
   demo_url:  http://renyuanz.github.io/leonids
   author:    Renyuan Zou
   thumbnail: leonids.png
   license:   MIT
-  tags:      []
+  tags:      [clean, content]
 
 - title:     Book
   github:    kkninjae/book
