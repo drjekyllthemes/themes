@@ -1,6 +1,15 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Indigo Minimalist Jekyll Template
+  github:    sergiokopplin/indigo
+  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
+  demo_url:  http://koppl.in/indigo
+  thumbnail: indigo.png
+  author:    Sérgio Kopplin
+  license:   Public Domain
+  tags:      [white]
+
 - title:     Planet Jekyll's Starter (Minimal)
   github:    planetjekyll/jekyll-starter-theme
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
