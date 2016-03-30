@@ -625,6 +625,15 @@
   license: CC BY
   tags:      []
 
+- title: Jekyll CV Crafter
+  home_url: https://github.com/streetturtle/jekyll-cv-crafter
+  download_url: https://github.com/streetturtle/jekyll-cv-crafter/archive/gh-pages.zip
+  demo_url: http://pavelmakhov.com/jekyll-cv-crafter/
+  author: Pavel Makhov
+  thumbnail: jekyll-cv-crafter.png
+  license: MIT
+  tags: [cv, resume]
+
 - title: Mediator
   home_url: https://github.com/dirkfabisch/mediator
   download_url: https://github.com/dirkfabisch/mediator/archive/master.zip
