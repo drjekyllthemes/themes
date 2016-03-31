@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Mangan
+  github:    dikiaap/mangan
+  demo_url:  https://blog.dikiaap.id
+  author:    Diki Andriansyah
+  thumbnail: mangan.png
+  license:   MIT
+  tags:      [geek, black, white]
+
 - title:     Indigo Minimalist Jekyll Template
   github:    sergiokopplin/indigo
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
