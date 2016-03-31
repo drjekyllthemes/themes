@@ -1109,3 +1109,11 @@
   thumbnail:    yellowblue.png
   license:      Apache 2.0
   tags:         []
+
+- title:     PHOTORAMA
+  github:    sunbliss/photorama
+  demo_url:  http://sunbliss.github.io/photorama
+  author:    sunbliss
+  thumbnail: photorama-thumb.gif
+  license:   Apache License 2.0
+  tags:      [black]
