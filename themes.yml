@@ -1117,3 +1117,11 @@
   thumbnail: photorama-thumb.gif
   license:   Apache License 2.0
   tags:      [black]
+  
+  - title:     Slender
+  github:    nikrich/jekyll-slender-template
+  demo_url:  http://nikrich.github.io/jekyll-slender-template/#
+  author:    Jannik Richter
+  thumbnail: slender.png
+  license:   MIT
+  tags:      [dark, scss, responsive]
