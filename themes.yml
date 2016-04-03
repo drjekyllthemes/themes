@@ -1125,3 +1125,11 @@
   thumbnail: slender.png
   license:   MIT
   tags:      [dark, scss, responsive]
+
+- title:     Gravity
+  github:    hemangsk/Gravity
+  demo_url:  http://hemangsk.github.io/Gravity
+  author:    Hemang Kumar (@hemangsk)
+  thumbnail: gravity.png
+  license:   MIT
+  tags:      [minimal, text-based, white, archive, category, archive-pages]
