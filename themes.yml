@@ -201,11 +201,11 @@
 - title: Minimal Mistakes
   home_url: https://github.com/mmistakes/minimal-mistakes
   download_url: https://github.com/mmistakes/minimal-mistakes/archive/master.zip
-  demo_url: http://mmistakes.github.io/minimal-mistakes/
+  demo_url: https://mmistakes.github.io/minimal-mistakes/
   author: Michael Rose
   thumbnail: minimal-mistakes.png
   license: MIT
-  tags:      []
+  tags:      [minimal, responsive, blog, portfolio, archive-pages]
 
 - title: Skinny Bones
   home_url: https://github.com/mmistakes/skinny-bones-jekyll
