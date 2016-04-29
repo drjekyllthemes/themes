@@ -1,6 +1,15 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Immaculate
+  github:    siawyoung/immaculate
+  branch:    gh-pages
+  demo_url:  https://cdn.ampproject.org/c/siawyoung.com/immaculate/
+  thumbnail: immaculate.png
+  license:   MIT
+  author:    Lau Siaw Young
+  tags:      [tufte, google, amp, fast, beautiful, modern, slick]
+
 - title:     Mangan
   github:    dikiaap/mangan
   demo_url:  https://blog.dikiaap.id
