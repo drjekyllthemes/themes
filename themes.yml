@@ -1142,3 +1142,13 @@
   thumbnail: gravity.png
   license:   MIT
   tags:      [minimal, text-based, white, archive, category, archive-pages]
+  
+  
+- title:        DevJournal
+  github:       hemangsk/DevJournal
+  download_url: https://github.com/hemangsk/DevJournal/archive/master.zip
+  demo_url:     http://hemangsk.github.io/DevJournal
+  author:       Hemang Kumar (@hemangsk)
+  thumbnail:    devjournal.png
+  license:      MIT
+  tags:         [minimal, text-based, developers]
