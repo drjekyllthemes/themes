@@ -1017,10 +1017,10 @@
 
 
 - title:     Tiffany
-  home_url:  https://github.com/dubuyuye/blog
-  download_url:  https://github.com/dubuyuye/blog/archive/gh-pages.zip
-  demo_url:      http://blog.rainynight.top
-  author:    RainyNight
+  home_url:  https://github.com/WakelessDragon/blog
+  download_url:  https://github.com/WakelessDragon/blog/archive/gh-pages.zip
+  demo_url:      http://blog.rainyalley.com/
+  author:    WakelessDragon
   thumbnail: tiffany.png
   license:   MIT
   tags:      []
