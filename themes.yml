@@ -1152,3 +1152,12 @@
   thumbnail:    devjournal.png
   license:      MIT
   tags:         [minimal, text-based, developers]
+  
+- title:        Safarnama
+  github:       hemangsk/safarnama
+  download_url: https://github.com/hemangsk/safarnama/archive/master.zip
+  demo_url:     http://hemangsk.github.io/safarnama
+  author:       Hemang Kumar (@hemangsk)
+  thumbnail:    safarnama.png
+  license:      MIT
+  tags:         [minimal,travelogue, journal]
