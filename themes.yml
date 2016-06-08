@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Ink
+  github:    thinker3197/ink
+  demo_url:  http://thinker3197.github.io/ink/
+  author:    Ashish Gupta
+  thumbnail: ink.png
+  license:   MIT
+  tags:      [two-column, clean, minimal, blog]
+  
 - title:     Jekyll-Mono
   github:    AkshayAgarwal007/Jekyll-Mono
   demo_url:  http://akshayagarwal007.github.io/Jekyll-Mono/
