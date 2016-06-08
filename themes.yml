@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Jekyll-Mono
+  github:    AkshayAgarwal007/Jekyll-Mono
+  demo_url:  http://akshayagarwal007.github.io/Jekyll-Mono/
+  author:    Akshay Agarwal
+  thumbnail: jekyll-mono.png
+  license:   MIT
+  tags:      []
+ 
 - title:     Immaculate
   github:    siawyoung/immaculate
   branch:    gh-pages
