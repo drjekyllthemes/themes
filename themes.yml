@@ -1161,3 +1161,12 @@
   thumbnail:    safarnama.png
   license:      MIT
   tags:         [minimal,travelogue, journal]
+  
+- title:        jekyllDecent
+  github:       jwillmer/jekyllDecent
+  download_url: https://github.com/jwillmer/jekyllDecent/archive/gh-pages.zip
+  demo_url:     http://jwillmer.de
+  author:       Jens Willmer
+  thumbnail:    jekyllDecent.png
+  license:      MIT
+  tags:        [decent, html5, clean, elegant, code, photo]
