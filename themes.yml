@@ -1186,3 +1186,12 @@
   thumbnail:    jekyllDecent.png
   license:      MIT
   tags:        [decent, html5, clean, elegant, code, photo]
+  
+- title:        Thinkspace
+  github:       heiswayi/thinkspace
+  download_url: https://github.com/heiswayi/thinkspace/archive/master.zip
+  demo_url:     http://heiswayi.github.io/thinkspace/
+  author:       Heiswayi Nrird
+  thumbnail:    thinkspace.jpg
+  license:      MIT
+  tags:        [minimal, clean, white]
