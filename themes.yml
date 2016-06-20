@@ -1067,18 +1067,18 @@
   author:    Motaquillah Maddane
   thumbnail: daktilo.jpg
   license:   MIT
+  tags:      []
 
 - title:        Kiko
-  home_url:     https://github.com/gfjaru/Kiko
-  download_url: https://github.com/gfjaru/releases
+  github:       gfjaru/Kiko
   demo_url:     http://kiko.gfjaru.com/
   author:       Gandara Fajar Umbara
   thumbnail:    kiko.png
   license:      MIT
+  tags:         []
 
-- title:        Neo-HPSTR
-  home_url:     https://github.com/aron-bordin/neo-hpstr-jekyll-theme
-  download_url: https://github.com/aron-bordin/neo-hpstr-jekyll-theme/archive/master.zip
+- title:        Neo HPSTR
+  github:       aron-bordin/neo-hpstr-jekyll-theme
   demo_url:     http://aronbordin.com/neo-hpstr-jekyll-theme/
   author:       Aron Barreira Bordin
   thumbnail:    neo-hpstr.png
@@ -1086,8 +1086,7 @@
   tags:         [white, scss]
 
 - title:        Yellowblue
-  home_url:     https://github.com/chalatz/yellowblue
-  download_url: https://github.com/chalatz/yellowblue/archive/master.zip
+  github:       chalatz/yellowblue
   demo_url:     http://demo-yb.yellowblue.eu/
   author:       Christos Alatzas
   thumbnail:    yellowblue.png
@@ -1103,7 +1102,7 @@
   license:   MIT
   tags:      [two-column, clean, minimal, blog]
 
-- title:     Jekyll-Mono
+- title:     Mono
   github:    AkshayAgarwal007/Jekyll-Mono
   demo_url:  http://akshayagarwal007.github.io/Jekyll-Mono/
   author:    Akshay Agarwal
@@ -1128,7 +1127,8 @@
   license:   MIT
   tags:      [geek, black, white]
 
-- title:     Indigo Minimalist Jekyll Template
+
+- title:     Indigo Minimalist
   github:    sergiokopplin/indigo
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
   demo_url:  http://koppl.in/indigo
@@ -1138,17 +1138,18 @@
   tags:      [white]
 
 
-- title:     PHOTORAMA
+- title:     Photorama
   github:    sunbliss/photorama
+  branch:    gh-pages
   demo_url:  http://sunbliss.github.io/photorama
-  author:    sunbliss
+  author:    Sunbliss
   thumbnail: photorama-thumb.gif
   license:   Apache License 2.0
   tags:      [black]
 
 - title:     Slender
   github:    nikrich/jekyll-slender-template
-  demo_url:  http://nikrich.github.io/jekyll-slender-template/#
+  demo_url:  http://nikrich.github.io/jekyll-slender-template/
   author:    Jannik Richter
   thumbnail: slender.png
   license:   MIT
@@ -1157,42 +1158,41 @@
 - title:     Gravity
   github:    hemangsk/Gravity
   demo_url:  http://hemangsk.github.io/Gravity
-  author:    Hemang Kumar (@hemangsk)
+  author:    Hemang Kumar
   thumbnail: gravity.png
   license:   MIT
   tags:      [minimal, text-based, white, archive, category, archive-pages]
 
-
-- title:        DevJournal
+- title:        Dev Journal
   github:       hemangsk/DevJournal
-  download_url: https://github.com/hemangsk/DevJournal/archive/master.zip
+  branch:       master
   demo_url:     http://hemangsk.github.io/DevJournal
-  author:       Hemang Kumar (@hemangsk)
+  author:       Hemang Kumar
   thumbnail:    devjournal.png
   license:      MIT
   tags:         [minimal, text-based, developers]
 
 - title:        Safarnama
   github:       hemangsk/safarnama
-  download_url: https://github.com/hemangsk/safarnama/archive/master.zip
+  branch:       master
   demo_url:     http://hemangsk.github.io/safarnama
-  author:       Hemang Kumar (@hemangsk)
+  author:       Hemang Kumar
   thumbnail:    safarnama.png
   license:      MIT
   tags:         [minimal,travelogue, journal]
 
-- title:        jekyllDecent
+- title:        Decent
   github:       jwillmer/jekyllDecent
-  download_url: https://github.com/jwillmer/jekyllDecent/archive/gh-pages.zip
+  branch:       gh-pages
   demo_url:     http://jwillmer.de
   author:       Jens Willmer
-  thumbnail:    jekyllDecent.png
+  thumbnail:    jekyll-decent.png
   license:      MIT
   tags:        [decent, html5, clean, elegant, code, photo]
 
 - title:        Thinkspace
   github:       heiswayi/thinkspace
-  download_url: https://github.com/heiswayi/thinkspace/archive/master.zip
+  branch:       master
   demo_url:     http://heiswayi.github.io/thinkspace/
   author:       Heiswayi Nrird
   thumbnail:    thinkspace.jpg
@@ -1201,8 +1201,9 @@
 
 - title:        Urban
   github:       midzer/urban-theme
-  download_url: https://github.com/midzer/urban-theme/archive/master.zip
+  branch:       master
   demo_url:     http://narkotyk.net
   author:       Dennis Rohner
   thumbnail:    urban.png
   license:      MIT
+  tags:         []
