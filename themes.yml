@@ -1,81 +1,40 @@
 ###############################
 #  Jekyll Themes
 
-- title:     Ink
-  github:    thinker3197/ink
-  demo_url:  http://thinker3197.github.io/ink/
-  author:    Ashish Gupta
-  thumbnail: ink.png
-  license:   MIT
-  tags:      [two-column, clean, minimal, blog]
-  
-- title:     Jekyll-Mono
-  github:    AkshayAgarwal007/Jekyll-Mono
-  demo_url:  http://akshayagarwal007.github.io/Jekyll-Mono/
-  author:    Akshay Agarwal
-  thumbnail: jekyll-mono.png
-  license:   MIT
-  tags:      []
- 
-- title:     Immaculate
-  github:    siawyoung/immaculate
-  branch:    gh-pages
-  demo_url:  https://cdn.ampproject.org/c/siawyoung.com/immaculate/
-  thumbnail: immaculate.png
-  license:   MIT
-  author:    Lau Siaw Young
-  tags:      [tufte, google, amp, fast, beautiful, modern, slick]
 
-- title:     Mangan
-  github:    dikiaap/mangan
-  demo_url:  https://blog.dikiaap.id
-  author:    Diki Andriansyah
-  thumbnail: mangan.png
-  license:   MIT
-  tags:      [geek, black, white]
-
-- title:     Indigo Minimalist Jekyll Template
-  github:    sergiokopplin/indigo
+- title:     Henry's Starter (Minimal)
+  github:    henrythemes/jekyll-starter-theme
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
-  demo_url:  http://koppl.in/indigo
-  thumbnail: indigo.png
-  author:    Sérgio Kopplin
-  license:   Public Domain
-  tags:      [white]
-
-- title:     Planet Jekyll's Starter (Minimal)
-  github:    planetjekyll/jekyll-starter-theme
-  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
-  demo_url:  http://planetjekyll.github.io/jekyll-starter-theme/
-  thumbnail: planet-jekyll-starter.png
+  demo_url:  http://henrythemes.github.io/jekyll-starter-theme/
+  thumbnail: henry-starter.png
   author:    Gerald Bauer
   license:   Public Domain
   tags:      [white]
 
-- title:     Dr Jekyll's Minimal
-  github:    drjekyllthemes/jekyll-minimal-theme
+- title:     Henry's Minimal
+  github:    henrythemes/jekyll-minimal-theme
   branch:    gh-pages
-  demo_url:  http://drjekyllthemes.github.io/jekyll-minimal-theme/
-  thumbnail: drjekyll-minimal.png
+  demo_url:  http://henrythemes.github.io/jekyll-minimal-theme/
+  thumbnail: henry-minimal.png
   author:    Gerald Bauer
   license:   Public Domain
   tags:      [white]
 
-- title:     Dr Jekyll's Bootstrap
-  github:    drjekyllthemes/jekyll-bootstrap-theme
+- title:     Henry's Bootstrap
+  github:    henrythemes/jekyll-bootstrap-theme
   branch:    gh-pages
-  demo_url:  http://drjekyllthemes.github.io/jekyll-bootstrap-theme/
+  demo_url:  http://henrythemes.github.io/jekyll-bootstrap-theme/
   author:    Gerald Bauer
-  thumbnail: drjekyll-bootstrap.png
+  thumbnail: henry-bootstrap.png
   license:   Public Domain
   tags:      [bootstrap, scss, white]
 
-- title:     Dr Jekyll's Classics Book
-  github:    drjekyllthemes/jekyll-book-theme
+- title:     Henry's Classics Book
+  github:    henrythemes/jekyll-book-theme
   branch:    gh-pages
-  demo_url:  http://drjekyllthemes.github.io/jekyll-book-theme/
+  demo_url:  http://henrythemes.github.io/jekyll-book-theme/
   author:    Gerald Bauer
-  thumbnail: drjekyll-book.png
+  thumbnail: henry-book.png
   license:   Public Domain
   tags:      [books, white]
 
@@ -1135,6 +1094,50 @@
   license:      Apache 2.0
   tags:         []
 
+
+- title:     Ink
+  github:    thinker3197/ink
+  demo_url:  http://thinker3197.github.io/ink/
+  author:    Ashish Gupta
+  thumbnail: ink.png
+  license:   MIT
+  tags:      [two-column, clean, minimal, blog]
+
+- title:     Jekyll-Mono
+  github:    AkshayAgarwal007/Jekyll-Mono
+  demo_url:  http://akshayagarwal007.github.io/Jekyll-Mono/
+  author:    Akshay Agarwal
+  thumbnail: jekyll-mono.png
+  license:   MIT
+  tags:      []
+
+- title:     Immaculate
+  github:    siawyoung/immaculate
+  branch:    gh-pages
+  demo_url:  https://cdn.ampproject.org/c/siawyoung.com/immaculate/
+  thumbnail: immaculate.png
+  license:   MIT
+  author:    Lau Siaw Young
+  tags:      [tufte, google, amp, fast, beautiful, modern, slick]
+
+- title:     Mangan
+  github:    dikiaap/mangan
+  demo_url:  https://blog.dikiaap.id
+  author:    Diki Andriansyah
+  thumbnail: mangan.png
+  license:   MIT
+  tags:      [geek, black, white]
+
+- title:     Indigo Minimalist Jekyll Template
+  github:    sergiokopplin/indigo
+  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
+  demo_url:  http://koppl.in/indigo
+  thumbnail: indigo.png
+  author:    Sérgio Kopplin
+  license:   Public Domain
+  tags:      [white]
+
+
 - title:     PHOTORAMA
   github:    sunbliss/photorama
   demo_url:  http://sunbliss.github.io/photorama
@@ -1142,7 +1145,7 @@
   thumbnail: photorama-thumb.gif
   license:   Apache License 2.0
   tags:      [black]
-  
+
 - title:     Slender
   github:    nikrich/jekyll-slender-template
   demo_url:  http://nikrich.github.io/jekyll-slender-template/#
@@ -1158,8 +1161,8 @@
   thumbnail: gravity.png
   license:   MIT
   tags:      [minimal, text-based, white, archive, category, archive-pages]
-  
-  
+
+
 - title:        DevJournal
   github:       hemangsk/DevJournal
   download_url: https://github.com/hemangsk/DevJournal/archive/master.zip
@@ -1168,7 +1171,7 @@
   thumbnail:    devjournal.png
   license:      MIT
   tags:         [minimal, text-based, developers]
-  
+
 - title:        Safarnama
   github:       hemangsk/safarnama
   download_url: https://github.com/hemangsk/safarnama/archive/master.zip
@@ -1177,7 +1180,7 @@
   thumbnail:    safarnama.png
   license:      MIT
   tags:         [minimal,travelogue, journal]
-  
+
 - title:        jekyllDecent
   github:       jwillmer/jekyllDecent
   download_url: https://github.com/jwillmer/jekyllDecent/archive/gh-pages.zip
@@ -1186,7 +1189,7 @@
   thumbnail:    jekyllDecent.png
   license:      MIT
   tags:        [decent, html5, clean, elegant, code, photo]
-  
+
 - title:        Thinkspace
   github:       heiswayi/thinkspace
   download_url: https://github.com/heiswayi/thinkspace/archive/master.zip
