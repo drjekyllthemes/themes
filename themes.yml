@@ -1195,3 +1195,11 @@
   thumbnail:    thinkspace.jpg
   license:      MIT
   tags:        [minimal, clean, white]
+
+- title:        Urban
+  github:       midzer/urban-theme
+  download_url: https://github.com/midzer/urban-theme/archive/master.zip
+  demo_url:     http://narkotyk.net
+  author:       Dennis Rohner
+  thumbnail:    urban.png
+  license:      MIT
