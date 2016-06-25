@@ -1,6 +1,13 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Ed
+  github:    elotroalex/ed
+  branch:    gh-pages             
+  demo_url:  http://elotroalex.github.io/ed/
+  author:    Alex Gil et al
+  thumbnail: ed.png
+  license:   MIT
 
 - title:     Henry's Starter (Minimal)
   github:    henrythemes/jekyll-starter-theme
