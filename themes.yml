@@ -1,9 +1,18 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Violet
+  github:    sergiokopplin/violet
+  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
+  demo_url:  http://koppl.in/violet
+  thumbnail: violet.png
+  author:    Sérgio Kopplin
+  license:   Public Domain
+  tags:      [white]
+
 - title:     Ed
   github:    elotroalex/ed
-  branch:    gh-pages             
+  branch:    gh-pages
   demo_url:  http://elotroalex.github.io/ed/
   author:    Alex Gil et al
   thumbnail: ed.png
