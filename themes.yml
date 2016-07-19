@@ -1223,3 +1223,13 @@
   thumbnail:    urban.png
   license:      MIT
   tags:         []
+
+- title:        Labrador
+  github:       donini/labrador-jekyll-theme
+  branch:       master
+  demo_url:     http://donini.me
+  author:       Rodrigo Donini
+  thumbnail:    labrador-jekyll-theme-thumb.jpg
+  license:      MIT
+  tags:        [minimal, single-page, blog, multilanguage]
+
