@@ -1,6 +1,15 @@
 ###############################
 #  Jekyll Themes
 
+- title: Researcher
+  github: bk2dcradle/researcher
+  branch: gh-pages
+  demo_url: https://ankitsultana.me/researcher
+  thumbnail: researcher.png
+  author: Ankit Sultana
+  license: GNU GPL v3
+  tags: [clean, monospace, resume]
+
 - title:     Violet
   github:    sergiokopplin/violet
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
