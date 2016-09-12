@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Libretto
+  github:    ferrolho/jekyll-theme-libretto
+  branch:    gh-pages              # note: defaults to master
+  demo_url:  https://ferrolho.github.io/jekyll-theme-libretto/
+  author:    Henrique Ferrolho
+  thumbnail: jekyll-theme-libretto.jpg
+  license:   Public Domain
+
 - title:     RLStevenson
   home_url:  https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme
   download_url: https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme/archive/master.zip
