@@ -1,6 +1,15 @@
 ###############################
 #  Jekyll Themes
 
+- title:     RLStevenson
+  home_url:  https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme
+  download_url: https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme/archive/master.zip
+  demo_url:     https://www.exchangerate-api.com/rlstevenson/
+  thumbnail: rlstevenson.png
+  author:    ExchangeRate-API
+  license:   MIT
+  tags:      [blog, responsive, bootstrap]
+
 - title: Researcher
   github: bk2dcradle/researcher
   branch: gh-pages
