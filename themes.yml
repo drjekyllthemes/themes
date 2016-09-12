@@ -1259,3 +1259,12 @@
   license:      MIT
   tags:        [minimal, single-page, blog, multilanguage]
 
+- title:        Instagram portfolio theme
+  github:       portfolio-central/jekyll-instagram-portfolio-theme
+  branch:       gh-pages
+  demo_url:     https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
+  author:       Sergey Sokurenko
+  thumbnail:    instagram-portfolo.jpg
+  license:      MIT
+  tags:        [minimal, single-page, clean, portfolio, instagram]
+
