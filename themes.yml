@@ -308,9 +308,9 @@
   tags:      []
 
 - title: Swift
-  home_url: https://github.com/pranavrajs/swift/
+  home_url: https://github.com/pranavrajs/swift
   download_url: https://github.com/pranavrajs/swift/archive/master.zip
-  demo_url: http://pranavrajs.me/swift/
+  demo_url: http://pranavrajs.me/swift
   author: Pranav Raj S
   thumbnail: swift.png
   license: MIT
@@ -400,9 +400,9 @@
   tags:      []
 
 - title: Solo         ## (single-page)
-  home_url: http://github.com/chibicode/solo/
+  home_url: http://github.com/chibicode/solo
   download_url: http://github.com/chibicode/solo/archive/master.zip
-  demo_url: http://chibicode.github.io/solo/
+  demo_url: http://chibicode.github.io/solo
   author: Shu Uesugi
   thumbnail: solo.png
   license: MIT
@@ -508,7 +508,7 @@
 
 
 - title: Otter Pop
-  home_url: https://github.com/tybenz/otter-pop/
+  home_url: https://github.com/tybenz/otter-pop
   download_url: https://github.com/tybenz/otter-pop/archive/gh-pages.zip
   demo_url: http://tybenz.com/otter-pop
   author: Tyler Benziger
@@ -678,7 +678,7 @@
   tags:      []
 
 - title: Shiori
-  home_url: https://github.com/ellekasai/shiori/
+  home_url: https://github.com/ellekasai/shiori
   download_url: https://github.com/ellekasai/shiori/archive/gh-pages.zip
   demo_url: http://ellekasai.github.io/shiori/
   author: Elle Kasai
@@ -687,7 +687,7 @@
   tags:      [bootstrap]
 
 - title: Resume Cards
-  home_url: https://github.com/ellekasai/resumecards/
+  home_url: https://github.com/ellekasai/resumecards
   download_url: https://github.com/ellekasai/resumecards/archive/gh-pages.zip
   demo_url: http://ellekasai.github.io/resumecards/
   author: Elle Kasai
@@ -986,7 +986,7 @@
 
 
 - title: Polar Bear
-  home_url: https://github.com/diezcami/polar-bear-theme/
+  home_url: https://github.com/diezcami/polar-bear-theme
   download_url: https://github.com/diezcami/polar-bear-theme/archive/master.zip
   demo_url: https://diezcami.github.io/polar-bear-theme
   author: Camille Diez
@@ -995,7 +995,7 @@
   tags:      []
 
 - title: Arctic Fox
-  home_url: https://github.com/diezcami/arctic-fox-theme/
+  home_url: https://github.com/diezcami/arctic-fox-theme
   download_url: https://github.com/diezcami/arctic-fox-theme/archive/master.zip
   demo_url: https://diezcami.github.io/arctic-fox-theme
   author: Camille Diez
@@ -1267,4 +1267,3 @@
   thumbnail:    instagram-portfolo.jpg
   license:      MIT
   tags:        [minimal, single-page, clean, portfolio, instagram]
-
