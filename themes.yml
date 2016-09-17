@@ -366,8 +366,8 @@
 
 
 - title: Simply Grey
-  home_url: https://github.com/mondss/simplygrey-jekyll
-  download_url: https://github.com/mondss/simplygrey-jekyll/archive/master.zip
+  home_url: https://github.com/liamsymonds/simplygrey-jekyll
+  download_url: https://github.com/liamsymonds/simplygrey-jekyll/archive/master.zip
   author: Liam Symonds
   thumbnail: simply-grey.png
   license: BSD
@@ -391,9 +391,9 @@
 ##  license: MIT
 
 - title: Red Cup
-  home_url: https://github.com/nadjetey/redcup
-  download_url: https://github.com/nadjetey/redcup/archive/master.zip
-  demo_url: http://nadjetey.github.io/redcup/
+  home_url: https://github.com/iamnii/redcup
+  download_url: https://github.com/iamnii/redcup/archive/master.zip
+  demo_url: http://iamnii.github.io/redcup/
   author: Nii Adjetey Sowah
   thumbnail: redcup.png
   license: CC BY
@@ -436,9 +436,9 @@
   tags:      []
 
 - title: Wangana
-  home_url: https://github.com/nadjetey/wangana
-  download_url: https://github.com/nadjetey/wangana/archive/master.zip
-  demo_url: http://nadjetey.github.io/
+  home_url: https://github.com/iamnii/wangana
+  download_url: https://github.com/iamnii/wangana/archive/master.zip
+  demo_url: http://iamnii.github.io/
   author: Nii Adjetey Sowah
   thumbnail: wangana.png
   license: MIT
@@ -454,8 +454,8 @@
   tags:      []
 
 - title: Gereksiz
-  home_url: https://github.com/berkoz/gereksiz
-  download_url: https://github.com/berkoz/gereksiz/archive/master.zip
+  home_url: https://github.com/bozbalci/gereksiz
+  download_url: https://github.com/bozbalci/gereksiz/archive/master.zip
   author: Berk Özbalcı
   thumbnail: gereksiz.png
   license: BSD
@@ -488,23 +488,26 @@
   tags:      []
 
 
-- title:     Clean Magic Medium
-  home_url:  https://github.com/SpaceG/CleanMagicMedium-Jekyll
-  download_url:  https://github.com/SpaceG/CleanMagicMedium-Jekyll/archive/master.zip
+- title:     Library
+  home_url:  https://github.com/SpaceG/Library
+  download_url:  https://github.com/SpaceG/Library/archive/master.zip
   demo_url:      http://www.lucasgatsas.ch
   author:    Lucas Gatsas
   thumbnail: cleanmagicmedium.png
   license:   Apache
   tags:      []
+## fix/todo: rename thubnmail to library too
 
-- title:     Ice & Fire
-  home_url:  https://github.com/SpaceG/iceandfire
-  download_url:  https://github.com/SpaceG/iceandfire/archive/master.zip
+
+- title:     Glas
+  home_url:  https://github.com/SpaceG/glas
+  download_url:  https://github.com/SpaceG/glas/archive/master.zip
   demo_url:      http://lucasgatsas.ch
   author:    Lucas Gatsas
   thumbnail: ice-and-fire.png
   license:   Apache
   tags:      []
+## fix/todo: rename thubnmail to glas too
 
 
 - title: Otter Pop
@@ -535,9 +538,9 @@
   tags:      []
 
 - title: Grid Gallery
-  home_url: https://github.com/nadjetey/GridGallery
-  download_url: https://github.com/nadjetey/GridGallery/archive/master.zip
-  demo_url: https://nadjetey.github.io/GridGallery
+  home_url: https://github.com/iamnii/GridGallery
+  download_url: https://github.com/iamnii/GridGallery/archive/master.zip
+  demo_url: https://iamnii.github.io/GridGallery
   author: Nii Adjetey Sowah
   thumbnail: gridgallery.png
   license: WTF
@@ -579,8 +582,8 @@
   tags:      []
 
 - title: Leap Day
-  home_url: https://github.com/mattgraham/Leap-Day
-  download_url: https://github.com/mattgraham/Leap-Day/archive/master.zip
+  home_url: https://github.com/mattgraham/leapday
+  download_url: https://github.com/mattgraham/leapday/archive/master.zip
   demo_url: http://madebygraham.com/leapday/
   author: Matt Graham
   thumbnail: leap-day.png
@@ -724,9 +727,9 @@
   tags:      []
 
 - title: Clean Blog
-  home_url: https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll
-  download_url: https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll/archive/gh-pages.zip
-  demo_url: http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/
+  home_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll
+  download_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/gh-pages.zip
+  demo_url: http://BlackrockDigital.github.io/startbootstrap-clean-blog-jekyll/
   author: Start Bootstrap
   thumbnail: clean-blog.png
   license: Apache
@@ -778,8 +781,8 @@
 
 
 - title: Open Theme
-  home_url: https://github.com/open-start/opentheme
-  download_url: https://github.com/open-start/opentheme/archive/master.zip
+  home_url: https://github.com/manavsehgal/opentheme
+  download_url: https://github.com/manavsehgal/opentheme/archive/master.zip
   demo_url: http://opentheme.co/
   author: Manav Sehgal
   thumbnail: opentheme.png
@@ -858,10 +861,10 @@
   license: MIT
   tags:      []
 
-- title: Qck
-  home_url: https://github.com/qckanemoto/jekyll-qck-theme
-  download_url: https://github.com/qckanemoto/jekyll-qck-theme/archive/master.zip
-  demo_url: http://qckanemoto.github.io/jekyll-qck-theme/
+- title: Tch
+  home_url: https://github.com/ttskch/jekyll-tch-theme
+  download_url: https://github.com/ttskch/jekyll-tch-theme/archive/master.zip
+  demo_url: http://ttskch.github.io/jekyll-tch-theme/
   author: Takashi Kanemoto
   thumbnail: qcktheme.png
   license: MIT
@@ -967,7 +970,7 @@
   tags:      []
 
 - title: Twister
-  home_url: https://github.com/DigitalMindCH/twister
+  home_url: https://github.com/DigitalMindCH/twister-jekyll-theme
   download_url: http://digitalmind.ch/media/downloads/twister_theme.zip
   demo_url: http://digitalmind.ch/themes/twister-jekyll-theme/demo/
   author: Digitalmind
@@ -1014,10 +1017,10 @@
   tags:      []
 
 
-- title: iCard Resume
-  home_url: https://github.com/ddbullfrog/iCard-Resume
-  download_url: https://github.com/ddbullfrog/iCard-Resume/archive/gh-pages.zip
-  demo_url: http://ddbullfrog.github.io/iCard-Resume
+- title: Resume Card
+  home_url: https://github.com/ddbullfrog/resumecard
+  download_url: https://github.com/ddbullfrog/resumecard/archive/gh-pages.zip
+  demo_url: http://ddbullfrog.github.io/resumecard
   author: Dong Liang
   thumbnail: icard-resume.png
   license: MIT
