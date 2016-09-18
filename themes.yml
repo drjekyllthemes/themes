@@ -1332,3 +1332,12 @@
   author:    Roman Zolotarev
   tags:     [white, minimalist]
 ##  license:  ???
+
+- title:     Julia
+  github:    kuoa/julia
+  demo_url:  https://kuoa.github.io/
+  thumbnail: julia.png
+  author:    Alexandru al II-lea
+  license:   MIT
+  tags:      [white,minimal,minimalist, clean]
+
