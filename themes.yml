@@ -1,79 +1,32 @@
 ###############################
 #  Jekyll Themes
 
-- title:     Libretto
-  github:    ferrolho/jekyll-theme-libretto
-  branch:    gh-pages              # note: defaults to master
-  demo_url:  https://ferrolho.github.io/jekyll-theme-libretto/
-  author:    Henrique Ferrolho
-  thumbnail: jekyll-theme-libretto.jpg
-  license:   Public Domain
-
-- title:     RLStevenson
-  home_url:  https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme
-  download_url: https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme/archive/master.zip
-  demo_url:     https://www.exchangerate-api.com/rlstevenson/
-  thumbnail: rlstevenson.png
-  author:    ExchangeRate-API
-  license:   MIT
-  tags:      [blog, responsive, bootstrap]
-
-- title: Researcher
-  github: bk2dcradle/researcher
-  branch: gh-pages
-  demo_url: https://ankitsultana.me/researcher
-  thumbnail: researcher.png
-  author: Ankit Sultana
-  license: GNU GPL v3
-  tags: [clean, monospace, resume]
-
-- title:     Violet
-  github:    sergiokopplin/violet
-  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
-  demo_url:  http://koppl.in/violet
-  thumbnail: violet.png
-  author:    Sérgio Kopplin
-  license:   Public Domain
-  tags:      [white]
-
-- title:     Ed
-  github:    elotroalex/ed
-  branch:    gh-pages
-  demo_url:  http://elotroalex.github.io/ed/
-  author:    Alex Gil et al
-  thumbnail: ed.png
-  license:   MIT
-
 - title:     Henry's Starter (Minimal)
   github:    henrythemes/jekyll-starter-theme
-  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
   demo_url:  http://henrythemes.github.io/jekyll-starter-theme/
   thumbnail: henry-starter.png
   author:    Gerald Bauer
   license:   Public Domain
-  tags:      [white]
+  tags:      [white,starter]
 
 - title:     Henry's Minimal
   github:    henrythemes/jekyll-minimal-theme
-  branch:    gh-pages
   demo_url:  http://henrythemes.github.io/jekyll-minimal-theme/
   thumbnail: henry-minimal.png
   author:    Gerald Bauer
   license:   Public Domain
-  tags:      [white]
+  tags:      [white,minimal,starter]
 
 - title:     Henry's Bootstrap
   github:    henrythemes/jekyll-bootstrap-theme
-  branch:    gh-pages
   demo_url:  http://henrythemes.github.io/jekyll-bootstrap-theme/
   author:    Gerald Bauer
   thumbnail: henry-bootstrap.png
   license:   Public Domain
-  tags:      [bootstrap, scss, white]
+  tags:      [bootstrap, scss, white, starter]
 
 - title:     Henry's Classics Book
   github:    henrythemes/jekyll-book-theme
-  branch:    gh-pages
   demo_url:  http://henrythemes.github.io/jekyll-book-theme/
   author:    Gerald Bauer
   thumbnail: henry-book.png
@@ -113,7 +66,7 @@
   license:   MIT
   tags:      []
 
-- title:     Jekyll New (Built-In Default)
+- title:     Jekyll New (Built-In v3.1 Default)
   github:    jekyll/example
   branch:    gh-pages
   demo_url:  http://jekyll.github.io/example/
@@ -132,7 +85,6 @@
   tags:      []
 
 
-
 - title:     Holo Alfa
   github:    steinvc/holo-alfa
   branch:    gh-pages
@@ -143,13 +95,12 @@
   tags:      []
 
 - title:     "{ Personal }"
-  home_url:  https://github.com/PanosSakkos/personal-jekyll-theme
-  download_url:  https://github.com/PanosSakkos/personal-jekyll-theme/archive/master.zip
-  demo_url:      http://panossakkos.github.io/personal-jekyll-theme/
+  github:    PanosSakkos/personal-jekyll-theme
+  demo_url:  http://panossakkos.github.io/personal-jekyll-theme/
   author:    Panos Sakkos
   thumbnail: personal.jpg
   license:   MIT
-  tags:      []
+  tags:      [timeline]
 
 
 - title:     Material Design Lite (MDL)
@@ -662,7 +613,7 @@
   license: CC BY
   tags:      []
 
-- title: Jekyll CV Crafter
+- title:  Currículum Vitae (CV) Crafter
   home_url: https://github.com/streetturtle/jekyll-cv-crafter
   download_url: https://github.com/streetturtle/jekyll-cv-crafter/archive/gh-pages.zip
   demo_url: http://pavelmakhov.com/jekyll-cv-crafter/
@@ -744,7 +695,7 @@
   license: Apache
   tags:      []
 
-- title: autm-rb
+- title: Autm.rb
   home_url: https://github.com/railsr/autm-rb
   download_url: https://github.com/railsr/autm-rb/archive/master.zip
   demo_url: http://railsr.github.io/autm-rb/
@@ -1011,7 +962,7 @@
   home_url: https://github.com/Gaohaoyang/gaohaoyang.github.io
   download_url: https://github.com/Gaohaoyang/gaohaoyang.github.io/archive/v1.1.zip
   demo_url: http://gaohaoyang.github.io/
-  author: Gaohaoyang
+  author: Gao Haoyang
   thumbnail: cool-concise-high-end.jpg
   license: MIT
   tags:      []
@@ -1040,7 +991,7 @@
   home_url:  https://github.com/WakelessDragon/blog
   download_url:  https://github.com/WakelessDragon/blog/archive/gh-pages.zip
   demo_url:      http://blog.rainyalley.com/
-  author:    WakelessDragon
+  author:    Wakeless Dragon
   thumbnail: tiffany.png
   license:   MIT
   tags:      []
@@ -1187,7 +1138,7 @@
   github:    sunbliss/photorama
   branch:    gh-pages
   demo_url:  http://sunbliss.github.io/photorama
-  author:    Sunbliss
+  author:    Anna Prigkipaki
   thumbnail: photorama-thumb.gif
   license:   Apache License 2.0
   tags:      [black]
@@ -1262,7 +1213,7 @@
   license:      MIT
   tags:        [minimal, single-page, blog, multilanguage]
 
-- title:        Instagram portfolio theme
+- title:        Instagram Portfolio
   github:       portfolio-central/jekyll-instagram-portfolio-theme
   branch:       gh-pages
   demo_url:     https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
@@ -1270,3 +1221,114 @@
   thumbnail:    instagram-portfolo.jpg
   license:      MIT
   tags:        [minimal, single-page, clean, portfolio, instagram]
+
+- title:     Libretto
+  github:    ferrolho/jekyll-theme-libretto
+  branch:    gh-pages              # note: defaults to master
+  demo_url:  https://ferrolho.github.io/jekyll-theme-libretto/
+  author:    Henrique Ferrolho
+  thumbnail: jekyll-theme-libretto.jpg
+  license:   Public Domain
+
+### fix: needs name of author - didn't find anything other ddm
+- title:     R. L. Stevenson
+  github:    ExchangeRate-API/rlstevenson-jekyll-theme
+  demo_url:  https://www.exchangerate-api.com/rlstevenson/
+  thumbnail: rlstevenson.png
+  author:    ExchangeRate API
+  license:   MIT
+  tags:      [blog, responsive, bootstrap]
+
+- title: Researcher
+  github: bk2dcradle/researcher
+  branch: gh-pages
+  demo_url: https://ankitsultana.me/researcher
+  thumbnail: researcher.png
+  author: Ankit Sultana
+  license: GNU GPL v3
+  tags: [clean, monospace, resume]
+
+- title:     Violet
+  github:    sergiokopplin/violet
+  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
+  demo_url:  http://koppl.in/violet
+  thumbnail: violet.png
+  author:    Sérgio Kopplin
+  license:   Public Domain
+  tags:      [white]
+
+- title:     Ed
+  github:    elotroalex/ed
+  branch:    gh-pages
+  demo_url:  http://elotroalex.github.io/ed/
+  author:    Alex Gil et al
+  thumbnail: ed.png
+  license:   MIT
+  tags:     []
+
+
+- title:     CSSS - Slide Show (S9)
+  thumbnail: slideshow-csss.png
+  github:    slideshow-templates/slideshow-csss
+  demo_url:  http://slideshow-templates.github.io/slideshow-csss/slides.html
+  author:    Gerald Bauer
+  license:   Public Domain
+  tags:     [slideshow, s9, presentation]
+
+- title:     Deck.js - Slide Show (S9)
+  thumbnail: slideshow-deck.js.png
+  github:    slideshow-templates/slideshow-deck.js
+  demo_url:  http://slideshow-templates.github.io/slideshow-deck.js/slides.html
+  author:    Gerald Bauer
+  license:   Public Domain
+  tags:     [slideshow, s9, presentation]
+
+- title:     Impress.js - Slide Show (S9)
+  thumbnail: slideshow-impress.js.png
+  github:    slideshow-templates/slideshow-impress.js
+  demo_url:  http://slideshow-templates.github.io/slideshow-impress.js/slides.html
+  author:    Gerald Bauer
+  license:   Public Domain
+  tags:     [slideshow, s9, presentation, 3d]
+
+- title:     S6 Blank - Slide Show (S9)
+  thumbnail: slideshow-s6-blank.png
+  github:    slideshow-templates/slideshow-s6-blank
+  demo_url:  http://slideshow-templates.github.io/slideshow-s6-blank/slides.html
+  author:    Gerald Bauer
+  license:   Public Domain
+  tags:     [slideshow, s9, presentation, white]
+
+- title:     Reveal.js - Slide Show (S9)
+  thumbnail: slideshow-revealjs.png
+  github:    slideshow-templates/slideshow-reveal.js
+  demo_url:  http://slideshow-templates.github.io/slideshow-reveal.js/slides.html
+  author:    Gerald Bauer
+  license:   Public Domain
+  tags:     [slideshow, s9, presentation]
+
+- title:     Documenation 'n' Help Systems
+  thumbnail: jekyll-documentation.png
+  github:    tomjohnson1492/documentation-theme-jekyll
+  branch:    gh-pages
+  demo_url:  http://idratherbewriting.com/documentation-theme-jekyll
+  author:    Tom Johnson
+  license:   MIT
+  tags:     [docs, help]
+
+- title:     Handbook
+  thumbnail: opendatahandbook.png
+  github:    okfn/handbook-theme
+  branch:    theme
+  demo_url:  http://opendatahandbook.org
+  author:    Shu Higashi, Sam Smith, et al
+  tags:     [book]
+##  license:  ???
+
+- title:     Roman's Minimalist
+  thumbnail: jekyll-minimalist.jpg
+  github:    romanzolotarev/jekyll-minimalist
+  demo_url:  http://www.romanzolotarev.com/jekyll-minimalist/
+  author:    Roman Zolotarev
+  tags:     [white, minimalist]
+##  license:  ???
