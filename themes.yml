@@ -4,7 +4,7 @@
 - title:     Identity (by HTML5 UP)
   github:    andrewbanchich/Identity-Jekyll-Theme
   demo_url:  https://andrewbanchich.gitlab.io/identity-jekyll-theme/
-  thumbnail: identity.png
+  thumbnail: identity.jpg
   author:    Andrew Banchich
   license:   CCA 3.0
   tags:      [profile]
@@ -12,7 +12,7 @@
 - title:     Forty (by HTML5 UP)
   github:    andrewbanchich/Forty-Jekyll-Theme
   demo_url:  https://andrewbanchich.gitlab.io/forty-jekyll-theme/
-  thumbnail: forty.png
+  thumbnail: forty.jpg
   author:    Andrew Banchich
   license:   CCA 3.0
   tags:      [grid,responsive,tiles]
