@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Highlights (by HTML5 UP)
+  github:    andrewbanchich/Highlights-Jekyll-Theme
+  demo_url:  https://andrewbanchich.gitlab.io/highlights-jekyll-theme/
+  thumbnail: highlights.jpg
+  author:    Andrew Banchich
+  license:   CCA 3.0
+  tags:      [profile]
+
 - title:     Identity (by HTML5 UP)
   github:    andrewbanchich/Identity-Jekyll-Theme
   demo_url:  https://andrewbanchich.gitlab.io/identity-jekyll-theme/
