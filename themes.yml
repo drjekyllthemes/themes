@@ -1,29 +1,22 @@
 ###############################
 #  Jekyll Themes
 
-- title:     Highlights (by HTML5 UP)
-  github:    andrewbanchich/Highlights-Jekyll-Theme
-  demo_url:  https://andrewbanchich.gitlab.io/highlights-jekyll-theme/
-  thumbnail: highlights.jpg
-  author:    Andrew Banchich
-  license:   CCA 3.0
-  tags:      [profile]
+- title:     Henry's Hello, Jekyll!
+  github:    henrythemes/hello-jekyll-theme
+  demo_url:  https://henrythemes.github.io/hello-jekyll-theme/
+  thumbnail: hello-jekyll.png
+  author:    Gerald Bauer
+  license:   Public Domain
+  tags:      [white,starter]
 
-- title:     Identity (by HTML5 UP)
-  github:    andrewbanchich/Identity-Jekyll-Theme
-  demo_url:  https://andrewbanchich.gitlab.io/identity-jekyll-theme/
-  thumbnail: identity.jpg
-  author:    Andrew Banchich
-  license:   CCA 3.0
-  tags:      [profile]
+- title:     Henry's Hello, Minima!
+  github:    henrythemes/hello-minima-theme
+  demo_url:  http://henrythemes.github.io/hello-minima-theme/
+  thumbnail: hello-minima.png
+  author:    Gerald Bauer
+  license:   Public Domain
+  tags:      [white,starter,gem,minima]
 
-- title:     Forty (by HTML5 UP)
-  github:    andrewbanchich/Forty-Jekyll-Theme
-  demo_url:  https://andrewbanchich.gitlab.io/forty-jekyll-theme/
-  thumbnail: forty.jpg
-  author:    Andrew Banchich
-  license:   CCA 3.0
-  tags:      [grid,responsive,tiles]
 
 - title:     Henry's Starter (Minimal)
   github:    henrythemes/jekyll-starter-theme
@@ -1215,7 +1208,7 @@
   branch:       master
   demo_url:     http://heiswayi.github.io/thinkspace/
   author:       Heiswayi Nrird
-  thumbnail:    thinkspace.jpg
+  thumbnail:    thinkspace.png
   license:      MIT
   tags:        [minimal, clean, white]
 
@@ -1356,7 +1349,7 @@
   demo_url:  http://opendatahandbook.org
   author:    Shu Higashi, Sam Smith, et al
   tags:     [book]
-##  license:  ???
+  license:   CC-BY
 
 - title:     Roman's Minimalist
   thumbnail: jekyll-minimalist.jpg
@@ -1364,7 +1357,15 @@
   demo_url:  http://www.romanzolotarev.com/jekyll-minimalist/
   author:    Roman Zolotarev
   tags:     [white, minimalist]
-##  license:  ???
+  license:   CC0 (Public Domain)
+
+- title:     Roman's Newsletter (RSS-to-Email)
+  thumbnail: jekyll-newsletter.jpg
+  github:    romanzolotarev/jekyll-newsletter
+  demo_url:  http://www.romanzolotarev.com/jekyll-newsletter/
+  author:    Roman Zolotarev
+  tags:     [white, minimalist, newsletter, rss-to-email]
+  license:  CC0 (Public Domain)
 
 - title:     Julia
   github:    kuoa/julia
@@ -1374,3 +1375,26 @@
   license:   MIT
   tags:      [white,minimal,minimalist, clean]
 
+- title:     Highlights (by HTML5 UP)
+  github:    andrewbanchich/Highlights-Jekyll-Theme
+  demo_url:  https://andrewbanchich.gitlab.io/highlights-jekyll-theme/
+  thumbnail: html5up-highlights.png
+  author:    Andrew Banchich
+  license:   CCA 3.0
+  tags:      [profile,single-page]
+
+- title:     Identity (by HTML5 UP)
+  github:    andrewbanchich/Identity-Jekyll-Theme
+  demo_url:  https://andrewbanchich.gitlab.io/identity-jekyll-theme/
+  thumbnail: html5up-identity.png
+  author:    Andrew Banchich
+  license:   CCA 3.0
+  tags:      [profile]
+
+- title:     Forty (by HTML5 UP)
+  github:    andrewbanchich/Forty-Jekyll-Theme
+  demo_url:  https://andrewbanchich.gitlab.io/forty-jekyll-theme/
+  thumbnail: html5up-forty.png
+  author:    Andrew Banchich
+  license:   CCA 3.0
+  tags:      [grid,responsive,tiles]
