@@ -1380,7 +1380,7 @@
   demo_url:  https://andrewbanchich.gitlab.io/highlights-jekyll-theme/
   thumbnail: html5up-highlights.png
   author:    Andrew Banchich
-  license:   CCA 3.0
+  license:   CC BY
   tags:      [profile,single-page]
 
 - title:     Identity (by HTML5 UP)
@@ -1388,7 +1388,7 @@
   demo_url:  https://andrewbanchich.gitlab.io/identity-jekyll-theme/
   thumbnail: html5up-identity.png
   author:    Andrew Banchich
-  license:   CCA 3.0
+  license:   CC BY
   tags:      [profile]
 
 - title:     Forty (by HTML5 UP)
@@ -1396,5 +1396,5 @@
   demo_url:  https://andrewbanchich.gitlab.io/forty-jekyll-theme/
   thumbnail: html5up-forty.png
   author:    Andrew Banchich
-  license:   CCA 3.0
+  license:   CC BY
   tags:      [grid,responsive,tiles]
