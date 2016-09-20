@@ -1246,6 +1246,15 @@
   license:      MIT
   tags:        [minimal, single-page, clean, portfolio, instagram]
 
+- title:     Smart Material
+  github:    ssokurenko/jekyll-smart-material
+  branch:    gh-pages
+  demo_url:  https://ssokurenko.github.io/jekyll-smart-material/
+  author:    Sergey Sokurenko
+  thumbnail: smart-material.jpg
+  license:   MIT
+  tags:      [blog, responsive, material, minimalistic]
+
 - title:     Libretto
   github:    ferrolho/jekyll-theme-libretto
   branch:    gh-pages              # note: defaults to master
