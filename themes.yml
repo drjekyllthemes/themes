@@ -883,11 +883,11 @@
   license: MIT
   tags:      []
 
-- title: Feeling Responsive
-  home_url: https://github.com/Phlow/feeling-responsive
-  download_url: https://github.com/Phlow/feeling-responsive/archive/gh-pages.zip
+- title:  Feeling Responsive
+  github: Phlow/feeling-responsive
+  branch: gh-pages
   demo_url: http://phlow.github.io/feeling-responsive/
-  author: Moritz »mo.« Sauer
+  author: Moritz Sauer      # fix - add back »mo.« gets mangled
   thumbnail: feeling-responsive.jpg
   license: MIT
   tags:      []
@@ -908,15 +908,6 @@
   author: Xiaoying Riley
   thumbnail: devaid.png
   license: CC BY
-  tags:      []
-
-- title: One Page Wonder
-  home_url: https://github.com/mushishi78/one-page-wonder-jekyll
-  download_url: https://github.com/mushishi78/one-page-wonder-jekyll/archive/gh-pages.zip
-  demo_url: http://mushishi78.github.io/one-page-wonder-jekyll
-  author: Max White
-  thumbnail: one-page-wonder.jpg
-  license: MIT
   tags:      []
 
 - title: Carte Noire
@@ -1047,6 +1038,15 @@
   license:   MIT
   tags:      [video]
 
+- title:     One Page Wonder
+  github:    mushishi78/one-page-wonder-jekyll
+  branch:    gh-pages
+  demo_url:  http://mushishi78.github.io/one-page-wonder-jekyll
+  author:    Max White
+  thumbnail: one-page-wonder.jpg
+  license:   MIT
+  tags:      []
+
 - title:     Leonids
   github:    renyuanz/leonids
   branch:    master
@@ -1119,7 +1119,7 @@
   github:    AkshayAgarwal007/Jekyll-Mono
   demo_url:  http://akshayagarwal007.github.io/Jekyll-Mono/
   author:    Akshay Agarwal
-  thumbnail: jekyll-mono.png
+  thumbnail: jekyll-mono.jpg
   license:   MIT
   tags:      []
 
@@ -1156,7 +1156,7 @@
   branch:    gh-pages
   demo_url:  http://sunbliss.github.io/photorama
   author:    Anna Prigkipaki
-  thumbnail: photorama-thumb.gif
+  thumbnail: photorama_thumb.gif
   license:   Apache License 2.0
   tags:      [black]
 
@@ -1357,15 +1357,15 @@
   demo_url:  http://www.romanzolotarev.com/jekyll-minimalist/
   author:    Roman Zolotarev
   tags:     [white, minimalist]
-  license:   CC0 (Public Domain)
+  license:   CC0 - Public Domain
 
 - title:     Roman's Newsletter (RSS-to-Email)
-  thumbnail: jekyll-newsletter.jpg
+  thumbnail: jekyll-newsletter.png
   github:    romanzolotarev/jekyll-newsletter
   demo_url:  http://www.romanzolotarev.com/jekyll-newsletter/
   author:    Roman Zolotarev
   tags:     [white, minimalist, newsletter, rss-to-email]
-  license:  CC0 (Public Domain)
+  license:  CC0 - Public Domain
 
 - title:     Julia
   github:    kuoa/julia
