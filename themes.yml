@@ -1,6 +1,13 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Dunders
+  github:    woliveiras/__s
+  demo_url:  https://woliveiras.com.br/dunders.demo/
+  author:    William Oliveira
+  thumbnail: dunders.png
+  license:   MIT
+
 - title:     Henry's Hello, Jekyll!
   github:    henrythemes/hello-jekyll-theme
   demo_url:  https://henrythemes.github.io/hello-jekyll-theme/
