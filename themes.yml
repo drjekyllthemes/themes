@@ -1,12 +1,20 @@
 ###############################
 #  Jekyll Themes
 
-- title:     Dunders
+- title:     Dunders (Double Underscores)
   github:    woliveiras/__s
   demo_url:  https://woliveiras.com.br/dunders.demo/
   author:    William Oliveira
   thumbnail: dunders.png
   license:   MIT
+  
+- title:     Cards
+  github:    willianjusten/cards-jekyll-template
+  demo_url:  https://willianjusten.com.br/cards-jekyll-template/
+  author:    Willian Justen
+  thumbnail: cards.png
+  license:   MIT
+   
 
 - title:     Henry's Hello, Jekyll!
   github:    henrythemes/hello-jekyll-theme
