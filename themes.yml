@@ -2,11 +2,12 @@
 #  Jekyll Themes
 
 - title:     Onlince CV
-  github:    https://github.com/sharu725/online-cv
+  github:    sharu725/online-cv
   demo_url:  http://webjeda.com/online-cv/
   author:    Xiaoying Riley
   thumbnail: online-cv.png
-  license:   Creative Commons Attribution 3.0 License (CC BY 3.0)
+  license:   CC BY 3.0
+  tags:      [cv]
 
 - title:     Dunders (Double Underscores)
   github:    woliveiras/__s
@@ -14,6 +15,7 @@
   author:    William Oliveira
   thumbnail: dunders.png
   license:   MIT
+  tags:      [white,starter]
   
 - title:     Cards
   github:    willianjusten/cards-jekyll-template
@@ -21,6 +23,7 @@
   author:    Willian Justen
   thumbnail: cards.png
   license:   MIT
+  tags:      [cards]
    
 
 - title:     Henry's Hello, Jekyll!
