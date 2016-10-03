@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Library
+  github:    alexcarpenter/library-jekyll-theme
+  demo_url:  http://alexcarpenter.github.io/library-jekyll-theme/
+  author:    Alex Carpenter
+  thumbnail: library.jpg
+  license:   MIT
+  tags:      []
+
 - title:     Evento
   github:    boyney123/evento
   demo_url:  http://evento.davidboyne.co.uk/
