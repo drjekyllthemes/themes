@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Evento
+  github:    boyney123/evento
+  demo_url:  http://evento.davidboyne.co.uk/
+  author:    David Boyne
+  thumbnail: evento.png
+  license:   MIT
+  tags:      [events]
+
 - title:     Onlince CV
   github:    sharu725/online-cv
   demo_url:  http://webjeda.com/online-cv/
