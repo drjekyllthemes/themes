@@ -1,47 +1,6 @@
 ###############################
 #  Jekyll Themes
 
-- title:     Library
-  github:    alexcarpenter/library-jekyll-theme
-  demo_url:  http://alexcarpenter.github.io/library-jekyll-theme/
-  author:    Alex Carpenter
-  thumbnail: library.jpg
-  license:   MIT
-  tags:      []
-
-- title:     Evento
-  github:    boyney123/evento
-  demo_url:  http://evento.davidboyne.co.uk/
-  author:    David Boyne
-  thumbnail: evento.png
-  license:   MIT
-  tags:      [events]
-
-- title:     Onlince CV
-  github:    sharu725/online-cv
-  demo_url:  http://webjeda.com/online-cv/
-  author:    Xiaoying Riley
-  thumbnail: online-cv.png
-  license:   CC BY
-  tags:      [cv]
-
-- title:     Dunders (Double Underscores)
-  github:    woliveiras/__s
-  demo_url:  https://woliveiras.com.br/dunders.demo/
-  author:    William Oliveira
-  thumbnail: dunders.png
-  license:   MIT
-  tags:      [white,starter]
-  
-- title:     Cards
-  github:    willianjusten/cards-jekyll-template
-  demo_url:  https://willianjusten.com.br/cards-jekyll-template/
-  author:    Willian Justen
-  thumbnail: cards.png
-  license:   MIT
-  tags:      [cards]
-   
-
 - title:     Henry's Hello, Jekyll!
   github:    henrythemes/hello-jekyll-theme
   demo_url:  https://henrythemes.github.io/hello-jekyll-theme/
@@ -56,7 +15,7 @@
   thumbnail: hello-minima.png
   author:    Gerald Bauer
   license:   Public Domain
-  tags:      [white,starter,gem,minima]
+  tags:      [white,starter,minima]
 
 
 - title:     Henry's Starter (Minimal)
@@ -335,25 +294,6 @@
   tags:      []
 
 
-## !!!  missing (broken) demo link
-##- title:    HMFAYSAL
-##  home_url: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme
-##  download_url: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme/archive/master.zip
-##  demo_url:     ???
-##  author:    Hossain Mohd Faysal
-##  thumbnail: hmfaysal.png
-##  license: GNU General Public License Version 2
-
-## !!!  missing (broken) demo link ???
-##- title:     HMFAYSAL V2
-##  home_url:  https://github.com/hmfaysal/Jekyll-HMFAYSAL-V2-Theme
-##  download_url:  https://github.com/hmfaysal/Jekyll-HMFAYSAL-V2-Theme/archive/master.zip
-##  demo_url:      ???
-##  author:    Hossain Mohd Faysal
-##  thumbnail: hmfaysal-v2.png
-##  license:   GNU General Public License Version 2
-
-
 - title:     H M Faysal's Omega
   home_url:  https://github.com/hmfaysal/hmfaysal-omega-theme
   download_url:  https://github.com/hmfaysal/hmfaysal-omega-theme/archive/gh-pages.zip
@@ -390,14 +330,6 @@
   license: MIT
   tags:      []
 
-## 404 not found - check back ??
-## - title: hushaw
-##   home_url: https://github.com/hushaw/hushaw.github.com
-##  download_url: https://github.com/hushaw/hushaw.github.com/archive/master.zip
-##  demo_url: http://hushaw.github.io
-##  author: signifox
-##  thumbnail: hushaw.png
-##  license: MIT
 
 - title: Red Cup
   home_url: https://github.com/iamnii/redcup
@@ -671,7 +603,7 @@
   license: CC BY
   tags:      []
 
-- title:  Curriculum Vitae (CV) Crafter       
+- title:  Curriculum Vitae (CV) Crafter
   home_url: https://github.com/streetturtle/jekyll-cv-crafter
   download_url: https://github.com/streetturtle/jekyll-cv-crafter/archive/gh-pages.zip
   demo_url: http://pavelmakhov.com/jekyll-cv-crafter/
@@ -1439,3 +1371,43 @@
   author:    Andrew Banchich
   license:   CC BY
   tags:      [grid,responsive,tiles]
+
+- title:     Library
+  github:    alexcarpenter/library-jekyll-theme
+  demo_url:  http://alexcarpenter.github.io/library-jekyll-theme/
+  author:    Alex Carpenter
+  thumbnail: library.jpg
+  license:   MIT
+  tags:      []
+
+- title:     Evento
+  github:    boyney123/evento
+  demo_url:  http://evento.davidboyne.co.uk/
+  author:    David Boyne
+  thumbnail: evento.png
+  license:   MIT
+  tags:      [events]
+
+- title:     Onlince CV
+  github:    sharu725/online-cv
+  demo_url:  http://webjeda.com/online-cv/
+  author:    Xiaoying Riley
+  thumbnail: online-cv.png
+  license:   CC BY
+  tags:      [cv]
+
+- title:     Dunders (Double Underscores)
+  github:    woliveiras/__s
+  demo_url:  https://woliveiras.com.br/dunders.demo/
+  author:    William Oliveira
+  thumbnail: dunders.png
+  license:   MIT
+  tags:      [white,starter]
+
+- title:     Cards
+  github:    willianjusten/cards-jekyll-template
+  demo_url:  https://willianjusten.com.br/cards-jekyll-template/
+  author:    Willian Justen
+  thumbnail: cards.png
+  license:   MIT
+  tags:      [cards]
