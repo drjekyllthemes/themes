@@ -803,10 +803,10 @@
   license: MIT
   tags:      []
 
-- title: Tch
-  home_url: https://github.com/ttskch/jekyll-tch-theme
-  download_url: https://github.com/ttskch/jekyll-tch-theme/archive/master.zip
-  demo_url: http://ttskch.github.io/jekyll-tch-theme/
+- title: Ttskch
+  home_url: https://github.com/ttskch/jekyll-ttskch-theme
+  download_url: https://github.com/ttskch/jekyll-ttskch-theme/archive/master.zip
+  demo_url: http://ttskch.github.io/jekyll-ttskch-theme/
   author: Takashi Kanemoto
   thumbnail: qcktheme.png
   license: MIT
