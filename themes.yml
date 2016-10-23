@@ -257,6 +257,16 @@
   license: MIT
   tags:      []
 
+- title: Uno Dbyll
+  home_url: https://github.com/meliodus/uno-dbyll
+  download_url: https://github.com/meliodus/uno-dbyll/archive/gh-pages.zip
+  demo_url: http://meliodus.github.io/uno-dbyll/
+  author: Ankan Biswas
+  thumbnail: uno-dbyll.png
+  license: MIT
+  tags:      []
+
+
 - title: Exemplar
   home_url: https://github.com/tybenz/exemplar
   download_url: https://github.com/tybenz/exemplar/archive/master.zip
@@ -736,15 +746,6 @@
   demo_url: http://yulijia.net/freshman21/
   author: Lijia Yu
   thumbnail: freshman21.png
-  license: MIT
-  tags:      []
-
-- title: Uno Dbyll
-  home_url: https://github.com/talk2ankan/uno-dbyll
-  download_url: https://github.com/talk2ankan/uno-dbyll/archive/gh-pages.zip
-  demo_url: http://blog.ankanbiswas.in/uno-dbyll/
-  author: Ankan Biswas
-  thumbnail: uno-dbyll.png
   license: MIT
   tags:      []
 
