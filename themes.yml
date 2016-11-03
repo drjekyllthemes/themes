@@ -1415,7 +1415,6 @@
   
 - title:     SZ-Flex (Blog)
   github:    StartZeroGnu/jekyll-szflex-theme
-  branch:    mr-hyde
   demo_url:  http://startzerognu.neocities.org/sz-flex/
   author:    StartZeroGnu
   thumbnail: sz-flex.png
