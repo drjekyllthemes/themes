@@ -1415,7 +1415,7 @@
   
 - title:     SZ-Flex (Blog)
   github:    StartZeroGnu/jekyll-szflex-theme
-  demo_url:  http://startzerognu.neocities.org/sz-flex/
+  demo_url:  https://startzerognu.github.io/jekyll-szflex-theme/
   author:    StartZeroGnu
   thumbnail: sz-flex.png
   license:   MIT
