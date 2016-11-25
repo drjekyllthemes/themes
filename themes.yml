@@ -1425,8 +1425,23 @@
 - title:     Emping
   github:    rmsubekti/emping
   demo_url:  https://rmsubekti.github.io/emping/
-  author:    rmsubekti
+  author:    Rahmat Subekti
   thumbnail: emping.png
   license:   MIT
-  tags:      [blog]
-  keys:      [amp]
+  tags:      [blog, amp]
+
+- title:     Chalk
+  github:    nielsenramon/chalk
+  demo_url:  http://chalk.nielsenramon.com
+  author:    Nielsen Ramon 
+  thumbnail: chalk.png
+  license:   MIT
+  tags:     []
+
+- title:     Papyrus
+  github:    hugoferreira/papyrus-theme
+  demo_url:  http://hugosereno.eu
+  author:    Hugo Sereno Ferreira
+  thumbnail: papyrus.png
+  license:   CC BY SA
+  tags:     []
