@@ -1412,7 +1412,7 @@
   thumbnail: cards.png
   license:   MIT
   tags:      [cards]
-  
+
 - title:     SZ-Flex (Blog)
   github:    StartZeroGnu/jekyll-szflex-theme
   demo_url:  https://startzerognu.github.io/jekyll-szflex-theme/
@@ -1421,3 +1421,12 @@
   license:   MIT
   tags:      [blog]
   keys:      [szflex]
+
+- title:     Emping
+  github:    rmsubekti/emping
+  demo_url:  https://rmsubekti.github.io/emping/
+  author:    rmsubekti
+  thumbnail: emping.png
+  license:   MIT
+  tags:      [blog]
+  keys:      [amp]
