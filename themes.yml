@@ -1461,3 +1461,12 @@
   thumbnail: clean-jekyll-theme.png
   license:   MIT
   tags:      [white,minimal,minimalist,clean]
+
+- title:     Lagrange
+  github:    LeNPaul/Lagrange
+  demo_url:  https://lenpaul.github.io/Lagrange/
+  download_url: https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip
+  author:    Paul Le
+  thumbnail: lagrange.jpg
+  license:   MIT
+  tags:      [blog,minimal,minimalist,clean,simple,starter]
