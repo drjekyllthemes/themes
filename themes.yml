@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:        beNice17 theme
+  home_url:     https://github.com/vietanhdev/beNice17
+  download_url: https://github.com/vietanhdev/beNice17/archive/master.zip
+  demo_url:     https://vietanhdev.com/beNice17/
+  author:       Viet Anh Nguyen
+  thumbnail:    beNice17.png
+  license:      MIT
+
 - title:     Henry's Hello, Jekyll!
   github:    henrythemes/hello-jekyll-theme
   demo_url:  https://henrythemes.github.io/hello-jekyll-theme/
