@@ -1478,3 +1478,12 @@
   thumbnail: lagrange.jpg
   license:   MIT
   tags:      [blog,minimal,minimalist,clean,simple,starter]
+
+- title:        Kikofri
+  home_url:     https://github.com/kxxvii/Kikofri
+  download_url: https://github.com/kxxvii/Kikofri/archive/master.zip
+  demo_url:     http://kikofri.johantkatiska.se/ 
+  author:       kxxvii
+  thumbnail:    Kikofri_thumb.png
+  license:      Apache-2.0
+  tags:         [ugly,minimal,blog,writer,white,red]
