@@ -1159,7 +1159,6 @@
   license:   MIT
   tags:      [minimal, text-based, white, archive, category, archive-pages]
   
-  
 - title:        DevJournal
   github:       hemangsk/DevJournal
   download_url: https://github.com/hemangsk/DevJournal/archive/master.zip
@@ -1185,7 +1184,7 @@
   author:       Jens Willmer
   thumbnail:    jekyllDecent.png
   license:      MIT
-  tags:        [decent, html5, clean, elegant, code, photo]
+  tags:         [decent, html5, clean, elegant, code, photo]
   
 - title:        Thinkspace
   github:       heiswayi/thinkspace
@@ -1194,7 +1193,7 @@
   author:       Heiswayi Nrird
   thumbnail:    thinkspace.jpg
   license:      MIT
-  tags:        [minimal, clean, white]
+  tags:         [minimal, clean, white]
 
 - title:        TextLog
   github:       heiswayi/textlog
@@ -1203,5 +1202,5 @@
   author:       Heiswayi Nrird
   thumbnail:    textlog.png
   license:      MIT
-  tags:        [minimal, clean, white, text-based, responsive]
+  tags:         [minimal, clean, white, text-based, responsive]
   
