@@ -1194,6 +1194,15 @@
   license:      MIT
   tags:        [minimal, clean, white]
 
+- title:        TextLog
+  github:       heiswayi/textlog
+  branch:       gh-pages
+  demo_url:     http://heiswayi.github.io/textlog
+  author:       Heiswayi Nrird
+  thumbnail:    textlog.png
+  license:      MIT
+  tags:        [minimal, clean, white, text-based, responsive]
+
 - title:        Urban
   github:       midzer/urban-theme
   branch:       master
