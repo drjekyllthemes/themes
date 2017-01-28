@@ -1,5 +1,13 @@
 ###############################
 #  Jekyll Themes
+- title:        Surgeon Tux
+  home_url:     https://github.com/lpsandaruwan/surgeon-tux
+  download_url: https://github.com/lpsandaruwan/surgeon-tux/archive/master.zip
+  demo_url:     https://lpsandaruwan.github.io/
+  author:       Lahiru Pathirage
+  thumbnail:    surgeon-tux.png
+  license:      GPLv3
+  tags:        [terminal,monospace,black]
 
 - title:        beNice17 theme
   home_url:     https://github.com/vietanhdev/beNice17
