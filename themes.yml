@@ -1,5 +1,13 @@
 ###############################
 #  Jekyll Themes
+- title:        Blade Theme
+  home_url:     https://github.com/mateussmedeiros/blade-theme
+  download_url: https://github.com/mateussmedeiros/blade-theme/archive/master.zip
+  demo_url:     https://mateussmedeiros.github.io/blade-theme/
+  author:       Mateus Medeiros
+  thumbnail:    blade-theme.png
+  license:      MIT
+
 - title:        Surgeon Tux
   home_url:     https://github.com/lpsandaruwan/surgeon-tux
   download_url: https://github.com/lpsandaruwan/surgeon-tux/archive/master.zip
