@@ -1512,3 +1512,11 @@
   thumbnail:    Kikofri_thumb.png
   license:      Apache-2.0
   tags:         [ugly,minimal,blog,writer,white,red]
+
+- title:     whiteglass
+  github:    yous/whiteglass
+  demo_url:  https://yous.github.io/whiteglass/
+  author:    Chayoung You
+  thumbnail: whiteglass.png
+  license:   MIT
+  tags:      [white, minimal, responsive, clean]
