@@ -1520,3 +1520,11 @@
   thumbnail: whiteglass.png
   license:   MIT
   tags:      [white, minimal, responsive, clean]
+
+- title:        Console Theme
+  home_url:     https://github.com/jaehee0113/console/
+  download_url: https://github.com/jaehee0113/console/archive/master.zip
+  demo_url:     https://jaehee0113.github.io/console/
+  author:       Jae Hee Lee
+  thumbnail:    console.png
+  license:      MIT
