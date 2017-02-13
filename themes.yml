@@ -1,29 +1,5 @@
 ###############################
 #  Jekyll Themes
-- title:        Blade Theme
-  home_url:     https://github.com/mateussmedeiros/blade-theme
-  download_url: https://github.com/mateussmedeiros/blade-theme/archive/master.zip
-  demo_url:     https://mateussmedeiros.github.io/blade-theme/
-  author:       Mateus Medeiros
-  thumbnail:    blade-theme.png
-  license:      MIT
-
-- title:        Surgeon Tux
-  home_url:     https://github.com/lpsandaruwan/surgeon-tux
-  download_url: https://github.com/lpsandaruwan/surgeon-tux/archive/master.zip
-  demo_url:     https://lpsandaruwan.github.io/
-  author:       Lahiru Pathirage
-  thumbnail:    surgeon-tux.png
-  license:      GPLv3
-  tags:        [terminal,monospace,black]
-
-- title:        beNice17 theme
-  home_url:     https://github.com/vietanhdev/beNice17
-  download_url: https://github.com/vietanhdev/beNice17/archive/master.zip
-  demo_url:     https://vietanhdev.com/beNice17/
-  author:       Viet Anh Nguyen
-  thumbnail:    beNice17.png
-  license:      MIT
 
 - title:     Henry's Hello, Jekyll!
   github:    henrythemes/hello-jekyll-theme
@@ -1176,7 +1152,6 @@
 
 - title:        Dev Journal
   github:       hemangsk/DevJournal
-  branch:       master
   demo_url:     http://hemangsk.github.io/DevJournal
   author:       Hemang Kumar
   thumbnail:    devjournal.png
@@ -1185,7 +1160,6 @@
 
 - title:        Safarnama
   github:       hemangsk/safarnama
-  branch:       master
   demo_url:     http://hemangsk.github.io/safarnama
   author:       Hemang Kumar
   thumbnail:    safarnama.png
@@ -1221,7 +1195,6 @@
 
 - title:        Urban
   github:       midzer/urban-theme
-  branch:       master
   demo_url:     http://narkotyk.net
   author:       Dennis Rohner
   thumbnail:    urban.png
@@ -1230,7 +1203,6 @@
 
 - title:        Labrador
   github:       donini/labrador-jekyll-theme
-  branch:       master
   demo_url:     http://donini.me
   author:       Rodrigo Donini
   thumbnail:    labrador-jekyll-theme-thumb.jpg
@@ -1466,7 +1438,7 @@
 - title:     Chalk
   github:    nielsenramon/chalk
   demo_url:  http://chalk.nielsenramon.com
-  author:    Nielsen Ramon 
+  author:    Nielsen Ramon
   thumbnail: chalk.png
   license:   MIT
   tags:     []
@@ -1487,7 +1459,7 @@
   license:   MIT
   tags:      [white,minimal,minimalist,clean,starter]
 
-- title:     clean-jekyll-theme
+- title:     Clean
   github:    siddhantgoel/clean-jekyll-theme
   demo_url:  https://siddhantgoel.github.io/clean-jekyll-theme
   author:    Siddhant Goel
@@ -1497,23 +1469,22 @@
 
 - title:     Lagrange
   github:    LeNPaul/Lagrange
+  branch:    gh-pages
   demo_url:  https://lenpaul.github.io/Lagrange/
-  download_url: https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip
   author:    Paul Le
   thumbnail: lagrange.jpg
   license:   MIT
   tags:      [blog,minimal,minimalist,clean,simple,starter]
 
 - title:        Kikofri
-  home_url:     https://github.com/kxxvii/Kikofri
-  download_url: https://github.com/kxxvii/Kikofri/archive/master.zip
-  demo_url:     http://kikofri.johantkatiska.se/ 
-  author:       kxxvii
+  github:       kxxvii/Kikofri
+  demo_url:     http://kikofri.johantkatiska.se/
+  author:       Johan T Katiska
   thumbnail:    Kikofri_thumb.png
-  license:      Apache-2.0
+  license:      Apache v2
   tags:         [ugly,minimal,blog,writer,white,red]
 
-- title:     whiteglass
+- title:     Whiteglass
   github:    yous/whiteglass
   demo_url:  https://yous.github.io/whiteglass/
   author:    Chayoung You
@@ -1521,10 +1492,34 @@
   license:   MIT
   tags:      [white, minimal, responsive, clean]
 
-- title:        Console Theme
-  home_url:     https://github.com/jaehee0113/console/
-  download_url: https://github.com/jaehee0113/console/archive/master.zip
+- title:        Blade
+  github:       mateussmedeiros/blade-theme
+  demo_url:     https://mateussmedeiros.github.io/blade-theme/
+  author:       Mateus Medeiros
+  thumbnail:    blade-theme.png
+  license:      MIT
+  tags:        []
+
+- title:        Surgeon Tux
+  github:       lpsandaruwan/surgeon-tux
+  demo_url:     https://lpsandaruwan.github.io/
+  author:       Lahiru Pathirage
+  thumbnail:    surgeon-tux.png
+  license:      GNU GPL v3
+  tags:        [terminal,monospace,black]
+
+- title:        BeNice17
+  github:       vietanhdev/beNice17
+  demo_url:     https://vietanhdev.com/beNice17/
+  author:       Viet Anh Nguyen
+  thumbnail:    beNice17.png
+  license:      MIT
+  tags:        []
+
+- title:        Console
+  github:       jaehee0113/console
   demo_url:     https://jaehee0113.github.io/console/
   author:       Jae Hee Lee
   thumbnail:    console.png
   license:      MIT
+  tags:        []
