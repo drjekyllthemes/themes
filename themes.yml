@@ -323,15 +323,6 @@
   tags:      []
 
 
-
-- title: Simply Grey
-  home_url: https://github.com/liamsymonds/simplygrey-jekyll
-  download_url: https://github.com/liamsymonds/simplygrey-jekyll/archive/master.zip
-  author: Liam Symonds
-  thumbnail: simply-grey.png
-  license: BSD
-  tags:      []
-
 - title: Herring Cove
   home_url: https://github.com/arnp/herring-cove
   download_url: https://github.com/arnp/herring-cove/archive/master.zip
@@ -341,14 +332,30 @@
   tags:      []
 
 
-- title: Red Cup
-  home_url: https://github.com/iamnii/redcup
-  download_url: https://github.com/iamnii/redcup/archive/master.zip
-  demo_url: http://iamnii.github.io/redcup/
+- title:  Red Cup
+  github: ajthewebdev/redcup
+  ## demo_url: http://ajthewebdev.github.io/redcup/
   author: Nii Adjetey Sowah
   thumbnail: redcup.png
   license: CC BY
   tags:      []
+
+- title:   Wangana
+  github:  ajthewebdev/wangana
+  ## demo_url: http://iamnii.github.io/
+  author: Nii Adjetey Sowah
+  thumbnail: wangana.png
+  license: MIT
+  tags:    []
+
+- title: Grid Gallery
+  github: ajthewebdev/GridGallery
+  ## demo_url: https://iamnii.github.io/GridGallery
+  author: Nii Adjetey Sowah
+  thumbnail: gridgallery.png
+  license: WTF
+  tags:      []
+
 
 - title: Solo         ## (single-page)
   home_url: http://github.com/chibicode/solo
@@ -383,15 +390,6 @@
   demo_url: http://aigarsdz.github.io/brume
   author: Aigars Dzerviniks
   thumbnail: brume.png
-  license: MIT
-  tags:      []
-
-- title: Wangana
-  home_url: https://github.com/iamnii/wangana
-  download_url: https://github.com/iamnii/wangana/archive/master.zip
-  demo_url: http://iamnii.github.io/
-  author: Nii Adjetey Sowah
-  thumbnail: wangana.png
   license: MIT
   tags:      []
 
@@ -486,15 +484,6 @@
   author: Ali Zaidi
   thumbnail: typewriter.png
   license: BSD
-  tags:      []
-
-- title: Grid Gallery
-  home_url: https://github.com/iamnii/GridGallery
-  download_url: https://github.com/iamnii/GridGallery/archive/master.zip
-  demo_url: https://iamnii.github.io/GridGallery
-  author: Nii Adjetey Sowah
-  thumbnail: gridgallery.png
-  license: WTF
   tags:      []
 
 - title: White Paper
@@ -695,10 +684,9 @@
   license: Apache
   tags:      []
 
-- title: Autm.rb
-  home_url: https://github.com/railsr/autm-rb
-  download_url: https://github.com/railsr/autm-rb/archive/master.zip
-  demo_url: http://railsr.github.io/autm-rb/
+- title:   Autm.rb
+  github:  kirqe/autm-rb
+  demo_url: http://kirqe.github.io/autm-rb
   author: Kirill Beletskiy
   thumbnail: autm-rb.png
   license: MIT
