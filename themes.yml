@@ -83,7 +83,7 @@
   license:   MIT
   tags:      []
 
-- title:     Jekyll New (Built-In v3.1 Default)
+- title:     Jekyll New (Old Built-In v3.1 Default)
   github:    jekyll/example
   branch:    gh-pages
   demo_url:  http://jekyll.github.io/example/
@@ -91,6 +91,14 @@
   thumbnail: jekyll-new.png
   license:   MIT
   tags:      []
+
+- title:     Minima (Built-in v3.2+ Default)
+  github:    github.com/jekyll/minima
+  ## demo_url:  ???
+  thumbnail: minima.png
+  author:    Joel Glovier et al
+  license:   MIT
+  tags:      [gem, pages]
 
 
 - title:     Jekyll Now
@@ -1511,3 +1519,70 @@
   thumbnail:    console.png
   license:      MIT
   tags:        []
+
+- title:     Schemadoc
+  github:    schemadoc/schemadoc-theme
+  demo_url:  https://schemadoc.github.io/schemadoc-theme/
+  thumbnail: schemadoc.png
+  author:    Gerald Bauer
+  license:   Public Domain
+  tags:      [database,documentation,schema,sql]
+
+
+- title:     Cloud Cannon's Cause
+  github:    CloudCannon/cause-jekyll-template
+  demo_url:  https://clean-oryx.cloudvent.net
+  thumbnail: cause.png
+  author:    Mike Neumegen et al
+  license:   MIT
+  tags:      [cause,nonprofit]
+
+- title:     Cloud Cannon's Edition
+  github:    CloudCannon/edition-jekyll-template
+  demo_url:  https://long-pig.cloudvent.net
+  thumbnail: edition.png
+  author:    Ross Phillips et al
+  license:   MIT
+  tags:      [documentation]
+
+- title:     Cloud Cannon's Frisco
+  github:    CloudCannon/frisco-jekyll-template
+  demo_url:  https://brave-submarine.cloudvent.net
+  thumbnail: frisco.png
+  author:    Mike Neumegen et al
+  license:   MIT
+  tags:      [app,marketing]
+
+- title:     Cloud Cannon's Hydra
+  github:    CloudCannon/hydra-jekyll-template
+  demo_url:  https://proud-alligator.cloudvent.net
+  thumbnail: hydra.png
+  author:    Mike Neumegen et al
+  license:   MIT
+  tags:      [product,marketing]
+
+- title:     Cloud Cannon's Justice
+  github:    CloudCannon/justice-jekyll-template
+  demo_url:  https://grey-grouse.cloudvent.net
+  thumbnail: justice.png
+  author:    Ross Phillips et al
+  license:   MIT
+  tags:      [law,business]
+
+- title:     Cloud Cannon's Malt
+  github:    CloudCannon/malt-jekyll-template
+  demo_url:  https://whispering-boat.cloudvent.net
+  thumbnail: malt.png
+  author:    Mike Neumegen et al
+  license:   MIT
+  tags:      [event,marketing]
+
+- title:     Cloud Cannon's Urban
+  github:    CloudCannon/urban-jekyll-template
+  demo_url:  https://teal-worm.cloudvent.net
+  thumbnail: urban1.png
+  author:    George Phillips et al
+  license:   MIT
+  tags:      [agency]
+
+
