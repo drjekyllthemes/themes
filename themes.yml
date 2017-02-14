@@ -75,15 +75,7 @@
   license:   MIT
   tags:      [poole]
 
-- title:     Beautiful Jekyll
-  github:    daattali/beautiful-jekyll
-  demo_url:  http://deanattali.com/beautiful-jekyll/
-  author:    Dean Attali
-  thumbnail: beautiful-jekyll.png
-  license:   MIT
-  tags:      []
-
-- title:     Jekyll New (Old Built-In v3.1 Default)
+- title:     New (Old Built-In v3.1 Default / Anno -2016)
   github:    jekyll/example
   branch:    gh-pages
   demo_url:  http://jekyll.github.io/example/
@@ -92,16 +84,127 @@
   license:   MIT
   tags:      []
 
-- title:     Minima (Built-in v3.2+ Default)
+- title:     Minima (Built-in v3.2+ Default / Anno 2016-)
   github:    github.com/jekyll/minima
   ## demo_url:  ???
   thumbnail: minima.png
   author:    Joel Glovier et al
   license:   MIT
-  tags:      [gem, pages]
+  gem:       minima
+  tags:      [github]
 
 
-- title:     Jekyll Now
+- title:     Pages' Architect
+  github:    pages-themes/architect
+  demo_url:  https://pages-themes.github.io/architect
+  thumbnail: pages-architect.png
+  author:    Jason Long et al
+  gem:       jekyll-theme-architect
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Cayman
+  github:    pages-themes/cayman
+  demo_url:  https://pages-themes.github.io/cayman/
+  thumbnail: pages-cayman.png
+  author:    Jason Long et al
+  gem:       jekyll-theme-cayman
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Dinky
+  github:    pages-themes/dinky
+  demo_url:  https://pages-themes.github.io/dinky/
+  thumbnail: pages-dinky.png
+  author:    Diana Mounter et al
+  gem:       jekyll-theme-dinky
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Hacker
+  github:    pages-themes/hacker
+  demo_url:  https://pages-themes.github.io/hacker/
+  thumbnail: pages-hacker.png
+  author:    Jason Costello et al
+  gem:       jekyll-theme-hacker
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Leap Day
+  github:    pages-themes/leap-day
+  demo_url:  https://pages-themes.github.io/leap-day/
+  thumbnail: pages-leapday.png
+  author:    Matt Graham et al
+  gem:       jekyll-theme-leap-day
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Merlot
+  github:    pages-themes/merlot
+  demo_url:  https://pages-themes.github.io/merlot/
+  thumbnail: pages-merlot.png
+  author:    Cameron McEfee et al
+  gem:       jekyll-theme-merlot
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Midnight
+  github:    pages-themes/midnight
+  demo_url:  https://pages-themes.github.io/midnight/
+  thumbnail: pages-midnight.png
+  author:    Matt Graham et al
+  gem:       jekyll-theme-midnight
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Minimal
+  github:    pages-themes/minimal
+  demo_url:  https://pages-themes.github.io/minimal/
+  thumbnail: pages-minimal.png
+  author:    Steve Smith et al
+  gem:       jekyll-theme-minimal
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Modernist
+  github:    pages-themes/modernist
+  demo_url:  https://pages-themes.github.io/modernist/
+  thumbnail: pages-modernist.png
+  author:    Steve Smith et al
+  gem:       jekyll-theme-modernist
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Slate
+  github:    pages-themes/slate
+  demo_url:  https://pages-themes.github.io/slate/
+  thumbnail: pages-slate.png
+  author:    Jason Costello et al
+  gem:       jekyll-theme-slate
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Tactile
+  github:    pages-themes/tactile
+  demo_url:  https://pages-themes.github.io/tactile/
+  thumbnail: pages-tactile.png
+  author:    Jason Long et al
+  gem:       jekyll-theme-tactile
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+- title:     Pages' Time Machine
+  github:    pages-themes/time-machine
+  demo_url:  https://pages-themes.github.io/time-machine/
+  thumbnail: pages-timemachine.png
+  author:    Jon Rohan et al
+  gem:       jekyll-theme-time-machine
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+
+
+- title:     Now
   github:    barryclark/jekyll-now
   demo_url:  http://www.jekyllnow.com/
   author:    Barry Clark
@@ -109,6 +212,13 @@
   license:   MIT
   tags:      []
 
+- title:     Beautiful
+  github:    daattali/beautiful-jekyll
+  demo_url:  http://deanattali.com/beautiful-jekyll/
+  author:    Dean Attali
+  thumbnail: beautiful-jekyll.png
+  license:   MIT
+  tags:      []
 
 - title:     Holo Alfa
   github:    steinvc/holo-alfa
@@ -191,41 +301,39 @@
   tags:      []
 
 
-- title: So Simple
-  home_url: https://github.com/mmistakes/so-simple-theme
-  download_url: https://github.com/mmistakes/so-simple-theme/archive/master.zip
-  demo_url: http://mmistakes.github.io/so-simple-theme/
-  author: Michael Rose
-  thumbnail: so-simple.png
-  license: MIT
-  tags:      []
-
-- title: Minimal Mistakes
-  home_url: https://github.com/mmistakes/minimal-mistakes
-  download_url: https://github.com/mmistakes/minimal-mistakes/archive/master.zip
-  demo_url: https://mmistakes.github.io/minimal-mistakes/
-  author: Michael Rose
+- title:     Minimal Mistakes
+  github:    mmistakes/minimal-mistakes
+  demo_url:  https://mmistakes.github.io/minimal-mistakes/
+  author:    Michael Rose
+  gem:       minimal-mistakes-jekyll
   thumbnail: minimal-mistakes.png
-  license: MIT
-  tags:      [minimal, responsive, blog, portfolio, archive-pages]
+  license:   MIT
+  tags:     [minimal, responsive, blog, portfolio, archive-pages]
 
-- title: Skinny Bones
-  home_url: https://github.com/mmistakes/skinny-bones-jekyll
-  download_url: https://github.com/mmistakes/skinny-bones-jekyll/archive/master.zip
-  demo_url: http://mmistakes.github.io/skinny-bones-jekyll/
-  author: Michael Rose
+- title:     So Simple
+  github:    mmistakes/so-simple-theme
+  demo_url:  http://mmistakes.github.io/so-simple-theme/
+  author:    Michael Rose
+  thumbnail: so-simple.png
+  license:   MIT
+  tags:      []
+
+- title:     Skinny Bones
+  github:    mmistakes/skinny-bones-jekyll
+  demo_url:  http://mmistakes.github.io/skinny-bones-jekyll/
+  author:    Michael Rose
   thumbnail: skinny-bones.gif
-  license: MIT
+  license:   MIT
   tags:      []
 
-- title: HiPSTeR (HPSTR)
-  home_url: https://github.com/mmistakes/hpstr-jekyll-theme
-  download_url: https://github.com/mmistakes/hpstr-jekyll-theme/archive/master.zip
-  demo_url: http://mmistakes.github.io/hpstr-jekyll-theme/
-  author: Michael Rose
+- title:     HiPSTeR (HPSTR)
+  github:    mmistakes/hpstr-jekyll-theme
+  demo_url:  http://mmistakes.github.io/hpstr-jekyll-theme/
+  author:    Michael Rose
   thumbnail: hpstr.png
-  license: MIT
+  license:   MIT
   tags:      []
+
 
 - title: HiPSTeR (HPSTR) Version 2 - Vietnamese
   home_url: https://github.com/minhhuy150894/minhhuy150894.github.io
@@ -1453,9 +1561,10 @@
   author:    David Darnes
   thumbnail: alembic.png
   license:   MIT
+  gem:       alembic-jekyll-theme
   tags:      [white,minimal,minimalist,clean,starter]
 
-- title:     Clean (Siddhant Goel)
+- title:     Clean (Siddhant)
   github:    siddhantgoel/clean-jekyll-theme
   demo_url:  https://siddhantgoel.github.io/clean-jekyll-theme
   author:    Siddhant Goel
@@ -1512,6 +1621,64 @@
   license:      MIT
   tags:        []
 
+
+- title:     Cloud Cannon's Cause
+  github:    CloudCannon/cause-jekyll-template
+  demo_url:  https://clean-oryx.cloudvent.net
+  thumbnail: cloudcannon-cause.png
+  author:    Mike Neumegen et al
+  license:   MIT
+  tags:      [cause,nonprofit]
+
+- title:     Cloud Cannon's Edition
+  github:    CloudCannon/edition-jekyll-template
+  demo_url:  https://long-pig.cloudvent.net
+  thumbnail: cloudcannon-edition.png
+  author:    Ross Phillips et al
+  license:   MIT
+  tags:      [documentation]
+
+- title:     Cloud Cannon's Frisco
+  github:    CloudCannon/frisco-jekyll-template
+  demo_url:  https://brave-submarine.cloudvent.net
+  thumbnail: cloudcannon-frisco.png
+  author:    Mike Neumegen et al
+  license:   MIT
+  tags:      [app,marketing]
+
+- title:     Cloud Cannon's Hydra
+  github:    CloudCannon/hydra-jekyll-template
+  demo_url:  https://proud-alligator.cloudvent.net
+  thumbnail: cloudcannon-hydra.png
+  author:    Mike Neumegen et al
+  license:   MIT
+  tags:      [product,marketing]
+
+- title:     Cloud Cannon's Justice
+  github:    CloudCannon/justice-jekyll-template
+  demo_url:  https://grey-grouse.cloudvent.net
+  thumbnail: cloudcannon-justice.png
+  author:    Ross Phillips et al
+  license:   MIT
+  tags:      [law,business]
+
+- title:     Cloud Cannon's Malt
+  github:    CloudCannon/malt-jekyll-template
+  demo_url:  https://whispering-boat.cloudvent.net
+  thumbnail: cloudcannon-malt.png
+  author:    Mike Neumegen et al
+  license:   MIT
+  tags:      [event,marketing]
+
+- title:     Cloud Cannon's Urban
+  github:    CloudCannon/urban-jekyll-template
+  demo_url:  https://teal-worm.cloudvent.net
+  thumbnail: cloudcannon-urban.png
+  author:    George Phillips et al
+  license:   MIT
+  tags:      [agency]
+
+
 - title:        Console
   github:       jaehee0113/console
   demo_url:     https://jaehee0113.github.io/console/
@@ -1528,61 +1695,11 @@
   license:   Public Domain
   tags:      [database,documentation,schema,sql]
 
-
-- title:     Cloud Cannon's Cause
-  github:    CloudCannon/cause-jekyll-template
-  demo_url:  https://clean-oryx.cloudvent.net
-  thumbnail: cause.png
-  author:    Mike Neumegen et al
+- title:     Octopod's Bootflat
+  github:    jekyll-octopod/jekyll-bootflat
+  ## demo_url:  ??
+  thumbnail: bootflat.png
+  author:    Stefan Haslinger
+  gem:       jekyll-bootflat
   license:   MIT
-  tags:      [cause,nonprofit]
-
-- title:     Cloud Cannon's Edition
-  github:    CloudCannon/edition-jekyll-template
-  demo_url:  https://long-pig.cloudvent.net
-  thumbnail: edition.png
-  author:    Ross Phillips et al
-  license:   MIT
-  tags:      [documentation]
-
-- title:     Cloud Cannon's Frisco
-  github:    CloudCannon/frisco-jekyll-template
-  demo_url:  https://brave-submarine.cloudvent.net
-  thumbnail: frisco.png
-  author:    Mike Neumegen et al
-  license:   MIT
-  tags:      [app,marketing]
-
-- title:     Cloud Cannon's Hydra
-  github:    CloudCannon/hydra-jekyll-template
-  demo_url:  https://proud-alligator.cloudvent.net
-  thumbnail: hydra.png
-  author:    Mike Neumegen et al
-  license:   MIT
-  tags:      [product,marketing]
-
-- title:     Cloud Cannon's Justice
-  github:    CloudCannon/justice-jekyll-template
-  demo_url:  https://grey-grouse.cloudvent.net
-  thumbnail: justice.png
-  author:    Ross Phillips et al
-  license:   MIT
-  tags:      [law,business]
-
-- title:     Cloud Cannon's Malt
-  github:    CloudCannon/malt-jekyll-template
-  demo_url:  https://whispering-boat.cloudvent.net
-  thumbnail: malt.png
-  author:    Mike Neumegen et al
-  license:   MIT
-  tags:      [event,marketing]
-
-- title:     Cloud Cannon's Urban
-  github:    CloudCannon/urban-jekyll-template
-  demo_url:  https://teal-worm.cloudvent.net
-  thumbnail: urban1.png
-  author:    George Phillips et al
-  license:   MIT
-  tags:      [agency]
-
-
+  tags:     [bootstrap,bootflat,fontawesome]
