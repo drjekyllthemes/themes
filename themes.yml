@@ -85,7 +85,7 @@
   tags:      []
 
 - title:     Minima (Built-in v3.2+ Default / Anno 2016-)
-  github:    github.com/jekyll/minima
+  github:    jekyll/minima
   ## demo_url:  ???
   thumbnail: minima.png
   author:    Joel Glovier et al
