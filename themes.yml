@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Monochrome
+  github:    thereviewindex/monochrome
+  demo_url:  https://thereviewindex.github.io/monochrome/
+  thumbnail: monochrome.png
+  author:    The Review Index
+  license:   Public Domain
+  tags:      [minimal,responsive,monochrome]
+
 - title:     Henry's Hello, Jekyll!
   github:    henrythemes/hello-jekyll-theme
   demo_url:  https://henrythemes.github.io/hello-jekyll-theme/
