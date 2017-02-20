@@ -2,10 +2,10 @@
 #  Jekyll Themes
 
 - title:     Monochrome
-  github:    thereviewindex/monochrome
-  demo_url:  https://thereviewindex.github.io/monochrome/
+  github:    dyutibarma/monochrome
+  demo_url:  https://dyutibarma.github.io/monochrome/
   thumbnail: monochrome.png
-  author:    The Review Index
+  author:    Dyuti Barma
   license:   Public Domain
   tags:      [minimal,responsive,monochrome]
 
