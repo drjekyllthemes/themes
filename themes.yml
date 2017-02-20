@@ -299,14 +299,6 @@
   license: MIT
   tags:      []
 
-- title: Slate
-  home_url: https://github.com/jasoncostello/slate
-  download_url: https://github.com/jasoncostello/slate/archive/master.zip
-  author: Jason Costello
-  thumbnail: slate.png
-  license: MIT
-  tags:      []
-
 
 - title:     Minimal Mistakes
   github:    mmistakes/minimal-mistakes
@@ -533,13 +525,6 @@
   license: BSD
   tags:      []
 
-- title: Architect
-  home_url: https://github.com/pietromenna/jekyll-architect-theme
-  download_url: https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
-  author: Jason Long, ported by Pietro Menna
-  thumbnail: architect.png
-  license: CC BY
-  tags:      []
 
 - title: Simpleyyt
   home_url: https://github.com/Simpleyyt/simpleyyt.github.io
@@ -642,24 +627,6 @@
   author: Jerome Lachaud
   thumbnail: freelancer.png
   license: Apache
-  tags:      []
-
-- title: Leap Day
-  home_url: https://github.com/mattgraham/leapday
-  download_url: https://github.com/mattgraham/leapday/archive/master.zip
-  demo_url: http://madebygraham.com/leapday/
-  author: Matt Graham
-  thumbnail: leap-day.png
-  license: MIT
-  tags:      []
-
-- title: Midnight
-  home_url: https://github.com/mattgraham/midnight
-  download_url: https://github.com/mattgraham/midnight/archive/master.zip
-  demo_url: http://madebygraham.com/midnight/
-  author: Matt Graham
-  thumbnail: midnight.png
-  license: MIT
   tags:      []
 
 
