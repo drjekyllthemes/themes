@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Mr.Brown Responsive
+  github:    artemsheludko/mr-brown
+  demo_url:  http://artemsheludko.pw/mr-brown/
+  author:    Artem Sheludko
+  thumbnail: mr.brown.png
+  license:   MIT
+  tags:      [blog,responsive,minimal,scss,html5]
+
 - title:     Hello, Jekyll!
   github:    henrythemes/hello-jekyll-theme
   demo_url:  https://henrythemes.github.io/hello-jekyll-theme/
