@@ -1,13 +1,22 @@
 ###############################
 #  Jekyll Themes
+- title:        Materialized
+  home_url:     https://github.com/lpsandaruwan/materialized
+  download_url: https://github.com/lpsandaruwan/materialized/archive/master.zip
+  demo_url:     http://lahiru.site/materialized
+  author:       Lahiru Pathirage
+  thumbnail:    materialized.png
+  license:      GPLv3
+  tags:        [angular, material, responsive]
+  
 - title:        Surgeon Tux
   home_url:     https://github.com/lpsandaruwan/surgeon-tux
   download_url: https://github.com/lpsandaruwan/surgeon-tux/archive/master.zip
-  demo_url:     https://lpsandaruwan.github.io/
+  demo_url:     http://lahiru.site/surgeon-tux
   author:       Lahiru Pathirage
   thumbnail:    surgeon-tux.png
   license:      GPLv3
-  tags:        [terminal,monospace,black]
+  tags:        [terminal, monospace, black]
 
 - title:     Mr.Brown Responsive
   github:    artemsheludko/mr-brown
