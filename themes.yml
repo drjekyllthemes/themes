@@ -1719,3 +1719,12 @@
   author:    Andrew Serong et al
   license:   MIT
   tags:      [guide,audio,museum]
+
+
+- title:     White Paper
+  github:    vinitkumar/white-paper
+  demo_url:  http://vinitkumar.me/white-paper
+  thumbnail: whitepaper.png
+  author:    Vinit Kumar
+  license:   MIT
+  tags:      [simple, developer, clean]
