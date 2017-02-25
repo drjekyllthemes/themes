@@ -1,4 +1,17 @@
 
+### user no longer exists 404  (Feb/2017)
+##    check if account deleted (or just moved)
+
+- title: Simply Grey
+  home_url: https://github.com/liamsymonds/simplygrey-jekyll
+  download_url: https://github.com/liamsymonds/simplygrey-jekyll/archive/master.zip
+  author: Liam Symonds
+  thumbnail: simply-grey.png
+  license: BSD
+  tags:      []
+
+
+
 ## !!!  missing (broken) demo link
 - title:    HMFAYSAL
   home_url: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme
