@@ -43,7 +43,10 @@ Example: `thumbnails/shiori.png` (250 x 200 px)
 
 Note: Do NOT forget to list its filename in the `themes.yml` entry.
 
+### Step 3 - Send a pull request
+
 Check that everything is ok, then open up a pull request. 
+
 That's it. Thanks!
 
 
