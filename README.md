@@ -5,9 +5,12 @@
 
 ## How-To Add Your Theme
 
-* Fork the [`/themes` repo](https://github.com/drjekyllthemes/themes) on GitHub
-* Add a new entry in the [`themes.yml`](https://github.com/drjekyllthemes/themes/blob/master/themes.yml) file and fill out all fields.
-  Example:
+First fork the [`/themes` repo](https://github.com/drjekyllthemes/themes) on GitHub.
+
+### Step 1: Add a new entry in the `themes.yml`datafile
+
+Add a new entry in the [`themes.yml`](https://github.com/drjekyllthemes/themes/blob/master/themes.yml) datafile 
+and fill out all fields. Example:
 
 ``` yaml
 - title:     Shiori
@@ -31,15 +34,20 @@ or (without the github+branch shortcuts)
   license:      MIT
 ```
 
-* Make a 250 x 200 thumbnail and drop it in the thumbnails folder. Example: `thumbnails/shiori.png` (250 x 200 px) 
+### Step 2 - Add a 250 x 200 thumbnail (screenshot preview pic) in the thumbnails folder
+
+Make a 250 x 200 thumbnail and drop it in the thumbnails folder. 
+Example: `thumbnails/shiori.png` (250 x 200 px) 
 
 ![](thumbnails/shiori.png)
 
 Note: Do NOT forget to list its filename in the `themes.yml` entry.
 
-* Check that everything is ok, then open up a pull request.
-* Thanks!
+Check that everything is ok, then open up a pull request. 
+That's it. Thanks!
 
+
+---
 
 
 ## Tips & Tricks
