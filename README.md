@@ -34,7 +34,7 @@ or (without the github+branch shortcuts)
   license:      MIT
 ```
 
-### Step 2 - Add a 250 x 200 thumbnail (screenshot preview pic) in the thumbnails folder
+### Step 2 - Add a 250 x 200 thumbnail (screenshot preview pic) in the `thumbnails` folder
 
 Make a 250 x 200 thumbnail and drop it in the thumbnails folder. 
 Example: `thumbnails/shiori.png` (250 x 200 px) 
