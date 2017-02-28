@@ -33,7 +33,7 @@ or (without the github+branch shortcuts)
 
 * Make a 250 x 200 thumbnail and drop it in the thumbnails folder.
 
-Example: ![](thumbnails/shiori.png)
+Example: `thumbnails/shiori.png` (250 x 200 px) ![](thumbnails/shiori.png)
 
 Note: Do NOT forget to list its filename in the `themes.yml` entry.
 
