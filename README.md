@@ -31,9 +31,9 @@ or (without the github+branch shortcuts)
   license:      MIT
 ```
 
-* Make a 250 x 200 thumbnail and drop it in the thumbnails folder.
+* Make a 250 x 200 thumbnail and drop it in the thumbnails folder. Example: `thumbnails/shiori.png` (250 x 200 px) 
 
-Example: `thumbnails/shiori.png` (250 x 200 px) ![](thumbnails/shiori.png)
+![](thumbnails/shiori.png)
 
 Note: Do NOT forget to list its filename in the `themes.yml` entry.
 
@@ -66,14 +66,11 @@ calculate how much to zoom in e.g.
      500
 
 
-
-## Meta
-
-**License**
+## License
 
 The themes directory is dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
-**Questions? Comments?**
+## Questions? Comments?
 
 Post them to the [wwwmake forum](http://groups.google.com/group/wwwmake). Thanks!
