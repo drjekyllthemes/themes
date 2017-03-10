@@ -1,5 +1,14 @@
 ###############################
 #  Jekyll Themes
+- title:     Monday Theme (Black and White)
+  home_url:  https://github.com/artemsheludko/monday
+  download_url: https://github.com/artemsheludko/monday/archive/master.zip
+  demo_url:  http://artemsheludko.pw/monday/
+  author:    Artem Sheludko
+  thumbnail: monday-sm.png
+  license:   GPLv3
+  tags:      [blog,responsive,minimal,scss]
+  
 - title:        Materialized
   home_url:     https://github.com/lpsandaruwan/materialized
   download_url: https://github.com/lpsandaruwan/materialized/archive/master.zip
