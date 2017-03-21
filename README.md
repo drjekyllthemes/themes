@@ -83,6 +83,8 @@ calculate how much to zoom in e.g.
 
 ## License
 
+![](https://publicdomainworks.github.io/buttons/zero88x31.png)
+
 The themes directory is dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
