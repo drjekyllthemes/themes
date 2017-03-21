@@ -13,25 +13,29 @@ Add a new entry in the [`themes.yml`](https://github.com/drjekyllthemes/themes/b
 and fill out all fields. Example:
 
 ``` yaml
-- title:     Shiori
-  github:    ellekasai/shiori
-  branch:    gh-pages              # note: defaults to master
-  demo_url:  http://ellekasai.github.io/shiori/
-  author:    Elle Kasai
-  thumbnail: shiori.png
+- title:     Basically Basic
+  github:    mmistakes/jekyll-theme-basically-basic
+  branch:    master                              ## note: defaults to master; only needed for gh-pages
+  demo_url:  https://mmistakes.github.io/jekyll-theme-basically-basic
+  author:    Michael Rose
+  thumbnail: basicallybasic.png
   license:   MIT
+  gem:       jekyll-theme-basically-basic         ## optional
+  tags:     [minimal, responsive, blog, resume]   ## optional
 ```
 
 or (without the github+branch shortcuts)
 
 ``` yaml
-- title:        Shiori
-  home_url:     https://github.com/ellekasai/shiori
-  download_url: https://github.com/ellekasai/shiori/archive/gh-pages.zip
-  demo_url:     http://ellekasai.github.io/shiori/
-  author:       Elle Kasai
-  thumbnail:    shiori.png
+- title:        Basically Basic
+  home_url:     https://github.com/mmistakes/jekyll-theme-basically-basic
+  download_url: https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip
+  demo_url:     https://mmistakes.github.io/jekyll-theme-basically-basic
+  author:       Michael Rose
+  thumbnail:    basicallybasic.png
   license:      MIT
+  gem:          jekyll-theme-basically-basic         ## optional
+  tags:        [minimal, responsive, blog, resume]   ## optional
 ```
 
 ### Step 2 - Add a 250 x 200 thumbnail (screenshot preview pic) in the `thumbnails` folder
@@ -39,7 +43,7 @@ or (without the github+branch shortcuts)
 Make a 250 x 200 thumbnail and drop it in the thumbnails folder. 
 Example: `thumbnails/shiori.png` (250 x 200 px) 
 
-![](thumbnails/shiori.png)
+![](thumbnails/basicallybasic.png)
 
 Note: Do NOT forget to list its filename in the `themes.yml` entry.
 
