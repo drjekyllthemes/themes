@@ -334,6 +334,15 @@
   tags:      []
 
 
+- title:     Basically Basic
+  github:    mmistakes/jekyll-theme-basically-basic
+  demo_url:  https://mmistakes.github.io/jekyll-theme-basically-basic
+  author:    Michael Rose
+  gem:       jekyll-theme-basically-basic
+  thumbnail: basicallybasic.png
+  license:   MIT
+  tags:     [minimal, responsive, blog, resume]
+
 - title:     Minimal Mistakes
   github:    mmistakes/minimal-mistakes
   demo_url:  https://mmistakes.github.io/minimal-mistakes/
