@@ -9,6 +9,15 @@
   license:   MIT
   tags:     [academic, portfolio, papers, blog, resume, responsive]
 
+- title:     U.S. (Gov) Web Design Standards (Docs, Landing)
+  github:    18F/jekyll-uswds
+  ## demo_url:  https://standards.usa.gov/page-templates
+  author:    Shawn Allen
+  thumbnail: uswds-docs.png
+  license:   Public Domain
+  tags:     [docs, landing]
+
+
 - title:     Monday Theme (Black and White)
   home_url:  https://github.com/artemsheludko/monday
   download_url: https://github.com/artemsheludko/monday/archive/master.zip
