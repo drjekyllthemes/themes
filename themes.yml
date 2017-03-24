@@ -1,5 +1,14 @@
 ###############################
 #  Jekyll Themes
+
+- title:     Academic Pages
+  github:    academicpages/academicpages.github.io
+  demo_url:  https://academicpages.github.io
+  author:    Stuart Geiger
+  thumbnail: academicpages.png
+  license:   MIT
+  tags:     [academic, portfolio, papers, blog, resume, responsive]
+
 - title:     Monday Theme (Black and White)
   home_url:  https://github.com/artemsheludko/monday
   download_url: https://github.com/artemsheludko/monday/archive/master.zip
