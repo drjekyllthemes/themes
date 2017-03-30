@@ -1,6 +1,15 @@
 ###############################
 #  Jekyll Themes
 
+- title:        MatJek
+  home_url:     https://github.com/ShawnTeoh/matjek
+  download_url: https://github.com/ShawnTeoh/matjek/archive/gh-pages.zip
+  demo_url:     https://shawnteoh.github.io/matjek
+  author:       Shawn Teoh
+  thumbnail:    matjek.png
+  license:      GPLv3
+  tags:         [material, responsive, blog, resume]
+
 - title:     Academic Pages
   github:    academicpages/academicpages.github.io
   demo_url:  https://academicpages.github.io
