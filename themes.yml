@@ -1,6 +1,15 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Fresh
+  home_url:  https://github.com/artemsheludko/fresh
+  download_url: https://github.com/artemsheludko/fresh/archive/master.zip
+  demo_url:  http://artemsheludko.pw/fresh/
+  author:    Artem Sheludko
+  thumbnail: fresh-sm.png
+  license:   GPLv3
+  tags:      [blog,responsive,minimal,scss,html5]
+
 - title:        MatJek
   home_url:     https://github.com/ShawnTeoh/matjek
   download_url: https://github.com/ShawnTeoh/matjek/archive/gh-pages.zip
