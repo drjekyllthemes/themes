@@ -1,6 +1,15 @@
 ###############################
 #  Jekyll Themes
 
+- title:     WEAD.
+  home_url:  https://github.com/kevyder/wead
+  download_url: https://github.com/kevyder/wead/archive/master.zip
+  demo_url:  http://kevinrodriguez.me/wead/
+  author:    Kevin Rodríguez
+  thumbnail: wead.jpg
+  license:   MIT
+  tags:      [blog,responsive,minimal,sass,bootstrap]
+
 - title:     Fresh
   home_url:  https://github.com/artemsheludko/fresh
   download_url: https://github.com/artemsheludko/fresh/archive/master.zip
@@ -44,7 +53,7 @@
   thumbnail: monday-sm.png
   license:   GPLv3
   tags:      [blog,responsive,minimal,scss]
-  
+
 - title:        Materialized
   home_url:     https://github.com/lpsandaruwan/materialized
   download_url: https://github.com/lpsandaruwan/materialized/archive/master.zip
@@ -53,7 +62,7 @@
   thumbnail:    materialized.png
   license:      GPLv3
   tags:        [angular, material, responsive]
-  
+
 - title:        Surgeon Tux
   home_url:     https://github.com/lpsandaruwan/surgeon-tux
   download_url: https://github.com/lpsandaruwan/surgeon-tux/archive/master.zip
@@ -87,7 +96,7 @@
   license:   Public Domain
   tags:      [white,starter,minima]
 
-- title:     Hello, Pages! 
+- title:     Hello, Pages!
   github:    henrythemes/hello-pages-theme-v2
   demo_url:  https://henrythemes.github.io/hello-pages-theme-v2/
   thumbnail: hello-pages.png
@@ -1782,8 +1791,8 @@
   author:    Vinit Kumar
   license:   MIT
   tags:      [simple, developer, clean]
-  
-  
+
+
 - title:     Photography
   github:    ramswaroop/photography
   demo_url:  http://photography.ramswaroop.me/
