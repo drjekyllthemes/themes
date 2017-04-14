@@ -1,6 +1,15 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Sparrow
+  home_url:  https://github.com/lingxz/sparrow
+  download_url: https://github.com/lingxz/sparrow/archive/master.zip
+  demo_url:  https://theconfused.me/sparrow
+  author:    Lingyi Hu
+  thumbnail: sparrow.png
+  license:   MIT
+  tags:      [blog,responsive,sass,minimal]
+
 - title:     WEAD.
   home_url:  https://github.com/kevyder/wead
   download_url: https://github.com/kevyder/wead/archive/master.zip
