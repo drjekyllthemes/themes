@@ -8,6 +8,7 @@
   author:    Lingyi Hu
   thumbnail: sparrow.png
   license:   MIT
+  gem:       sparrow-jekyll-theme 
   tags:      [blog,responsive,sass,minimal]
 
 - title:     WEAD.
