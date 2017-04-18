@@ -88,6 +88,20 @@ calculate how much to zoom in e.g.
 The themes directory is dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
+##  Frequently Asked Questions 'n' Answers
+
+Q:  **I added my theme why is it not displaying on the website. Can you please take a look?**
+
+A: Thanks for your patience. The `themes.yml` is only used by the [drjekyll package manager](https://github.com/drjekyllthemes/drjekyll) with "direct" web access.
+For the Dr Jekyll's website (see [source](https://github.com/drjekyllthemes/drjekyllthemes.github.io)) the `themes.yml` has to run through build steps (see [source](https://github.com/yorobot/planetjekyll)
+(to get github stars 'n' history etc.) and, sorry, for now this is still a manual task / procedure
+that will get done "by hand". 
+For your theme to show up, thus, please wait for the next site update.
+
+
 ## Questions? Comments?
+
+
+
 
 Post them to the [wwwmake forum](http://groups.google.com/group/wwwmake). Thanks!
