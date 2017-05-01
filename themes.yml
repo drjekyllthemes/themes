@@ -1,6 +1,16 @@
 ###############################
 #  Jekyll Themes
 
+- title:     Cayman Blog
+  home_url:  https://github.com/lorepirri/cayman-blog/
+  download_url: https://github.com/lorepirri/cayman-blog/archive/master.zip
+  demo_url:  https://lorepirri.github.io/cayman-blog/
+  author:    Lorenzo Pirritano
+  thumbnail: thumbnail-cayman-blog-250.png
+  license:   CC0 1.0 Universal
+  gem:       jekyll-theme-cayman-blog
+  tags:      [blog,responsive,sass,minimal]
+
 - title:     Sparrow
   home_url:  https://github.com/lingxz/sparrow
   download_url: https://github.com/lingxz/sparrow/archive/master.zip
@@ -8,7 +18,7 @@
   author:    Lingyi Hu
   thumbnail: sparrow.png
   license:   MIT
-  gem:       sparrow-jekyll-theme 
+  gem:       sparrow-jekyll-theme
   tags:      [blog,responsive,sass,minimal]
 
 - title:     WEAD.
