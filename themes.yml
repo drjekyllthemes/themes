@@ -1820,3 +1820,12 @@
   author:    Ram Patra
   license:   MIT
   tags:      [photographer, photography, photos, pictures, gallery]
+
+- title:     Millennial
+  github:    LeNPaul/Millennial
+  branch:    gh-pages
+  demo_url:  https://lenpaul.github.io/Millennial/
+  author:    Paul Le
+  thumbnail: millennial.jpg
+  license:   MIT
+  tags:      [blog,publication,journal,minimal,minimalist,clean,simple,starter]
