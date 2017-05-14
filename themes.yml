@@ -1829,3 +1829,19 @@
   thumbnail: millennial.jpg
   license:   MIT
   tags:      [blog,publication,journal,minimal,minimalist,clean,simple,starter]
+  
+- title:     jSimple
+  github:    paulmostowyj/jsimple
+  demo_url:  https://paulmostowyj.github.io/jsimple/
+  author:    Paul Mostowyj
+  thumbnail: jsimple-thumbnail.png
+  license:   MIT
+  tags:      [simple,minimal,blog]
+  
+- title:     jNegative
+  github:    paulmostowyj/jnegative
+  demo_url:  https://paulmostowyj.github.io/jnegative/
+  author:    Paul Mostowyj
+  thumbnail: jnegative-thumbnail.png
+  license:   MIT
+  tags:      [simple,minimal,blog]
