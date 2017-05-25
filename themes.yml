@@ -1845,3 +1845,12 @@
   thumbnail: jnegative-thumbnail.png
   license:   MIT
   tags:      [simple,minimal,blog]
+
+- title:     Portfolio Jekyll Theme
+  github:    LeNPaul/portfolio-jekyll-theme
+  branch:    gh-pages
+  demo_url:  https://lenpaul.github.io/portfolio-jekyll-theme/
+  author:    Paul Le
+  thumbnail: portfolio-jekyll-theme-thumb.jpg
+  license:   MIT
+  tags:      [blog,portfolio,minimal,minimalist,clean,simple,starter]
