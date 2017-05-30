@@ -1862,4 +1862,5 @@
   author:    Yi Zeng
   thumbnail: simple-texture.png
   license:   MIT
-  tags:      [blog,minimal,minimalist,clean,simple,texture,responsive]
+  gem:       jekyll-theme-simple-texture
+  tags:      [blog,minimal,clean,simple,texture]
