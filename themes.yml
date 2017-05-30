@@ -1854,3 +1854,12 @@
   thumbnail: portfolio-jekyll-theme-thumb.jpg
   license:   MIT
   tags:      [blog,portfolio,minimal,minimalist,clean,simple,starter]
+
+- title:     Simple Texture
+  github:    yizeng/jekyll-theme-simple-texture
+  branch:    master
+  demo_url:  https://yizeng.github.io/jekyll-theme-simple-texture/
+  author:    Yi Zeng
+  thumbnail: simple-texture.png
+  license:   MIT
+  tags:      [blog,minimal,minimalist,clean,simple,texture,responsive]
