@@ -1864,3 +1864,12 @@
   license:   MIT
   gem:       jekyll-theme-simple-texture
   tags:      [blog,minimal,clean,simple,texture]
+
+- title:     Darcli
+  github:    gjuniioor/darcli
+  branch:    gh-pages
+  demo_url:  https://gjuniioor.github.io/darcli/
+  author:    gjuniioor
+  thumbnail: darcli.png
+  license:   GPL
+  tags:      [blog,minimal,clean,simple]
