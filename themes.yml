@@ -1873,3 +1873,12 @@
   thumbnail: darcli.png
   license:   GPL
   tags:      [blog,minimal,clean,simple]
+
+- title:     Clyell
+  github:    gjuniioor/clyell
+  branch:    gh-pages
+  demo_url:  https://gjuniioor.github.io/clyell/
+  author:    gjuniioor
+  thumbnail: clyell.png
+  license:   GPL
+  tags:      [blog,minimal,clean,simple]
