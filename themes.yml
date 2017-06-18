@@ -1837,7 +1837,7 @@
   tags:     [academic, portfolio, papers, blog, resume, responsive]
 
 - title:     U.S. (Gov) Web Design Standards (Docs, Landing)
-  github:    18F/jekyll-uswds
+  github:    18F/uswds-jekyll
   ## demo_url:  https://standards.usa.gov/page-templates
   author:    Shawn Allen
   thumbnail: uswds-docs.png
