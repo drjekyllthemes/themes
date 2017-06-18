@@ -1,104 +1,6 @@
 ###############################
 #  Jekyll Themes
 
-- title:     Cayman Blog
-  home_url:  https://github.com/lorepirri/cayman-blog/
-  download_url: https://github.com/lorepirri/cayman-blog/archive/master.zip
-  demo_url:  https://lorepirri.github.io/cayman-blog/
-  author:    Lorenzo Pirritano
-  thumbnail: thumbnail-cayman-blog-250.png
-  license:   CC0 1.0 Universal
-  gem:       jekyll-theme-cayman-blog
-  tags:      [blog,responsive,sass,minimal]
-
-- title:     Sparrow
-  home_url:  https://github.com/lingxz/sparrow
-  download_url: https://github.com/lingxz/sparrow/archive/master.zip
-  demo_url:  https://theconfused.me/sparrow
-  author:    Lingyi Hu
-  thumbnail: sparrow.png
-  license:   MIT
-  gem:       sparrow-jekyll-theme
-  tags:      [blog,responsive,sass,minimal]
-
-- title:     WEAD.
-  home_url:  https://github.com/kevyder/wead
-  download_url: https://github.com/kevyder/wead/archive/master.zip
-  demo_url:  http://kevinrodriguez.me/wead/
-  author:    Kevin Rodríguez
-  thumbnail: wead.jpg
-  license:   MIT
-  tags:      [blog,responsive,minimal,sass,bootstrap]
-
-- title:     Fresh
-  home_url:  https://github.com/artemsheludko/fresh
-  download_url: https://github.com/artemsheludko/fresh/archive/master.zip
-  demo_url:  http://artemsheludko.pw/fresh/
-  author:    Artem Sheludko
-  thumbnail: fresh-sm.png
-  license:   GPLv3
-  tags:      [blog,responsive,minimal,scss,html5]
-
-- title:        MatJek
-  home_url:     https://github.com/ShawnTeoh/matjek
-  download_url: https://github.com/ShawnTeoh/matjek/archive/gh-pages.zip
-  demo_url:     https://shawnteoh.github.io/matjek
-  author:       Shawn Teoh
-  thumbnail:    matjek.png
-  license:      GPLv3
-  tags:         [material, responsive, blog, resume]
-
-- title:     Academic Pages
-  github:    academicpages/academicpages.github.io
-  demo_url:  https://academicpages.github.io
-  author:    Stuart Geiger
-  thumbnail: academicpages.png
-  license:   MIT
-  tags:     [academic, portfolio, papers, blog, resume, responsive]
-
-- title:     U.S. (Gov) Web Design Standards (Docs, Landing)
-  github:    18F/jekyll-uswds
-  ## demo_url:  https://standards.usa.gov/page-templates
-  author:    Shawn Allen
-  thumbnail: uswds-docs.png
-  license:   Public Domain
-  tags:     [docs, landing]
-
-
-- title:     Monday Theme (Black and White)
-  home_url:  https://github.com/artemsheludko/monday
-  download_url: https://github.com/artemsheludko/monday/archive/master.zip
-  demo_url:  http://artemsheludko.pw/monday/
-  author:    Artem Sheludko
-  thumbnail: monday-sm.png
-  license:   GPLv3
-  tags:      [blog,responsive,minimal,scss]
-
-- title:        Materialized
-  home_url:     https://github.com/lpsandaruwan/materialized
-  download_url: https://github.com/lpsandaruwan/materialized/archive/master.zip
-  demo_url:     http://lahiru.site/materialized
-  author:       Lahiru Pathirage
-  thumbnail:    materialized.png
-  license:      GPLv3
-  tags:        [angular, material, responsive]
-
-- title:        Surgeon Tux
-  home_url:     https://github.com/lpsandaruwan/surgeon-tux
-  download_url: https://github.com/lpsandaruwan/surgeon-tux/archive/master.zip
-  demo_url:     http://lahiru.site/surgeon-tux
-  author:       Lahiru Pathirage
-  thumbnail:    surgeon-tux.png
-  license:      GPLv3
-  tags:        [terminal, monospace, black]
-
-- title:     Mr.Brown Responsive
-  github:    artemsheludko/mr-brown
-  demo_url:  http://artemsheludko.pw/mr-brown/
-  author:    Artem Sheludko
-  thumbnail: mr.brown.png
-  license:   MIT
-  tags:      [blog,responsive,minimal,scss,html5]
 
 - title:     Hello, Jekyll!
   github:    henrythemes/hello-jekyll-theme
@@ -1813,6 +1715,7 @@
   tags:      [simple, developer, clean]
 
 
+
 - title:     Photography
   github:    ramswaroop/photography
   demo_url:  http://photography.ramswaroop.me/
@@ -1829,7 +1732,7 @@
   thumbnail: millennial.jpg
   license:   MIT
   tags:      [blog,publication,journal,minimal,minimalist,clean,simple,starter]
-  
+
 - title:     jSimple
   github:    paulmostowyj/jsimple
   demo_url:  https://paulmostowyj.github.io/jsimple/
@@ -1837,7 +1740,7 @@
   thumbnail: jsimple-thumbnail.png
   license:   MIT
   tags:      [simple,minimal,blog]
-  
+
 - title:     jNegative
   github:    paulmostowyj/jnegative
   demo_url:  https://paulmostowyj.github.io/jnegative/
@@ -1846,7 +1749,7 @@
   license:   MIT
   tags:      [simple,minimal,blog]
 
-- title:     Portfolio Jekyll Theme
+- title:     Portfolio
   github:    LeNPaul/portfolio-jekyll-theme
   branch:    gh-pages
   demo_url:  https://lenpaul.github.io/portfolio-jekyll-theme/
@@ -1857,7 +1760,6 @@
 
 - title:     Simple Texture
   github:    yizeng/jekyll-theme-simple-texture
-  branch:    master
   demo_url:  https://yizeng.github.io/jekyll-theme-simple-texture/
   author:    Yi Zeng
   thumbnail: simple-texture.png
@@ -1865,20 +1767,113 @@
   gem:       jekyll-theme-simple-texture
   tags:      [blog,minimal,clean,simple,texture]
 
-- title:     Darcli
+- title:     Darcli (Dark + CLI)
   github:    gjuniioor/darcli
   branch:    gh-pages
   demo_url:  https://gjuniioor.github.io/darcli/
-  author:    gjuniioor
+  author:    Gildásio Júnior
   thumbnail: darcli.png
-  license:   GPL
+  license:   GNU GPL
   tags:      [blog,minimal,clean,simple]
 
 - title:     Clyell
   github:    gjuniioor/clyell
   branch:    gh-pages
   demo_url:  https://gjuniioor.github.io/clyell/
-  author:    gjuniioor
+  author:    Gildásio Júnior
   thumbnail: clyell.png
-  license:   GPL
+  license:   GNU GPL
   tags:      [blog,minimal,clean,simple]
+
+- title:     Cayman Blog
+  github:    lorepirri/cayman-blog
+  demo_url:  https://lorepirri.github.io/cayman-blog/
+  author:    Lorenzo Pirritano
+  thumbnail: thumbnail-cayman-blog-250.png
+  license:   CC0 - Public Domain
+  gem:       jekyll-theme-cayman-blog
+  tags:      [blog,responsive,sass,minimal]
+
+- title:     Sparrow
+  github:    lingxz/sparrow
+  demo_url:  https://theconfused.me/sparrow
+  author:    Lingyi Hu
+  thumbnail: sparrow.png
+  license:   MIT
+  gem:       sparrow-jekyll-theme
+  tags:      [blog,responsive,sass,minimal]
+
+- title:     Wead
+  github:    kevyder/wead
+  demo_url:  http://kevinrodriguez.me/wead/
+  author:    Kevin Rodríguez
+  thumbnail: wead.jpg
+  license:   MIT
+  tags:      [blog,responsive,minimal,sass,bootstrap]
+
+- title:     Fresh
+  github:    artemsheludko/fresh
+  demo_url:  http://artemsheludko.pw/fresh/
+  author:    Artem Sheludko
+  thumbnail: fresh-sm.png
+  license:   GNU GPL
+  tags:      [blog,responsive,minimal,scss,html5]
+
+- title:        Mat Jek
+  github:       ShawnTeoh/matjek
+  branch:       gh-pages
+  demo_url:     https://shawnteoh.github.io/matjek
+  author:       Shawn Teoh
+  thumbnail:    matjek.png
+  license:      GNU GPL
+  tags:         [material, responsive, blog, resume]
+
+- title:     Academic Pages
+  github:    academicpages/academicpages.github.io
+  demo_url:  https://academicpages.github.io
+  author:    Stuart Geiger
+  thumbnail: academicpages.png
+  license:   MIT
+  tags:     [academic, portfolio, papers, blog, resume, responsive]
+
+- title:     U.S. (Gov) Web Design Standards (Docs, Landing)
+  github:    18F/jekyll-uswds
+  ## demo_url:  https://standards.usa.gov/page-templates
+  author:    Shawn Allen
+  thumbnail: uswds-docs.png
+  license:   Public Domain
+  tags:     [docs, landing]
+
+
+- title:     Monday (Black and White)
+  github:    artemsheludko/monday
+  demo_url:  http://artemsheludko.pw/monday/
+  author:    Artem Sheludko
+  thumbnail: monday-sm.png
+  license:   GNU GPL
+  tags:      [blog,responsive,minimal,scss]
+
+- title:     Mr. Brown Responsive
+  github:    artemsheludko/mr-brown
+  demo_url:  http://artemsheludko.pw/mr-brown/
+  author:    Artem Sheludko
+  thumbnail: mr.brown.png
+  license:   MIT
+  tags:      [blog,responsive,minimal,scss,html5]
+
+
+- title:        Materialized
+  github:       lpsandaruwan/materialized
+  demo_url:     http://lahiru.site/materialized
+  author:       Lahiru Pathirage
+  thumbnail:    materialized.png
+  license:      GNU GPL
+  tags:        [angular, material, responsive]
+
+- title:        Surgeon Tux
+  github:       lpsandaruwan/surgeon-tux
+  demo_url:     http://lahiru.site/surgeon-tux
+  author:       Lahiru Pathirage
+  thumbnail:    surgeon-tux.png
+  license:      GPLv3
+  tags:        [terminal, monospace, black]
