@@ -1,6 +1,7 @@
 # Dr. Jekyll's Themes - Add Your Theme!
 
-(Yet Another) Static Site Theme Directory - see it live @ [`drjekyllthemes.github.io`](http://drjekyllthemes.github.io)
+(Yet Another) Static Website Theme Directory - see it live @ [`drjekyllthemes.github.io`](http://drjekyllthemes.github.io)
+
 
 
 ## How-To Add Your Theme
