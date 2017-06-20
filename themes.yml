@@ -250,7 +250,8 @@
   home_url:  https://github.com/gdg-managua/jekyll-mdl
   download_url:  https://github.com/gdg-managua/jekyll-mdl/releases
   demo_url:      http://www.gdgmanagua.org/jekyll-mdl
-  author:    Google Developers Group (GDG) Managua
+  author:    Oscar Cortez et al
+  ## org:    Google Developers Group (GDG) Managua
   thumbnail: jekyll-mdl-screen.jpg
   license:   Apache
   tags:      []
@@ -264,40 +265,6 @@
   author:    Mu-An Chiou
   thumbnail: scribble.png
   license:   MIT
-  tags:      []
-
-- title:     Green Tea
-  home_url:  http://richbray.me/frap/
-  download_url:  http://richbray.me/frap/gt.zip
-  demo_url:  http://richbray.me/frap/gt/
-  author:    Richard Bray
-  thumbnail: green-tea.png
-  tags:      []
-
-- title: Vanilla Bean Creme
-  home_url: http://richbray.me/frap/
-  download_url: http://richbray.me/frap/vbc.zip
-  demo_url: http://richbray.me/frap/vbc/
-  author: Richard Bray
-  thumbnail: vanilla-bean-creme.png
-  tags:      []
-
-- title: Solar
-  home_url: https://github.com/mattvh/solar-theme-jekyll
-  download_url: https://github.com/mattvh/solar-theme-jekyll/archive/master.zip
-  demo_url: http://mattvh.github.io/solar-theme-jekyll/
-  author: Matt Harzewski
-  thumbnail: solar.png
-  license: GNU GPL
-  tags:      []
-
-- title: Left
-  home_url: https://github.com/holman/left
-  download_url: https://github.com/holman/left/archive/gh-pages.zip
-  demo_url: http://zachholman.com/left/
-  author: Zach Holman
-  thumbnail: left.png
-  license: MIT
   tags:      []
 
 
@@ -344,14 +311,21 @@
   tags:      []
 
 
-- title: HiPSTeR (HPSTR) Version 2 - Vietnamese
-  home_url: https://github.com/minhhuy150894/minhhuy150894.github.io
-  download_url: https://github.com/minhhuy150894/minhhuy150894.github.io/archive/master.zip
-  demo_url: http://minhhuy150894.github.io
-  author: David Ng (Nguyen Minh Huy) - Michael Rose
-  thumbnail: hpstr-v2.png
-  license: MIT
-  tags:      []
+- title:     Academic Pages
+  github:    academicpages/academicpages.github.io
+  demo_url:  https://academicpages.github.io
+  author:    Stuart Geiger
+  thumbnail: academicpages.png
+  license:   MIT
+  tags:     [academic, portfolio, papers, blog, resume, responsive]
+
+- title:     U.S. (Gov) Web Design Standards (Docs, Landing)
+  github:    18F/uswds-jekyll
+  ## demo_url:  https://standards.usa.gov/page-templates
+  author:    Shawn Allen
+  thumbnail: uswds-docs.png
+  license:   Public Domain
+  tags:     [docs, landing]
 
 
 
@@ -522,10 +496,13 @@
   home_url: https://github.com/kippt/jekyll-incorporated
   download_url: https://github.com/kippt/jekyll-incorporated/archive/master.zip
   demo_url: http://blog.sendtoinc.com/
-  author: Kippt Inc.
+  author:  Karri Saarinen et al
+  ## org: Kippt Inc.
+  ##   note: kippt is closed-down (out-of-business)
   thumbnail: incorporated.png
   license: MIT
   tags:      []
+
 
 - title: Gereksiz
   home_url: https://github.com/bozbalci/gereksiz
@@ -770,7 +747,8 @@
   home_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll
   download_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/gh-pages.zip
   demo_url: http://BlackrockDigital.github.io/startbootstrap-clean-blog-jekyll/
-  author: Start Bootstrap
+  author:   David Miller et al
+  ## org:: Start Bootstrap
   thumbnail: clean-blog.png
   license: Apache
   tags:      []
@@ -813,7 +791,8 @@
   home_url: https://github.com/thephuse/strange_case
   download_url: https://github.com/thephuse/strange_case/archive/gh-pages.zip
   demo_url: http://thephuse.github.io/strange_case/
-  author: Phuse
+  author:  Kelley Gibson et al
+  ## org: Phuse
   thumbnail: strange-case.png
   license: MIT
   tags:      []
@@ -904,7 +883,7 @@
   home_url: https://github.com/itsrifat/rifyll
   download_url: https://github.com/itsrifat/rifyll/archive/master.zip
   demo_url: http://itsrifat.github.io/rifyll/
-  author: Moinul
+  author: Moinul Hossain
   thumbnail: rifyll.png
   license: MIT
   tags:      []
@@ -922,7 +901,7 @@
   home_url: https://github.com/prio101/metaphor-jekyll
   download_url: https://github.com/prio101/metaphor-jekyll/archive/master.zip
   demo_url: http://mahabubislam.me
-  author: Mahabub I.
+  author: Mahabub Islam Prio
   thumbnail: metaphor.png
   license: MIT
   tags:      []
@@ -981,20 +960,13 @@
   license: GNU GPL
   tags:      []
 
-- title: Pithy
-  home_url: https://github.com/smallmuou/Jekyll-Pithy
-  download_url: https://github.com/smallmuou/Jekyll-Pithy/archive/master.zip
-  demo_url: http://wenva.github.io/
-  author: Pawpaw
-  thumbnail: pithy.png
-  license: MIT
-  tags:      []
 
 - title: Twister
   home_url: https://github.com/DigitalMindCH/twister-jekyll-theme
   download_url: http://digitalmind.ch/media/downloads/twister_theme.zip
   demo_url: http://digitalmind.ch/themes/twister-jekyll-theme/demo/
-  author: Digitalmind
+  author: Daniel Baur et al
+  ## org: Digitalmind
   thumbnail: twister.png
   license: MIT
   tags:      []
@@ -1297,6 +1269,7 @@
   license:      MIT
   tags:        [minimal, single-page, blog, multilanguage]
 
+
 - title:        Instagram Portfolio
   github:       portfolio-central/jekyll-instagram-portfolio-theme
   branch:       gh-pages
@@ -1323,14 +1296,6 @@
   thumbnail: jekyll-theme-libretto.jpg
   license:   Public Domain
 
-### fix: needs name of author - didn't find anything other ddm
-- title:     R. L. Stevenson
-  github:    ExchangeRate-API/rlstevenson-jekyll-theme
-  demo_url:  https://www.exchangerate-api.com/rlstevenson/
-  thumbnail: rlstevenson.png
-  author:    ExchangeRate API
-  license:   MIT
-  tags:      [blog, responsive, bootstrap]
 
 - title: Researcher
   github: bk2dcradle/researcher
@@ -1506,14 +1471,6 @@
   license:   MIT
   tags:      [cards]
 
-- title:     SZ-Flex (Blog)
-  github:    StartZeroGnu/jekyll-szflex-theme
-  demo_url:  https://startzerognu.github.io/jekyll-szflex-theme/
-  author:    StartZeroGnu
-  thumbnail: sz-flex.png
-  license:   MIT
-  tags:      [blog]
-  keys:      [szflex]
 
 - title:     Emping
   github:    rmsubekti/emping
@@ -1556,14 +1513,6 @@
   license:   MIT
   tags:      [white,minimal,minimalist,clean]
 
-- title:     Lagrange
-  github:    LeNPaul/Lagrange
-  branch:    gh-pages
-  demo_url:  https://lenpaul.github.io/Lagrange/
-  author:    Paul Le
-  thumbnail: lagrange.jpg
-  license:   MIT
-  tags:      [blog,minimal,minimalist,clean,simple,starter]
 
 - title:        Kikofri
   github:       kxxvii/Kikofri
@@ -1724,6 +1673,17 @@
   license:   MIT
   tags:      [photographer, photography, photos, pictures, gallery]
 
+
+
+- title:     Lagrange
+  github:    LeNPaul/Lagrange
+  branch:    gh-pages
+  demo_url:  https://lenpaul.github.io/Lagrange/
+  author:    Paul Le
+  thumbnail: lagrange.jpg
+  license:   MIT
+  tags:      [blog,minimal,minimalist,clean,simple,starter]
+
 - title:     Millennial
   github:    LeNPaul/Millennial
   branch:    gh-pages
@@ -1732,22 +1692,6 @@
   thumbnail: millennial.jpg
   license:   MIT
   tags:      [blog,publication,journal,minimal,minimalist,clean,simple,starter]
-
-- title:     jSimple
-  github:    paulmostowyj/jsimple
-  demo_url:  https://paulmostowyj.github.io/jsimple/
-  author:    Paul Mostowyj
-  thumbnail: jsimple-thumbnail.png
-  license:   MIT
-  tags:      [simple,minimal,blog]
-
-- title:     jNegative
-  github:    paulmostowyj/jnegative
-  demo_url:  https://paulmostowyj.github.io/jnegative/
-  author:    Paul Mostowyj
-  thumbnail: jnegative-thumbnail.png
-  license:   MIT
-  tags:      [simple,minimal,blog]
 
 - title:     Portfolio
   github:    LeNPaul/portfolio-jekyll-theme
@@ -1758,6 +1702,26 @@
   license:   MIT
   tags:      [blog,portfolio,minimal,minimalist,clean,simple,starter]
 
+
+
+- title:     Paul's Simple     ## was jSimple (jekyll simple)
+  github:    paulmostowyj/jsimple
+  demo_url:  https://paulmostowyj.github.io/jsimple/
+  author:    Paul Mostowyj
+  thumbnail: jsimple-thumbnail.png
+  license:   MIT
+  tags:      [simple,minimal,blog]
+
+- title:     Paul's Negative         ### was jNegative (jekyll negative)
+  github:    paulmostowyj/jnegative
+  demo_url:  https://paulmostowyj.github.io/jnegative/
+  author:    Paul Mostowyj
+  thumbnail: jnegative-thumbnail.png
+  license:   MIT
+  tags:      [simple,minimal,blog]
+
+
+
 - title:     Simple Texture
   github:    yizeng/jekyll-theme-simple-texture
   demo_url:  https://yizeng.github.io/jekyll-theme-simple-texture/
@@ -1767,12 +1731,14 @@
   gem:       jekyll-theme-simple-texture
   tags:      [blog,minimal,clean,simple,texture]
 
+
+
 - title:     Darcli (Dark + CLI)
   github:    gjuniioor/darcli
   branch:    gh-pages
   demo_url:  https://gjuniioor.github.io/darcli/
   author:    Gildásio Júnior
-  thumbnail: darcli.png
+  thumbnail: darcli.jpg
   license:   GNU GPL
   tags:      [blog,minimal,clean,simple]
 
@@ -1785,6 +1751,7 @@
   license:   GNU GPL
   tags:      [blog,minimal,clean,simple]
 
+
 - title:     Cayman Blog
   github:    lorepirri/cayman-blog
   demo_url:  https://lorepirri.github.io/cayman-blog/
@@ -1793,6 +1760,7 @@
   license:   CC0 - Public Domain
   gem:       jekyll-theme-cayman-blog
   tags:      [blog,responsive,sass,minimal]
+
 
 - title:     Sparrow
   github:    lingxz/sparrow
@@ -1811,15 +1779,8 @@
   license:   MIT
   tags:      [blog,responsive,minimal,sass,bootstrap]
 
-- title:     Fresh
-  github:    artemsheludko/fresh
-  demo_url:  http://artemsheludko.pw/fresh/
-  author:    Artem Sheludko
-  thumbnail: fresh-sm.png
-  license:   GNU GPL
-  tags:      [blog,responsive,minimal,scss,html5]
 
-- title:        Mat Jek
+- title:        Shawn's Material   ## was Mat Jek (Material Jekyll)
   github:       ShawnTeoh/matjek
   branch:       gh-pages
   demo_url:     https://shawnteoh.github.io/matjek
@@ -1828,21 +1789,15 @@
   license:      GNU GPL
   tags:         [material, responsive, blog, resume]
 
-- title:     Academic Pages
-  github:    academicpages/academicpages.github.io
-  demo_url:  https://academicpages.github.io
-  author:    Stuart Geiger
-  thumbnail: academicpages.png
-  license:   MIT
-  tags:     [academic, portfolio, papers, blog, resume, responsive]
 
-- title:     U.S. (Gov) Web Design Standards (Docs, Landing)
-  github:    18F/uswds-jekyll
-  ## demo_url:  https://standards.usa.gov/page-templates
-  author:    Shawn Allen
-  thumbnail: uswds-docs.png
-  license:   Public Domain
-  tags:     [docs, landing]
+
+- title:     Fresh
+  github:    artemsheludko/fresh
+  demo_url:  http://artemsheludko.pw/fresh/
+  author:    Artem Sheludko
+  thumbnail: fresh-sm.png
+  license:   GNU GPL
+  tags:      [blog,responsive,minimal,scss,html5]
 
 
 - title:     Monday (Black and White)
@@ -1870,6 +1825,7 @@
   license:      GNU GPL
   tags:        [angular, material, responsive]
 
+
 - title:        Surgeon Tux
   github:       lpsandaruwan/surgeon-tux
   demo_url:     http://lahiru.site/surgeon-tux
@@ -1877,3 +1833,46 @@
   thumbnail:    surgeon-tux.png
   license:      GPLv3
   tags:        [terminal, monospace, black]
+
+
+
+- title:     Green Tea
+  home_url:  http://richbray.me/frap/
+  download_url:  http://richbray.me/frap/gt.zip
+  demo_url:  http://richbray.me/frap/gt/
+  author:    Richard Bray
+  thumbnail: green-tea.png
+  license:   ":-) - Happy License"
+  tags:      []
+
+##
+##  add based on the muffin toolkit (also by richard bray) e.g.
+##     built w/ Muffin; see https://github.com/RichardBray/Muffin
+
+
+- title: Vanilla Bean Creme
+  home_url: http://richbray.me/frap/
+  download_url: http://richbray.me/frap/vbc.zip
+  demo_url: http://richbray.me/frap/vbc/
+  author: Richard Bray
+  thumbnail: vanilla-bean-creme.png
+  license:   ":-) - Happy License"
+  tags:      []
+
+- title: Solar
+  home_url: https://github.com/mattvh/solar-theme-jekyll
+  download_url: https://github.com/mattvh/solar-theme-jekyll/archive/master.zip
+  demo_url: http://mattvh.github.io/solar-theme-jekyll/
+  author: Matt Harzewski
+  thumbnail: solar.png
+  license: GNU GPL
+  tags:      []
+
+- title: Left
+  home_url: https://github.com/holman/left
+  download_url: https://github.com/holman/left/archive/gh-pages.zip
+  demo_url: http://zachholman.com/left/
+  author: Zach Holman
+  thumbnail: left.png
+  license: MIT
+  tags:      []

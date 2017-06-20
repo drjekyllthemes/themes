@@ -1,0 +1,40 @@
+
+### user no longer exists 404  (Feb/2017)
+##    check if account deleted (or just moved)
+
+- title: Simply Grey
+  home_url: https://github.com/liamsymonds/simplygrey-jekyll
+  download_url: https://github.com/liamsymonds/simplygrey-jekyll/archive/master.zip
+  author: Liam Symonds
+  thumbnail: simply-grey.png
+  license: BSD
+  tags:      []
+
+
+
+## !!!  missing (broken) demo link
+- title:    HMFAYSAL
+  home_url: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme
+  download_url: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme/archive/master.zip
+  demo_url:     ???
+  author:    Hossain Mohd Faysal
+  thumbnail: hmfaysal.png
+  license: GNU General Public License Version 2
+
+## !!!  missing (broken) demo link ???
+- title:     HMFAYSAL V2
+  home_url:  https://github.com/hmfaysal/Jekyll-HMFAYSAL-V2-Theme
+  download_url:  https://github.com/hmfaysal/Jekyll-HMFAYSAL-V2-Theme/archive/master.zip
+  demo_url:      ???
+  author:    Hossain Mohd Faysal
+  thumbnail: hmfaysal-v2.png
+  license:   GNU General Public License Version 2
+
+## 404 not found - check back ??
+- title: hushaw
+  home_url: https://github.com/hushaw/hushaw.github.com
+  download_url: https://github.com/hushaw/hushaw.github.com/archive/master.zip
+  demo_url: http://hushaw.github.io
+  author: signifox
+  thumbnail: hushaw.png
+  license: MIT

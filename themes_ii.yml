@@ -1,40 +1,59 @@
+###
+##  unmaintained themes:
+##    - last update 2+ years?
+##    - minor; less than 20 stars?
+##
 
-### user no longer exists 404  (Feb/2017)
-##    check if account deleted (or just moved)
 
-- title: Simply Grey
-  home_url: https://github.com/liamsymonds/simplygrey-jekyll
-  download_url: https://github.com/liamsymonds/simplygrey-jekyll/archive/master.zip
-  author: Liam Symonds
-  thumbnail: simply-grey.png
-  license: BSD
+
+- title: HiPSTeR (HPSTR) Version 2 - Vietnamese
+  home_url: https://github.com/minhhuy150894/minhhuy150894.github.io
+  download_url: https://github.com/minhhuy150894/minhhuy150894.github.io/archive/master.zip
+  demo_url: http://minhhuy150894.github.io
+  author: David Ng (Nguyen Minh Huy) - Michael Rose
+  thumbnail: hpstr-v2.png
+  license: MIT
   tags:      []
 
+##  cause:
+##  - "spammy" non-serious? github handle e.g. minhhuy150894
+##  - not updated
+##  - just a dudplicate of hipster ??
 
 
-## !!!  missing (broken) demo link
-- title:    HMFAYSAL
-  home_url: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme
-  download_url: https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme/archive/master.zip
-  demo_url:     ???
-  author:    Hossain Mohd Faysal
-  thumbnail: hmfaysal.png
-  license: GNU General Public License Version 2
-
-## !!!  missing (broken) demo link ???
-- title:     HMFAYSAL V2
-  home_url:  https://github.com/hmfaysal/Jekyll-HMFAYSAL-V2-Theme
-  download_url:  https://github.com/hmfaysal/Jekyll-HMFAYSAL-V2-Theme/archive/master.zip
-  demo_url:      ???
-  author:    Hossain Mohd Faysal
-  thumbnail: hmfaysal-v2.png
-  license:   GNU General Public License Version 2
-
-## 404 not found - check back ??
-- title: hushaw
-  home_url: https://github.com/hushaw/hushaw.github.com
-  download_url: https://github.com/hushaw/hushaw.github.com/archive/master.zip
-  demo_url: http://hushaw.github.io
-  author: signifox
-  thumbnail: hushaw.png
+- title: Pithy
+  home_url: https://github.com/smallmuou/Jekyll-Pithy
+  download_url: https://github.com/smallmuou/Jekyll-Pithy/archive/master.zip
+  demo_url: http://wenva.github.io/
+  author: Pawpaw
+  thumbnail: pithy.png
   license: MIT
+  tags:      []
+
+## cause:
+##    pawpaw  - unidentified author/name - sorry
+
+
+- title:     R. L. Stevenson
+  github:    ExchangeRate-API/rlstevenson-jekyll-theme
+  demo_url:  https://www.exchangerate-api.com/rlstevenson/
+  thumbnail: rlstevenson.png
+  author:    ExchangeRate API
+  license:   MIT
+  tags:      [blog, responsive, bootstrap]
+
+## cause:
+###   fix: needs name of author - didn't find anything other ddm
+
+
+- title:     SZ-Flex (Blog)
+  github:    StartZeroGnu/jekyll-szflex-theme
+  demo_url:  https://startzerognu.github.io/jekyll-szflex-theme/
+  author:    StartZeroGnu
+  thumbnail: sz-flex.png
+  license:   MIT
+  tags:      [blog]
+  keys:      [szflex]
+
+## cause:
+##   no longer maintained (author missing in action ;-)
