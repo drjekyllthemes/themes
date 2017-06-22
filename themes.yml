@@ -942,14 +942,19 @@
   license: MIT
   tags:      []
 
-- name: Dev Aid
-  home_url: https://github.com/kevit/devaid-jekyll-theme
-  download_url: https://github.com/kevit/devaid-jekyll-theme/archive/master.zip
-  demo_url: http://themes.3rdwavemedia.com/demo/devaid/
-  author: Xiaoying Riley
-  thumbnail: devaid.png
-  license: CC BY
+
+- name:       Dev Aid
+  github:     kevit/devaid-jekyll-theme
+  demo_url:   http://themes.3rdwavemedia.com/demo/devaid/
+  author:     Sergey Karatkevich
+  thumbnail:  devaid.png
+  license:    CC BY
   tags:      []
+
+## Dev Aid based on
+##   todo/add -> based on Dev Aid by Xiaoying Riley
+
+
 
 - name: Carte Noire
   home_url: https://github.com/jacobtomlinson/carte-noire
@@ -1505,6 +1510,17 @@
   gem:       alembic-jekyll-theme
   tags:      [white,minimal,minimalist,clean,starter]
 
+- name:      Garth
+  github:    daviddarnes/garth
+  demo_url:  https://garth.darn.es
+  author:    David Darnes
+  thumbnail: garth.png
+  license:   MIT
+  gem:       garth-jekyll-theme
+  tags:      []
+
+
+
 - name:     Clean (Siddhant)
   github:    siddhantgoel/clean-jekyll-theme
   demo_url:  https://siddhantgoel.github.io/clean-jekyll-theme
@@ -1551,6 +1567,16 @@
   demo_url:     https://vietanhdev.com/beNice17/
   author:       Viet Anh Nguyen
   thumbnail:    beNice17.png
+  license:      MIT
+  tags:        []
+
+
+- name:         Left
+  github:       holman/left
+  branch:       gh-pages
+  demo_url:     http://zachholman.com/left/
+  author:       Zach Holman
+  thumbnail:    left.png
   license:      MIT
   tags:        []
 
@@ -1780,7 +1806,7 @@
   tags:      [blog,responsive,minimal,sass,bootstrap]
 
 
-- name:        Shawn's Material   ## was Mat Jek (Material Jekyll)
+- name:         Shawn's Material   ## was Mat Jek (Material Jekyll)
   github:       ShawnTeoh/matjek
   branch:       gh-pages
   demo_url:     https://shawnteoh.github.io/matjek
@@ -1866,15 +1892,6 @@
   author: Matt Harzewski
   thumbnail: solar.png
   license: GNU GPL
-  tags:      []
-
-- name: Left
-  home_url: https://github.com/holman/left
-  download_url: https://github.com/holman/left/archive/gh-pages.zip
-  demo_url: http://zachholman.com/left/
-  author: Zach Holman
-  thumbnail: left.png
-  license: MIT
   tags:      []
 
 
