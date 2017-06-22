@@ -6,7 +6,7 @@
 
 
 
-- title: HiPSTeR (HPSTR) Version 2 - Vietnamese
+- name: HiPSTeR (HPSTR) Version 2 - Vietnamese
   home_url: https://github.com/minhhuy150894/minhhuy150894.github.io
   download_url: https://github.com/minhhuy150894/minhhuy150894.github.io/archive/master.zip
   demo_url: http://minhhuy150894.github.io
@@ -21,7 +21,7 @@
 ##  - just a dudplicate of hipster ??
 
 
-- title: Pithy
+- name: Pithy
   home_url: https://github.com/smallmuou/Jekyll-Pithy
   download_url: https://github.com/smallmuou/Jekyll-Pithy/archive/master.zip
   demo_url: http://wenva.github.io/
@@ -34,7 +34,7 @@
 ##    pawpaw  - unidentified author/name - sorry
 
 
-- title:     R. L. Stevenson
+- name:     R. L. Stevenson
   github:    ExchangeRate-API/rlstevenson-jekyll-theme
   demo_url:  https://www.exchangerate-api.com/rlstevenson/
   thumbnail: rlstevenson.png
@@ -46,7 +46,7 @@
 ###   fix: needs name of author - didn't find anything other ddm
 
 
-- title:     SZ-Flex (Blog)
+- name:     SZ-Flex (Blog)
   github:    StartZeroGnu/jekyll-szflex-theme
   demo_url:  https://startzerognu.github.io/jekyll-szflex-theme/
   author:    StartZeroGnu

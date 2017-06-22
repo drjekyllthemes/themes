@@ -10,11 +10,11 @@ First fork the [`/themes` repo](https://github.com/drjekyllthemes/themes) on Git
 
 ### Step 1: Add a new entry in the `themes.yml`datafile
 
-Add a new entry in the [`themes.yml`](https://github.com/drjekyllthemes/themes/blob/master/themes.yml) datafile 
+Add a new entry in the [`themes.yml`](https://github.com/drjekyllthemes/themes/blob/master/themes.yml) datafile
 and fill out all fields. Example:
 
 ``` yaml
-- title:     Basically Basic
+- name:      Basically Basic
   github:    mmistakes/jekyll-theme-basically-basic
   branch:    master                              ## note: defaults to master; only needed for gh-pages
   demo_url:  https://mmistakes.github.io/jekyll-theme-basically-basic
@@ -28,7 +28,7 @@ and fill out all fields. Example:
 or (without the github+branch shortcuts)
 
 ``` yaml
-- title:        Basically Basic
+- name:         Basically Basic
   home_url:     https://github.com/mmistakes/jekyll-theme-basically-basic
   download_url: https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip
   demo_url:     https://mmistakes.github.io/jekyll-theme-basically-basic
@@ -41,8 +41,8 @@ or (without the github+branch shortcuts)
 
 ### Step 2 - Add a 250 x 200 thumbnail (screenshot preview pic) in the `thumbnails` folder
 
-Make a 250 x 200 thumbnail and drop it in the thumbnails folder. 
-Example: `thumbnails/shiori.png` (250 x 200 px) 
+Make a 250 x 200 thumbnail and drop it in the thumbnails folder.
+Example: `thumbnails/shiori.png` (250 x 200 px)
 
 ![](thumbnails/basicallybasic.png)
 
@@ -50,7 +50,7 @@ Note: Do NOT forget to list its filename in the `themes.yml` entry.
 
 ### Step 3 - Send a pull request
 
-Check that everything is ok, then open up a pull request. 
+Check that everything is ok, then open up a pull request.
 
 That's it. Thanks!
 
@@ -63,9 +63,9 @@ That's it. Thanks!
 **Q: I added my theme why is it not displaying on the website. Can you please take a look?**
 
 A: Thanks for your patience. The `themes.yml` is only used by the [drjekyll package manager](https://github.com/drjekyllthemes/drjekyll) with "direct" web access.
-For the Dr Jekyll's website (see [source](https://github.com/drjekyllthemes/drjekyllthemes.github.io)) the `themes.yml` has to run through build steps (see [source](https://github.com/yorobot/planetjekyll)) 
+For the Dr Jekyll's website (see [source](https://github.com/drjekyllthemes/drjekyllthemes.github.io)) the `themes.yml` has to run through build steps (see [source](https://github.com/yorobot/planetjekyll))
 to get github stars 'n' history etc. and, sorry, for now this is still a manual task / procedure
-that will get done "by hand". 
+that will get done "by hand".
 For your theme to show up, thus, please wait for the next site update.
 
 

@@ -4,8 +4,8 @@
 
 
 
-## use the new (default) minima theme 
-- title:     New (Old Built-In v3.1 Default / Anno -2016)
+## use the new (default) minima theme
+- name:     New (Old Built-In v3.1 Default / Anno -2016)
   github:    jekyll/example
   branch:    gh-pages
   demo_url:  http://jekyll.github.io/example/
@@ -15,11 +15,11 @@
   tags:      []
 
 
-## "old" github pages themes 
+## "old" github pages themes
 ##  github pages themes now officially open source and gem-packaged
 ##   see github.com/pages-themes
 
-- title: Slate
+- name: Slate
   home_url: https://github.com/jasoncostello/slate
   download_url: https://github.com/jasoncostello/slate/archive/master.zip
   author: Jason Costello
@@ -27,7 +27,7 @@
   license: MIT
   tags:      []
 
-- title: Architect
+- name: Architect
   home_url: https://github.com/pietromenna/jekyll-architect-theme
   download_url: https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
   author: Jason Long, ported by Pietro Menna
@@ -35,7 +35,7 @@
   license: CC BY
   tags:      []
 
-- title: Leap Day
+- name: Leap Day
   home_url: https://github.com/mattgraham/leapday
   download_url: https://github.com/mattgraham/leapday/archive/master.zip
   demo_url: http://madebygraham.com/leapday/
@@ -44,7 +44,7 @@
   license: MIT
   tags:      []
 
-- title: Midnight
+- name: Midnight
   home_url: https://github.com/mattgraham/midnight
   download_url: https://github.com/mattgraham/midnight/archive/master.zip
   demo_url: http://madebygraham.com/midnight/
@@ -52,16 +52,3 @@
   thumbnail: midnight.png
   license: MIT
   tags:      []
-
-
-
-
-
-
-
-
-
-
-
-
-
