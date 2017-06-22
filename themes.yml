@@ -1884,3 +1884,12 @@
   thumbnail: marat.png
   license:   MIT
   tags:     [newspaper, responsive, blog, historical]   ## optional
+
+- title:     Hydejack
+  github:    qwtel/hydejack
+  demo_url:  https://qwtel.com/hydejack/
+  author:    Florian Klampfer
+  thumbnail: hydejack.jpg
+  license:   MIT
+  gem:       jekyll-theme-hydejack         ## optional
+  tags:     [webapp, portfolio, resume, responsive, progressive enhancement, rxjs, ajax, pushstate]
