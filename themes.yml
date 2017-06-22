@@ -1879,7 +1879,6 @@
 
 - title:     Marat
   github:    JohnCoene/marat
-  branch:    master                              ## note: defaults to master; only needed for gh-pages
   demo_url:  https://johncoene.github.io/marat/
   author:    John Coene
   thumbnail: marat.png
