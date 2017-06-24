@@ -3,6 +3,7 @@
 
 
 - name:      Hello, Jekyll!
+  series:    Henry's
   github:    henrythemes/hello-jekyll-theme
   demo_url:  https://henrythemes.github.io/hello-jekyll-theme/
   thumbnail: hello-jekyll.png
@@ -11,6 +12,7 @@
   tags:      [white,starter]
 
 - name:      Hello, Minima!
+  series:    Henry's
   github:    henrythemes/hello-minima-theme
   demo_url:  http://henrythemes.github.io/hello-minima-theme/
   thumbnail: hello-minima.png
@@ -19,6 +21,7 @@
   tags:      [white,starter,minima]
 
 - name:      Hello, Pages!
+  series:    Henry's
   github:    henrythemes/hello-pages-theme-v2
   demo_url:  https://henrythemes.github.io/hello-pages-theme-v2/
   thumbnail: hello-pages.png
@@ -28,6 +31,7 @@
 
 
 - name:      Henry's Starter (Minimal)
+  series:    Henry's
   github:    henrythemes/jekyll-starter-theme
   demo_url:  http://henrythemes.github.io/jekyll-starter-theme/
   thumbnail: henry-starter.png
@@ -36,6 +40,7 @@
   tags:      [white,starter]
 
 - name:      Henry's Minimal
+  series:    Henry's
   github:    henrythemes/jekyll-minimal-theme
   demo_url:  http://henrythemes.github.io/jekyll-minimal-theme/
   thumbnail: henry-minimal.png
@@ -44,6 +49,7 @@
   tags:      [white,minimal,starter]
 
 - name:      Henry's Bootstrap
+  series:    Henry's
   github:    henrythemes/jekyll-bootstrap-theme
   demo_url:  http://henrythemes.github.io/jekyll-bootstrap-theme/
   author:    Gerald Bauer
@@ -52,6 +58,7 @@
   tags:      [bootstrap, scss, white, starter]
 
 - name:      Henry's Classics Book
+  series:    Henry's
   github:    henrythemes/jekyll-book-theme
   demo_url:  http://henrythemes.github.io/jekyll-book-theme/
   author:    Gerald Bauer
@@ -60,6 +67,7 @@
   tags:      [books, white]
 
 - name:      Henry's Talks
+  series:    Henry's
   github:    henrythemes/jekyll-talks-theme
   demo_url:  https://henrythemes.github.io/jekyll-talks-theme/
   thumbnail: henry-talks.png
@@ -69,6 +77,7 @@
 
 
 - name:      Poole
+  series:    Poole's
   github:    poole/poole
   demo_url:  http://demo.getpoole.com/
   author:    Mark Otto
@@ -76,7 +85,8 @@
   license:   MIT
   tags:      [poole]
 
-- name:     Poole's Hyde
+- name:      Poole's Hyde
+  series:    Poole's
   github:    poole/hyde
   demo_url:  http://hyde.getpoole.com/
   author:    Mark Otto
@@ -84,7 +94,8 @@
   license:   MIT
   tags:      [poole]
 
-- name:     Poole's Lanyon
+- name:      Poole's Lanyon
+  series:    Poole's
   github:    poole/lanyon
   demo_url:  http://lanyon.getpoole.com/
   author:    Mark Otto
@@ -102,7 +113,8 @@
   tags:      [github]
 
 
-- name:     Architect (Pages)
+- name:      Architect (Pages)
+  series:    Pages
   github:    pages-themes/architect
   demo_url:  https://pages-themes.github.io/architect
   thumbnail: pages-architect.png
@@ -112,6 +124,7 @@
   tags:      [github]
 
 - name:     Cayman (Pages)
+  series:    Pages
   github:    pages-themes/cayman
   demo_url:  https://pages-themes.github.io/cayman/
   thumbnail: pages-cayman.png
@@ -121,6 +134,7 @@
   tags:      [github]
 
 - name:     Dinky (Pages)
+  series:    Pages
   github:    pages-themes/dinky
   demo_url:  https://pages-themes.github.io/dinky/
   thumbnail: pages-dinky.png
@@ -130,6 +144,7 @@
   tags:      [github]
 
 - name:     Hacker (Pages)
+  series:    Pages
   github:    pages-themes/hacker
   demo_url:  https://pages-themes.github.io/hacker/
   thumbnail: pages-hacker.png
@@ -139,6 +154,7 @@
   tags:      [github,black]
 
 - name:     Leap Day (Pages)
+  series:    Pages
   github:    pages-themes/leap-day
   demo_url:  https://pages-themes.github.io/leap-day/
   thumbnail: pages-leapday.png
@@ -148,6 +164,7 @@
   tags:      [github]
 
 - name:     Merlot (Pages)
+  series:    Pages
   github:    pages-themes/merlot
   demo_url:  https://pages-themes.github.io/merlot/
   thumbnail: pages-merlot.png
@@ -157,6 +174,7 @@
   tags:      [github]
 
 - name:     Midnight (Pages)
+  series:    Pages
   github:    pages-themes/midnight
   demo_url:  https://pages-themes.github.io/midnight/
   thumbnail: pages-midnight.png
@@ -166,6 +184,7 @@
   tags:      [github,black]
 
 - name:     Minimal (Pages)
+  series:    Pages
   github:    pages-themes/minimal
   demo_url:  https://pages-themes.github.io/minimal/
   thumbnail: pages-minimal.png
@@ -175,6 +194,7 @@
   tags:      [github]
 
 - name:     Modernist (Pages)
+  series:    Pages
   github:    pages-themes/modernist
   demo_url:  https://pages-themes.github.io/modernist/
   thumbnail: pages-modernist.png
@@ -184,6 +204,7 @@
   tags:      [github]
 
 - name:     Slate (Pages)
+  series:    Pages
   github:    pages-themes/slate
   demo_url:  https://pages-themes.github.io/slate/
   thumbnail: pages-slate.png
@@ -193,6 +214,7 @@
   tags:      [github]
 
 - name:     Tactile (Pages)
+  series:    Pages
   github:    pages-themes/tactile
   demo_url:  https://pages-themes.github.io/tactile/
   thumbnail: pages-tactile.png
@@ -202,6 +224,7 @@
   tags:      [github]
 
 - name:     Time Machine (Pages)
+  series:    Pages
   github:    pages-themes/time-machine
   demo_url:  https://pages-themes.github.io/time-machine/
   thumbnail: pages-timemachine.png
@@ -532,10 +555,9 @@
   tags:      []
 
 
-- name:     Library
-  home_url:  https://github.com/SpaceG/Library
-  download_url:  https://github.com/SpaceG/Library/archive/master.zip
-  demo_url:      http://www.lucasgatsas.ch
+- name:     Lucas' Library
+  github:   SpaceG/Library
+##  demo_url:      http://www.lucasgatsas.ch
   author:    Lucas Gatsas
   thumbnail: cleanmagicmedium.png
   license:   Apache
@@ -543,15 +565,15 @@
 ## fix/todo: rename thubnmail to library too
 
 
-- name:     Glas
-  home_url:  https://github.com/SpaceG/glas
-  download_url:  https://github.com/SpaceG/glas/archive/master.zip
-  demo_url:      http://lucasgatsas.ch
+- name:     Lucas' Glas
+  github:   SpaceG/glas
+##  demo_url:      http://lucasgatsas.ch
   author:    Lucas Gatsas
   thumbnail: ice-and-fire.png
   license:   Apache
   tags:      []
 ## fix/todo: rename thubnmail to glas too
+
 
 
 - name: Otter Pop
@@ -581,14 +603,16 @@
   license: BSD
   tags:      []
 
-- name: White Paper
-  home_url: https://github.com/vinitkumar/white-paper
-  download_url: https://github.com/vinitkumar/white-paper/archive/v1.0.2.zip
-  demo_url: http://vinitkumar.me/white-paper/
-  author: Vinit Kumar
+
+- name:      White Paper
+  github:    vinitkumar/white-paper
+  branch:    gh-pages
+  demo_url:  http://vinitkumar.me/white-paper
   thumbnail: white-paper.png
-  license: MIT
-  tags:      []
+  author:    Vinit Kumar
+  license:   MIT
+  tags:      [simple, developer, clean]
+
 
 - name:     Bitwiser
   github:    brijeshb42/bitwiser
@@ -1331,6 +1355,7 @@
 
 
 - name:     CSSS - Slide Show (S9)
+  series:    Slide Show (S9)
   thumbnail: slideshow-csss.png
   github:    slideshow-templates/slideshow-csss
   demo_url:  http://slideshow-templates.github.io/slideshow-csss/slides.html
@@ -1339,6 +1364,7 @@
   tags:     [slideshow, s9, presentation]
 
 - name:     Deck.js - Slide Show (S9)
+  series:    Slide Show (S9)
   thumbnail: slideshow-deck.js.png
   github:    slideshow-templates/slideshow-deck.js
   demo_url:  http://slideshow-templates.github.io/slideshow-deck.js/slides.html
@@ -1347,6 +1373,7 @@
   tags:     [slideshow, s9, presentation]
 
 - name:     Impress.js - Slide Show (S9)
+  series:    Slide Show (S9)
   thumbnail: slideshow-impress.js.png
   github:    slideshow-templates/slideshow-impress.js
   demo_url:  http://slideshow-templates.github.io/slideshow-impress.js/slides.html
@@ -1355,6 +1382,7 @@
   tags:     [slideshow, s9, presentation, 3d]
 
 - name:     S6 Blank - Slide Show (S9)
+  series:    Slide Show (S9)
   thumbnail: slideshow-s6-blank.png
   github:    slideshow-templates/slideshow-s6-blank
   demo_url:  http://slideshow-templates.github.io/slideshow-s6-blank/slides.html
@@ -1363,12 +1391,14 @@
   tags:     [slideshow, s9, presentation, white]
 
 - name:     Reveal.js - Slide Show (S9)
+  series:    Slide Show (S9)
   thumbnail: slideshow-revealjs.png
   github:    slideshow-templates/slideshow-reveal.js
   demo_url:  http://slideshow-templates.github.io/slideshow-reveal.js/slides.html
   author:    Gerald Bauer
   license:   Public Domain
   tags:     [slideshow, s9, presentation]
+
 
 - name:     Documenation 'n' Help Systems
   thumbnail: jekyll-documentation.png
@@ -1436,13 +1466,16 @@
   license:   CC BY
   tags:      [grid,responsive,tiles]
 
-- name:     Library
+
+
+- name:     Alex's Library
   github:    alexcarpenter/library-jekyll-theme
   demo_url:  http://alexcarpenter.github.io/library-jekyll-theme/
   author:    Alex Carpenter
   thumbnail: library.jpg
   license:   MIT
   tags:      []
+
 
 - name:     Evento
   github:    boyney123/evento
@@ -1554,13 +1587,16 @@
   license:      MIT
   tags:        []
 
-- name:        Surgeon Tux
+
+- name:         Surgeon Tux
   github:       lpsandaruwan/surgeon-tux
-  demo_url:     https://lpsandaruwan.github.io/
+  demo_url:     http://lahiru.site/surgeon-tux
+  ##  was: demo_url:     https://lpsandaruwan.github.io/
   author:       Lahiru Pathirage
   thumbnail:    surgeon-tux.png
-  license:      GNU GPL v3
+  license:      GNU GPL
   tags:        [terminal,monospace,black]
+
 
 - name:        Be Nice 17
   github:       vietanhdev/beNice17
@@ -1582,6 +1618,7 @@
 
 
 - name:     Cause (Cloud Cannon)
+  series:    Cloud Cannon
   github:    CloudCannon/cause-jekyll-template
   demo_url:  https://clean-oryx.cloudvent.net
   thumbnail: cloudcannon-cause.png
@@ -1590,6 +1627,7 @@
   tags:      [cause,nonprofit]
 
 - name:     Edition (Cloud Cannon)
+  series:    Cloud Cannon
   github:    CloudCannon/edition-jekyll-template
   demo_url:  https://long-pig.cloudvent.net
   thumbnail: cloudcannon-edition.png
@@ -1598,6 +1636,7 @@
   tags:      [documentation]
 
 - name:     Frisco (Cloud Cannon)
+  series:    Cloud Cannon
   github:    CloudCannon/frisco-jekyll-template
   demo_url:  https://brave-submarine.cloudvent.net
   thumbnail: cloudcannon-frisco.png
@@ -1606,6 +1645,7 @@
   tags:      [app,marketing]
 
 - name:     Hydra (Cloud Cannon)
+  series:    Cloud Cannon
   github:    CloudCannon/hydra-jekyll-template
   demo_url:  https://proud-alligator.cloudvent.net
   thumbnail: cloudcannon-hydra.png
@@ -1614,6 +1654,7 @@
   tags:      [product,marketing]
 
 - name:     Justice (Cloud Cannon)
+  series:    Cloud Cannon
   github:    CloudCannon/justice-jekyll-template
   demo_url:  https://grey-grouse.cloudvent.net
   thumbnail: cloudcannon-justice.png
@@ -1622,6 +1663,7 @@
   tags:      [law,business]
 
 - name:     Malt (Cloud Cannon)
+  series:    Cloud Cannon
   github:    CloudCannon/malt-jekyll-template
   demo_url:  https://whispering-boat.cloudvent.net
   thumbnail: cloudcannon-malt.png
@@ -1630,6 +1672,7 @@
   tags:      [event,marketing]
 
 - name:     Urban (Cloud Cannon)
+  series:    Cloud Cannon
   github:    CloudCannon/urban-jekyll-template
   demo_url:  https://teal-worm.cloudvent.net
   thumbnail: cloudcannon-urban.png
@@ -1679,16 +1722,6 @@
   author:    Andrew Serong et al
   license:   MIT
   tags:      [guide,audio,museum]
-
-
-- name:     White Paper
-  github:    vinitkumar/white-paper
-  demo_url:  http://vinitkumar.me/white-paper
-  thumbnail: whitepaper.png
-  author:    Vinit Kumar
-  license:   MIT
-  tags:      [simple, developer, clean]
-
 
 
 - name:     Photography
@@ -1852,13 +1885,6 @@
   tags:        [angular, material, responsive]
 
 
-- name:        Surgeon Tux
-  github:       lpsandaruwan/surgeon-tux
-  demo_url:     http://lahiru.site/surgeon-tux
-  author:       Lahiru Pathirage
-  thumbnail:    surgeon-tux.png
-  license:      GPLv3
-  tags:        [terminal, monospace, black]
 
 
 
