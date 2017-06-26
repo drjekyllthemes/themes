@@ -112,6 +112,15 @@
   gem:       minima
   tags:      [github]
 
+- name:      Resume
+  github:    jglovier/resume-template
+  branch:    gh-pages
+  demo_url:  http://resume-template.joelglovier.com
+  author:    Joel Glovier
+  thumbnail: jglovier-resume.png
+  license:   MIT
+  tags:      [resume]
+
 
 - name:      Architect (Pages)
   series:    Pages
@@ -133,6 +142,17 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
+- name:     Tactile (Pages)
+  series:    Pages
+  github:    pages-themes/tactile
+  demo_url:  https://pages-themes.github.io/tactile/
+  thumbnail: pages-tactile.png
+  author:    Jason Long et al
+  gem:       jekyll-theme-tactile
+  license:   CC0 - Public Domain
+  tags:      [github]
+
+
 - name:     Dinky (Pages)
   series:    Pages
   github:    pages-themes/dinky
@@ -143,7 +163,8 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-- name:     Hacker (Pages)
+
+- name:      Hacker (Pages)
   series:    Pages
   github:    pages-themes/hacker
   demo_url:  https://pages-themes.github.io/hacker/
@@ -153,15 +174,16 @@
   license:   CC0 - Public Domain
   tags:      [github,black]
 
-- name:     Leap Day (Pages)
+- name:      Slate (Pages)
   series:    Pages
-  github:    pages-themes/leap-day
-  demo_url:  https://pages-themes.github.io/leap-day/
-  thumbnail: pages-leapday.png
-  author:    Matt Graham et al
-  gem:       jekyll-theme-leap-day
+  github:    pages-themes/slate
+  demo_url:  https://pages-themes.github.io/slate/
+  thumbnail: pages-slate.png
+  author:    Jason Costello et al
+  gem:       jekyll-theme-slate
   license:   CC0 - Public Domain
   tags:      [github]
+
 
 - name:     Merlot (Pages)
   series:    Pages
@@ -173,7 +195,8 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-- name:     Midnight (Pages)
+
+- name:      Midnight (Pages)
   series:    Pages
   github:    pages-themes/midnight
   demo_url:  https://pages-themes.github.io/midnight/
@@ -182,6 +205,17 @@
   gem:       jekyll-theme-midnight
   license:   CC0 - Public Domain
   tags:      [github,black]
+
+- name:      Leap Day (Pages)
+  series:    Pages
+  github:    pages-themes/leap-day
+  demo_url:  https://pages-themes.github.io/leap-day/
+  thumbnail: pages-leapday.png
+  author:    Matt Graham et al
+  gem:       jekyll-theme-leap-day
+  license:   CC0 - Public Domain
+  tags:      [github]
+
 
 - name:     Minimal (Pages)
   series:    Pages
@@ -203,25 +237,7 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-- name:     Slate (Pages)
-  series:    Pages
-  github:    pages-themes/slate
-  demo_url:  https://pages-themes.github.io/slate/
-  thumbnail: pages-slate.png
-  author:    Jason Costello et al
-  gem:       jekyll-theme-slate
-  license:   CC0 - Public Domain
-  tags:      [github]
 
-- name:     Tactile (Pages)
-  series:    Pages
-  github:    pages-themes/tactile
-  demo_url:  https://pages-themes.github.io/tactile/
-  thumbnail: pages-tactile.png
-  author:    Jason Long et al
-  gem:       jekyll-theme-tactile
-  license:   CC0 - Public Domain
-  tags:      [github]
 
 - name:     Time Machine (Pages)
   series:    Pages
@@ -389,14 +405,6 @@
   tags:      []
 
 
-- name: Exemplar
-  home_url: https://github.com/tybenz/exemplar
-  download_url: https://github.com/tybenz/exemplar/archive/master.zip
-  demo_url: http://exemplar.tybenz.com
-  author: Tyler Benziger
-  thumbnail: exemplar.png
-  license: MIT
-  tags:      []
 
 - name: Kasper
   home_url: https://github.com/rosario/kasper
@@ -575,15 +583,24 @@
 ## fix/todo: rename thubnmail to glas too
 
 
-
-- name: Otter Pop
-  home_url: https://github.com/tybenz/otter-pop
-  download_url: https://github.com/tybenz/otter-pop/archive/gh-pages.zip
-  demo_url: http://tybenz.com/otter-pop
-  author: Tyler Benziger
-  thumbnail: otter-pop.png
-  license: MIT
+- name:      Exemplar
+  github:    tybenz/exemplar
+  demo_url:  http://exemplar.tybenz.com
+  author:    Tyler Benziger
+  thumbnail: exemplar.png
+  license:   MIT
   tags:      []
+
+- name:      Otter Pop
+  github:    tybenz/otter-pop
+  branch:    gh-pages
+  demo_url:  http://tybenz.com/otter-pop
+  author:    Tyler Benziger
+  thumbnail: otter-pop.png
+  license:   MIT
+  tags:      []
+
+
 
 - name:   Block Log
   home_url: https://github.com/anandubajith/block-log
@@ -631,13 +648,20 @@
   license:   MIT
   tags:      []
 
-- name: Freelancer
-  home_url: https://github.com/jeromelachaud/freelancer-theme
-  download_url: https://github.com/jeromelachaud/freelancer-theme/archive/master.zip
-  demo_url: https://jeromelachaud.github.io/freelancer-theme
-  author: Jerome Lachaud
+- name:      Freelancer
+  github:    jeromelachaud/freelancer-theme
+  demo_url:  https://jeromelachaud.github.io/freelancer-theme
+  author:    Jerome Lachaud
   thumbnail: freelancer.png
-  license: Apache
+  license:   Apache
+  tags:      []
+
+- name:      Grayscale
+  github:    jeromelachaud/grayscale-theme
+  demo_url:  https://jeromelachaud.github.io/grayscale-theme
+  author:    Jerome Lachaud
+  thumbnail: grayscale.jpg
+  license:   Apache
   tags:      []
 
 
@@ -740,14 +764,6 @@
   tags:      [resume]
 
 
-- name: Harmony
-  home_url: https://github.com/gayanvirajith/harmony
-  download_url: https://github.com/gayanvirajith/harmony/archive/master.zip
-  demo_url: http://gayan.me/harmony/
-  author: Gayan Virajith
-  thumbnail: harmony.jpg
-  license: MIT
-  tags:      []
 
 - name: Contrast
   home_url: https://github.com/niklasbuschmann/contrast
@@ -867,14 +883,22 @@
   license: MIT
   tags:      []
 
-- name: Gaya
-  home_url: https://github.com/gayanvirajith/gaya
-  download_url: https://github.com/gayanvirajith/gaya/archive/master.zip
-  demo_url: http://gayan.me/gaya/
-  author: Gayan Virajith
+- name:      Gaya
+  github:    gayanvirajith/gaya
+  demo_url:  http://gayan.me/gaya/
+  author:    Gayan Virajith
   thumbnail: gaya.jpg
-  license: MIT
+  license:   MIT
   tags:      []
+
+- name:      Harmony
+  github:    gayanvirajith/harmony
+  demo_url:  http://gayan.me/harmony/
+  author:    Gayan Virajith
+  thumbnail: harmony.jpg
+  license:   MIT
+  tags:      []
+
 
 - name: Travelogue
   home_url: https://github.com/SalGnt/Travelogue
@@ -912,14 +936,6 @@
   license: MIT
   tags:      []
 
-- name: Grayscale
-  home_url: https://github.com/jeromelachaud/grayscale-theme
-  download_url: https://github.com/jeromelachaud/grayscale-theme/archive/master.zip
-  demo_url: https://jeromelachaud.github.io/grayscale-theme
-  author: Jerome Lachaud
-  thumbnail: grayscale.jpg
-  license: Apache
-  tags:      []
 
 - name: Metaphor
   home_url: https://github.com/prio101/metaphor-jekyll
@@ -1083,14 +1099,6 @@
   license:   MIT
   tags:      []
 
-- name:     Resume
-  github:    jglovier/resume-template
-  branch:    gh-pages
-  demo_url:  http://resume-template.joelglovier.com
-  author:    Joel Glovier
-  thumbnail: jglovier-resume.png
-  license:   MIT
-  tags:      [resume]
 
 - name:     Video
   github:    mushishi78/jekyll-video
@@ -1128,14 +1136,6 @@
   license:   MIT
   tags:      []
 
-- name:     The Plain
-  github:    heiswayi/the-plain
-  branch:    gh-pages
-  demo_url:  http://heiswayi.github.io/the-plain
-  author:    Heiswayi Nrird
-  thumbnail: the-plain.png
-  license:   MIT
-  tags:      []
 
 - name:     Daktilo
   github:    kronik3r/daktilo
@@ -1209,7 +1209,16 @@
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
   demo_url:  http://koppl.in/indigo
   thumbnail: indigo.png
-  author:    Sérgio Kopplin
+  author:    Sérgio A. Kopplin
+  license:   Public Domain
+  tags:      [white]
+
+- name:     Violet
+  github:    sergiokopplin/violet
+  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
+  demo_url:  http://koppl.in/violet
+  thumbnail: violet.png
+  author:    Sérgio A. Kopplin
   license:   Public Domain
   tags:      [white]
 
@@ -1230,6 +1239,8 @@
   thumbnail: slender.png
   license:   MIT
   tags:      [dark, scss, responsive]
+
+
 
 - name:     Gravity
   github:    hemangsk/Gravity
@@ -1264,6 +1275,16 @@
   license:      MIT
   tags:        [decent, html5, clean, elegant, code, photo]
 
+
+- name:     The Plain
+  github:    heiswayi/the-plain
+  branch:    gh-pages
+  demo_url:  http://heiswayi.github.io/the-plain
+  author:    Heiswayi Nrird
+  thumbnail: the-plain.png
+  license:   MIT
+  tags:      []
+
 - name:        Thinkspace
   github:       heiswayi/thinkspace
   branch:       master
@@ -1281,6 +1302,7 @@
   thumbnail:    textlog.png
   license:      MIT
   tags:        [minimal, clean, white, text-based, responsive]
+
 
 - name:        Urban
   github:       midzer/urban-theme
@@ -1335,14 +1357,6 @@
   license: GNU GPL v3
   tags: [clean, monospace, resume]
 
-- name:     Violet
-  github:    sergiokopplin/violet
-  branch:    gh-pages          # used for github download archive link; defaults to master (for now)
-  demo_url:  http://koppl.in/violet
-  thumbnail: violet.png
-  author:    Sérgio Kopplin
-  license:   Public Domain
-  tags:      [white]
 
 - name:     Ed
   github:    elotroalex/ed
@@ -1485,13 +1499,17 @@
   license:   MIT
   tags:      [events]
 
-- name:     Onlince CV
+- name:      Online CV
   github:    sharu725/online-cv
   demo_url:  http://webjeda.com/online-cv/
-  author:    Xiaoying Riley
+  author:    Sharath Kumar
   thumbnail: online-cv.png
   license:   CC BY
   tags:      [cv]
+
+## todo/add:
+## based on  Online CV by Xiaoying Riley
+
 
 - name:     Dunders (Double Underscores)
   github:    woliveiras/__s
@@ -1588,6 +1606,14 @@
   tags:        []
 
 
+- name:        Materialized
+  github:       lpsandaruwan/materialized
+  demo_url:     http://lahiru.site/materialized
+  author:       Lahiru Pathirage
+  thumbnail:    materialized.png
+  license:      GNU GPL
+  tags:        [angular, material, responsive]
+
 - name:         Surgeon Tux
   github:       lpsandaruwan/surgeon-tux
   demo_url:     http://lahiru.site/surgeon-tux
@@ -1626,14 +1652,6 @@
   license:   MIT
   tags:      [cause,nonprofit]
 
-- name:     Edition (Cloud Cannon)
-  series:    Cloud Cannon
-  github:    CloudCannon/edition-jekyll-template
-  demo_url:  https://long-pig.cloudvent.net
-  thumbnail: cloudcannon-edition.png
-  author:    Ross Phillips et al
-  license:   MIT
-  tags:      [documentation]
 
 - name:     Frisco (Cloud Cannon)
   series:    Cloud Cannon
@@ -1652,6 +1670,15 @@
   author:    Mike Neumegen et al
   license:   MIT
   tags:      [product,marketing]
+
+- name:     Edition (Cloud Cannon)
+  series:    Cloud Cannon
+  github:    CloudCannon/edition-jekyll-template
+  demo_url:  https://long-pig.cloudvent.net
+  thumbnail: cloudcannon-edition.png
+  author:    Ross Phillips et al
+  license:   MIT
+  tags:      [documentation]
 
 - name:     Justice (Cloud Cannon)
   series:    Cloud Cannon
@@ -1875,14 +1902,6 @@
   license:   MIT
   tags:      [blog,responsive,minimal,scss,html5]
 
-
-- name:        Materialized
-  github:       lpsandaruwan/materialized
-  demo_url:     http://lahiru.site/materialized
-  author:       Lahiru Pathirage
-  thumbnail:    materialized.png
-  license:      GNU GPL
-  tags:        [angular, material, responsive]
 
 
 
