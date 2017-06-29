@@ -1956,3 +1956,12 @@
   license:   MIT
   gem:       jekyll-theme-hydejack
   tags:     [webapp, portfolio, resume, responsive, progressive enhancement, rxjs, ajax, pushstate]
+  
+- name:     Hagura
+  github:    sharu725/hagura
+  demo_url:  https://webjeda.com/hagura/
+  author:    Sharath Kumar
+  thumbnail: hagura.jpg
+  license:   MIT
+  gem:       
+  tags:     [minimal, responsive, white]
