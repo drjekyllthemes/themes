@@ -1511,6 +1511,16 @@
 ## based on  Online CV by Xiaoying Riley
 
 
+- name:     Hagura
+  github:    sharu725/hagura
+  branch:    gh-pages
+  demo_url:  https://webjeda.com/hagura/
+  author:    Sharath Kumar
+  thumbnail: hagura.jpg
+  license:   MIT
+  tags:     [minimal, responsive, white]
+
+
 - name:     Dunders (Double Underscores)
   github:    woliveiras/__s
   demo_url:  https://woliveiras.com.br/dunders.demo/
@@ -1957,11 +1967,3 @@
   gem:       jekyll-theme-hydejack
   tags:     [webapp, portfolio, resume, responsive, progressive enhancement, rxjs, ajax, pushstate]
   
-- name:     Hagura
-  github:    sharu725/hagura
-  demo_url:  https://webjeda.com/hagura/
-  author:    Sharath Kumar
-  thumbnail: hagura.jpg
-  license:   MIT
-  gem:       
-  tags:     [minimal, responsive, white]
