@@ -1967,3 +1967,12 @@
   gem:       jekyll-theme-hydejack
   tags:     [webapp, portfolio, resume, responsive, progressive enhancement, rxjs, ajax, pushstate]
   
+  
+  - name:    Conscious Sedation
+  github:    LavenderGrey/jekyll-theme-conscious-sedation
+  demo_url:  https://jekyll-theme-conscious-sedation.netlify.com/
+  author:    Amy Storm Kosman
+  thumbnail: 250x200home-fullpage.png
+  license:   MIT
+  gem:       jekyll-theme-conscious-sedation
+  tags:     [responsive, blog, tags, categories, minimal ]
