@@ -1,6 +1,13 @@
 ###############################
 #  Jekyll Themes
 
+- name:      BEF
+  github:    artemsheludko/bef
+  demo_url:  https://artemsheludko.github.io/bef/
+  thumbnail: bef.jpg
+  author:    Artem Sheludko
+  license:   GPL-3.0
+  tags:      [black, responsive, sass, travel, blog, pages]
 
 - name:      Hello, Jekyll!
   series:    Henry's
