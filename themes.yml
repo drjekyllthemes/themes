@@ -1983,3 +1983,12 @@
   license:   MIT
   gem:       jekyll-theme-conscious-sedation
   tags:     [responsive, blog, tags, categories, minimal ]
+ 
+- name:      Overkyll
+  github:    bertrandkeller/overkyll-jekyll-theme
+  demo_url:  https://bertrandkeller.github.io/overkyll-jekyll-theme/
+  author:    Bertrand Keller
+  thumbnail: overkyll.png
+  license:   MIT
+  gem:       overkyll-jekyll-theme
+  tags:      [minimal, responsive, starter, blog]
