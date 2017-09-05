@@ -36,7 +36,6 @@
   license:   Public Domain
   tags:      [white,starter,pages]
 
-
 - name:      Henry's Starter (Minimal)
   series:    Henry's
   github:    henrythemes/jekyll-starter-theme
@@ -81,7 +80,6 @@
   author:    Gerald Bauer
   license:   Public Domain
   tags:      [white,talks,s6]
-
 
 - name:      Poole
   series:    Poole's
@@ -128,7 +126,6 @@
   license:   MIT
   tags:      [resume]
 
-
 - name:      Architect (Pages)
   series:    Pages
   github:    pages-themes/architect
@@ -139,7 +136,7 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-- name:     Cayman (Pages)
+- name:      Cayman (Pages)
   series:    Pages
   github:    pages-themes/cayman
   demo_url:  https://pages-themes.github.io/cayman/
@@ -159,8 +156,7 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-
-- name:     Dinky (Pages)
+- name:      Dinky (Pages)
   series:    Pages
   github:    pages-themes/dinky
   demo_url:  https://pages-themes.github.io/dinky/
@@ -169,7 +165,6 @@
   gem:       jekyll-theme-dinky
   license:   CC0 - Public Domain
   tags:      [github]
-
 
 - name:      Hacker (Pages)
   series:    Pages
@@ -191,8 +186,7 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-
-- name:     Merlot (Pages)
+- name:      Merlot (Pages)
   series:    Pages
   github:    pages-themes/merlot
   demo_url:  https://pages-themes.github.io/merlot/
@@ -201,7 +195,6 @@
   gem:       jekyll-theme-merlot
   license:   CC0 - Public Domain
   tags:      [github]
-
 
 - name:      Midnight (Pages)
   series:    Pages
@@ -223,8 +216,7 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-
-- name:     Minimal (Pages)
+- name:      Minimal (Pages)
   series:    Pages
   github:    pages-themes/minimal
   demo_url:  https://pages-themes.github.io/minimal/
@@ -234,7 +226,7 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-- name:     Modernist (Pages)
+- name:      Modernist (Pages)
   series:    Pages
   github:    pages-themes/modernist
   demo_url:  https://pages-themes.github.io/modernist/
@@ -244,9 +236,7 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-
-
-- name:     Time Machine (Pages)
+- name:      Time Machine (Pages)
   series:    Pages
   github:    pages-themes/time-machine
   demo_url:  https://pages-themes.github.io/time-machine/
@@ -256,9 +246,7 @@
   license:   CC0 - Public Domain
   tags:      [github]
 
-
-
-- name:     Now
+- name:      Now
   github:    barryclark/jekyll-now
   demo_url:  http://www.jekyllnow.com/
   author:    Barry Clark
@@ -266,7 +254,7 @@
   license:   MIT
   tags:      []
 
-- name:     Beautiful
+- name:      Beautiful
   github:    daattali/beautiful-jekyll
   demo_url:  http://deanattali.com/beautiful-jekyll/
   author:    Dean Attali
@@ -274,7 +262,7 @@
   license:   MIT
   tags:      []
 
-- name:     Holo Alfa
+- name:      Holo Alfa
   github:    steinvc/holo-alfa
   branch:    gh-pages
   demo_url:  http://steinvc.github.io/holo-alfa/
@@ -291,7 +279,6 @@
   license:   MIT
   tags:      [timeline]
 
-
 - name:     Material Design Lite (MDL)
   home_url:  https://github.com/gdg-managua/jekyll-mdl
   download_url:  https://github.com/gdg-managua/jekyll-mdl/releases
@@ -302,9 +289,7 @@
   license:   Apache
   tags:      []
 
-
-
-- name:     Scribble
+- name:      Scribble
   home_url:  https://github.com/muan/scribble
   download_url:  https://github.com/muan/scribble/archive/master.zip
   demo_url:  http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/
@@ -313,26 +298,25 @@
   license:   MIT
   tags:      []
 
-
-- name:     Basically Basic
+- name:      Basically Basic
   github:    mmistakes/jekyll-theme-basically-basic
   demo_url:  https://mmistakes.github.io/jekyll-theme-basically-basic
   author:    Michael Rose
   gem:       jekyll-theme-basically-basic
   thumbnail: basicallybasic.png
   license:   MIT
-  tags:     [minimal, responsive, blog, resume]
+  tags:      [minimal, responsive, blog, resume]
 
-- name:     Minimal Mistakes
+- name:      Minimal Mistakes
   github:    mmistakes/minimal-mistakes
   demo_url:  https://mmistakes.github.io/minimal-mistakes/
   author:    Michael Rose
   gem:       minimal-mistakes-jekyll
   thumbnail: minimal-mistakes.png
   license:   MIT
-  tags:     [minimal, responsive, blog, portfolio, archive-pages]
+  tags:      [minimal, responsive, blog, portfolio, archive-pages]
 
-- name:     So Simple
+- name:      So Simple
   github:    mmistakes/so-simple-theme
   demo_url:  http://mmistakes.github.io/so-simple-theme/
   author:    Michael Rose
@@ -340,7 +324,7 @@
   license:   MIT
   tags:      []
 
-- name:     Skinny Bones
+- name:      Skinny Bones
   github:    mmistakes/skinny-bones-jekyll
   demo_url:  http://mmistakes.github.io/skinny-bones-jekyll/
   author:    Michael Rose
@@ -348,7 +332,7 @@
   license:   MIT
   tags:      []
 
-- name:     HiPSTeR (HPSTR)
+- name:      HiPSTeR (HPSTR)
   github:    mmistakes/hpstr-jekyll-theme
   demo_url:  http://mmistakes.github.io/hpstr-jekyll-theme/
   author:    Michael Rose
@@ -356,35 +340,32 @@
   license:   MIT
   tags:      []
 
-
-- name:     Academic Pages
+- name:      Academic Pages
   github:    academicpages/academicpages.github.io
   demo_url:  https://academicpages.github.io
   author:    Stuart Geiger
   thumbnail: academicpages.png
   license:   MIT
-  tags:     [academic, portfolio, papers, blog, resume, responsive]
+  tags:      [academic, portfolio, papers, blog, resume, responsive]
 
-- name:     U.S. (Gov) Web Design Standards (Docs, Landing)
+- name:      U.S. (Gov) Web Design Standards (Docs, Landing)
   github:    18F/uswds-jekyll
   ## demo_url:  https://standards.usa.gov/page-templates
   author:    Shawn Allen
   thumbnail: uswds-docs.png
   license:   Public Domain
-  tags:     [docs, landing]
+  tags:      [docs, landing]
 
-
-
-- name: Balzac
-  home_url: https://github.com/coletownsend/balzac-for-jekyll
+- name:      Balzac
+  home_url:  https://github.com/coletownsend/balzac-for-jekyll
   download_url: https://github.com/coletownsend/balzac-for-jekyll/archive/master.zip
-  demo_url: http://jekyll.gtat.me
-  author: Cole Townsend
+  demo_url:  http://jekyll.gtat.me
+  author: 	 Cole Townsend
   thumbnail: balzac.jpg
-  license: MIT
+  license:   MIT
   tags:      []
 
-- name:     Lagom
+- name:      Lagom
   github:    swanson/lagom
   demo_url:  http://lagom.mdswanson.com
   author:    Matt Swanson
@@ -392,65 +373,62 @@
   license:   MIT
   tags:      []
 
-
-- name: Dbyll
-  home_url: https://github.com/dbtek/dbyll
+- name:      Dbyll
+  home_url:  https://github.com/dbtek/dbyll
   download_url: https://github.com/dbtek/dbyll/archive/master.zip
-  demo_url: http://dbtek.github.io/dbyll/
-  author: Ismail Demirbilek
+  demo_url:  http://dbtek.github.io/dbyll/
+  author:    Ismail Demirbilek
   thumbnail: dbyll.png
-  license: MIT
+  license:   MIT
   tags:      []
 
-- name: Uno Dbyll
-  home_url: https://github.com/meliodus/uno-dbyll
+- name: Uno  Dbyll
+  home_url:  https://github.com/meliodus/uno-dbyll
   download_url: https://github.com/meliodus/uno-dbyll/archive/gh-pages.zip
-  demo_url: http://meliodus.github.io/uno-dbyll/
-  author: Ankan Biswas
+  demo_url:  http://meliodus.github.io/uno-dbyll/
+  author:    Ankan Biswas
   thumbnail: uno-dbyll.png
-  license: MIT
+  license:   MIT
   tags:      []
 
-
-
-- name: Kasper
-  home_url: https://github.com/rosario/kasper
+- name:      Kasper
+  home_url:  https://github.com/rosario/kasper
   download_url: https://github.com/rosario/kasper/archive/master.zip
-  demo_url: http://rosario.io/2013/11/10/kasper-theme-for-jekyll.html
-  author: Rosario Rascuna
+  demo_url:  http://rosario.io/2013/11/10/kasper-theme-for-jekyll.html
+  author:    Rosario Rascuna
   thumbnail: kasper.png
-  license: MIT
+  license:   MIT
   tags:      []
 
-- name: Swift
-  home_url: https://github.com/pranavrajs/swift
+- name:      Swift
+  home_url:  https://github.com/pranavrajs/swift
   download_url: https://github.com/pranavrajs/swift/archive/master.zip
-  demo_url: https://pranavrajs.github.io/swift/
-  author: Pranav Raj S
+  demo_url:  https://pranavrajs.github.io/swift/
+  author:    Pranav Raj S
   thumbnail: swift.png
-  license: MIT
+  license:   MIT
   tags:      []
 
-- name: Flex
-  home_url: https://github.com/the-development/flex
+- name:      Flex
+  home_url:  https://github.com/the-development/flex
   download_url: https://github.com/the-development/flex/archive/master.zip
-  demo_url: http://the-development.github.io/flex
-  author: Jeff Martin
+  demo_url:  http://the-development.github.io/flex
+  author:    Jeff Martin
   thumbnail: flex.png
-  license: MIT
+  license:   MIT
   tags:      []
 
 
 - name:     H M Faysal's Omega
   home_url:  https://github.com/hmfaysal/hmfaysal-omega-theme
   download_url:  https://github.com/hmfaysal/hmfaysal-omega-theme/archive/gh-pages.zip
-  demo_url:      http://hmfaysal.github.io/hmfaysal-omega-theme/
+  demo_url:  http://hmfaysal.github.io/hmfaysal-omega-theme/
   author:    Hossain Mohd Faysal
   thumbnail: hmfaysal-omega.jpg
   license:   MIT
   tags:      []
 
-- name:     H M Faysal's Notepad
+- name:      H M Faysal's Notepad
   home_url:  https://github.com/hmfaysal/Notepad
   download_url:  https://github.com/hmfaysal/Notepad/archive/gh-pages.zip
   demo_url:      http://hmfaysal.github.io/Notepad/
@@ -460,30 +438,29 @@
   tags:      []
 
 
-- name: Herring Cove
-  home_url: https://github.com/arnp/herring-cove
+- name:      Herring Cove
+  home_url:  https://github.com/arnp/herring-cove
   download_url: https://github.com/arnp/herring-cove/archive/master.zip
-  author: Ravi Patel
+  author:    Ravi Patel
   thumbnail: herring-cove.jpg
-  license: MIT
+  license:   MIT
   tags:      []
 
-
-- name:  Red Cup
-  github: ajthewebdev/redcup
+- name:      Red Cup
+  github:    ajthewebdev/redcup
   ## demo_url: http://ajthewebdev.github.io/redcup/
-  author: Nii Adjetey Sowah
+  author:    Nii Adjetey Sowah
   thumbnail: redcup.png
-  license: CC BY
+  license:   CC BY
   tags:      []
 
-- name:   Wangana
-  github:  ajthewebdev/wangana
+- name:      Wangana
+  github:    ajthewebdev/wangana
   ## demo_url: http://iamnii.github.io/
   author: Nii Adjetey Sowah
   thumbnail: wangana.png
-  license: MIT
-  tags:    []
+  license:  MIT
+  tags:     []
 
 - name: Grid Gallery
   github: ajthewebdev/GridGallery
@@ -492,7 +469,6 @@
   thumbnail: gridgallery.png
   license: WTF
   tags:      []
-
 
 - name: Solo         ## (single-page)
   home_url: http://github.com/chibicode/solo
@@ -541,15 +517,13 @@
   license: MIT
   tags:      []
 
-
 - name: Gereksiz
   home_url: https://github.com/bozbalci/gereksiz
   download_url: https://github.com/bozbalci/gereksiz/archive/master.zip
   author: Berk Özbalcı
   thumbnail: gereksiz.png
   license: BSD
-  tags:      []
-
+  tags: []
 
 - name: Simpleyyt
   home_url: https://github.com/Simpleyyt/simpleyyt.github.io
@@ -569,7 +543,6 @@
   license: MIT
   tags:      []
 
-
 - name:     Lucas' Library
   github:   SpaceG/Library
 ##  demo_url:      http://www.lucasgatsas.ch
@@ -579,7 +552,6 @@
   tags:      []
 ## fix/todo: rename thubnmail to library too
 
-
 - name:     Lucas' Glas
   github:   SpaceG/glas
 ##  demo_url:      http://lucasgatsas.ch
@@ -588,7 +560,6 @@
   license:   Apache
   tags:      []
 ## fix/todo: rename thubnmail to glas too
-
 
 - name:      Exemplar
   github:    tybenz/exemplar
@@ -606,8 +577,6 @@
   thumbnail: otter-pop.png
   license:   MIT
   tags:      []
-
-
 
 - name:   Block Log
   home_url: https://github.com/anandubajith/block-log
@@ -627,7 +596,6 @@
   license: BSD
   tags:      []
 
-
 - name:      White Paper
   github:    vinitkumar/white-paper
   branch:    gh-pages
@@ -638,7 +606,7 @@
   tags:      [simple, developer, clean]
 
 
-- name:     Bitwiser
+- name:      Bitwiser
   github:    brijeshb42/bitwiser
   demo_url:  http://bitwiser.in/bitwiser/
   author:    Brijesh Bittu
@@ -646,7 +614,7 @@
   license:   MIT
   tags:      []
 
-- name:     Bitwiser Material
+- name:      Bitwiser Material
   github:    brijeshb42/bitwiser-material
   branch:    gh-pages
   demo_url:  http://bitwiser.in/bitwiser-material/
@@ -670,7 +638,6 @@
   thumbnail: grayscale.jpg
   license:   Apache
   tags:      []
-
 
 - name: Metro
   home_url: https://github.com/olakara/JekyllMetro
@@ -770,8 +737,6 @@
   license: MIT
   tags:      [resume]
 
-
-
 - name: Contrast
   home_url: https://github.com/niklasbuschmann/contrast
   download_url: https://github.com/niklasbuschmann/contrast/archive/gh-pages.zip
@@ -844,7 +809,6 @@
   license: MIT
   tags:      []
 
-
 - name: Open Theme
   home_url: https://github.com/manavsehgal/opentheme
   download_url: https://github.com/manavsehgal/opentheme/archive/master.zip
@@ -906,7 +870,6 @@
   license:   MIT
   tags:      []
 
-
 - name: Travelogue
   home_url: https://github.com/SalGnt/Travelogue
   download_url: https://github.com/SalGnt/Travelogue/archive/master.zip
@@ -942,7 +905,6 @@
   thumbnail: rifyll.png
   license: MIT
   tags:      []
-
 
 - name: Metaphor
   home_url: https://github.com/prio101/metaphor-jekyll
@@ -989,7 +951,6 @@
   license: MIT
   tags:      []
 
-
 - name:       Dev Aid
   github:     kevit/devaid-jekyll-theme
   demo_url:   http://themes.3rdwavemedia.com/demo/devaid/
@@ -1000,8 +961,6 @@
 
 ## Dev Aid based on
 ##   todo/add -> based on Dev Aid by Xiaoying Riley
-
-
 
 - name: Carte Noire
   home_url: https://github.com/jacobtomlinson/carte-noire
@@ -1051,7 +1010,6 @@
   license: MIT
   tags:      []
 
-
 - name: Cool Concise
   home_url: https://github.com/Gaohaoyang/gaohaoyang.github.io
   download_url: https://github.com/Gaohaoyang/gaohaoyang.github.io/archive/v1.1.zip
@@ -1060,7 +1018,6 @@
   thumbnail: cool-concise-high-end.jpg
   license: MIT
   tags:      []
-
 
 - name: Resume Card
   home_url: https://github.com/ddbullfrog/resumecard
@@ -1080,7 +1037,6 @@
   license: MIT
   tags:      []
 
-
 - name:     Tiffany
   home_url:  https://github.com/WakelessDragon/blog
   download_url:  https://github.com/WakelessDragon/blog/archive/gh-pages.zip
@@ -1090,7 +1046,7 @@
   license:   MIT
   tags:      []
 
-- name:     Centrarium
+- name:      Centrarium
   github:    bencentra/centrarium
   demo_url:  http://bencentra.com/centrarium
   author:    Ben Centra
@@ -1098,7 +1054,7 @@
   license:   MIT
   tags:      []
 
-- name:     Mickey
+- name:      Mickey
   github:    vincentchan/mickey
   demo_url:  http://vincentchan.github.io/mickey
   author:    Vincent Chan
@@ -1106,8 +1062,7 @@
   license:   MIT
   tags:      []
 
-
-- name:     Video
+- name:      Video
   github:    mushishi78/jekyll-video
   branch:    gh-pages
   demo_url:  http://mushishi78.github.io/jekyll-video
@@ -1125,7 +1080,7 @@
   license:   MIT
   tags:      []
 
-- name:     Leonids
+- name:      Leonids
   github:    renyuanz/leonids
   branch:    master
   demo_url:  http://renyuanz.github.io/leonids
@@ -1134,7 +1089,7 @@
   license:   MIT
   tags:      [clean, content]
 
-- name:     Book
+- name:      Book
   github:    kkninjae/book
   branch:    gh-pages
   demo_url:  http://kkninjae.github.io/book
@@ -1143,8 +1098,7 @@
   license:   MIT
   tags:      []
 
-
-- name:     Daktilo
+- name:      Daktilo
   github:    kronik3r/daktilo
   demo_url:  http://hitchhiker.ma/daktilo/
   author:    Motaquillah Maddane
@@ -1153,31 +1107,30 @@
   tags:      []
 
 - name:        Kiko
-  github:       gfjaru/Kiko
-  demo_url:     http://kiko.gfjaru.com/
-  author:       Gandara Fajar Umbara
-  thumbnail:    kiko.png
-  license:      MIT
-  tags:         []
+  github:      gfjaru/Kiko
+  demo_url:    http://kiko.gfjaru.com/
+  author:      Gandara Fajar Umbara
+  thumbnail:   kiko.png
+  license:     MIT
+  tags:        []
 
 - name:        Neo HPSTR
-  github:       aron-bordin/neo-hpstr-jekyll-theme
-  demo_url:     http://aronbordin.com/neo-hpstr-jekyll-theme/
-  author:       Aron Barreira Bordin
-  thumbnail:    neo-hpstr.png
-  license:      MIT
-  tags:         [white, scss]
+  github:      aron-bordin/neo-hpstr-jekyll-theme
+  demo_url:    http://aronbordin.com/neo-hpstr-jekyll-theme/
+  author:      Aron Barreira Bordin
+  thumbnail:   neo-hpstr.png
+  license:     MIT
+  tags:        [white, scss]
 
 - name:        Yellowblue
-  github:       chalatz/yellowblue
-  demo_url:     http://demo-yb.yellowblue.eu/
-  author:       Christos Alatzas
-  thumbnail:    yellowblue.png
-  license:      Apache 2.0
-  tags:         []
+  github:      chalatz/yellowblue
+  demo_url:    http://demo-yb.yellowblue.eu/
+  author:      Christos Alatzas
+  thumbnail:   yellowblue.png
+  license:     Apache 2.0
+  tags:        []
 
-
-- name:     Ink
+- name:      Ink
   github:    thinker3197/ink
   demo_url:  http://thinker3197.github.io/ink/
   author:    Ashish Gupta
@@ -1185,7 +1138,7 @@
   license:   MIT
   tags:      [two-column, clean, minimal, blog]
 
-- name:     Mono
+- name:      Mono
   github:    AkshayAgarwal007/Jekyll-Mono
   demo_url:  http://akshayagarwal007.github.io/Jekyll-Mono/
   author:    Akshay Agarwal
@@ -1193,7 +1146,7 @@
   license:   MIT
   tags:      []
 
-- name:     Immaculate
+- name:      Immaculate
   github:    siawyoung/immaculate
   branch:    gh-pages
   demo_url:  https://cdn.ampproject.org/c/siawyoung.com/immaculate/
@@ -1202,7 +1155,7 @@
   author:    Lau Siaw Young
   tags:      [tufte, google, amp, fast, beautiful, modern, slick]
 
-- name:     Mangan
+- name:      Mangan
   github:    dikiaap/mangan
   demo_url:  https://mangan.dikiaap.id
   author:    Diki Ananta
@@ -1210,8 +1163,7 @@
   license:   MIT
   tags:      [geek, white]
 
-
-- name:     Indigo Minimalist
+- name:      Indigo Minimalist
   github:    sergiokopplin/indigo
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
   demo_url:  http://koppl.in/indigo
@@ -1220,7 +1172,7 @@
   license:   Public Domain
   tags:      [white]
 
-- name:     Violet
+- name:      Violet
   github:    sergiokopplin/violet
   branch:    gh-pages          # used for github download archive link; defaults to master (for now)
   demo_url:  http://koppl.in/violet
@@ -1229,8 +1181,7 @@
   license:   Public Domain
   tags:      [white]
 
-
-- name:     Photorama
+- name:      Photorama
   github:    sunbliss/photorama
   branch:    gh-pages
   demo_url:  http://sunbliss.github.io/photorama
@@ -1239,7 +1190,7 @@
   license:   Apache License 2.0
   tags:      [black]
 
-- name:     Slender
+- name:      Slender
   github:    nikrich/jekyll-slender-template
   demo_url:  http://nikrich.github.io/jekyll-slender-template/
   author:    Jannik Richter
@@ -1247,9 +1198,7 @@
   license:   MIT
   tags:      [dark, scss, responsive]
 
-
-
-- name:     Gravity
+- name:      Gravity
   github:    hemangsk/Gravity
   demo_url:  http://hemangsk.github.io/Gravity
   author:    Hemang Kumar
@@ -1282,7 +1231,6 @@
   license:      MIT
   tags:        [decent, html5, clean, elegant, code, photo]
 
-
 - name:     The Plain
   github:    heiswayi/the-plain
   branch:    gh-pages
@@ -1310,7 +1258,6 @@
   license:      MIT
   tags:        [minimal, clean, white, text-based, responsive]
 
-
 - name:        Urban
   github:       midzer/urban-theme
   demo_url:     http://narkotyk.net
@@ -1326,7 +1273,6 @@
   thumbnail:    labrador-jekyll-theme-thumb.jpg
   license:      MIT
   tags:        [minimal, single-page, blog, multilanguage]
-
 
 - name:        Instagram Portfolio
   github:       portfolio-central/jekyll-instagram-portfolio-theme
@@ -1354,7 +1300,6 @@
   thumbnail: jekyll-theme-libretto.jpg
   license:   Public Domain
 
-
 - name: Researcher
   github: bk2dcradle/researcher
   branch: gh-pages
@@ -1364,7 +1309,6 @@
   license: GNU GPL v3
   tags: [clean, monospace, resume]
 
-
 - name:     Ed
   github:    elotroalex/ed
   branch:    gh-pages
@@ -1373,7 +1317,6 @@
   thumbnail: ed.png
   license:   MIT
   tags:     []
-
 
 - name:     CSSS - Slide Show (S9)
   series:    Slide Show (S9)
@@ -1487,16 +1430,13 @@
   license:   CC BY
   tags:      [grid,responsive,tiles]
 
-
-
-- name:     Alex's Library
+- name:      Alex's Library
   github:    alexcarpenter/library-jekyll-theme
   demo_url:  http://alexcarpenter.github.io/library-jekyll-theme/
   author:    Alex Carpenter
   thumbnail: library.jpg
   license:   MIT
   tags:      []
-
 
 - name:     Evento
   github:    boyney123/evento
@@ -1517,7 +1457,6 @@
 ## todo/add:
 ## based on  Online CV by Xiaoying Riley
 
-
 - name:     Hagura
   github:    sharu725/hagura
   branch:    gh-pages
@@ -1526,7 +1465,6 @@
   thumbnail: hagura.jpg
   license:   MIT
   tags:     [minimal, responsive, white]
-
 
 - name:     Dunders (Double Underscores)
   github:    woliveiras/__s
@@ -1543,7 +1481,6 @@
   thumbnail: cards.png
   license:   MIT
   tags:      [cards]
-
 
 - name:     Emping
   github:    rmsubekti/emping
@@ -1587,8 +1524,6 @@
   gem:       garth-jekyll-theme
   tags:      []
 
-
-
 - name:      Siddhant's Clean 
   github:    siddhantgoel/clean-jekyll-theme
   demo_url:  https://siddhantgoel.github.io/clean-jekyll-theme
@@ -1596,7 +1531,6 @@
   thumbnail: clean-jekyll-theme.png
   license:   MIT
   tags:      [white,minimal,minimalist,clean]
-
 
 - name:         Kikofri
   github:       kxxvii/Kikofri
@@ -1622,7 +1556,6 @@
   license:      MIT
   tags:        []
 
-
 - name:        Materialized
   github:       lpsandaruwan/materialized
   demo_url:     http://lahiru.site/materialized
@@ -1640,7 +1573,6 @@
   license:      GNU GPL
   tags:        [terminal,monospace,black]
 
-
 - name:        Be Nice 17
   github:       vietanhdev/beNice17
   demo_url:     https://vietanhdev.com/beNice17/
@@ -1648,7 +1580,6 @@
   thumbnail:    beNice17.png
   license:      MIT
   tags:        []
-
 
 - name:         Left
   github:       holman/left
@@ -1659,7 +1590,6 @@
   license:      MIT
   tags:        []
 
-
 - name:     Cause (Cloud Cannon)
   series:    Cloud Cannon
   github:    CloudCannon/cause-jekyll-template
@@ -1668,7 +1598,6 @@
   author:    Mike Neumegen et al
   license:   MIT
   tags:      [cause,nonprofit]
-
 
 - name:     Frisco (Cloud Cannon)
   series:    Cloud Cannon
@@ -1724,7 +1653,6 @@
   license:   MIT
   tags:      [agency]
 
-
 - name:        Console
   github:       jaehee0113/console
   demo_url:     https://jaehee0113.github.io/console/
@@ -1733,14 +1661,13 @@
   license:      MIT
   tags:        []
 
-- name:     Monochrome
+- name:      Monochrome
   github:    dyutibarma/monochrome
   demo_url:  https://dyutibarma.github.io/monochrome/
   thumbnail: monochrome.png
   author:    Dyuti Barma
   license:   Public Domain
   tags:      [minimal,responsive,monochrome]
-
 
 - name:     Schemadoc
   github:    schemadoc/schemadoc-theme
@@ -1767,7 +1694,6 @@
   license:   MIT
   tags:      [guide,audio,museum]
 
-
 - name:     Photography
   github:    ramswaroop/photography
   demo_url:  http://photography.ramswaroop.me/
@@ -1775,8 +1701,6 @@
   author:    Ram Patra
   license:   MIT
   tags:      [photographer, photography, photos, pictures, gallery]
-
-
 
 - name:     Lagrange
   github:    LeNPaul/Lagrange
@@ -1805,8 +1729,6 @@
   license:   MIT
   tags:      [blog,portfolio,minimal,minimalist,clean,simple,starter]
 
-
-
 - name:     Paul's Simple     ## was jSimple (jekyll simple)
   github:    paulmostowyj/jsimple
   demo_url:  https://paulmostowyj.github.io/jsimple/
@@ -1823,8 +1745,6 @@
   license:   MIT
   tags:      [simple,minimal,blog]
 
-
-
 - name:     Simple Texture
   github:    yizeng/jekyll-theme-simple-texture
   demo_url:  https://yizeng.github.io/jekyll-theme-simple-texture/
@@ -1833,8 +1753,6 @@
   license:   MIT
   gem:       jekyll-theme-simple-texture
   tags:      [blog,minimal,clean,simple,texture]
-
-
 
 - name:     Darcli (Dark + CLI)
   github:    gjuniioor/darcli
@@ -1854,7 +1772,6 @@
   license:   GNU GPL
   tags:      [blog,minimal,clean,simple]
 
-
 - name:     Cayman Blog
   github:    lorepirri/cayman-blog
   demo_url:  https://lorepirri.github.io/cayman-blog/
@@ -1863,7 +1780,6 @@
   license:   CC0 - Public Domain
   gem:       jekyll-theme-cayman-blog
   tags:      [blog,responsive,sass,minimal]
-
 
 - name:     Sparrow
   github:    lingxz/sparrow
@@ -1882,7 +1798,6 @@
   license:   MIT
   tags:      [blog,responsive,minimal,sass,bootstrap]
 
-
 - name:         Shawn's Material   ## was Mat Jek (Material Jekyll)
   github:       ShawnTeoh/matjek
   branch:       gh-pages
@@ -1892,8 +1807,6 @@
   license:      GNU GPL
   tags:         [material, responsive, blog, resume]
 
-
-
 - name:     Fresh
   github:    artemsheludko/fresh
   demo_url:  http://artemsheludko.pw/fresh/
@@ -1901,7 +1814,6 @@
   thumbnail: fresh-sm.png
   license:   GNU GPL
   tags:      [blog,responsive,minimal,scss,html5]
-
 
 - name:     Monday (Black and White)
   github:    artemsheludko/monday
@@ -1918,11 +1830,6 @@
   thumbnail: mr.brown.png
   license:   MIT
   tags:      [blog,responsive,minimal,scss,html5]
-
-
-
-
-
 
 - name:     Green Tea
   home_url:  http://richbray.me/frap/
@@ -1956,7 +1863,6 @@
   license: GNU GPL
   tags:      []
 
-
 - name:     Marat
   github:    JohnCoene/marat
   demo_url:  https://johncoene.github.io/marat/
@@ -1974,8 +1880,7 @@
   gem:       jekyll-theme-hydejack
   tags:     [webapp, portfolio, resume, responsive, progressive enhancement, rxjs, ajax, pushstate]
   
-  
-  - name:    Conscious Sedation
+- name:    Conscious Sedation
   github:    LavenderGrey/jekyll-theme-conscious-sedation
   demo_url:  https://jekyll-theme-conscious-sedation.netlify.com/
   author:    Amy Storm Kosman
