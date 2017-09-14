@@ -1,6 +1,14 @@
 ###############################
 #  Jekyll Themes
 
+- name:      Flexible Jekyll
+  github:    artemsheludko/flexible-jekyll
+  demo_url:  https://artemsheludko.github.io/flexible-jekyll/
+  thumbnail: flexible-jekyll.jpg
+  author:    Artem Sheludko
+  license:   GPL-3.0
+  tags:      [simple, minimal, white, responsive, scss, clear, blog, pages]
+
 - name:      Adam Blog
   github:    artemsheludko/adam-blog
   demo_url:  https://artemsheludko.github.io/adam-blog/
