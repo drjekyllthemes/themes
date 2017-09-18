@@ -1913,3 +1913,12 @@
   license:   MIT
   gem:       overkyll-jekyll-theme
   tags:      [minimal, responsive, starter, blog]
+ 
+ - name:    Windows 95
+  github:    h01000110/windows-95
+  branch:    master
+  demo_url:  https://h01000110.github.io/windows-95/
+  author:    h01000110 (hi)
+  thumbnail: windows95.gif
+  license:   MIT
+  tags:      [responsive, blog, vintage]
