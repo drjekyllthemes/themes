@@ -1922,3 +1922,12 @@
   thumbnail: windows95.gif
   license:   MIT
   tags:      [responsive, blog, vintage]
+
+- title:        Jekyll Theme Simple Blog
+  home_url:     https://gitlab.com/lorepirri/jekyll-theme-simple-blog/
+  download_url: https://gitlab.com/lorepirri/jekyll-theme-simple-blog/repository/master/archive.zip
+  demo_url:     https://lorepirri.gitlab.io/jekyll-theme-simple-blog/
+  author:       Lorenzo Pirritano
+  thumbnail:    simple-blog-theme.png
+  license:      CC0 - Public Domain
+  tags:        [blog, responsive, multilanguage, seo, minimal, facebook]
