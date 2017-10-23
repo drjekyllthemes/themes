@@ -1931,3 +1931,11 @@
   thumbnail:    simple-blog-theme.png
   license:      CC0 - Public Domain
   tags:        [blog, responsive, multilanguage, seo, minimal, facebook]
+
+- name:    Wall-E
+  github:    https://github.com/abhn/Wall-E
+  demo_url:  https://wall-e-jekyll.github.io/
+  author:    Abhishek Nagekar
+  thumbnail: wall-e.png
+  license:   MIT
+  tags:     [responsive, blog, magazine, grid, semantic-ui, mobile]
