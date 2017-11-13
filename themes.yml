@@ -1540,7 +1540,7 @@
   gem:       garth-jekyll-theme
   tags:      []
 
-- name:      Siddhant's Clean 
+- name:      Siddhant's Clean
   github:    siddhantgoel/clean-jekyll-theme
   demo_url:  https://siddhantgoel.github.io/clean-jekyll-theme
   author:    Siddhant Goel
@@ -1895,7 +1895,7 @@
   license:   MIT
   gem:       jekyll-theme-hydejack
   tags:     [webapp, portfolio, resume, responsive, progressive enhancement, rxjs, ajax, pushstate]
-  
+
 - name:    Conscious Sedation
   github:    LavenderGrey/jekyll-theme-conscious-sedation
   demo_url:  https://jekyll-theme-conscious-sedation.netlify.com/
@@ -1904,7 +1904,7 @@
   license:   MIT
   gem:       jekyll-theme-conscious-sedation
   tags:     [responsive, blog, tags, categories, minimal ]
- 
+
 - name:      Overkyll
   github:    bertrandkeller/overkyll-jekyll-theme
   demo_url:  https://bertrandkeller.github.io/overkyll-jekyll-theme/
@@ -1913,7 +1913,7 @@
   license:   MIT
   gem:       overkyll-jekyll-theme
   tags:      [minimal, responsive, starter, blog]
- 
+
  - name:    Windows 95
   github:    h01000110/windows-95
   branch:    master
@@ -1939,3 +1939,12 @@
   thumbnail: wall-e.png
   license:   MIT
   tags:     [responsive, blog, magazine, grid, semantic-ui, mobile]
+
+- name:         Massively
+  github:       https://github.com/iwiedenm/jekyll-theme-massively-src
+  download_url: https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip
+  demo_url:     https://iwiedenm.github.io/jekyll-theme-massively/
+  author:       Ian W
+  thumbnail:    massively.png
+  license:      CC3
+  tags:         [responsive, blog, minimal, mobile]
