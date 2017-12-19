@@ -1948,3 +1948,11 @@
   thumbnail:    massively.png
   license:      CC3
   tags:         [responsive, blog, minimal, mobile]
+
+- name:       Tale
+  github:     chesterhow/tale
+  demo_url:   https://chesterhow.github.io/tale/
+  author:     Chester How
+  thumbnail:  tale.png
+  license:    MIT
+  tags:       [minimal]
