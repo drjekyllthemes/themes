@@ -1930,7 +1930,7 @@
   author:       Lorenzo Pirritano
   thumbnail:    simple-blog-theme.png
   license:      CC0 - Public Domain
-  tags:        [blog, responsive, multilanguage, seo, minimal, facebook, categories]
+  tags:        [blog, responsive, multilanguage, seo, minimal, facebook]
 
 - name:    Wall-E
   github:    https://github.com/abhn/Wall-E
