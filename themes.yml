@@ -1930,7 +1930,7 @@
   author:       Lorenzo Pirritano
   thumbnail:    simple-blog-theme.png
   license:      CC0 - Public Domain
-  tags:        [blog, responsive, multilanguage, seo, minimal, facebook]
+  tags:        [blog, responsive, multilanguage, seo, minimal, facebook, categories]
 
 - name:    Wall-E
   github:    https://github.com/abhn/Wall-E
@@ -1956,3 +1956,11 @@
   thumbnail:  tale.png
   license:    MIT
   tags:       [minimal]
+  
+ - name:      Mediumish
+  github:     wowthemesnet/mediumish-theme-jekyll
+  demo_url:   https://wowthemesnet.github.io/mediumish-theme-jekyll/
+  author:     WowThemesNet
+  thumbnail:  mediumish.png
+  license:    CC BY-NC-SA 4.0
+  tags:       [responsive, blog, minimal, magazine, grid]
