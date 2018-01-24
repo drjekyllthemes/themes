@@ -1,6 +1,16 @@
 ###############################
 #  Jekyll Themes
 
+- name:      Cover Card
+  github:    epidrome/cover-card
+  branch:    gh-pages                               
+  demo_url:  https://epidrome.github.io/cover-card
+  author:    epidrome
+  thumbnail: cover-card.jpg
+  license:   MIT
+  gem:       cover-card         
+  tags:     [cover, card, minimal, responsive, social]   
+
 - name:      Flexible Jekyll
   github:    artemsheludko/flexible-jekyll
   demo_url:  https://artemsheludko.github.io/flexible-jekyll/
