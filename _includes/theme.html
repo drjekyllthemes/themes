@@ -40,7 +40,10 @@
 {% endif %}
 
 {% if theme.tags %}
-<br>Tags: {{ theme.tags | jsonify }}
+  <br>
+  {% for tag in theme.tags %}
+     #{{tag}}
+  {% endfor %}
 {% endif %}
 
 </div>
