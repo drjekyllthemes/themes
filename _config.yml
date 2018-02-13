@@ -15,3 +15,6 @@ exclude:
 - attic
 - themes.yml
 - themes_i.yml
+- themes_ii.yml
+- themes_404.yml
+- themes_duplicates.yml
