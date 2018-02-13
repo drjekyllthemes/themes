@@ -1,0 +1,17 @@
+
+
+#####
+#  todo: use symlinks for themes.yml to _data/themes.yml
+#   note: symlinks with git not (really) working with git
+#      symlinks require admin rights on windows
+
+
+data_dir:  .
+
+
+exclude:
+- README.md
+- LICENSE.md
+- attic
+- themes.yml
+- themes-i.yml
