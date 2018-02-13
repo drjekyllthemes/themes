@@ -1450,7 +1450,7 @@
 ## todo/add:
 ## based on  Online CV by Xiaoying Riley
 
-- name:     Hagura
+- name:      Hagura
   github:    sharu725/hagura
   branch:    gh-pages
   demo_url:  https://webjeda.com/hagura/
@@ -1458,6 +1458,7 @@
   thumbnail: hagura.jpg
   license:   MIT
   tags:     [minimal, responsive, white]
+
 
 - name:     Dunders (Double Underscores)
   github:    woliveiras/__s
@@ -1765,6 +1766,7 @@
   license:   GNU GPL
   tags:      [blog,minimal,clean,simple]
 
+
 - name:     Cayman Blog
   github:    lorepirri/cayman-blog
   demo_url:  https://lorepirri.github.io/cayman-blog/
@@ -1773,6 +1775,16 @@
   license:   CC0 - Public Domain
   gem:       jekyll-theme-cayman-blog
   tags:      [blog,responsive,sass,minimal]
+
+- name:         Simple Blog
+  github:       lorepirri/jekyll-theme-simple-blog
+  demo_url:     https://lorepirri.gitlab.io/jekyll-theme-simple-blog/
+  author:       Lorenzo Pirritano   ## lorepirri
+  thumbnail:    simple-blog.png
+  license:      CC0 - Public Domain
+  tags:        [blog, responsive, multilanguage, seo, minimal, facebook]
+
+
 
 - name:     Sparrow
   github:    lingxz/sparrow
@@ -1800,6 +1812,7 @@
   license:      GNU GPL
   tags:         [material, responsive, blog, resume]
 
+
 - name:     Fresh
   github:    artemsheludko/fresh
   demo_url:  http://artemsheludko.pw/fresh/
@@ -1823,6 +1836,31 @@
   thumbnail: mr.brown.png
   license:   MIT
   tags:      [blog,responsive,minimal,scss,html5]
+
+- name:      Flexible
+  github:    artemsheludko/flexible-jekyll
+  demo_url:  https://artemsheludko.github.io/flexible-jekyll/
+  thumbnail: flexible.jpg
+  author:    Artem Sheludko  ## artemsheludko
+  license:   GNU GPL
+  tags:      [simple, minimal, white, responsive, scss, clear, blog, pages]
+
+- name:      Adam Blog
+  github:    artemsheludko/adam-blog
+  demo_url:  https://artemsheludko.github.io/adam-blog/
+  thumbnail: adam-blog.jpg
+  author:    Artem Sheludko  ## artemsheludko
+  license:   GNU GPL
+  tags:      [minimal, white, responsive, scss, clear, blog, pages]
+
+- name:      BEF (Blog Enjoy Freedom)
+  github:    artemsheludko/bef
+  demo_url:  https://artemsheludko.github.io/bef/
+  thumbnail: bef.jpg
+  author:    Artem Sheludko  ## artemsheludko
+  license:   GNU GPL
+  tags:      [black, responsive, sass, travel, blog, pages]
+
 
 - name:     Green Tea
   home_url:  http://richbray.me/frap/
@@ -1872,72 +1910,3 @@
   license:   MIT
   gem:       jekyll-theme-hydejack
   tags:     [webapp, portfolio, resume, responsive, progressive enhancement, rxjs, ajax, pushstate]
-
-- name:    Conscious Sedation
-  github:    LavenderGrey/jekyll-theme-conscious-sedation
-  demo_url:  https://jekyll-theme-conscious-sedation.netlify.com/
-  author:    Amy Storm Kosman
-  thumbnail: 250x200home-fullpage.png
-  license:   MIT
-  gem:       jekyll-theme-conscious-sedation
-  tags:     [responsive, blog, tags, categories, minimal ]
-
-- name:      Overkyll
-  github:    bertrandkeller/overkyll-jekyll-theme
-  demo_url:  https://bertrandkeller.github.io/overkyll-jekyll-theme/
-  author:    Bertrand Keller
-  thumbnail: overkyll.png
-  license:   MIT
-  gem:       overkyll-jekyll-theme
-  tags:      [minimal, responsive, starter, blog]
-
-- name:      Windows 95
-  github:    h01000110/windows-95
-  branch:    master
-  demo_url:  https://h01000110.github.io/windows-95/
-  author:    h01000110 (hi)
-  thumbnail: windows95.gif
-  license:   MIT
-  tags:      [responsive, blog, vintage]
-
-- title:        Jekyll Theme Simple Blog
-  home_url:     https://gitlab.com/lorepirri/jekyll-theme-simple-blog/
-  download_url: https://gitlab.com/lorepirri/jekyll-theme-simple-blog/repository/master/archive.zip
-  demo_url:     https://lorepirri.gitlab.io/jekyll-theme-simple-blog/
-  author:       Lorenzo Pirritano
-  thumbnail:    simple-blog-theme.png
-  license:      CC0 - Public Domain
-  tags:        [blog, responsive, multilanguage, seo, minimal, facebook]
-
-- name:    Wall-E
-  github:    https://github.com/abhn/Wall-E
-  demo_url:  https://wall-e-jekyll.github.io/
-  author:    Abhishek Nagekar
-  thumbnail: wall-e.png
-  license:   MIT
-  tags:     [responsive, blog, magazine, grid, semantic-ui, mobile]
-
-- name:         Massively
-  github:       https://github.com/iwiedenm/jekyll-theme-massively-src
-  download_url: https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip
-  demo_url:     https://iwiedenm.github.io/jekyll-theme-massively/
-  author:       Ian W
-  thumbnail:    massively.png
-  license:      CC3
-  tags:         [responsive, blog, minimal, mobile]
-
-- name:       Tale
-  github:     chesterhow/tale
-  demo_url:   https://chesterhow.github.io/tale/
-  author:     Chester How
-  thumbnail:  tale.png
-  license:    MIT
-  tags:       [minimal]
-
-- name:      Mediumish
-  github:     wowthemesnet/mediumish-theme-jekyll
-  demo_url:   https://wowthemesnet.github.io/mediumish-theme-jekyll/
-  author:     WowThemesNet
-  thumbnail:  mediumish.png
-  license:    CC BY-NC-SA 4.0
-  tags:       [responsive, blog, minimal, magazine, grid]
