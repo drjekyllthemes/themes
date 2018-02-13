@@ -1,5 +1,8 @@
 
+<div style="max-width: 300px; padding: 6px;">
+
 <b>{{ theme.name }}</b><br>
-<img src="{{ 'thumbnails/' | append: theme.thumbnail | relative_url }}">
+<img src="{{ 'thumbnails/' | append: theme.thumbnail | relative_url }}"><br>
 {{ theme | jsonify }}
-<hr>
+
+</div>

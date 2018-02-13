@@ -9,7 +9,8 @@ permalink: /i
 
 {{ themes | size }}  Themes:
 
-
+<div style="display: flex; flex-wrap: wrap;">
 {% for theme in themes %}
   {% include theme.html theme=theme %}
 {% endfor %}
+</div>
