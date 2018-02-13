@@ -14,4 +14,4 @@ exclude:
 - LICENSE.md
 - attic
 - themes.yml
-- themes-i.yml
+- themes_i.yml
