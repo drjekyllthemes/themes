@@ -1,20 +1,23 @@
 
 
 #####
-#  todo: use symlinks for themes.yml to _data/themes.yml
+#  todo: use symlinks for themes.yml to _data/themes.yml - why? why not?
 #   note: symlinks with git not (really) working with git
 #      symlinks require admin rights on windows
 
 
 data_dir:  .
 
-
 exclude:
 - README.md
 - LICENSE.md
-- attic
 - themes.yml
 - themes_i.yml
 - themes_ii.yml
 - themes_404.yml
 - themes_duplicates.yml
+
+plugins:
+- jekyll-remote-theme
+
+remote_theme: drjekyllthemes/test-theme
