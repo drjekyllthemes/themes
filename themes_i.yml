@@ -265,8 +265,8 @@
   tags:      []
 
 - name:     "{ Personal }"
-  github:    PanosSakkos/personal-jekyll-theme
-  demo_url:  http://panossakkos.github.io/personal-jekyll-theme/
+  github:    le4ker/personal-jekyll-theme
+  demo_url:  http://le4ker.github.io/personal-jekyll-theme/
   author:    Panos Sakkos
   thumbnail: personal.jpg
   license:   MIT
@@ -440,15 +440,15 @@
   tags:      []
 
 - name:      Red Cup
-  github:    ajthewebdev/redcup
-  ## demo_url: http://ajthewebdev.github.io/redcup/
+  github:    thesowah/redcup
+  ## demo_url: http://thesowah.github.io/redcup/
   author:    Nii Adjetey Sowah
   thumbnail: redcup.png
   license:   CC BY
   tags:      []
 
 - name:      Wangana
-  github:    ajthewebdev/wangana
+  github:    thesowah/wangana
   ## demo_url: http://iamnii.github.io/
   author: Nii Adjetey Sowah
   thumbnail: wangana.png
@@ -456,7 +456,7 @@
   tags:     []
 
 - name: Grid Gallery
-  github: ajthewebdev/GridGallery
+  github: thesowah/GridGallery
   ## demo_url: https://iamnii.github.io/GridGallery
   author: Nii Adjetey Sowah
   thumbnail: gridgallery.png
@@ -1359,7 +1359,7 @@
 
 - name:     Documenation 'n' Help Systems
   thumbnail: jekyll-documentation.png
-  github:    tomjohnson1492/documentation-theme-jekyll
+  github:    tomjoht/documentation-theme-jekyll
   branch:    gh-pages
   demo_url:  http://idratherbewriting.com/documentation-theme-jekyll
   author:    Tom Johnson
@@ -1383,13 +1383,6 @@
   tags:     [white, minimalist]
   license:   CC0 - Public Domain
 
-- name:     Roman's Newsletter (RSS-to-Email)
-  thumbnail: jekyll-newsletter.png
-  github:    romanzolotarev/jekyll-newsletter
-  demo_url:  http://www.romanzolotarev.com/jekyll-newsletter/
-  author:    Roman Zolotarev
-  tags:     [white, minimalist, newsletter, rss-to-email]
-  license:  CC0 - Public Domain
 
 - name:     Julia
   github:    kuoa/julia

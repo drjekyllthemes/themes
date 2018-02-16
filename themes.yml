@@ -31,7 +31,7 @@
 
 
 - name:      Overkyll
-  github:    bertrandkeller/overkyll-jekyll-theme/
+  github:    bertrandkeller/overkyll-jekyll-theme
   demo_url:  https://bertrandkeller.github.io/overkyll-jekyll-theme
   author:    Bertrand Keller   ## bertrandkeller
   thumbnail: overkyll.png

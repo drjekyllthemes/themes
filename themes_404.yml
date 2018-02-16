@@ -38,3 +38,13 @@
   author: signifox
   thumbnail: hushaw.png
   license: MIT
+
+
+### 404 not found
+- name:     Roman's Newsletter (RSS-to-Email)
+  thumbnail: jekyll-newsletter.png
+  github:    romanzolotarev/jekyll-newsletter
+  demo_url:  http://www.romanzolotarev.com/jekyll-newsletter/
+  author:    Roman Zolotarev
+  tags:     [white, minimalist, newsletter, rss-to-email]
+  license:  CC0 - Public Domain
