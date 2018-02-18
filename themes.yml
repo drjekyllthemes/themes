@@ -1939,3 +1939,11 @@
   thumbnail: wall-e.png
   license:   MIT
   tags:     [responsive, blog, magazine, grid, semantic-ui, mobile]
+
+- name:    Elementary
+  github:    https://github.com/abhn/Elementary
+  demo_url:  https://elementary-jekyll.github.io/
+  author:    Abhishek Nagekar
+  thumbnail: elementary.png
+  license:   MIT
+  tags:     [responsive, blog, mobile, minimal, lightweight]
