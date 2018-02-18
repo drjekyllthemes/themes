@@ -28,6 +28,14 @@
   license:   MIT
   tags:     [responsive, blog, magazine, grid, semantic-ui, mobile]
 
+- name:      Elementary
+  github:    abhn/Elementary
+  demo_url:  https://elementary-jekyll.github.io/
+  author:    Abhishek Nagekar    ## abhn
+  thumbnail: elementary.png
+  license:   MIT
+  tags:     [responsive, blog, mobile, minimal, lightweight]
+
 
 
 - name:      Overkyll
@@ -76,28 +84,3 @@
   thumbnail: windows95.gif
   license:   MIT
   tags:      [responsive, blog, vintage]
-
-- title:        Jekyll Theme Simple Blog
-  home_url:     https://gitlab.com/lorepirri/jekyll-theme-simple-blog/
-  download_url: https://gitlab.com/lorepirri/jekyll-theme-simple-blog/repository/master/archive.zip
-  demo_url:     https://lorepirri.gitlab.io/jekyll-theme-simple-blog/
-  author:       Lorenzo Pirritano
-  thumbnail:    simple-blog-theme.png
-  license:      CC0 - Public Domain
-  tags:        [blog, responsive, multilanguage, seo, minimal, facebook]
-
-- name:    Wall-E
-  github:    https://github.com/abhn/Wall-E
-  demo_url:  https://wall-e-jekyll.github.io/
-  author:    Abhishek Nagekar
-  thumbnail: wall-e.png
-  license:   MIT
-  tags:     [responsive, blog, magazine, grid, semantic-ui, mobile]
-
-- name:    Elementary
-  github:    https://github.com/abhn/Elementary
-  demo_url:  https://elementary-jekyll.github.io/
-  author:    Abhishek Nagekar
-  thumbnail: elementary.png
-  license:   MIT
-  tags:     [responsive, blog, mobile, minimal, lightweight]
