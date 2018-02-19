@@ -1,86 +1,12 @@
 ###############################
 #  Add Your Jekyll Themes
 
-- name:      Cover Card
-  github:    epidrome/cover-card
-  branch:    gh-pages
-  demo_url:  https://epidrome.github.io/cover-card/
-  author:    Konstantinos Chorianopoulos    ## epidrome
-  thumbnail: cover-card.jpg
+- name:      Basically Basic
+  github:    mmistakes/jekyll-theme-basically-basic
+  branch:    master                              ## note: defaults to master; only needed for gh-pages
+  demo_url:  https://mmistakes.github.io/jekyll-theme-basically-basic
+  author:    Michael Rose
+  thumbnail: basicallybasic.png
   license:   MIT
-  gem:       cover-card
-  tags:     [cover, card, minimal, responsive, social]
-
-
-- name:       Tale
-  github:     chesterhow/tale
-  demo_url:   https://chesterhow.github.io/tale/
-  author:     Chester How     ## chesterhow
-  thumbnail:  tale.png
-  license:    MIT
-  tags:       [minimal]
-
-- name:      Wall-E
-  github:    abhn/Wall-E
-  demo_url:  https://wall-e-jekyll.github.io/
-  author:    Abhishek Nagekar    ## abhn
-  thumbnail: wall-e.png
-  license:   MIT
-  tags:     [responsive, blog, magazine, grid, semantic-ui, mobile]
-
-- name:      Elementary
-  github:    abhn/Elementary
-  demo_url:  https://elementary-jekyll.github.io/
-  author:    Abhishek Nagekar    ## abhn
-  thumbnail: elementary.png
-  license:   MIT
-  tags:     [responsive, blog, mobile, minimal, lightweight]
-
-
-
-- name:      Overkyll
-  github:    bertrandkeller/overkyll-jekyll-theme
-  demo_url:  https://bertrandkeller.github.io/overkyll-jekyll-theme
-  author:    Bertrand Keller   ## bertrandkeller
-  thumbnail: overkyll.png
-  license:   MIT
-  gem:       overkyll-jekyll-theme
-  tags:      [minimal, responsive, starter, blog]
-
-
-- name:      Conscious Sedation
-  github:    LavenderGrey/jekyll-theme-conscious-sedation
-  demo_url:  https://jekyll-theme-conscious-sedation.netlify.com/
-  author:    Amy Storm Kosman   ##  LavenderGrey
-  thumbnail: conscious-sedation.png     ## todo/fix: rename pic
-  license:   MIT
-  gem:       jekyll-theme-conscious-sedation
-  tags:     [responsive, blog, tags, categories, minimal]
-
-
-
-- name:         Massively
-  github:       iwiedenm/jekyll-theme-massively-src
-  demo_url:     https://iwiedenm.github.io/jekyll-theme-massively/
-  author:       Ian W       ## iwiedenm
-  thumbnail:    massively.png
-  license:      CC BY
-  tags:         [responsive, blog, minimal, mobile]
-
-
-- name:       Mediumish
-  github:     wowthemesnet/mediumish-theme-jekyll
-  demo_url:   https://wowthemesnet.github.io/mediumish-theme-jekyll/
-  author:     Wow Themes    ## wowthemesnet
-  thumbnail:  mediumish.png
-  license:    CC BY - Non-Commercial Share-Alike
-  tags:       [responsive, blog, minimal, magazine, grid]
-
-
-- name:      Windows 95
-  github:    h01000110/windows-95
-  demo_url:  https://h01000110.github.io/windows-95/
-  author:    H01000110    ## h01000110
-  thumbnail: windows95.gif
-  license:   MIT
-  tags:      [responsive, blog, vintage]
+  gem:       jekyll-theme-basically-basic         ## optional
+  tags:     [minimal, responsive, blog, resume]   ## optional
