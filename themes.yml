@@ -1,6 +1,7 @@
 ###############################
 #  Add Your Jekyll Themes
 
+
 - name:      Basically Basic
   github:    mmistakes/jekyll-theme-basically-basic
   branch:    master                              ## note: defaults to master; only needed for gh-pages
@@ -10,3 +11,13 @@
   license:   MIT
   gem:       jekyll-theme-basically-basic         ## optional
   tags:     [minimal, responsive, blog, resume]   ## optional
+
+- name:      Lonely Writer
+  github:    lingxz/lonelywriter
+  demo_url:  https://theconfused.me/lonelywriter/
+  author:    Lingyi Hu    ##     lingxz
+  thumbnail: lonelywriter.jpg
+  license:   MIT
+  gem:       lonelywriter
+  tags:      [minimal, blog, writing]
+
