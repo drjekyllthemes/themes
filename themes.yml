@@ -1,6 +1,17 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      lonelywriter
+  github:    lingxz/lonelywriter
+  branch:    master
+  demo_url:  https://theconfused.me/lonelywriter/
+  author:    Lingyi Hu
+  thumbnail: lonelywriter.jpg
+  license:   MIT
+  gem:       lonelywriter
+  tags:      [minimal, blog, writing]
+
+
 - name:      Cover Card
   github:    epidrome/cover-card
   branch:    gh-pages
