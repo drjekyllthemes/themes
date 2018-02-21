@@ -21,3 +21,10 @@
   gem:       lonelywriter
   tags:      [minimal, blog, writing]
 
+- name:      Barber
+  github:    samesies/barber-jekyll
+  demo_url:  http://barber.samesies.io/
+  author:    Thomas Vaeth
+  thumbnail: barber.jpg
+  license:   MIT
+  tags:     [responsive, minimal, blog, masonry]
