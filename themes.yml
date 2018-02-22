@@ -28,3 +28,12 @@
   thumbnail: barber.jpg
   license:   MIT
   tags:     [responsive, minimal, blog, masonry]
+
+- name:      Help Center Theme
+  github:    gustavoquinalha/jekyll-help-center-theme
+  demo_url:  http://quinalha.me/jekyll-help-center-theme/
+  author:    Gustavo Quinalha
+  thumbnail: help-center.png
+  license:   MIT
+  gem:       jekyll-help-center-theme
+  tags:      [responsive, help, center, faq]
