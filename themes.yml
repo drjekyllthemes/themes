@@ -37,3 +37,12 @@
   license:   MIT
   gem:       jekyll-help-center-theme
   tags:      [responsive, help, center, faq]
+  
+- name: Future Imperfect
+  home_url: https://github.com/vikapitoshka/blog
+  download_url: https://github.com/vikapitoshka/blog/archive/master.zip
+  demo_url: https://blog.kaptn.ru
+  author: Kaptn
+  thumbnail: future-imperfect.png
+  license: MIT
+  tags: [responsive, blog, minimal]
