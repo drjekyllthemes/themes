@@ -46,3 +46,12 @@
   thumbnail: future-imperfect.png
   license: MIT
   tags: [responsive, blog, minimal]
+
+- name:         Pudhina
+  home_url:     https://github.com/Knhash/Pudhina
+  download_url: https://github.com/Knhash/Pudhina/archive/master.zip
+  demo_url:     https://knhash.github.io/Pudhina/
+  author:       Knhash
+  thumbnail:    pudhina.jpg
+  license:      MIT
+  tags:        [minimal, responsive, blog, resume, whitespace]   ## optional
