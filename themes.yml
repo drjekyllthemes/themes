@@ -67,3 +67,11 @@
   thumbnail: pineapple.png
   license:   MIT
   tags:     [minimal, responsive, portfolio]
+
+- name:      Read
+  github:    fastbyte01/Read
+  demo_url:  https://readjekyll.fastbyte01.it/
+  author:    Giuseppe Pignataro     ##  fastbyte01
+  thumbnail: read.png
+  license:   CCA 3.0
+  tags:     [responsive, onepage, minimal]
