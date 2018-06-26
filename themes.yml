@@ -1,6 +1,14 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      uBuild
+  github:    forestryio/ubuild-jekyll
+  branch:    master                              ## note: defaults to master; only needed for gh-pages
+  demo_url:  https://forestryio.github.io/ubuild-jekyll/
+  author:    Nichlas W. Andersen
+  thumbnail: ubuild.png
+  license:   MIT
+  tags:     [minimal, responsive, clean, landingpage, onepage]   ## optional
 
 - name:      Flexton
   github:    artemsheludko/flexton
