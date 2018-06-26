@@ -10,6 +10,15 @@
   license:   MIT
   tags:     [minimal, responsive, clean, landingpage, onepage]   ## optional
 
+- name:      Fuse Core
+  github:    tsjensen/fuse-core
+  branch:    gh-pages
+  demo_url:  https://tsjensen.github.io/fuse-core/
+  author:    Thomas Jensen
+  thumbnail: fuse-core.jpg
+  license:   CC-BY-4.0
+  tags:     [responsive, onepage, mobile-friendly]
+
 - name:      Flexton
   github:    artemsheludko/flexton
   branch:    master                              ## note: defaults to master; only needed for gh-pages
@@ -18,7 +27,6 @@
   thumbnail: flexton.jpg
   license:   MIT
   tags:     [minimal, clean, responsive, blog, writing]   ## optional
-
 
 - name:      Basically Basic
   github:    mmistakes/jekyll-theme-basically-basic
@@ -29,8 +37,6 @@
   license:   MIT
   gem:       jekyll-theme-basically-basic         ## optional
   tags:     [minimal, responsive, blog, resume]   ## optional
-
-
 
 - name:      Lonely Writer
   github:    lingxz/lonelywriter
