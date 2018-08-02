@@ -1,6 +1,15 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      Lokmont
+  github:    artemsheludko/lokmont
+  branch:    master                              ## note: defaults to master; only needed for gh-pages
+  demo_url:  https://lokmont-jekyll.netlify.com/
+  author:    Artem Sheludko
+  thumbnail: lokmont.jpg
+  license:   MIT
+  tags:     [personal, minimal, clean, responsive, blog, writing]   ## optional
+
 - name:      uBuild
   github:    forestryio/ubuild-jekyll
   branch:    master                              ## note: defaults to master; only needed for gh-pages
