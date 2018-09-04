@@ -108,3 +108,13 @@
   thumbnail: read.png
   license:   CCA 3.0
   tags:     [responsive, onepage, minimal]
+
+- name:      Mint
+  github:    aidewoode/jekyll-theme-mint
+  branch:    master
+  demo_url:  https://aidewoode.github.io/jekyll-theme-mint/
+  author:    aidewoode
+  thumbnail: mint.png
+  license:   MIT
+  gem:       jekyll-theme-mint
+  tags:     [responsive, blog, minimal]
