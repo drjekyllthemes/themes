@@ -1,6 +1,14 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      Cocoon
+  github:    pro-panda/cocoon
+  demo_url:  http://www.pro-panda.tech/cocoon/
+  author:    Rahul Bothra
+  thumbnail: cocoon.jpg
+  license:   GPL v3
+  tags:      [minimal, blog]
+
 - name:      Lokmont
   github:    artemsheludko/lokmont
   branch:    master                              ## note: defaults to master; only needed for gh-pages
