@@ -1,6 +1,14 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      Galada
+  github:    artemsheludko/galada
+  demo_url:  https://artemsheludko.github.io/galada/
+  author:    Artem Sheludko
+  thumbnail: galada-pic.png
+  license:   MIT
+  tags:      [personal, minimal, clean, responsive, blog, dark]
+
 - name:      Cocoon
   github:    pro-panda/cocoon
   demo_url:  http://www.pro-panda.tech/cocoon/
