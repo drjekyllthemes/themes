@@ -134,3 +134,13 @@
   license:   MIT
   gem:       jekyll-theme-mint
   tags:     [responsive, blog, minimal]
+
+- name:      SparrowX
+  github:    mighildotcom/sparrowx
+  branch:    master
+  demo_url:  https://sparrowx.mighil.com/
+  author:    Mighil
+  thumbnail: sparrowx-thumbnail.png
+  license:   MIT
+  tags:     [seo, blog, minimal]
+  
