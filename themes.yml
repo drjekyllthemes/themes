@@ -144,3 +144,11 @@
   license:   MIT
   tags:     [seo, blog, minimal]
   
+- name:       Blogo
+  github:     sharadcodes/blogo
+  branch:     master
+  demo_url:   https://sharadcodes.github.io/blogo/
+  author:     Sharad Raj Singh Maurya   ## sharadcodes
+  thumbnail:  blogo.png
+  license:    MIT
+  tags:      [minimal, responsive, blog, resume, mobilefirst]
