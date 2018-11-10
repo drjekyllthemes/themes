@@ -151,4 +151,13 @@
   author:     Sharad Raj Singh Maurya   ## sharadcodes
   thumbnail:  blogo.png
   license:    MIT
-  tags:      [minimal, responsive, blog, resume, mobilefirst]
+  tags:      [minimal, responsive, blog, resume, mobilefirst, clean]
+
+- name:       Simplifico
+  github:     sharadcodes/simplifico
+  branch:     master
+  demo_url:   https://sharadcodes.github.io/simplifico/
+  author:     Sharad Raj Singh Maurya   ## sharadcodes
+  thumbnail:  simplifico.png
+  license:    MIT
+  tags:      [minimal, responsive, blog, white, clean]
