@@ -161,3 +161,13 @@
   thumbnail:  simplifico.png
   license:    MIT
   tags:      [minimal, responsive, blog, white, clean]
+
+- name:      Celeste
+  github:    nicoelayda/celeste
+  branch:    master
+  demo_url:  https://nicoelayda.github.io/celeste/
+  author:    Nico Elayda
+  thumbnail: celeste.png
+  license:   MIT
+  gem:       jekyll-theme-celeste
+  tags:     [minimal, responsive, blog, landing, poole, github]
