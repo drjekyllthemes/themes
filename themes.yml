@@ -171,3 +171,12 @@
   license:   MIT
   gem:       jekyll-theme-celeste
   tags:     [minimal, responsive, blog, landing, poole, github]
+  
+- name:       Bootblog
+  github:     sharadcodes/bootblog
+  branch:     master
+  demo_url:   https://sharadcodes.github.io/bootblog/
+  author:     Sharad Raj Singh Maurya   ## sharadcodes
+  thumbnail:  bootblog.png
+  license:    MIT
+  tags:      [minimal, bootstrap, portfolio, responsive, blog, dark, clean, animations, two-level-navbar]
