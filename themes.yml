@@ -180,3 +180,13 @@
   thumbnail:  bootblog.png
   license:    MIT
   tags:      [minimal, bootstrap, portfolio, responsive, blog, dark, clean, animations, two-level-navbar]
+
+- name:       Sweet 16
+  github:     jdh8/sweet-16
+  branch:     master
+  demo_url:   https://jdh8.github.io/
+  author:     Chen-Pang He
+  thumbnail:  sweet-16.png
+  license:    GPL
+  gems:       jekyll-paginate
+  tags:      [portfolio, responsive, blog, wordpress]
