@@ -91,9 +91,9 @@
 
 
 - name:      Future Imperfect
-  github:    vikapitoshka/blog
+  github:    kaptn/blog
   demo_url:  https://blog.kaptn.ru
-  author:    Viktoriya Kapitonenko     ##  vikapitoshka  (Kaptn)
+  author:    Viktoriya Kapitonenko     ##  kaptn
   thumbnail: future-imperfect.png
   license:   MIT
   tags:     [responsive, blog, minimal]
