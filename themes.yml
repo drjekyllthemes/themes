@@ -1,6 +1,14 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      Serif
+  github:    jugglerx/jekyll-serif-theme
+  demo_url:  https://jekyll-serif-theme.netlify.com/
+  author:    Robert Austin
+  thumbnail: serif.png
+  license:   MIT
+  tags:      [business, multipage, minimal, clean, responsive, bootstrap, scss]
+
 - name:      Galada
   github:    artemsheludko/galada
   demo_url:  https://artemsheludko.github.io/galada/
