@@ -207,3 +207,12 @@
   thumbnail:  uni.jpg
   license:    MIT
   tags:      [minimal, one-page, responsive, landing page]
+
+- name:       TeXt
+  github:     kitian616/jekyll-TeXt-theme
+  branch:     master
+  demo_url:   https://tianqi.name/jekyll-TeXt-theme/
+  author:     Tian Qi
+  thumbnail:  TeXt.png
+  license:    MIT
+  tags:      [clean, responsive, landing, blog, documentation]
