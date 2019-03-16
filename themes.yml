@@ -1,6 +1,14 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      Chelia
+  github:    artemsheludko/chelia
+  demo_url:  https://artemsheludko.github.io/chelia/
+  author:    Artem Sheludko
+  thumbnail: chelia-preview.jpg
+  license:   MIT
+  tags:      [portfolio, minimal, clean, responsive, blog, personal, simple]
+
 - name:      portfolYOU
   github:    YoussefRaafatNasry/portfolYOU
   demo_url:  https://youssefraafatnasry.github.io/portfolYOU/
