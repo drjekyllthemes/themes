@@ -1,6 +1,13 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      jekyll-theme-console
+  github:    b2a3e8/jekyll-theme-console
+  demo_url:  https://b2a3e8.github.io/jekyll-theme-console
+  author:    b2a3e8
+  thumbnail: jekyll-theme-console.png
+  license:   MIT
+  gem:       jekyll-theme-console
 - name:      Chelia
   github:    artemsheludko/chelia
   demo_url:  https://artemsheludko.github.io/chelia/
