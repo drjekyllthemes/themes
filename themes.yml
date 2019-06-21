@@ -1,6 +1,15 @@
 ###############################
 #  Add Your Jekyll Themes
 
+
+- name:      tiffany
+  github:    bit-ranger/blog
+  demo_url:  https://bit-ranger.github.io/blog/
+  author:    bit-ranger
+  thumbnail: tiffany.png
+  license:   MIT
+  tags:      [personal, minimal, clean, responsive, blog, blue]
+
 - name:      jekyll-theme-console
   github:    b2a3e8/jekyll-theme-console
   demo_url:  https://b2a3e8.github.io/jekyll-theme-console
