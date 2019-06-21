@@ -1030,15 +1030,6 @@
   license: MIT
   tags:      []
 
-- name:     Tiffany
-  home_url:  https://github.com/WakelessDragon/blog
-  download_url:  https://github.com/WakelessDragon/blog/archive/gh-pages.zip
-  demo_url:      http://blog.rainyalley.com/
-  author:    Wakeless Dragon
-  thumbnail: tiffany.png
-  license:   MIT
-  tags:      []
-
 - name:      Centrarium
   github:    bencentra/centrarium
   demo_url:  http://bencentra.com/centrarium
