@@ -1,6 +1,13 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      Zolan
+  github:    artemsheludko/zolan
+  demo_url:  https://artemsheludko.github.io/zolan/
+  author:    Artem Sheludko
+  thumbnail: zolan-pic.png
+  license:   MIT
+  tags:      [personal, minimal, clean, responsive, blog, mobile-friendly, scss]
 
 - name:      tiffany
   github:    bit-ranger/blog
