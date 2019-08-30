@@ -1,6 +1,14 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      Reked
+  github:    artemsheludko/reked
+  demo_url:  https://artemsheludko.github.io/reked/
+  author:    Artem Sheludko
+  thumbnail: reked-small.jpg
+  license:   MIT
+  tags:      [personal, clean, minimal responsive, blog, writing, mobile-friendly]
+
 - name:      Melotta
   github:    artemsheludko/melotta
   demo_url:  https://artemsheludko.github.io/melotta/
