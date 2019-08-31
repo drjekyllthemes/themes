@@ -1,13 +1,21 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      Derrick
+  github:    artemsheludko/derrick
+  demo_url:  https://artemsheludko.github.io/derrick/
+  author:    Artem Sheludko
+  thumbnail: derrick-small.jpg
+  license:   MIT
+  tags:      [fast, personal, clean, minimal, simple responsive, blog, writing, mobile-friendly]
+
 - name:      Reked
   github:    artemsheludko/reked
   demo_url:  https://artemsheludko.github.io/reked/
   author:    Artem Sheludko
   thumbnail: reked-small.jpg
   license:   MIT
-  tags:      [personal, clean, minimal responsive, blog, writing, mobile-friendly]
+  tags:      [personal, clean, minimal, responsive, blog, writing, mobile-friendly]
 
 - name:      Melotta
   github:    artemsheludko/melotta
