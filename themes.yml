@@ -279,3 +279,12 @@
   thumbnail:  TeXt.png
   license:    MIT
   tags:      [clean, responsive, landing, blog, documentation]
+
+- name:      Startbootstrap Stylish Portfolio Jekyll
+  github:    vidhyav656/startbootstrap-stylish-portfolio-jekyll
+  branch:    master
+  demo_url:  https://vidhyav656.github.io/startbootstrap-stylish-portfolio-jekyll/
+  author:    Vidhya Venkatesan
+  thumbnail: startbootstrap-stylish-portfolio.jpg
+  license:   MIT
+  tags:     [minimal, onepage, portfolio, bootstrap-theme.]
