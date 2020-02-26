@@ -288,3 +288,13 @@
   thumbnail: startbootstrap-stylish-portfolio.jpg
   license:   MIT
   tags:     [minimal, onepage, portfolio, bootstrap-theme.]
+ 
+- name:       Leaf
+  github:     https://github.com/SupunKavinda/jekyll-theme-leaf
+  branch:     master
+  demo_url:   https://supunkavinda.github.io/jekyll-theme-leaf/
+  author:     Supun Kavinda
+  thumbnail:  leaf.png
+  license:    MIT
+  gem:        jekyll-theme-leaf
+  tags:       [minimal, blog, responsive]
