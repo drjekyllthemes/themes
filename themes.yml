@@ -296,4 +296,5 @@
   author:     Supun Kavinda
   thumbnail:  leaf.png
   license:    MIT
+  gem:        jekyll-theme-leaf
   tags:       [minimal, blog, responsive]
