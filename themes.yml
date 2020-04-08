@@ -298,3 +298,12 @@
   license:    MIT
   gem:        jekyll-theme-leaf
   tags:       [minimal, blog, responsive]
+
+- name:       Memoirs
+  github:     https://github.com/wowthemesnet/jekyll-theme-memoirs
+  branch:     master
+  demo_url:   https://wowthemesnet.github.io/jekyll-theme-memoirs
+  author:     wowthemesnet
+  thumbnail:  memoirs.jpg
+  license:    MIT
+  tags:       [minimal, blog, responsive, portfolio, bootstrap-theme, clean]
