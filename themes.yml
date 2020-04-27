@@ -307,3 +307,12 @@
   thumbnail:  memoirs.jpg
   license:    MIT
   tags:       [minimal, blog, responsive, portfolio, bootstrap-theme, clean]
+
+- name:      Beautiful Jekyll
+  github:    daattali/beautiful-jekyll
+  demo_url:  https://deanattali.com/beautiful-jekyll/
+  author:    Dean Attali
+  thumbnail: beautiful-jekyll.png
+  license:   MIT
+  gem:       beautiful-jekyll-theme
+  tags:      [responsive, blog, academic, clean, documentation]

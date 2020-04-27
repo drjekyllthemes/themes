@@ -247,14 +247,6 @@
   license:   MIT
   tags:      []
 
-- name:      Beautiful
-  github:    daattali/beautiful-jekyll
-  demo_url:  http://deanattali.com/beautiful-jekyll/
-  author:    Dean Attali
-  thumbnail: beautiful-jekyll.png
-  license:   MIT
-  tags:      []
-
 - name:      Holo Alfa
   github:    steinvc/holo-alfa
   branch:    gh-pages
