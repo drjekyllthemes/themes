@@ -310,7 +310,7 @@
 
 - name:      Beautiful Jekyll
   github:    daattali/beautiful-jekyll
-  demo_url:  https://deanattali.com/beautiful-jekyll/
+  demo_url:  https://beautifuljekyll.com/
   author:    Dean Attali
   thumbnail: beautiful-jekyll.png
   license:   MIT
