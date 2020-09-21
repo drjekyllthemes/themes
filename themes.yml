@@ -316,3 +316,12 @@
   license:   MIT
   gem:       beautiful-jekyll-theme
   tags:      [responsive, blog, academic, clean, documentation]
+
+- name:      Yet Another Theme (YAT)
+  github:    jeffreytse/jekyll-theme-yat
+  demo_url:  https://jeffreytse.github.io/jekyll-theme-yat/
+  author:    Jeffrey Tse
+  thumbnail: jekyll-theme-yat.png
+  license:   MIT
+  gem:       jekyll-theme-yat
+  tags:      [minimal, responsive, blog, academic, clean, flat, modern]
