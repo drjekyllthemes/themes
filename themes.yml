@@ -325,3 +325,13 @@
   license:   MIT
   gem:       jekyll-theme-yat
   tags:      [minimal, responsive, blog, academic, clean, flat, modern]
+  
+ - name:      Scaffold
+   github:    sziv2p/jekyll-theme-scaffold
+   branch:    gh-pages
+   demo_url:  https://sziv2p.github.io/jekyll-theme-scaffold/
+   author:    Songzi Vong
+   thumbnail: scaffold.png
+   license:   MIT
+   gem:       jekyll-theme-scaffold
+   tags:     [minimal, responsive, blog, clean]
