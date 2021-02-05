@@ -335,3 +335,12 @@
    license:   MIT
    gem:       jekyll-theme-scaffold
    tags:     [minimal, responsive, blog, clean]
+   
+ - name:      Pudhina Fresh
+   github:    https://github.com/ritijjain/pudhina-fresh
+   branch:    master
+   demo_url:  https://ritijjain.github.io/pudhina-fresh
+   author:    Ritij Jain
+   thumbnail: pudhina-fresh.png
+   license:   MIT
+   tags:     [minimal, portfolio, blog, projects, bootstrap]
