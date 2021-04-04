@@ -1,6 +1,15 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:      Adam Blog 2.0
+  github:    the-mvm/the-mvm.github.io
+  demo_url:  https://the-mvm.github.io
+  author:    Artem Sheludko v1.0 | Armando Maynez v2.0
+  thumbnail: AdamBlog2_thumnail.jpg
+  license:   MIT
+  tags:      [fast, SEO, TOC, Infinite Scroll, personal, clean, simple, responsive, blog, mobile-friendly]
+
+
 - name:      Derrick
   github:    artemsheludko/derrick
   demo_url:  https://artemsheludko.github.io/derrick/
