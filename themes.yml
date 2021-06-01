@@ -297,7 +297,7 @@
   thumbnail: startbootstrap-stylish-portfolio.jpg
   license:   MIT
   tags:     [minimal, onepage, portfolio, bootstrap-theme.]
- 
+
 - name:       Leaf
   github:     https://github.com/SupunKavinda/jekyll-theme-leaf
   branch:     master
@@ -334,7 +334,7 @@
   license:   MIT
   gem:       jekyll-theme-yat
   tags:      [minimal, responsive, blog, academic, clean, flat, modern]
-  
+
  - name:      Scaffold
    github:    sziv2p/jekyll-theme-scaffold
    branch:    gh-pages
@@ -344,7 +344,7 @@
    license:   MIT
    gem:       jekyll-theme-scaffold
    tags:     [minimal, responsive, blog, clean]
-   
+
  - name:      Pudhina Fresh
    github:    https://github.com/ritijjain/pudhina-fresh
    branch:    master
@@ -353,3 +353,12 @@
    thumbnail: pudhina-fresh.png
    license:   MIT
    tags:     [minimal, portfolio, blog, projects, bootstrap]
+
+- name:      academia
+  github:    LeNPaul/academic
+  branch:    gh-pages
+  demo_url:  https://lenpaul.github.io/academic/
+  author:    Paul Le
+  thumbnail: academic.png
+  license:   MIT
+  tags:      [minimal,minimalist,clean,simple,academic,academia,research,course,cv,resume]
