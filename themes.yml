@@ -362,3 +362,13 @@
   thumbnail: academic.png
   license:   MIT
   tags:      [minimal,minimalist,clean,simple,academic,academia,research,course,cv,resume]
+
+- name:      Archie
+  github:    https://github.com/slashformotion/jekyll-archie
+  branch:    master                              ## note: defaults to master; only needed for gh-pages
+  demo_url:  https://slashformotion.github.io/jekyll-archie/
+  author:    Slashformotion
+  thumbnail: archie.png
+  license:   MIT
+  gem:       jekyll-archie        ## optional
+  tags:     [minimal, responsive, blog]   ## optional
