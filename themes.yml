@@ -362,3 +362,13 @@
   thumbnail: academic.png
   license:   MIT
   tags:      [minimal,minimalist,clean,simple,academic,academia,research,course,cv,resume]
+
+- name: Jekyll Theme ACG
+  github: coderzhaoziwei/jekyll-theme-acg
+  branch: main
+  demo_url: https://coderzhaoziwei.github.io/jekyll-theme-acg-minimal
+  author: Coder Zhao
+  thumbnail: jekyll-theme-acg.png
+  license: MIT
+  gem: jekyll-theme-acg
+  tags: [blog]
