@@ -1,6 +1,16 @@
 ###############################
 #  Add Your Jekyll Themes
 
+- name:         Forever Jekyll
+  home_url:     https://github.com/forever-jekyll/forever-jekyll
+  download_url: https://github.com/forever-jekyll/forever-jekyll/archive/refs/heads/main.zip
+  demo_url:     https://forever-jekyll.github.io/
+  author:       forever-jekyll
+  thumbnail:    fj_submit_2.png
+  license:      ISC License
+  tags:         [minimal, responsive, blog, personal, mobile-friendly]
+
+
 - name:      Adam Blog 2.0
   github:    the-mvm/the-mvm.github.io
   demo_url:  https://the-mvm.github.io
