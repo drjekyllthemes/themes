@@ -362,7 +362,7 @@
   thumbnail: academic.png
   license:   MIT
   tags:      [minimal,minimalist,clean,simple,academic,academia,research,course,cv,resume]
-
+ 
 - name: Jekyll Theme ACG
   github: coderzhaoziwei/jekyll-theme-acg
   branch: main
@@ -372,3 +372,12 @@
   license: MIT
   gem: jekyll-theme-acg
   tags: [blog]
+
+- name:      minimal-bootstrap-blog
+  github:    andrewhwanpark/minimal-bootstrap-blog
+  branch:    gh-pages
+  demo_url:  https://andrewhwanpark.github.io/minimal-bootstrap-blog/
+  author:    Andrew Park
+  thumbnail:  minimal-bootstrap-blog.png
+  license:   MIT
+  tags:      [minimal,minimalist,clean,simple,blog,responsive,dark]
