@@ -372,3 +372,23 @@
   license:   MIT
   gem:       jekyll-archie        ## optional
   tags:     [minimal, responsive, blog]   ## optional
+ 
+- name: Jekyll Theme ACG
+  github: coderzhaoziwei/jekyll-theme-acg
+  branch: main
+  demo_url: https://coderzhaoziwei.github.io/jekyll-theme-acg-minimal
+  author: Coder Zhao
+  thumbnail: jekyll-theme-acg.png
+  license: MIT
+  gem: jekyll-theme-acg
+  tags: [blog]
+
+- name:      minimal-bootstrap-blog
+  github:    andrewhwanpark/minimal-bootstrap-blog
+  branch:    gh-pages
+  demo_url:  https://andrewhwanpark.github.io/minimal-bootstrap-blog/
+  author:    Andrew Park
+  thumbnail:  minimal-bootstrap-blog.png
+  license:   MIT
+  tags:      [minimal,minimalist,clean,simple,blog,responsive,dark]
+
