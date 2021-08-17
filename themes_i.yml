@@ -1236,11 +1236,11 @@
 
 - name:        Urban
   github:       midzer/urban-theme
-  demo_url:     http://narkotyk.net
-  author:       Dennis Rohner
+  demo_url:     https://narkotyk.netlify.app/
+  author:       midzer
   thumbnail:    urban.png
   license:      MIT
-  tags:         []
+  tags:         [minimal, clean, gallery]
 
 - name:        Labrador
   github:       donini/labrador-jekyll-theme
