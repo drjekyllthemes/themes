@@ -383,11 +383,11 @@
   gem: jekyll-theme-acg
   tags: [blog]
 
-- name:      minimal-bootstrap-blog
-  github:    andrewhwanpark/minimal-bootstrap-blog
+- name:      brutalist-blog
+  github:    andrewhwanpark/brutalist-blog
   branch:    gh-pages
-  demo_url:  https://andrewhwanpark.github.io/minimal-bootstrap-blog/
+  demo_url:  https://andrewhwanpark.github.io/brutalist-blog/
   author:    Andrew Park
-  thumbnail:  minimal-bootstrap-blog.png
+  thumbnail:  brutalist-blog.png
   license:   MIT
-  tags:      [minimal,minimalist,clean,simple,blog,responsive,dark]
+  tags:      [brutalist,minimal,minimalist,clean,simple,blog,responsive,dark]
