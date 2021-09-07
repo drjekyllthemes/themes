@@ -1,6 +1,5 @@
 ###############################
 #  Add Your Jekyll Themes
-
 - name:      Adam Blog 2.0
   github:    the-mvm/the-mvm.github.io
   demo_url:  https://the-mvm.github.io
@@ -8,7 +7,6 @@
   thumbnail: AdamBlog2_thumnail.jpg
   license:   MIT
   tags:      [fast, SEO, TOC, Infinite Scroll, personal, clean, simple, responsive, blog, mobile-friendly]
-
 
 - name:      Derrick
   github:    artemsheludko/derrick
@@ -169,7 +167,6 @@
   gem:       jekyll-help-center-theme
   tags:      [responsive, help, center, faq]
 
-
 - name:      Future Imperfect
   github:    kaptn/blog
   demo_url:  https://blog.kaptn.ru
@@ -185,8 +182,6 @@
   thumbnail:  pudhina.jpg
   license:    MIT
   tags:      [minimal, responsive, blog, resume, whitespace]   ## optional
-
-
 
 - name:      Pineapple
   github:    arnolds/pineapple
@@ -335,24 +330,24 @@
   gem:       jekyll-theme-yat
   tags:      [minimal, responsive, blog, academic, clean, flat, modern]
 
- - name:      Scaffold
-   github:    sziv2p/jekyll-theme-scaffold
-   branch:    gh-pages
-   demo_url:  https://sziv2p.github.io/jekyll-theme-scaffold/
-   author:    Songzi Vong
-   thumbnail: scaffold.png
-   license:   MIT
-   gem:       jekyll-theme-scaffold
-   tags:     [minimal, responsive, blog, clean]
+- name:      Scaffold
+  github:    sziv2p/jekyll-theme-scaffold
+  branch:    gh-pages
+  demo_url:  https://sziv2p.github.io/jekyll-theme-scaffold/
+  author:    Songzi Vong
+  thumbnail: scaffold.png
+  license:   MIT
+  gem:       jekyll-theme-scaffold
+  tags:     [minimal, responsive, blog, clean]
 
- - name:      Pudhina Fresh
-   github:    https://github.com/ritijjain/pudhina-fresh
-   branch:    master
-   demo_url:  https://ritijjain.github.io/pudhina-fresh
-   author:    Ritij Jain
-   thumbnail: pudhina-fresh.png
-   license:   MIT
-   tags:     [minimal, portfolio, blog, projects, bootstrap]
+- name:      Pudhina Fresh
+  github:    https://github.com/ritijjain/pudhina-fresh
+  branch:    master
+  demo_url:  https://ritijjain.github.io/pudhina-fresh
+  author:    Ritij Jain
+  thumbnail: pudhina-fresh.png
+  license:   MIT
+  tags:     [minimal, portfolio, blog, projects, bootstrap]
 
 - name:      academia
   github:    LeNPaul/academic
