@@ -391,3 +391,13 @@
   thumbnail:  brutalist-blog.png
   license:   MIT
   tags:      [brutalist,minimal,minimalist,clean,simple,blog,responsive,dark]
+
+- name:      Oinam Jekyll
+  github:    oinam/oinam-jekyll
+  branch:    main
+  demo_url:  https://oinam.github.io/oinam-jekyll/
+  author:    Brajeshwar Oinam
+  thumbnail: oinam-jekyll.png
+  license:   MIT
+  gem:       oinam-jekyll
+  tags:     [minimal, responsive, blog, clean, simple, nord, light, dark]
