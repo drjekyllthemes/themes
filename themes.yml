@@ -182,6 +182,14 @@
   thumbnail:  pudhina.jpg
   license:    MIT
   tags:      [minimal, responsive, blog, resume, whitespace]   ## optional
+  
+- name:       jekyllBear
+  github:     knhash/jekyllBear
+  demo_url:   https://knhash.in/jekyllBear/
+  author:     Shashank S     ## knhash
+  thumbnail:  jekyllBear.png
+  license:    MIT
+  tags:      [minimal, responsive, blog, resume, whitespace, blog, ruby-gem, github-pages, light-theme, dark-theme, filter]   ## optional
 
 - name:      Pineapple
   github:    arnolds/pineapple
