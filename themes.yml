@@ -1,5 +1,14 @@
 ###############################
 #  Add Your Jekyll Themes
+- name:      J1 Template
+  github:    https://github.com/jekyll-one/j1-template-starter
+  demo_url:  https://j1-preview-netlify.netlify.app/
+  author:    Juergen Adams
+  thumbnail: j1-template.png
+  license:   MIT
+  gem:       j1-template
+  tags:      [multi-purpose, multipage, bootstrap, responsive, personal, dokumentation, blog, business, mobile-friendly]
+
 - name:      Adam Blog 2.0
   github:    the-mvm/the-mvm.github.io
   demo_url:  https://the-mvm.github.io
@@ -367,7 +376,7 @@
   license:   MIT
   gem:       jekyll-archie        ## optional
   tags:     [minimal, responsive, blog]   ## optional
- 
+
 - name: Jekyll Theme ACG
   github: coderzhaoziwei/jekyll-theme-acg
   branch: main
