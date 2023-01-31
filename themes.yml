@@ -1,5 +1,13 @@
 ###############################
 #  Add Your Jekyll Themes
+- name:      Opine
+  github:    https://github.com/leabs/jekyll-opine
+  demo_url:  https://jekyll-opine.vercel.app/
+  author:    Steven Leabo
+  thumbnail: opine.jpg
+  license:   MIT
+  tags:      [multipage, responsive, personal, blog, mobile-friendly, SEO, clean, simple]
+
 - name:      J1 Template
   github:    https://github.com/jekyll-one/j1-template-starter
   demo_url:  https://j1-preview-netlify.netlify.app/
