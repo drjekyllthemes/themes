@@ -413,3 +413,13 @@
   license:   MIT
   gem:       oinam-jekyll
   tags:     [minimal, responsive, blog, clean, simple, nord, light, dark]
+
+- name:      Wind
+  github:    a-chacon/wind
+  branch:    main
+  demo_url:  https://wind-site-a-chacon-6a52e6cfd07a698368129fcdb6001ca6dc9154381681.gitlab.io/
+  author:    a-chacon
+  thumbnail: wind.png
+  license:   MIT
+  gem:       wind-theme
+  tags:     [minimal, responsive, blog, clean, simple, light, dark]
